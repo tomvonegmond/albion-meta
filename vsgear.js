@@ -33,6 +33,11 @@
        of Avalon, Heavy Crossbow, Arclight and Greataxe;
        Sacred Pulse on W into the Broadsword with Ascended,
        and into the Fists of Avalon with the first passive
+     the healer against stun dps: Holy Beam, first passive,
+       robe 3, cowl 2, boots 2, except into the Bloodletter and
+       the Crossbow, which want W3, boots 1 and robe 3
+     the healer against double dps: W3, first passive, boots 3,
+       cowl 2, robe 2
    =========================================================== */
 
 window.ALBION_VS_GEAR = {
@@ -199,6 +204,203 @@ window.ALBION_VS_GEAR = {
    },
    "notes": {
     "chest": "Frost Shield on the robe."
+   }
+  },
+  "Warbow": {
+   "picks": {
+    "weapon": {
+     "W": 3,
+     "Passive": 1
+    },
+    "shoes": {
+     "Spell": 3
+    },
+    "head": {
+     "Spell": 2
+    },
+    "chest": {
+     "Spell": 2
+    }
+   },
+   "notes": {
+    "weapon": "Holy Blessing on W, Adrenaline Driven Charity as the passive.",
+    "shoes": "After Image on the boots.",
+    "head": "Force Field on the cowl.",
+    "chest": "Frost Shield on the robe."
+   }
+  },
+  "Staff of Balance": {
+   "picks": {
+    "weapon": {
+     "W": 2,
+     "Passive": 1
+    },
+    "chest": {
+     "Spell": 3
+    },
+    "head": {
+     "Spell": 2
+    },
+    "shoes": {
+     "Spell": 2
+    }
+   },
+   "notes": {
+    "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
+    "chest": "Purging Shield on the robe.",
+    "head": "Force Field on the cowl.",
+    "shoes": "Refreshing Sprint on the boots."
+   }
+  },
+  "Dagger": {
+   "picks": {
+    "weapon": {
+     "W": 2,
+     "Passive": 1
+    },
+    "chest": {
+     "Spell": 3
+    },
+    "head": {
+     "Spell": 2
+    },
+    "shoes": {
+     "Spell": 2
+    }
+   },
+   "notes": {
+    "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
+    "chest": "Purging Shield on the robe.",
+    "head": "Force Field on the cowl.",
+    "shoes": "Refreshing Sprint on the boots."
+   }
+  },
+  "Soulscythe": {
+   "picks": {
+    "weapon": {
+     "W": 2,
+     "Passive": 1
+    },
+    "chest": {
+     "Spell": 3
+    },
+    "head": {
+     "Spell": 2
+    },
+    "shoes": {
+     "Spell": 2
+    }
+   },
+   "notes": {
+    "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
+    "chest": "Purging Shield on the robe.",
+    "head": "Force Field on the cowl.",
+    "shoes": "Refreshing Sprint on the boots."
+   }
+  },
+  "Energy Shaper": {
+   "picks": {
+    "weapon": {
+     "W": 2,
+     "Passive": 1
+    },
+    "chest": {
+     "Spell": 3
+    },
+    "head": {
+     "Spell": 2
+    },
+    "shoes": {
+     "Spell": 2
+    }
+   },
+   "notes": {
+    "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
+    "chest": "Purging Shield on the robe.",
+    "head": "Force Field on the cowl.",
+    "shoes": "Refreshing Sprint on the boots."
+   }
+  },
+  "Glacial Staff": {
+   "picks": {
+    "weapon": {
+     "W": 2,
+     "Passive": 1
+    },
+    "chest": {
+     "Spell": 3
+    },
+    "head": {
+     "Spell": 2
+    },
+    "shoes": {
+     "Spell": 2
+    }
+   },
+   "notes": {
+    "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
+    "chest": "Purging Shield on the robe.",
+    "head": "Force Field on the cowl.",
+    "shoes": "Refreshing Sprint on the boots."
+   }
+  },
+  "Blazing Staff": {
+   "picks": {
+    "weapon": {
+     "W": 2,
+     "Passive": 1
+    },
+    "chest": {
+     "Spell": 3
+    },
+    "head": {
+     "Spell": 2
+    },
+    "shoes": {
+     "Spell": 2
+    }
+   },
+   "notes": {
+    "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
+    "chest": "Purging Shield on the robe.",
+    "head": "Force Field on the cowl.",
+    "shoes": "Refreshing Sprint on the boots."
+   }
+  },
+  "Bloodletter": {
+   "picks": {
+    "weapon": {
+     "W": 3
+    },
+    "shoes": {
+     "Spell": 1
+    },
+    "chest": {
+     "Spell": 3
+    }
+   },
+   "notes": {
+    "weapon": "Holy Blessing on W.",
+    "shoes": "Dodge roll on the boots.",
+    "chest": "Purging Shield on the robe."
+   }
+  },
+  "Crossbow": {
+   "picks": {
+    "weapon": {
+     "W": 3
+    },
+    "shoes": {
+     "Spell": 1
+    },
+    "chest": {
+     "Spell": 3
+    }
+   },
+   "notes": {
+    "weapon": "Holy Blessing on W.",
+    "shoes": "Dodge roll on the boots.",
+    "chest": "Purging Shield on the robe."
    }
   }
  },
