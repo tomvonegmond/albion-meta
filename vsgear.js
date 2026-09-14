@@ -7989,12 +7989,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Polymorph on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -8014,12 +8018,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Polymorph on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -8039,12 +8047,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Polymorph on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -8064,12 +8076,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Polymorph on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -8089,12 +8105,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Polymorph on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -8114,12 +8134,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Polymorph on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -8139,12 +8163,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Polymorph on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -8164,12 +8192,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Polymorph on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -8189,12 +8221,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Polymorph on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
