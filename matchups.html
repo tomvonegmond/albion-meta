@@ -486,9 +486,9 @@
   var SLOTS = [["weapon","Weapon"], ["head","Head"], ["cape","Cape"], ["chest","Chest"],
                ["offhand","Off hand"], ["potion","Potion"], ["shoes","Shoes"], ["food","Food"]];
 
-  function piece(slot, label, item) {
+  function piece(slot, label, item, hasNote) {
     if (!item) return "";
-    var has = !!(window.ALBION_SPELLS && window.ALBION_SPELLS[item.id]);
+    var has = !!(window.ALBION_SPELLS && window.ALBION_SPELLS[item.id]) || hasNote;
     return '<button type="button" class="slot slot-' + slot + '" data-item="' + item.id + '"' +
              (has ? '' : ' disabled') + ' aria-pressed="false">' +
              '<img src="icons/' + item.id + '.png"' +
@@ -524,11 +524,12 @@
     if (openSlot === button) { hideTip(); return; }   /* click again to close */
     var id = button.getAttribute("data-item");
     var entry = window.ALBION_SPELLS && window.ALBION_SPELLS[id];
-    if (!entry || !entry.picks) return;
 
     /* start from the rule, then let this build override a slot if it says so */
     var picks = {};
-    Object.keys(entry.picks).forEach(function (k) { picks[k] = entry.picks[k]; });
+    if (entry && entry.picks) {
+      Object.keys(entry.picks).forEach(function (k) { picks[k] = entry.picks[k]; });
+    }
     var buildKey = sheet.getAttribute("data-build");
     var build = window.ALBION_BUILDS[buildKey] || {};
     var mySlot = null;
@@ -539,6 +540,11 @@
         if (it.picks) Object.keys(it.picks).forEach(function (k) { picks[k] = it.picks[k]; });
       }
     });
+    /* a swapped in piece is not in the build, so find it by the slot it sits in */
+    if (!mySlot) {
+      var cls = button.className.match(/slot-(\w+)/);
+      if (cls) mySlot = cls[1];
+    }
 
     /* this one fight may want a different ability than the build normally takes */
     var against = sheet.getAttribute("data-vs");
@@ -546,11 +552,15 @@
     var forSetup = ((window.ALBION_VS_GEAR || {})[buildKey] || {})[vsSetup] || {};
     var swap = against && forSetup[against];
     var why = "";
-    if (swap && swap.picks && mySlot && swap.picks[mySlot]) {
-      Object.keys(swap.picks[mySlot]).forEach(function (k) { picks[k] = swap.picks[mySlot][k]; });
+    if (swap && mySlot) {
+      if (swap.picks && swap.picks[mySlot]) {
+        Object.keys(swap.picks[mySlot]).forEach(function (k) { picks[k] = swap.picks[mySlot][k]; });
+      }
+      /* a swapped potion has no abilities at all, only a reason */
       why = (swap.notes && swap.notes[mySlot]) || "";
     }
 
+    if (!Object.keys(picks).length && !why) return;
     hideTip();
     tip.innerHTML = Object.keys(picks).map(function (key) {
       return '<span class="tip-row"><b>' + key + '</b>' + picks[key] + '</span>';
@@ -568,14 +578,23 @@
     opener = button;
     title.textContent = build.name;
     var against = button.getAttribute("data-vs");
+    var vsSetup = button.getAttribute("data-setup") || "heal";
+    var vsKey   = button.getAttribute("data-build");
     sheet.setAttribute("data-vs", against || "");
-    sheet.setAttribute("data-setup", button.getAttribute("data-setup") || "");
+    sheet.setAttribute("data-setup", vsSetup);
+    sheet.setAttribute("data-build", vsKey);
     /* nothing written across the top: click a piece and it says what to take */
     role.textContent = "";
+    var swap = against &&
+      ((((window.ALBION_VS_GEAR || {})[vsKey] || {})[vsSetup] || {})[against] || null);
+    var swapItems = (swap && swap.items) || {};
+    var swapNotes = (swap && swap.notes) || {};
+
     gear.innerHTML = SLOTS.map(function (slot) {
-      return piece(slot[0], slot[1], build[slot[0]]);
+      /* the matchup may hand you a different piece entirely, a potion say */
+      var item = swapItems[slot[0]] || build[slot[0]];
+      return piece(slot[0], slot[1], item, !!swapNotes[slot[0]]);
     }).join("");
-    sheet.setAttribute("data-build", button.getAttribute("data-build"));
     hideTip();
     sheet.hidden = false;
     document.body.classList.add("sheet-open");

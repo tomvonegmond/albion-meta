@@ -37,7 +37,10 @@
        robe 3, cowl 2, boots 2, except into the Bloodletter and
        the Crossbow, which want W3, boots 1 and robe 3
      the healer against double dps: W3, first passive, boots 3,
-       cowl 2, robe 2
+       cowl 2, robe 2, but W2 into the Warbow
+     the healer swaps its potion: cleansing into the Demonic,
+       Rotcaller and Lifecurse, tornado into the Broadsword and
+       the Greataxe
    =========================================================== */
 
 window.ALBION_VS_GEAR = {
@@ -115,7 +118,14 @@ window.ALBION_VS_GEAR = {
     },
     "notes": {
      "weapon": "Holy Beam on W. Ascended as the passive.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into the Demonic Staff."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Rotcaller Staff": {
@@ -129,7 +139,14 @@ window.ALBION_VS_GEAR = {
     },
     "notes": {
      "weapon": "Holy Beam on W.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into the Rotcaller Staff."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Heavy Crossbow": {
@@ -158,7 +175,14 @@ window.ALBION_VS_GEAR = {
     },
     "notes": {
      "weapon": "Holy Beam on W.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into the Lifecurse Staff."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Glaive": {
@@ -179,7 +203,14 @@ window.ALBION_VS_GEAR = {
      }
     },
     "notes": {
-     "weapon": "Sacred Pulse on W, Ascended as the passive."
+     "weapon": "Sacred Pulse on W, Ascended as the passive.",
+     "potion": "Tornado into the Broadsword."
+    },
+    "items": {
+     "potion": {
+      "id": "T8_POTION_TORNADO",
+      "name": "Major Tornado in a Bottle"
+     }
     }
    },
    "Fists of Avalon": {
@@ -204,7 +235,14 @@ window.ALBION_VS_GEAR = {
      }
     },
     "notes": {
-     "chest": "Frost Shield on the robe."
+     "chest": "Frost Shield on the robe.",
+     "potion": "Tornado into the Greataxe."
+    },
+    "items": {
+     "potion": {
+      "id": "T8_POTION_TORNADO",
+      "name": "Major Tornado in a Bottle"
+     }
     }
    }
   },
@@ -212,7 +250,7 @@ window.ALBION_VS_GEAR = {
    "Warbow": {
     "picks": {
      "weapon": {
-      "W": 3,
+      "W": 2,
       "Passive": 1
      },
      "shoes": {
@@ -226,7 +264,7 @@ window.ALBION_VS_GEAR = {
      }
     },
     "notes": {
-     "weapon": "Holy Blessing on W, Adrenaline Driven Charity as the passive.",
+     "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "shoes": "After Image on the boots.",
      "head": "Force Field on the cowl.",
      "chest": "Frost Shield on the robe."
