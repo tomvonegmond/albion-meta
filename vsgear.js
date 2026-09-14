@@ -20,6 +20,8 @@
      dodge roll into the Arclight Blasters, everyone
      Hellspawn Staff takes Bear Trap on the Skinner Cap into
        Demonic Staff, Lifecurse Staff and Rotcaller Staff
+     Arclight Blasters and Heavy Crossbow dodge into those
+       same three, their helmets have no fourth spell
    =========================================================== */
 
 window.ALBION_VS_GEAR = {
@@ -99,6 +101,30 @@ window.ALBION_VS_GEAR = {
     }
    },
    "note": "Dodge roll on the F slot into the Arclight Blasters."
+  },
+  "Demonic Staff": {
+   "picks": {
+    "shoes": {
+     "Spell": 1
+    }
+   },
+   "note": "Dodge roll on the F slot into the Demonic Staff."
+  },
+  "Lifecurse Staff": {
+   "picks": {
+    "shoes": {
+     "Spell": 1
+    }
+   },
+   "note": "Dodge roll on the F slot into the Lifecurse Staff."
+  },
+  "Rotcaller Staff": {
+   "picks": {
+    "shoes": {
+     "Spell": 1
+    }
+   },
+   "note": "Dodge roll on the F slot into the Rotcaller Staff."
   }
  },
  "glaive": {
@@ -221,6 +247,30 @@ window.ALBION_VS_GEAR = {
     }
    },
    "note": "Dodge roll on the F slot into the Arclight Blasters."
+  },
+  "Demonic Staff": {
+   "picks": {
+    "shoes": {
+     "Spell": 1
+    }
+   },
+   "note": "Dodge roll on the F slot into the Demonic Staff."
+  },
+  "Lifecurse Staff": {
+   "picks": {
+    "shoes": {
+     "Spell": 1
+    }
+   },
+   "note": "Dodge roll on the F slot into the Lifecurse Staff."
+  },
+  "Rotcaller Staff": {
+   "picks": {
+    "shoes": {
+     "Spell": 1
+    }
+   },
+   "note": "Dodge roll on the F slot into the Rotcaller Staff."
   }
  },
  "broadsword": {
