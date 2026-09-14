@@ -52,7 +52,7 @@
 
       <div class="mu" id="matchup-panel" hidden>
         <div class="mu-head">
-          <img class="mu-icon" alt="" width="56" height="56">
+          <img class="mu-icon" alt="" width="56" height="56" hidden>
           <div>
             <h3 class="mu-name"></h3>
             <p class="mu-where"></p>
@@ -238,6 +238,7 @@
     input.value = name;
     closeList();
     icon.src = "icons/" + chosen.icon + ".png";
+    icon.hidden = false;
     nameOut.textContent = name;
     var where = Object.keys(chosen.tiers).map(function (s) {
       return SETUPS[s] + " " + chosen.tiers[s];
