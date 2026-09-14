@@ -65,6 +65,8 @@
   }
 
   var data = window.ALBION_PATCHES;
+  /* every card points at Albion's own thread, not at where the text was read from */
+  var FORUM = "https://forum.albiononline.com/index.php/Thread/73808-NDA-Balance-Playtests/?pageNo=1";
 
   function changeList(rows) {
     return rows.map(function (e) {
@@ -97,7 +99,7 @@
       (chips ? '<div class="pn-weapons">' + chips + "</div>" : "") +
       '<div class="pn-detail" id="pn-detail-' + pi + '" hidden></div>' +
       rest +
-      (p.url ? '<p class="patch-source"><a href="' + esc(p.url) + '" target="_blank" rel="noopener">The full changelog</a></p>' : "") +
+      '<p class="patch-source"><a href="' + FORUM + '" target="_blank" rel="noopener">The full changelog</a></p>' +
     "</article>";
   }).join("") || '<p class="mu-empty">No combat changes collected yet.</p>';
 
