@@ -835,7 +835,10 @@ button:focus-visible {
 
 /* ---------- patch notes ---------- */
 
-.patch-updated { font-size: 0.78rem; color: var(--muted); margin: 0 0 1rem; }
+/* the patch pages want the room, so they run wider than the rest of the site */
+.patch-wide { max-width: 82rem; }
+
+.patch-wide .card { padding: 1.5rem 1.75rem 1.6rem; }
 
 .patch-group { margin-top: 1rem; }
 .patch-group:first-of-type { margin-top: 0.6rem; }
@@ -849,11 +852,10 @@ button:focus-visible {
 
 /* the developers' own reasoning, kept because it says why a thing moved */
 .patch-why {
-  margin: 0 0 0.5rem;
-  font-size: 0.85rem;
+  margin: 0 0 0.6rem;
+  font-size: 0.92rem;
   font-style: italic;
   color: var(--muted);
-  max-width: 44rem;
 }
 
 .patch-group > ul { margin: 0; padding-left: 1.1rem; }
@@ -865,15 +867,20 @@ button:focus-visible {
 
 /* weapons touched by a patch, click one to read its changes */
 
-.pn-weapons { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 0.7rem 0 0; }
+.pn-weapons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  gap: 0.6rem;
+  margin: 1rem 0 0;
+}
 
 .pn-weapon {
   display: flex;
   align-items: center;
-  gap: 0.45rem;
-  padding: 0.35rem 0.7rem 0.35rem 0.35rem;
+  gap: 0.7rem;
+  padding: 0.6rem 0.9rem 0.6rem 0.6rem;
   font-family: inherit;
-  font-size: 0.86rem;
+  font-size: 0.95rem;
   color: var(--bone);
   background: var(--stone);
   border: 1px solid var(--panel-edge);
@@ -882,27 +889,27 @@ button:focus-visible {
   transition: border-color 0.15s, background 0.15s;
 }
 
-.pn-weapon img { width: 1.9rem; height: 1.9rem; object-fit: contain; }
+.pn-weapon img { width: 2.9rem; height: 2.9rem; object-fit: contain; flex: none; }
 .pn-weapon:hover { border-color: var(--corrupt); }
 .pn-weapon.is-open { border-color: var(--corrupt); background: rgba(168, 108, 230, 0.14); }
 
 .pn-detail {
-  margin-top: 0.8rem;
-  padding-top: 0.8rem;
+  margin-top: 1.1rem;
+  padding-top: 1.1rem;
   border-top: 1px solid var(--panel-edge);
 }
 
 .pn-detail h4 {
   font-family: "Cinzel", Georgia, serif;
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   margin: 0 0 0.5rem;
   color: var(--corrupt);
 }
 
 .pn-entry { margin-bottom: 0.8rem; }
-.pn-entry b { font-size: 0.93rem; }
+.pn-entry b { font-size: 1rem; }
 .pn-entry ul { margin: 0.25rem 0 0; padding-left: 1.1rem; }
-.pn-entry li { font-size: 0.88rem; color: var(--muted); margin-bottom: 0.2rem; }
+.pn-entry li { font-size: 0.95rem; color: var(--muted); margin-bottom: 0.3rem; }
 
 .pn-rest { margin-top: 0.9rem; }
 .pn-rest summary { cursor: pointer; font-size: 0.85rem; color: var(--muted); }

@@ -33,18 +33,13 @@
 </header>
 
 <main>
-  <div class="wrap">
+  <div class="wrap patch-wide">
 
     <section class="intro">
       <h1>Patch notes</h1>
-      <p>Every combat balance change from the live patches, newest first.</p>
     </section>
 
     <section>
-      <p class="prose">Pulled from each live patch as it lands. Only the combat
-        balance section, and only once the patch is actually out, never when it
-        is merely announced or on the test server.</p>
-      <p class="patch-updated" id="patch-updated"></p>
       <div id="patch-list"></div>
     </section>
 
@@ -63,7 +58,6 @@
 <script>
 (function () {
   var list = document.getElementById("patch-list");
-  var when = document.getElementById("patch-updated");
   if (!list || !window.ALBION_PATCHES) return;
 
   function esc(t) {
@@ -71,9 +65,6 @@
   }
 
   var data = window.ALBION_PATCHES;
-  when.textContent = data.updated
-    ? "Last checked " + String(data.updated).slice(0, 16).replace("T", " ")
-    : "";
 
   function changeList(rows) {
     return rows.map(function (e) {
