@@ -845,6 +845,9 @@ button:focus-visible {
 
 .site-foot p { margin: 0 0 0.4rem; }
 
+.foot-links { margin-top: 0.8rem; }
+.foot-links a { margin-right: 1.1rem; }
+
 /* ---------- phones ---------- */
 
 @media (max-width: 40rem) {
