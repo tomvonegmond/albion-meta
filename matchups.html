@@ -78,8 +78,8 @@
       <h2>Heal dps, weapon against weapon</h2>
 
       <div class="tabs matrix-tabs" role="tablist" aria-label="Which numbers to show">
-        <button type="button" class="tab" role="tab" data-source="written"  aria-selected="true">Your numbers</button>
-        <button type="button" class="tab" role="tab" data-source="recorded" aria-selected="false">Recorded</button>
+        <button type="button" class="tab" role="tab" data-source="recorded" aria-selected="true">Recorded</button>
+        <button type="button" class="tab" role="tab" data-source="written"  aria-selected="false">Theoretical matchups</button>
       </div>
 
       <p class="matrix-sample" id="matrix-sample"></p>
@@ -120,6 +120,7 @@
 
 <script src="builds.js"></script>
 <script src="spells.js"></script>
+<script src="vsgear.js"></script>
 <script src="rosters.js"></script>
 <script src="matchups.js"></script>
 <script src="duos.js"></script>
@@ -142,9 +143,16 @@
   var SETUPS  = { heal: "Heal dps", stun: "Stun dps", double: "Double dps" };
 
   /* one entry per weapon, remembering every setup it appears in */
+  /* only S and A tier are worth looking up, the rest are off meta */
+  function topTier(setup) {
+    return (window.ALBION_ROSTERS[setup] || []).filter(function (r) {
+      return r.tier === "S" || r.tier === "A";
+    });
+  }
+
   var weapons = {};
   Object.keys(window.ALBION_ROSTERS).forEach(function (setup) {
-    window.ALBION_ROSTERS[setup].forEach(function (r) {
+    topTier(setup).forEach(function (r) {
       var w = weapons[r.name] || (weapons[r.name] = { name: r.name, icon: r.icon, keys: {}, tiers: {} });
       w.keys[setup] = r.key;
       w.tiers[setup] = r.tier;
@@ -157,7 +165,7 @@
   /* who can even stand next to you: heal dps pairs damage with a healer,
      stun dps pairs damage with a stunner, double dps pairs anyone */
   function partnersIn(setup) {
-    var roster = window.ALBION_ROSTERS[setup] || [];
+    var roster = topTier(setup);
     var mineKey = chosen.keys[setup];
     if (!mineKey) return null;
     var me = null;
@@ -219,7 +227,7 @@
         var mineKey = chosen.keys[s];
         if (!mineKey) return;                       /* not on that tierlist */
         var listed = (table[mineKey] && table[mineKey][s]) || {};
-        var roster = window.ALBION_ROSTERS[s] || [];
+        var roster = topTier(s);
         var shown = roster.filter(function (them) { return listed[them.key]; });
         if (!shown.length) return;
         out.push('<h4 class="mu-group">' + SETUPS[s] + '</h4>' +
@@ -236,7 +244,7 @@
       return;
     }
 
-    var roster = window.ALBION_ROSTERS[setup] || [];
+    var roster = topTier(setup);
     rows.innerHTML = roster.map(function (them) {
       return rowFor(them, verdictFor(chosen, them.key), ENEMY_WORDS);
     }).join("") || '<p class="mu-empty">Nothing sits on this tierlist yet.</p>';
@@ -349,8 +357,8 @@
     written:  sa.filter(function (r) { return r.role !== "Healer"; }),
     recorded: sa
   };
-  var roster = ROSTERS.written;
-  var source = "written";
+  var roster = ROSTERS.recorded;
+  var source = "recorded";
 
   function writtenCell(row, col) {
     var v = (window.ALBION_MATCHUPS[row.key] || {}).heal || {};
@@ -404,7 +412,7 @@
       sample.textContent = wr && wr.qualifying
         ? wr.qualifying + " kills counted from " + wr.eventsSeen + " events, last collected "
           + String(wr.updated).slice(0, 16).replace("T", " ")
-          + ". Healers are in here, unlike your own numbers. A faded square is under ten fights."
+          + ". Healers are in here, unlike the theoretical ones. A faded square is under ten fights."
         : "No kills collected yet. Run collect-winrates.py.";
     } else {
       sample.textContent = "";
@@ -505,13 +513,23 @@
     /* start from the rule, then let this build override a slot if it says so */
     var picks = {};
     Object.keys(entry.picks).forEach(function (k) { picks[k] = entry.picks[k]; });
-    var build = window.ALBION_BUILDS[sheet.getAttribute("data-build")] || {};
+    var buildKey = sheet.getAttribute("data-build");
+    var build = window.ALBION_BUILDS[buildKey] || {};
+    var mySlot = null;
     Object.keys(build).forEach(function (slot) {
       var it = build[slot];
-      if (it && it.id === id && it.picks) {
-        Object.keys(it.picks).forEach(function (k) { picks[k] = it.picks[k]; });
+      if (it && it.id === id) {
+        mySlot = slot;
+        if (it.picks) Object.keys(it.picks).forEach(function (k) { picks[k] = it.picks[k]; });
       }
     });
+
+    /* this one fight may want a different ability than the build normally takes */
+    var against = sheet.getAttribute("data-vs");
+    var swap = against && ((window.ALBION_VS_GEAR || {})[buildKey] || {})[against];
+    if (swap && swap.picks && mySlot && swap.picks[mySlot]) {
+      Object.keys(swap.picks[mySlot]).forEach(function (k) { picks[k] = swap.picks[mySlot][k]; });
+    }
 
     hideTip();
     tip.innerHTML = Object.keys(picks).map(function (key) {
@@ -530,9 +548,11 @@
     opener = button;
     title.textContent = build.name;
     var against = button.getAttribute("data-vs");
+    sheet.setAttribute("data-vs", against || "");
     if (against) {
-      var span0 = button.closest(".mu-list") ? null : null;
       role.textContent = "Against " + against;
+      var swap = ((window.ALBION_VS_GEAR || {})[button.getAttribute("data-build")] || {})[against];
+      role.textContent += swap && swap.note ? " \u00b7 " + swap.note : "";
     } else {
       var span = button.querySelector("span");
       role.textContent = span ? span.textContent : "";
