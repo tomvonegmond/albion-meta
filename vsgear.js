@@ -42,6 +42,8 @@
        Shoes, boots 2 otherwise, boots 1 into the Bloodletter
        and the Crossbow, second spell on a leather hood, and a
        weapon pick of its own
+     facing double dps everyone but the healer takes the dodge
+       roll, robe 2 and helmet 1, with a weapon pick of its own
      everyone drinks a cleansing potion into stun dps and a
        resistance potion into double dps
      the healer swaps its potion: cleansing into the Demonic,
@@ -1396,8 +1398,26 @@ window.ALBION_VS_GEAR = {
   },
   "double": {
    "Warbow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1408,8 +1428,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Brawler Gloves": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1420,8 +1458,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Bloodletter": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1432,8 +1488,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Dagger Pair": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1444,8 +1518,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Carrioncaller": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1456,8 +1548,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Ursine Maulers": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1468,8 +1578,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Heron Spear": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1480,8 +1608,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Whispering Bow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1492,8 +1638,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Mistpiercer": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1908,8 +2072,25 @@ window.ALBION_VS_GEAR = {
   },
   "double": {
    "Warbow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1920,8 +2101,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Brawler Gloves": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1932,8 +2130,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Bloodletter": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1944,8 +2159,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Dagger Pair": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1956,8 +2188,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Carrioncaller": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1968,8 +2217,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Ursine Maulers": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1980,8 +2246,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Heron Spear": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -1992,8 +2275,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Whispering Bow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2004,8 +2304,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Mistpiercer": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2400,8 +2717,21 @@ window.ALBION_VS_GEAR = {
   },
   "double": {
    "Warbow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2412,8 +2742,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Brawler Gloves": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2424,8 +2767,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Bloodletter": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2436,8 +2792,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Dagger Pair": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2448,8 +2817,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Carrioncaller": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2460,8 +2842,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Ursine Maulers": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2472,8 +2867,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Heron Spear": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2484,8 +2892,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Whispering Bow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2496,8 +2917,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Mistpiercer": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2908,8 +3342,25 @@ window.ALBION_VS_GEAR = {
   },
   "double": {
    "Warbow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Splitting Slash on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2920,8 +3371,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Brawler Gloves": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Splitting Slash on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2932,8 +3400,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Bloodletter": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Splitting Slash on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2944,8 +3429,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Dagger Pair": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Splitting Slash on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2956,8 +3458,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Carrioncaller": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Splitting Slash on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2968,8 +3487,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Ursine Maulers": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Splitting Slash on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2980,8 +3516,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Heron Spear": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Splitting Slash on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -2992,8 +3545,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Whispering Bow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Splitting Slash on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -3004,8 +3574,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Mistpiercer": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Splitting Slash on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -3454,8 +4041,25 @@ window.ALBION_VS_GEAR = {
   },
   "double": {
    "Warbow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Create Opening on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -3466,8 +4070,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Brawler Gloves": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Create Opening on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -3478,8 +4099,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Bloodletter": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Create Opening on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -3490,8 +4128,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Dagger Pair": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Create Opening on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -3502,8 +4157,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Carrioncaller": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Create Opening on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -3514,8 +4186,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Ursine Maulers": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Create Opening on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -3526,8 +4215,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Heron Spear": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Create Opening on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -3538,8 +4244,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Whispering Bow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Create Opening on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -3550,8 +4273,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Mistpiercer": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Create Opening on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -3962,8 +4702,26 @@ window.ALBION_VS_GEAR = {
   },
   "double": {
    "Warbow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -3974,8 +4732,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Brawler Gloves": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -3986,8 +4762,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Bloodletter": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -3998,8 +4792,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Dagger Pair": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -4010,8 +4822,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Carrioncaller": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -4022,8 +4852,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Ursine Maulers": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -4034,8 +4882,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Heron Spear": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -4046,8 +4912,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Whispering Bow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -4058,8 +4942,26 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Mistpiercer": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1,
+      "Q": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W and Vile Curse on Q.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -4474,8 +5376,25 @@ window.ALBION_VS_GEAR = {
   },
   "double": {
    "Warbow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -4486,8 +5405,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Brawler Gloves": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -4498,8 +5434,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Bloodletter": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -4510,8 +5463,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Dagger Pair": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -4522,8 +5492,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Carrioncaller": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -4534,8 +5521,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Ursine Maulers": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -4546,8 +5550,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Heron Spear": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -4558,8 +5579,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Whispering Bow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -4570,8 +5608,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Mistpiercer": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Explosive Salvo on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5036,8 +6091,21 @@ window.ALBION_VS_GEAR = {
   },
   "double": {
    "Warbow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5048,8 +6116,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Brawler Gloves": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5060,8 +6141,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Bloodletter": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5072,8 +6166,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Dagger Pair": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5084,8 +6191,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Carrioncaller": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5096,8 +6216,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Ursine Maulers": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5108,8 +6241,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Heron Spear": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5120,8 +6266,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Whispering Bow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5132,8 +6291,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Mistpiercer": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5544,8 +6716,21 @@ window.ALBION_VS_GEAR = {
   },
   "double": {
    "Warbow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5556,8 +6741,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Brawler Gloves": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5568,8 +6766,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Bloodletter": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5580,8 +6791,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Dagger Pair": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5592,8 +6816,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Carrioncaller": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5604,8 +6841,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Ursine Maulers": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5616,8 +6866,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Heron Spear": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5628,8 +6891,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Whispering Bow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -5640,8 +6916,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Mistpiercer": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6026,8 +7315,21 @@ window.ALBION_VS_GEAR = {
   },
   "double": {
    "Warbow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6038,8 +7340,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Brawler Gloves": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6050,8 +7365,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Bloodletter": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6062,8 +7390,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Dagger Pair": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6074,8 +7415,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Carrioncaller": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6086,8 +7440,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Ursine Maulers": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6098,8 +7465,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Heron Spear": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6110,8 +7490,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Whispering Bow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6122,8 +7515,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Mistpiercer": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6538,8 +7944,21 @@ window.ALBION_VS_GEAR = {
   },
   "double": {
    "Warbow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6550,8 +7969,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Brawler Gloves": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6562,8 +7994,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Bloodletter": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6574,8 +8019,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Dagger Pair": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6586,8 +8044,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Carrioncaller": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6598,8 +8069,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Ursine Maulers": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6610,8 +8094,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Heron Spear": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6622,8 +8119,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Whispering Bow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6634,8 +8144,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Mistpiercer": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7064,8 +8587,25 @@ window.ALBION_VS_GEAR = {
   },
   "double": {
    "Warbow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Internal Bleeding on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7076,8 +8616,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Brawler Gloves": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Internal Bleeding on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7088,8 +8645,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Bloodletter": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Internal Bleeding on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7100,8 +8674,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Dagger Pair": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Internal Bleeding on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7112,8 +8703,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Carrioncaller": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Internal Bleeding on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7124,8 +8732,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Ursine Maulers": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Internal Bleeding on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7136,8 +8761,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Heron Spear": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Internal Bleeding on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7148,8 +8790,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Whispering Bow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Internal Bleeding on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7160,8 +8819,25 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Mistpiercer": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
+     "weapon": "Internal Bleeding on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7542,8 +9218,21 @@ window.ALBION_VS_GEAR = {
   },
   "double": {
    "Warbow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7554,8 +9243,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Brawler Gloves": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7566,8 +9268,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Bloodletter": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7578,8 +9293,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Dagger Pair": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7590,8 +9318,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Carrioncaller": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7602,8 +9343,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Ursine Maulers": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7614,8 +9368,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Heron Spear": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7626,8 +9393,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Whispering Bow": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -7638,8 +9418,21 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Mistpiercer": {
-    "picks": {},
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "chest": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 1
+     }
+    },
     "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "chest": "Second spell on the robe.",
+     "head": "First spell on the helmet.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
