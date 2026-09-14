@@ -23,6 +23,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 HERE   = Path(__file__).resolve().parent
+ITEMS  = "https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/formatted/items.txt"
+RENDER = "https://render.albiononline.com/v1/item/{}.png?size=160"
 APPID  = 761890                      # Albion Online on Steam
 NEWS   = f"https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid={APPID}&count=50&maxlength=0"
 KEEP   = 12                          # how many patches to show
@@ -39,6 +41,62 @@ def fetch(url, tries=4):
             pass
         time.sleep(2)
     return None
+
+
+def item_index():
+    """
+    name -> item id, from the game's own list. Fetched rather than committed so
+    a weapon added in the very patch being read can still be found.
+    """
+    out = subprocess.run(["curl", "-sS", "-m", "60", ITEMS], capture_output=True, text=True, timeout=90)
+    index = {}
+    adjectives = ("Elder's", "Grandmaster's", "Master's", "Expert's", "Adept's")
+    for line in out.stdout.splitlines():
+        m = re.match(r"\s*\d+:\s+(\S+)\s+:\s+(.+?)\s*$", line)
+        if not m:
+            continue
+        item_id, label = m.groups()
+        if "@" in item_id or not item_id.startswith("T8_"):
+            continue
+        for adj in adjectives:
+            if label.startswith(adj + " "):
+                index.setdefault(label[len(adj) + 1:], item_id)
+                break
+        else:
+            index.setdefault(label, item_id)
+    return index
+
+
+def resolve(target, index):
+    """A patch says "Oathkeepers" or "all Fire Staffs". Only the first is an item."""
+    if not target:
+        return None
+    name = target.strip()
+    if name.lower().startswith("all "):
+        return None                       # a whole weapon line, not one weapon
+    for candidate in (name, name.rstrip("s"), name + "s"):
+        if candidate in index:
+            return index[candidate]
+    return None
+
+
+def ensure_icon(item_id):
+    """Icons live in the repo, so grab any the site does not have yet."""
+    path = HERE / "icons" / (item_id + ".png")
+    if path.exists() and path.stat().st_size:
+        return True
+    for attempt in range(4):
+        try:
+            out = subprocess.run(["curl", "-sS", "-m", "30", "-o", str(path),
+                                  RENDER.format(item_id)], capture_output=True, timeout=45)
+            if out.returncode == 0 and path.exists() and path.stat().st_size > 500:
+                return True
+        except Exception:
+            pass
+        time.sleep(1.5)
+    if path.exists():
+        path.unlink()
+    return False
 
 
 def clean(text):
@@ -125,7 +183,12 @@ def parse_groups(section):
             subs = [x for x in subs if x]
             if not head:
                 continue
-            entries.append({"what": head, "changes": subs})
+            target = None
+            m = re.search(r"\(([^)]+)\)\s*$", head)
+            if m:
+                target = m.group(1).strip()
+                head = head[:m.start()].strip()
+            entries.append({"what": head, "target": target, "changes": subs})
 
         if name and entries:
             groups.append({"name": name, "why": why, "entries": entries})
@@ -133,6 +196,10 @@ def parse_groups(section):
 
 
 def main():
+    index = item_index()
+    if not index:
+        print("could not read the item list")
+        return 1
     data = fetch(NEWS)
     if not data:
         print("could not reach the Steam news API")
@@ -148,12 +215,27 @@ def main():
         groups = parse_groups(section)
         if not groups:
             continue
+
+        # gather the whole patch by weapon, so the page can show an icon per one
+        weapons, loose = {}, []
+        for g in groups:
+            for e in g["entries"]:
+                item_id = resolve(e.get("target"), index)
+                row = {"what": e["what"], "changes": e["changes"],
+                       "group": g["name"], "why": g["why"]}
+                if item_id and ensure_icon(item_id):
+                    w = weapons.setdefault(e["target"], {"name": e["target"], "icon": item_id, "entries": []})
+                    w["entries"].append(row)
+                else:
+                    row["target"] = e.get("target")
+                    loose.append(row)
         patches.append({
             "title": item["title"].split(":", 1)[-1].strip(),
             "date": datetime.fromtimestamp(item["date"], timezone.utc).strftime("%d %B %Y"),
             "stamp": item["date"],
             "url": item["url"],
-            "groups": groups,
+            "weapons": sorted(weapons.values(), key=lambda w: w["name"]),
+            "other": loose,
         })
 
     patches.sort(key=lambda p: p["stamp"], reverse=True)
@@ -179,8 +261,8 @@ window.ALBION_PATCHES = """
 
     print(f"{len(patches)} patches with combat changes")
     for p in patches:
-        print(f"   {p['date']:<20} {p['title']:<28} {len(p['groups'])} groups, "
-              f"{sum(len(g['entries']) for g in p['groups'])} entries")
+        print(f"   {p['date']:<20} {p['title']:<26} {len(p['weapons']):>2} weapons with icons, "
+              f"{len(p['other']):>3} other entries")
     return 0
 
 

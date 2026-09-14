@@ -26,6 +26,8 @@
     <div class="head-meta">
       <span class="head-patch">Radiant Wilds</span>
       <span class="head-updated">2v2 Hellgates &middot; Updated 13 September 2026</span>
+      <a class="head-link" href="https://forum.albiononline.com/index.php/Thread/73808-NDA-Balance-Playtests/?pageNo=1"
+         target="_blank" rel="noopener">Live Albion patchnotes</a>
     </div>
   </div>
 </header>
@@ -73,26 +75,60 @@
     ? "Last checked " + String(data.updated).slice(0, 16).replace("T", " ")
     : "";
 
-  list.innerHTML = (data.patches || []).map(function (p) {
+  function changeList(rows) {
+    return rows.map(function (e) {
+      return '<div class="pn-entry">' +
+        "<b>" + esc(e.what) + "</b>" +
+        (e.why ? '<p class="patch-why">' + esc(e.why) + "</p>" : "") +
+        (e.changes.length
+          ? "<ul>" + e.changes.map(function (c) { return "<li>" + esc(c) + "</li>"; }).join("") + "</ul>"
+          : "") +
+      "</div>";
+    }).join("");
+  }
+
+  list.innerHTML = (data.patches || []).map(function (p, pi) {
+    var chips = (p.weapons || []).map(function (w, wi) {
+      return '<button type="button" class="pn-weapon" data-patch="' + pi + '" data-weapon="' + wi + '">' +
+               '<img src="icons/' + esc(w.icon) + '.png" alt="" loading="lazy" onerror="this.hidden = true">' +
+               "<span>" + esc(w.name) + "</span>" +
+             "</button>";
+    }).join("");
+
+    var rest = (p.other || []).length
+      ? '<details class="pn-rest"><summary>Everything else in this patch, ' + p.other.length + ' change' +
+        (p.other.length === 1 ? "" : "s") + "</summary>" + changeList(p.other) + "</details>"
+      : "";
+
     return '<article class="card">' +
       '<p class="date">' + esc(p.date) + "</p>" +
       "<h3>" + esc(p.title) + "</h3>" +
-      p.groups.map(function (g) {
-        return '<div class="patch-group">' +
-          "<h4>" + esc(g.name) + "</h4>" +
-          (g.why ? '<p class="patch-why">' + esc(g.why) + "</p>" : "") +
-          "<ul>" + g.entries.map(function (e) {
-            return "<li>" + esc(e.what) +
-              (e.changes.length
-                ? "<ul>" + e.changes.map(function (c) { return "<li>" + esc(c) + "</li>"; }).join("") + "</ul>"
-                : "") +
-              "</li>";
-          }).join("") + "</ul>" +
-        "</div>";
-      }).join("") +
-      (p.url ? '<p class="patch-source"><a href="' + esc(p.url) + '" rel="noopener">The full changelog</a></p>' : "") +
+      (chips ? '<div class="pn-weapons">' + chips + "</div>" : "") +
+      '<div class="pn-detail" id="pn-detail-' + pi + '" hidden></div>' +
+      rest +
+      (p.url ? '<p class="patch-source"><a href="' + esc(p.url) + '" target="_blank" rel="noopener">The full changelog</a></p>' : "") +
     "</article>";
   }).join("") || '<p class="mu-empty">No combat changes collected yet.</p>';
+
+  /* click a weapon to read what changed for it */
+  list.addEventListener("click", function (e) {
+    var chip = e.target.closest(".pn-weapon");
+    if (!chip) return;
+    var pi = +chip.getAttribute("data-patch");
+    var wi = +chip.getAttribute("data-weapon");
+    var weapon = data.patches[pi].weapons[wi];
+    var panel = document.getElementById("pn-detail-" + pi);
+    var already = chip.classList.contains("is-open");
+
+    chip.closest(".card").querySelectorAll(".pn-weapon").forEach(function (c) {
+      c.classList.remove("is-open");
+    });
+    if (already) { panel.hidden = true; return; }
+
+    chip.classList.add("is-open");
+    panel.innerHTML = "<h4>" + esc(weapon.name) + "</h4>" + changeList(weapon.entries);
+    panel.hidden = false;
+  });
 })();
 </script>
 </body>
