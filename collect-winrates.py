@@ -9,6 +9,11 @@ kill happened, so a 2v2 is picked out by the shape of the fight instead:
     both players are under 1350 item power
     both are holding a weapon that appears on this site
 
+A 2v2 is won by a duo, not a player, so kills are grouped by BattleId. When
+both of the losing pair die in the same battle the whole fight is known, and
+that is recorded as one duo beating another. GroupMembers is no use for this,
+it lists the killer's own party, never the victim's partner.
+
 Run it as often as you like. The API only keeps about the last half hour of
 kills, so the more often it runs the more it collects. Nothing is thrown away
 between runs, the counts in kills.json keep adding up.
@@ -25,7 +30,8 @@ HERE      = Path(__file__).resolve().parent
 API       = "https://gameinfo.albiononline.com/api/gameinfo/events"
 OFFSETS   = range(0, 1001, 50)      # as far back as the API will page
 IP_CAP    = 1350
-KEEP_IDS  = 40000                   # how many event ids to remember, to avoid double counting
+KEEP_IDS  = 40000
+PENDING_HOURS = 3        # how long to wait for a battle's second death                   # how many event ids to remember, to avoid double counting
 
 
 def fetch(offset, tries=3):
@@ -61,8 +67,13 @@ def site_weapons():
 def main():
     weapons = site_weapons()
     store_path = HERE / "kills.json"
-    store = json.loads(store_path.read_text()) if store_path.exists() else {
-        "kills": {}, "seenIds": [], "eventsSeen": 0, "qualifying": 0, "runs": 0}
+    store = json.loads(store_path.read_text()) if store_path.exists() else {}
+    store.setdefault("kills", {})      # weapon against weapon
+    store.setdefault("duos", {})       # "A + B" against "C + D"
+    store.setdefault("pending", {})    # battles still missing their second death
+    store.setdefault("seenIds", [])
+    for k in ("eventsSeen", "qualifying", "duoFights", "runs"):
+        store.setdefault(k, 0)
     seen = set(store["seenIds"])
 
     fresh = counted = 0
@@ -80,15 +91,47 @@ def main():
             if (killer.get("AverageItemPower") or 0) >= IP_CAP: continue
             if (victim.get("AverageItemPower") or 0) >= IP_CAP: continue
 
-            kw = weapon_line(((killer.get("Equipment") or {}).get("MainHand") or {}).get("Type"))
+            winners = [weapon_line(((p.get("Equipment") or {}).get("MainHand") or {}).get("Type"))
+                       for p in (e.get("Participants") or [])]
             vw = weapon_line(((victim.get("Equipment") or {}).get("MainHand") or {}).get("Type"))
-            if kw not in weapons or vw not in weapons:
+            if vw not in weapons or any(w not in weapons for w in winners) or len(winners) != 2:
                 continue
 
-            a, b = weapons[kw], weapons[vw]
-            store["kills"].setdefault(a, {})
-            store["kills"][a][b] = store["kills"][a].get(b, 0) + 1
+            # weapon against weapon, every winner over the one who died
+            for w in winners:
+                store["kills"].setdefault(weapons[w], {})
+                store["kills"][weapons[w]][weapons[vw]] = \
+                    store["kills"][weapons[w]].get(weapons[vw], 0) + 1
             counted += 1
+
+            # hold the battle open until the second of the pair dies
+            battle = str(e.get("BattleId"))
+            slot = store["pending"].setdefault(battle, {"won": sorted(weapons[w] for w in winners),
+                                                        "lost": [], "at": e.get("TimeStamp", "")})
+            if len(slot["lost"]) < 2:
+                slot["lost"].append(weapons[vw])
+
+    # any battle with both deaths in is a finished 2v2
+    done = 0
+    for battle, slot in list(store["pending"].items()):
+        if len(slot["lost"]) >= 2:
+            won  = " + ".join(slot["won"])
+            lost = " + ".join(sorted(slot["lost"][:2]))
+            store["duos"].setdefault(won, {})
+            store["duos"][won][lost] = store["duos"][won].get(lost, 0) + 1
+            done += 1
+            del store["pending"][battle]
+    store["duoFights"] += done
+
+    # forget battles whose second death never arrived
+    cutoff = time.time() - PENDING_HOURS * 3600
+    for battle, slot in list(store["pending"].items()):
+        try:
+            ts = datetime.fromisoformat(slot["at"].replace("Z", "+00:00")).timestamp()
+        except Exception:
+            ts = 0
+        if ts < cutoff:
+            del store["pending"][battle]
 
     store["eventsSeen"] += fresh
     store["qualifying"] += counted
@@ -102,10 +145,14 @@ def main():
    -----------------------------------------------------------
    Written by collect-winrates.py, do not edit by hand.
 
-   "kills" counts how often the first weapon killed the second
-   in a fight that looked like a 2v2: one assist, both players
+   "kills" counts how often the first weapon beat the second in
+   a fight that looked like a 2v2: one assist, both players
    under %d item power, both on a weapon this site lists.
-   The site turns a pair of those counts into a win rate.
+
+   "duos" is the same fights read as a whole: a pair beating a
+   pair, worked out by waiting for both of the losing side to
+   die in the same battle. That is the only way to know which
+   dps died next to a healer, the event itself never says.
 
    The API cannot say a kill happened in a hellgate, so this is
    the shape of the fight, not a hellgate flag. Run the script
@@ -118,13 +165,16 @@ window.ALBION_WINRATES = """ % IP_CAP
         "updated": store["updated"],
         "eventsSeen": store["eventsSeen"],
         "qualifying": store["qualifying"],
+        "duoFights": store["duoFights"],
         "runs": store["runs"],
         "kills": store["kills"],
+        "duos": store["duos"],
     }, indent=1, ensure_ascii=False) + ";\n")
 
-    print(f"new events {fresh}, counted {counted}")
+    print(f"new events {fresh}, counted {counted}, duo fights closed {done}")
     print(f"running totals: {store['eventsSeen']} events seen, "
-          f"{store['qualifying']} kills counted over {store['runs']} runs")
+          f"{store['qualifying']} kills and {store['duoFights']} duo fights "
+          f"over {store['runs']} runs, {len(store['pending'])} battles still open")
     return 0
 
 

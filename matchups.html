@@ -328,11 +328,17 @@
   var sample = document.getElementById("matrix-sample");
   if (!table || !window.ALBION_ROSTERS) return;
 
-  /* S and A tier only, and no healers: a healer's number depends on the dps
-     beside it, so a square for one says nothing */
-  var roster = (window.ALBION_ROSTERS.heal || []).filter(function (r) {
-    return (r.tier === "S" || r.tier === "A") && r.role !== "Healer";
+  var sa = (window.ALBION_ROSTERS.heal || []).filter(function (r) {
+    return r.tier === "S" || r.tier === "A";
   });
+  /* Your numbers leave the healers out, because a healer's written matchup
+     depends on the dps beside it. Recorded keeps them, because a healer dying
+     is a real fight and they turn up more than anything else in the feed. */
+  var ROSTERS = {
+    written:  sa.filter(function (r) { return r.role !== "Healer"; }),
+    recorded: sa
+  };
+  var roster = ROSTERS.written;
   var source = "written";
 
   function writtenCell(row, col) {
@@ -366,6 +372,7 @@
 
   function draw() {
     var cell = source === "recorded" ? recordedCell : writtenCell;
+    roster = ROSTERS[source];
     var head = '<thead><tr><th class="corner"></th>' + roster.map(function (c) {
       return '<th title="' + c.name + '"><img src="icons/' + c.icon + '.png" alt="' + c.name + '" loading="lazy"></th>';
     }).join("") + "</tr></thead>";
@@ -386,7 +393,7 @@
       sample.textContent = wr && wr.qualifying
         ? wr.qualifying + " kills counted from " + wr.eventsSeen + " events, last collected "
           + String(wr.updated).slice(0, 16).replace("T", " ")
-          + ". A faded square is under ten fights."
+          + ". Healers are in here, unlike your own numbers. A faded square is under ten fights."
         : "No kills collected yet. Run collect-winrates.py.";
     } else {
       sample.textContent = "";
