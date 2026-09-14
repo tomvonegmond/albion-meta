@@ -143,11 +143,11 @@
   var SETUPS  = { heal: "Heal dps", stun: "Stun dps", double: "Double dps" };
 
   /* one entry per weapon, remembering every setup it appears in */
-  /* only S and A tier are worth looking up, the rest are off meta */
+  /* heal dps is trimmed to S and A, stun and double dps run all the way down */
   function topTier(setup) {
-    return (window.ALBION_ROSTERS[setup] || []).filter(function (r) {
-      return r.tier === "S" || r.tier === "A";
-    });
+    var all = window.ALBION_ROSTERS[setup] || [];
+    if (setup !== "heal") return all;
+    return all.filter(function (r) { return r.tier === "S" || r.tier === "A"; });
   }
 
   var weapons = {};
@@ -206,7 +206,8 @@
     }
     var mineKey = chosen.keys[setup] || chosen.keys.heal || chosen.keys.stun || chosen.keys.double;
     return '<div class="mu-row is-clickable" data-build="' + mineKey +
-             '" data-vs="' + them.name + '" title="Your gear and abilities against ' + them.name + '">' +
+             '" data-vs="' + them.name + '" data-setup="' + setup +
+             '" title="Your gear and abilities against ' + them.name + '">' +
              '<img src="icons/' + them.icon + '.png" alt="" loading="lazy" onerror="this.hidden = true">' +
              '<span class="mu-tier tier-letter-' + them.tier.toLowerCase() + '">' + them.tier + '</span>' +
              '<span class="mu-them"><b>' + them.name + '</b>' +
@@ -541,7 +542,9 @@
 
     /* this one fight may want a different ability than the build normally takes */
     var against = sheet.getAttribute("data-vs");
-    var swap = against && ((window.ALBION_VS_GEAR || {})[buildKey] || {})[against];
+    var vsSetup = sheet.getAttribute("data-setup") || "heal";
+    var forSetup = ((window.ALBION_VS_GEAR || {})[buildKey] || {})[vsSetup] || {};
+    var swap = against && forSetup[against];
     var why = "";
     if (swap && swap.picks && mySlot && swap.picks[mySlot]) {
       Object.keys(swap.picks[mySlot]).forEach(function (k) { picks[k] = swap.picks[mySlot][k]; });
@@ -566,6 +569,7 @@
     title.textContent = build.name;
     var against = button.getAttribute("data-vs");
     sheet.setAttribute("data-vs", against || "");
+    sheet.setAttribute("data-setup", button.getAttribute("data-setup") || "");
     /* nothing written across the top: click a piece and it says what to take */
     role.textContent = "";
     gear.innerHTML = SLOTS.map(function (slot) {
