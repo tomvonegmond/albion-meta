@@ -35,7 +35,6 @@
 
     <section class="intro">
       <h1>Matchups</h1>
-      <p>You find out what the enemy is running in the first three seconds of the fight, so knowing the plan in advance is worth more than any gear upgrade. Each card below is one matchup from your side.</p>
     </section>
 
     <section>
@@ -77,9 +76,6 @@
 
     <section>
       <h2>Heal dps, weapon against weapon</h2>
-      <p class="prose">Read along a row. The number is that weapon's share of the fight
-        against the weapon in the column, so 70 means the row wins seven out of ten.
-        Hover a square to see the pair written out.</p>
 
       <div class="tabs matrix-tabs" role="tablist" aria-label="Which numbers to show">
         <button type="button" class="tab" role="tab" data-source="written"  aria-selected="true">Your numbers</button>
@@ -111,7 +107,19 @@
 </footer>
 
 
+<!-- the gear window, same one the builds page uses -->
+<div class="sheet" id="build-sheet" hidden>
+  <div class="sheet-box" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+    <button type="button" class="sheet-close" aria-label="Close">&times;</button>
+    <h2 id="sheet-title"></h2>
+    <p class="sheet-role"></p>
+    <div class="gear"></div>
+    <div class="tip" role="status" hidden></div>
+  </div>
+</div>
+
 <script src="builds.js"></script>
+<script src="spells.js"></script>
 <script src="rosters.js"></script>
 <script src="matchups.js"></script>
 <script src="duos.js"></script>
@@ -188,7 +196,9 @@
       word = mine > 50 ? "favoured" : (mine < 50 ? "unfavoured" : "even");
       label = v.odds.replace("/", " / ");
     }
-    return '<div class="mu-row">' +
+    var mineKey = chosen.keys[setup] || chosen.keys.heal || chosen.keys.stun || chosen.keys.double;
+    return '<div class="mu-row is-clickable" data-build="' + mineKey +
+             '" data-vs="' + them.name + '" title="Your gear and abilities against ' + them.name + '">' +
              '<img src="icons/' + them.icon + '.png" alt="" loading="lazy" onerror="this.hidden = true">' +
              '<span class="mu-tier tier-letter-' + them.tier.toLowerCase() + '">' + them.tier + '</span>' +
              '<span class="mu-them"><b>' + them.name + '</b>' +
@@ -423,6 +433,144 @@
   setInterval(refresh, 5 * 60 * 1000);
 
   draw();
+})();
+</script>
+<!-- opening and closing the set popup -->
+<script>
+(function () {
+  var sheet = document.getElementById("build-sheet");
+  if (!sheet || !window.ALBION_BUILDS) return;
+
+  /* the weapon icon sits behind the name on every chip, straight from the data
+     above, so a chip copied in the markup picks up its own icon on its own */
+  document.querySelectorAll(".build").forEach(function (chip) {
+    var build = window.ALBION_BUILDS[chip.getAttribute("data-build")];
+    if (build && build.weapon) {
+      chip.style.setProperty("--icon", "url('icons/" + build.weapon.id + ".png')");
+    }
+  });
+
+  var title  = document.getElementById("sheet-title");
+  var role   = sheet.querySelector(".sheet-role");
+  var gear   = sheet.querySelector(".gear");
+  var tip      = sheet.querySelector(".tip");
+  var openSlot = null;
+  var closer = sheet.querySelector(".sheet-close");
+  var opener = null;
+
+  /* the order here is only for reading, the grid decides where each one sits */
+  var SLOTS = [["weapon","Weapon"], ["head","Head"], ["cape","Cape"], ["chest","Chest"],
+               ["offhand","Off hand"], ["potion","Potion"], ["shoes","Shoes"], ["food","Food"]];
+
+  function piece(slot, label, item) {
+    if (!item) return "";
+    var has = !!(window.ALBION_SPELLS && window.ALBION_SPELLS[item.id]);
+    return '<button type="button" class="slot slot-' + slot + '" data-item="' + item.id + '"' +
+             (has ? '' : ' disabled') + ' aria-pressed="false">' +
+             '<img src="icons/' + item.id + '.png"' +
+             ' alt="' + label + '" loading="lazy" onerror="this.hidden = true">' +
+             '<b>' + item.name + '</b>' +
+           '</button>';
+  }
+
+  /* the suggested abilities for one piece, in a small tip above it */
+  function hideTip() {
+    tip.hidden = true;
+    if (openSlot) {
+      openSlot.classList.remove("is-open");
+      openSlot.setAttribute("aria-pressed", "false");
+    }
+    openSlot = null;
+  }
+
+  function placeTip(button) {
+    var slot = button.getBoundingClientRect();
+    var box  = tip.getBoundingClientRect();
+    var left = slot.left + slot.width / 2 - box.width / 2;
+    var top  = slot.top - box.height - 10;
+    var below = top < 8;
+    tip.classList.toggle("is-below", below);
+    if (below) top = slot.bottom + 10;
+    left = Math.max(8, Math.min(left, window.innerWidth - box.width - 8));
+    tip.style.left = Math.round(left) + "px";
+    tip.style.top  = Math.round(top) + "px";
+  }
+
+  function showTip(button) {
+    if (openSlot === button) { hideTip(); return; }   /* click again to close */
+    var id = button.getAttribute("data-item");
+    var entry = window.ALBION_SPELLS && window.ALBION_SPELLS[id];
+    if (!entry || !entry.picks) return;
+
+    /* start from the rule, then let this build override a slot if it says so */
+    var picks = {};
+    Object.keys(entry.picks).forEach(function (k) { picks[k] = entry.picks[k]; });
+    var build = window.ALBION_BUILDS[sheet.getAttribute("data-build")] || {};
+    Object.keys(build).forEach(function (slot) {
+      var it = build[slot];
+      if (it && it.id === id && it.picks) {
+        Object.keys(it.picks).forEach(function (k) { picks[k] = it.picks[k]; });
+      }
+    });
+
+    hideTip();
+    tip.innerHTML = Object.keys(picks).map(function (key) {
+      return '<span class="tip-row"><b>' + key + '</b>' + picks[key] + '</span>';
+    }).join("");
+    tip.hidden = false;
+    placeTip(button);
+    openSlot = button;
+    button.classList.add("is-open");
+    button.setAttribute("aria-pressed", "true");
+  }
+
+  function open(button) {
+    var build = window.ALBION_BUILDS[button.getAttribute("data-build")];
+    if (!build) return;
+    opener = button;
+    title.textContent = build.name;
+    var against = button.getAttribute("data-vs");
+    if (against) {
+      var span0 = button.closest(".mu-list") ? null : null;
+      role.textContent = "Against " + against;
+    } else {
+      var span = button.querySelector("span");
+      role.textContent = span ? span.textContent : "";
+    }
+    gear.innerHTML = SLOTS.map(function (slot) {
+      return piece(slot[0], slot[1], build[slot[0]]);
+    }).join("");
+    sheet.setAttribute("data-build", button.getAttribute("data-build"));
+    hideTip();
+    sheet.hidden = false;
+    document.body.classList.add("sheet-open");
+    closer.focus();
+  }
+
+  function close() {
+    hideTip();
+    sheet.hidden = true;
+    document.body.classList.remove("sheet-open");
+    if (opener) { opener.focus(); opener = null; }
+  }
+
+  document.addEventListener("click", function (e) {
+    if (!e.target || !e.target.closest) return;
+    var piece = e.target.closest(".slot");
+    if (!piece && openSlot) hideTip();
+    if (piece && !piece.disabled) { showTip(piece); return; }
+    var button = e.target.closest(".build, .mu-row[data-build]");
+    if (button) { open(button); return; }
+    /* clicking the backdrop or the cross closes it */
+    if (e.target === sheet || e.target.closest(".sheet-close")) close();
+  });
+
+  sheet.addEventListener("scroll", function () { if (openSlot) placeTip(openSlot); }, true);
+  window.addEventListener("resize", function () { if (openSlot) placeTip(openSlot); });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !sheet.hidden) close();
+  });
 })();
 </script>
 </body>
