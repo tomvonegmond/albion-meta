@@ -38,6 +38,12 @@
        the Crossbow, which want W3, boots 1 and robe 3
      the healer against double dps: W3, first passive, boots 3,
        cowl 2, robe 2, but W2 into the Warbow
+     every heal dps build facing stun dps: boots 3 on Mercenary
+       Shoes, boots 2 otherwise, boots 1 into the Bloodletter
+       and the Crossbow, second spell on a leather hood, and a
+       weapon pick of its own
+     everyone drinks a cleansing potion into stun dps and a
+       resistance potion into double dps
      the healer swaps its potion: cleansing into the Demonic,
        Rotcaller and Lifecurse, tornado into the Broadsword and
        the Greataxe
@@ -267,7 +273,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "shoes": "After Image on the boots.",
      "head": "Force Field on the cowl.",
-     "chest": "Frost Shield on the robe."
+     "chest": "Frost Shield on the robe.",
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    },
    "Brawler Gloves": {
@@ -290,7 +303,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Blessing on W, Adrenaline Driven Charity as the passive.",
      "shoes": "After Image on the boots.",
      "head": "Force Field on the cowl.",
-     "chest": "Frost Shield on the robe."
+     "chest": "Frost Shield on the robe.",
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    },
    "Bloodletter": {
@@ -313,7 +333,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Blessing on W, Adrenaline Driven Charity as the passive.",
      "shoes": "After Image on the boots.",
      "head": "Force Field on the cowl.",
-     "chest": "Frost Shield on the robe."
+     "chest": "Frost Shield on the robe.",
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    },
    "Dagger Pair": {
@@ -336,7 +363,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Blessing on W, Adrenaline Driven Charity as the passive.",
      "shoes": "After Image on the boots.",
      "head": "Force Field on the cowl.",
-     "chest": "Frost Shield on the robe."
+     "chest": "Frost Shield on the robe.",
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    },
    "Carrioncaller": {
@@ -359,7 +393,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Blessing on W, Adrenaline Driven Charity as the passive.",
      "shoes": "After Image on the boots.",
      "head": "Force Field on the cowl.",
-     "chest": "Frost Shield on the robe."
+     "chest": "Frost Shield on the robe.",
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    },
    "Ursine Maulers": {
@@ -382,7 +423,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Blessing on W, Adrenaline Driven Charity as the passive.",
      "shoes": "After Image on the boots.",
      "head": "Force Field on the cowl.",
-     "chest": "Frost Shield on the robe."
+     "chest": "Frost Shield on the robe.",
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    },
    "Heron Spear": {
@@ -405,7 +453,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Blessing on W, Adrenaline Driven Charity as the passive.",
      "shoes": "After Image on the boots.",
      "head": "Force Field on the cowl.",
-     "chest": "Frost Shield on the robe."
+     "chest": "Frost Shield on the robe.",
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    },
    "Whispering Bow": {
@@ -428,7 +483,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Blessing on W, Adrenaline Driven Charity as the passive.",
      "shoes": "After Image on the boots.",
      "head": "Force Field on the cowl.",
-     "chest": "Frost Shield on the robe."
+     "chest": "Frost Shield on the robe.",
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    },
    "Mistpiercer": {
@@ -451,7 +513,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Blessing on W, Adrenaline Driven Charity as the passive.",
      "shoes": "After Image on the boots.",
      "head": "Force Field on the cowl.",
-     "chest": "Frost Shield on the robe."
+     "chest": "Frost Shield on the robe.",
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    }
   },
@@ -476,7 +545,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "chest": "Purging Shield on the robe.",
      "head": "Force Field on the cowl.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Dagger": {
@@ -499,7 +575,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "chest": "Purging Shield on the robe.",
      "head": "Force Field on the cowl.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Soulscythe": {
@@ -522,7 +605,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "chest": "Purging Shield on the robe.",
      "head": "Force Field on the cowl.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Energy Shaper": {
@@ -545,7 +635,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "chest": "Purging Shield on the robe.",
      "head": "Force Field on the cowl.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Glacial Staff": {
@@ -568,7 +665,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "chest": "Purging Shield on the robe.",
      "head": "Force Field on the cowl.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Blazing Staff": {
@@ -591,7 +695,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "chest": "Purging Shield on the robe.",
      "head": "Force Field on the cowl.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Bloodletter": {
@@ -609,7 +720,14 @@ window.ALBION_VS_GEAR = {
     "notes": {
      "weapon": "Holy Blessing on W.",
      "shoes": "Dodge roll on the boots.",
-     "chest": "Purging Shield on the robe."
+     "chest": "Purging Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Crossbow": {
@@ -627,7 +745,14 @@ window.ALBION_VS_GEAR = {
     "notes": {
      "weapon": "Holy Blessing on W.",
      "shoes": "Dodge roll on the boots.",
-     "chest": "Purging Shield on the robe."
+     "chest": "Purging Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Grailseeker": {
@@ -650,7 +775,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "chest": "Purging Shield on the robe.",
      "head": "Force Field on the cowl.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Realmbreaker": {
@@ -673,7 +805,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "chest": "Purging Shield on the robe.",
      "head": "Force Field on the cowl.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Spirithunter": {
@@ -696,7 +835,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "chest": "Purging Shield on the robe.",
      "head": "Force Field on the cowl.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Hellfire Hands": {
@@ -719,7 +865,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "chest": "Purging Shield on the robe.",
      "head": "Force Field on the cowl.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Great Arcane Staff": {
@@ -742,7 +895,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "chest": "Purging Shield on the robe.",
      "head": "Force Field on the cowl.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Tombhammer": {
@@ -765,7 +925,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "chest": "Purging Shield on the robe.",
      "head": "Force Field on the cowl.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Great Fire Staff": {
@@ -788,7 +955,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "chest": "Purging Shield on the robe.",
      "head": "Force Field on the cowl.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    },
    "Permafrost Prism": {
@@ -811,7 +985,14 @@ window.ALBION_VS_GEAR = {
      "weapon": "Holy Beam on W, Adrenaline Driven Charity as the passive.",
      "chest": "Purging Shield on the robe.",
      "head": "Force Field on the cowl.",
-     "shoes": "Refreshing Sprint on the boots."
+     "shoes": "Refreshing Sprint on the boots.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
     }
    }
   }
@@ -856,6 +1037,470 @@ window.ALBION_VS_GEAR = {
     },
     "notes": {
      "shoes": "Dodge roll on the F slot into the Prowling Staff."
+    }
+   }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   }
+  },
+  "double": {
+   "Warbow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Dagger Pair": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Carrioncaller": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Heron Spear": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Whispering Bow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Mistpiercer": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    }
   }
@@ -922,6 +1567,454 @@ window.ALBION_VS_GEAR = {
      "shoes": "Dodge roll on the F slot into the Rotcaller Staff."
     }
    }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   }
+  },
+  "double": {
+   "Warbow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Dagger Pair": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Carrioncaller": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Heron Spear": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Whispering Bow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Mistpiercer": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   }
   }
  },
  "glaive": {
@@ -964,6 +2057,454 @@ window.ALBION_VS_GEAR = {
     },
     "notes": {
      "shoes": "Dodge roll on the F slot into the Prowling Staff."
+    }
+   }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Deflecting Spin on W, the reflect.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   }
+  },
+  "double": {
+   "Warbow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Dagger Pair": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Carrioncaller": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Heron Spear": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Whispering Bow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Mistpiercer": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    }
   }
@@ -1010,6 +2551,470 @@ window.ALBION_VS_GEAR = {
      "shoes": "Dodge roll on the F slot into the Prowling Staff."
     }
    }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   }
+  },
+  "double": {
+   "Warbow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Dagger Pair": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Carrioncaller": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Heron Spear": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Whispering Bow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Mistpiercer": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   }
   }
  },
  "fists-of-avalon": {
@@ -1042,6 +3047,518 @@ window.ALBION_VS_GEAR = {
     },
     "notes": {
      "shoes": "Dodge roll on the F slot into the Prowling Staff."
+    }
+   }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "Q": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Shockwave on Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   }
+  },
+  "double": {
+   "Warbow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Dagger Pair": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Carrioncaller": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Heron Spear": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Whispering Bow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Mistpiercer": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    }
   }
@@ -1086,6 +3603,470 @@ window.ALBION_VS_GEAR = {
     },
     "notes": {
      "shoes": "Dodge roll on the F slot into the Prowling Staff."
+    }
+   }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   }
+  },
+  "double": {
+   "Warbow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Dagger Pair": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Carrioncaller": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Heron Spear": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Whispering Bow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Mistpiercer": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    }
   }
@@ -1152,6 +4133,454 @@ window.ALBION_VS_GEAR = {
      "shoes": "Dodge roll on the F slot into the Rotcaller Staff."
     }
    }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Caltrops on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   }
+  },
+  "double": {
+   "Warbow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Dagger Pair": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Carrioncaller": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Heron Spear": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Whispering Bow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Mistpiercer": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   }
   }
  },
  "broadsword": {
@@ -1184,6 +4613,534 @@ window.ALBION_VS_GEAR = {
     },
     "notes": {
      "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+    }
+   }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "head": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "head": "Second spell on the hood.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   }
+  },
+  "double": {
+   "Warbow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Dagger Pair": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Carrioncaller": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Heron Spear": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Whispering Bow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Mistpiercer": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    }
   }
@@ -1230,6 +5187,470 @@ window.ALBION_VS_GEAR = {
      "shoes": "Dodge roll on the F slot into the Prowling Staff."
     }
    }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "shoes": {
+      "Spell": 3
+     },
+     "weapon": {
+      "W": 2,
+      "Q": 2
+     }
+    },
+    "notes": {
+     "shoes": "Break Free on the boots.",
+     "weapon": "Desecrate on W, the root, and the second Q.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   }
+  },
+  "double": {
+   "Warbow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Dagger Pair": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Carrioncaller": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Heron Spear": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Whispering Bow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Mistpiercer": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   }
   }
  },
  "prowling-staff": {
@@ -1262,6 +5683,454 @@ window.ALBION_VS_GEAR = {
     },
     "notes": {
      "shoes": "Dodge roll on the F slot into the Prowling Staff."
+    }
+   }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   }
+  },
+  "double": {
+   "Warbow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Dagger Pair": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Carrioncaller": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Heron Spear": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Whispering Bow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Mistpiercer": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    }
   }
@@ -1328,6 +6197,454 @@ window.ALBION_VS_GEAR = {
      "head": "Bear Trap on the helmet into the Rotcaller Staff."
     }
    }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Tether Shift on W.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   }
+  },
+  "double": {
+   "Warbow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Dagger Pair": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Carrioncaller": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Heron Spear": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Whispering Bow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Mistpiercer": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   }
   }
  },
  "greataxe": {
@@ -1342,6 +6659,518 @@ window.ALBION_VS_GEAR = {
      "shoes": "Dodge roll on the F slot into the Arclight Blasters."
     }
    }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3
+     },
+     "chest": {
+      "Spell": 2
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Battle Rush on W.",
+     "chest": "Frost Shield on the robe.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   }
+  },
+  "double": {
+   "Warbow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Dagger Pair": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Carrioncaller": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Heron Spear": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Whispering Bow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Mistpiercer": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   }
   }
  },
  "kingmaker": {
@@ -1354,6 +7183,470 @@ window.ALBION_VS_GEAR = {
     },
     "notes": {
      "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+    }
+   }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "shoes": {
+      "Spell": 1
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Dodge roll on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "shoes": {
+      "Spell": 2
+     },
+     "weapon": {
+      "W": 3,
+      "Passive": 4
+     }
+    },
+    "notes": {
+     "shoes": "Refreshing Sprint on the boots.",
+     "weapon": "Splitting Slash on W, the root, and the last passive.",
+     "potion": "Cleansing potion into stun dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_CLEANSE2",
+      "name": "Major Cleansing Potion"
+     }
+    }
+   }
+  },
+  "double": {
+   "Warbow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Bloodletter": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Dagger Pair": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Carrioncaller": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Heron Spear": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Whispering Bow": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
+    }
+   },
+   "Mistpiercer": {
+    "picks": {},
+    "notes": {
+     "potion": "Resistance potion into double dps."
+    },
+    "items": {
+     "potion": {
+      "id": "T7_POTION_STONESKIN",
+      "name": "Major Resistance Potion"
+     }
     }
    }
   }
