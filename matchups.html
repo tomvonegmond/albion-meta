@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Albion Meta | 2v2 Hellgate Matchups</title>
+<meta name="description" content="How heal dps, stun dps and double dps play against each other in 2v2 Hellgates, and how to win each matchup.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Cinzel:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="wordmark" href="index.html">Albion<span>Meta</span></a>
+    <nav class="site-nav">
+      <a href="index.html">Builds</a>
+      <a href="matchups.html" aria-current="page">Matchups</a>
+      <a href="patchnotes.html">Patch notes</a>
+      <a href="about.html">About</a>
+    </nav>
+
+    <!-- patch and date, edit these two lines every update -->
+    <div class="head-meta">
+      <span class="head-patch">Radiant Wilds</span>
+      <span class="head-updated">2v2 Hellgates &middot; Updated 13 September 2026</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <section class="intro">
+      <h1>Matchups</h1>
+      <p>You find out what the enemy is running in the first three seconds of the fight, so knowing the plan in advance is worth more than any gear upgrade. Each card below is one matchup from your side.</p>
+    </section>
+
+    <section>
+      <h2>Look up a weapon</h2>
+      <p class="prose">Type a weapon to see how it plays into everything on each tierlist.</p>
+
+      <div class="finder">
+        <input type="search" id="weapon-search" class="finder-input" autocomplete="off"
+               placeholder="Start typing a weapon, for example Bloodletter"
+               role="combobox" aria-expanded="false" aria-controls="weapon-list"
+               aria-autocomplete="list" aria-label="Search for a weapon">
+        <ul class="finder-list" id="weapon-list" role="listbox" aria-label="Matching weapons" hidden></ul>
+      </div>
+
+      <div class="mu" id="matchup-panel" hidden>
+        <div class="mu-head">
+          <img class="mu-icon" alt="" width="56" height="56">
+          <div>
+            <h3 class="mu-name"></h3>
+            <p class="mu-where"></p>
+          </div>
+        </div>
+
+        <div class="tabs tabs-big" role="tablist" aria-label="Duos or enemies">
+          <button type="button" class="tab tab-big" role="tab" data-view="duos"    aria-selected="false">Duos</button>
+          <button type="button" class="tab tab-big" role="tab" data-view="enemies" aria-selected="true">Matchups</button>
+        </div>
+
+        <div class="tabs setup-tabs" role="tablist" aria-label="Choose the setup">
+          <button type="button" class="tab" role="tab" data-setup="heal"   aria-selected="true">Heal dps</button>
+          <button type="button" class="tab" role="tab" data-setup="stun"   aria-selected="false">Stun dps</button>
+          <button type="button" class="tab" role="tab" data-setup="double" aria-selected="false">Double dps</button>
+        </div>
+
+        <div class="mu-list" role="tabpanel"></div>
+      </div>
+    </section>
+
+
+    <section>
+      <h2>Heal dps, weapon against weapon</h2>
+      <p class="prose">Read along a row. The number is that weapon's share of the fight
+        against the weapon in the column, so 70 means the row wins seven out of ten.
+        Hover a square to see the pair written out.</p>
+
+      <div class="tabs matrix-tabs" role="tablist" aria-label="Which numbers to show">
+        <button type="button" class="tab" role="tab" data-source="written"  aria-selected="true">Your numbers</button>
+        <button type="button" class="tab" role="tab" data-source="recorded" aria-selected="false">Recorded</button>
+      </div>
+
+      <p class="matrix-sample" id="matrix-sample"></p>
+
+      <div class="matrix-wrap">
+        <table class="matrix" id="heal-matrix"></table>
+      </div>
+
+      <p class="matrix-key">
+        <span class="key-cell is-up">70</span> ahead
+        <span class="key-cell is-even">50</span> even
+        <span class="key-cell is-down">30</span> behind
+        <span class="key-cell is-none">&middot;</span> not rated yet
+      </p>
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p>Albion Meta is a fan site and is not connected to Sandbox Interactive.</p>
+    <p>Disagree with a matchup? Say so in <a href="about.html">the contact page</a>.</p>
+  </div>
+</footer>
+
+
+<script src="builds.js"></script>
+<script src="rosters.js"></script>
+<script src="matchups.js"></script>
+<script src="duos.js"></script>
+<script src="winrates.js"></script>
+<!-- the weapon finder and its matchup box -->
+<script>
+(function () {
+  var input = document.getElementById("weapon-search");
+  var list  = document.getElementById("weapon-list");
+  var panel = document.getElementById("matchup-panel");
+  if (!input || !window.ALBION_ROSTERS) return;
+
+  var rows    = panel.querySelector(".mu-list");
+  var icon    = panel.querySelector(".mu-icon");
+  var nameOut = panel.querySelector(".mu-name");
+  var whereOut= panel.querySelector(".mu-where");
+  var tabs      = [].slice.call(panel.querySelectorAll(".tab:not(.tab-big)"));
+  var bigTabs   = [].slice.call(panel.querySelectorAll(".tab-big"));
+  var setupTabs = panel.querySelector(".setup-tabs");
+  var SETUPS  = { heal: "Heal dps", stun: "Stun dps", double: "Double dps" };
+
+  /* one entry per weapon, remembering every setup it appears in */
+  var weapons = {};
+  Object.keys(window.ALBION_ROSTERS).forEach(function (setup) {
+    window.ALBION_ROSTERS[setup].forEach(function (r) {
+      var w = weapons[r.name] || (weapons[r.name] = { name: r.name, icon: r.icon, keys: {}, tiers: {} });
+      w.keys[setup] = r.key;
+      w.tiers[setup] = r.tier;
+    });
+  });
+  var allNames = Object.keys(weapons).sort();
+
+  var matches = [], active = -1, chosen = null, setup = "heal", view = "enemies";
+
+  /* who can even stand next to you: heal dps pairs damage with a healer,
+     stun dps pairs damage with a stunner, double dps pairs anyone */
+  function partnersIn(setup) {
+    var roster = window.ALBION_ROSTERS[setup] || [];
+    var mineKey = chosen.keys[setup];
+    if (!mineKey) return null;
+    var me = null;
+    roster.forEach(function (r) { if (r.key === mineKey) me = r; });
+    if (!me) return null;
+    if (setup === "double") {
+      return roster.filter(function (r) { return r.key !== mineKey; });
+    }
+    return roster.filter(function (r) {
+      return r.key !== mineKey &&
+             (me.role === "Damage" ? r.role !== "Damage" : r.role === "Damage");
+    });
+  }
+
+  function verdictFor(mine, theirs) {
+    var mineKey = chosen.keys[setup] || chosen.keys.heal || chosen.keys.stun || chosen.keys.double;
+    var table = (window.ALBION_MATCHUPS || {})[mineKey];
+    var row = table && table[setup] && table[setup][theirs];
+    return row || null;
+  }
+
+  var ENEMY_WORDS = { favoured: "Favoured", even: "Even", unfavoured: "Unfavoured" };
+  var DUO_WORDS   = { strong: "Strong duo", fine: "Playable", weak: "Weak duo" };
+
+  function rowFor(them, v, words) {
+    var word = (v && v.verdict) ? v.verdict : "unrated";
+    var label = words[word] || (v ? "" : "Not rated yet");
+    /* a pair can say something in words instead of a number */
+    if (v && v.text) {
+      word = "even";
+      label = v.text;
+    }
+    /* odds like "70/30" are read from your side, so 70 means you are ahead */
+    if (v && v.odds) {
+      var mine = parseInt(v.odds, 10);
+      word = mine > 50 ? "favoured" : (mine < 50 ? "unfavoured" : "even");
+      label = v.odds.replace("/", " / ");
+    }
+    return '<div class="mu-row">' +
+             '<img src="icons/' + them.icon + '.png" alt="" loading="lazy" onerror="this.hidden = true">' +
+             '<span class="mu-tier tier-letter-' + them.tier.toLowerCase() + '">' + them.tier + '</span>' +
+             '<span class="mu-them"><b>' + them.name + '</b>' +
+               (them.role ? '<span>' + them.role + '</span>' : '') + '</span>' +
+             (label ? '<span class="mu-verdict is-' + word + '">' + label + '</span>' : '<span></span>') +
+             (v && v.note ? '<p class="mu-note">' + v.note + '</p>' : '') +
+           '</div>';
+  }
+
+  function render() {
+    if (!chosen) return;
+
+    if (view === "duos") {
+      /* no setup tabs here, a weapon's duos are just listed per tierlist */
+      var table = window.ALBION_DUOS || {};
+      var out = [];
+      Object.keys(SETUPS).forEach(function (s) {
+        var mineKey = chosen.keys[s];
+        if (!mineKey) return;                       /* not on that tierlist */
+        var listed = (table[mineKey] && table[mineKey][s]) || {};
+        var roster = window.ALBION_ROSTERS[s] || [];
+        var shown = roster.filter(function (them) { return listed[them.key]; });
+        if (!shown.length) return;
+        out.push('<h4 class="mu-group">' + SETUPS[s] + '</h4>' +
+          shown.map(function (them) {
+            var v = listed[them.key];
+            if (them.key === mineKey) {
+              v = { verdict: v.verdict, note: v.note || ("Two of you both on " + them.name + ".") };
+            }
+            return rowFor(them, v, DUO_WORDS);
+          }).join(""));
+      });
+      rows.innerHTML = out.join("") ||
+        '<p class="mu-empty">No duos listed for ' + chosen.name + ' yet.</p>';
+      return;
+    }
+
+    var roster = window.ALBION_ROSTERS[setup] || [];
+    rows.innerHTML = roster.map(function (them) {
+      return rowFor(them, verdictFor(chosen, them.key), ENEMY_WORDS);
+    }).join("") || '<p class="mu-empty">Nothing sits on this tierlist yet.</p>';
+  }
+
+  function choose(name) {
+    chosen = weapons[name];
+    if (!chosen) return;
+    input.value = name;
+    closeList();
+    icon.src = "icons/" + chosen.icon + ".png";
+    nameOut.textContent = name;
+    var where = Object.keys(chosen.tiers).map(function (s) {
+      return SETUPS[s] + " " + chosen.tiers[s];
+    });
+    whereOut.textContent = where.length ? "On the tierlists: " + where.join(", ") : "";
+    panel.hidden = false;
+    setupTabs.hidden = (view === "duos");
+    render();
+  }
+
+  function closeList() {
+    list.hidden = true;
+    input.setAttribute("aria-expanded", "false");
+    active = -1;
+  }
+
+  function openList(text) {
+    var q = text.trim().toLowerCase();
+    matches = q ? allNames.filter(function (n) { return n.toLowerCase().indexOf(q) !== -1; }) : allNames;
+    if (!matches.length) {
+      list.innerHTML = '<li class="finder-none">No weapon by that name</li>';
+    } else {
+      list.innerHTML = matches.map(function (n, i) {
+        return '<li role="option" id="opt-' + i + '" aria-selected="false">' +
+                 '<img src="icons/' + weapons[n].icon + '.png" alt="" loading="lazy">' + n +
+               '</li>';
+      }).join("");
+    }
+    list.hidden = false;
+    input.setAttribute("aria-expanded", "true");
+    active = -1;
+  }
+
+  function highlight() {
+    [].forEach.call(list.children, function (li, i) {
+      li.classList.toggle("is-active", i === active);
+      li.setAttribute("aria-selected", i === active ? "true" : "false");
+    });
+    if (active >= 0 && list.children[active]) list.children[active].scrollIntoView({ block: "nearest" });
+  }
+
+  input.addEventListener("input",  function () { openList(input.value); });
+  input.addEventListener("focus",  function () { openList(input.value); });
+
+  input.addEventListener("keydown", function (e) {
+    if (list.hidden && (e.key === "ArrowDown" || e.key === "ArrowUp")) { openList(input.value); return; }
+    if (e.key === "ArrowDown") { e.preventDefault(); active = Math.min(active + 1, matches.length - 1); highlight(); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); active = Math.max(active - 1, 0); highlight(); }
+    else if (e.key === "Enter") {
+      if (active >= 0 && matches[active]) { e.preventDefault(); choose(matches[active]); }
+      else if (matches.length === 1) { e.preventDefault(); choose(matches[0]); }
+    }
+    else if (e.key === "Escape") { closeList(); }
+  });
+
+  list.addEventListener("click", function (e) {
+    var li = e.target.closest("li[role=option]");
+    if (li) choose(li.textContent.trim());
+  });
+
+  document.addEventListener("click", function (e) {
+    if (!e.target.closest(".finder")) closeList();
+  });
+
+  bigTabs.forEach(function (tab) {
+    tab.addEventListener("click", function () {
+      view = tab.getAttribute("data-view");
+      bigTabs.forEach(function (t) { t.setAttribute("aria-selected", t === tab ? "true" : "false"); });
+      setupTabs.hidden = (view === "duos");
+      render();
+    });
+  });
+
+  tabs.forEach(function (tab) {
+    tab.addEventListener("click", function () {
+      setup = tab.getAttribute("data-setup");
+      tabs.forEach(function (t) { t.setAttribute("aria-selected", t === tab ? "true" : "false"); });
+      render();
+    });
+  });
+})();
+</script>
+
+<!-- the heal dps matrix -->
+<script>
+(function () {
+  var table  = document.getElementById("heal-matrix");
+  var sample = document.getElementById("matrix-sample");
+  if (!table || !window.ALBION_ROSTERS) return;
+
+  /* S and A tier only, and no healers: a healer's number depends on the dps
+     beside it, so a square for one says nothing */
+  var roster = (window.ALBION_ROSTERS.heal || []).filter(function (r) {
+    return (r.tier === "S" || r.tier === "A") && r.role !== "Healer";
+  });
+  var source = "written";
+
+  function writtenCell(row, col) {
+    var v = (window.ALBION_MATCHUPS[row.key] || {}).heal || {};
+    v = v[col.key];
+    var pair = row.name + " against " + col.name;
+    if (v && v.odds) {
+      var mine = parseInt(v.odds, 10);
+      var tone = mine > 50 ? "is-up" : (mine < 50 ? "is-down" : "is-even");
+      return '<td class="' + tone + '" title="' + pair + ": " + v.odds + '">' + mine + "</td>";
+    }
+    if (v && v.text) return '<td class="is-text" title="' + pair + ": " + v.text + '">?</td>';
+    return '<td class="is-none" title="' + pair + ': not rated yet">&middot;</td>';
+  }
+
+  function recordedCell(row, col) {
+    var kills = (window.ALBION_WINRATES || {}).kills || {};
+    var won  = (kills[row.name] || {})[col.name] || 0;
+    var lost = (kills[col.name] || {})[row.name] || 0;
+    var n = won + lost;
+    var pair = row.name + " against " + col.name;
+    if (!n) return '<td class="is-none" title="' + pair + ': nothing recorded'
+                   + '">&middot;</td>';
+    var pct = Math.round((won / n) * 100);
+    var tone = pct > 50 ? "is-up" : (pct < 50 ? "is-down" : "is-even");
+    /* a handful of fights is not a win rate, so say so */
+    var thin = n < 10 ? " is-thin" : "";
+    return '<td class="' + tone + thin + '" title="' + pair + ": " + pct + "/" + (100 - pct)
+           + " from " + n + " fight" + (n === 1 ? "" : "s") + '">' + pct + "</td>";
+  }
+
+  function draw() {
+    var cell = source === "recorded" ? recordedCell : writtenCell;
+    var head = '<thead><tr><th class="corner"></th>' + roster.map(function (c) {
+      return '<th title="' + c.name + '"><img src="icons/' + c.icon + '.png" alt="' + c.name + '" loading="lazy"></th>';
+    }).join("") + "</tr></thead>";
+
+    var body = "<tbody>" + roster.map(function (r) {
+      return '<tr><th class="matrix-name" title="' + r.name + '">' +
+               '<img src="icons/' + r.icon + '.png" alt="" loading="lazy"><span>' + r.name + "</span>" +
+               '<b class="matrix-tier tier-letter-' + r.tier.toLowerCase() + '">' + r.tier + "</b></th>" +
+             roster.map(function (c) {
+               return r.key === c.key ? '<td class="is-self"></td>' : cell(r, c);
+             }).join("") + "</tr>";
+    }).join("") + "</tbody>";
+
+    table.innerHTML = head + body;
+
+    if (source === "recorded") {
+      var wr = window.ALBION_WINRATES;
+      sample.textContent = wr && wr.qualifying
+        ? wr.qualifying + " kills counted from " + wr.eventsSeen + " events, last collected "
+          + String(wr.updated).slice(0, 16).replace("T", " ")
+          + ". A faded square is under ten fights."
+        : "No kills collected yet. Run collect-winrates.py.";
+    } else {
+      sample.textContent = "";
+    }
+  }
+
+  document.querySelectorAll(".matrix-tabs .tab").forEach(function (tab) {
+    tab.addEventListener("click", function () {
+      source = tab.getAttribute("data-source");
+      document.querySelectorAll(".matrix-tabs .tab").forEach(function (t) {
+        t.setAttribute("aria-selected", t === tab ? "true" : "false");
+      });
+      draw();
+    });
+  });
+
+  /* the collector runs on its own, so pull the file again now and then and
+     redraw if the recorded numbers are the ones on screen */
+  function refresh() {
+    var s = document.createElement("script");
+    s.src = "winrates.js?t=" + Date.now();
+    s.onload = function () { if (source === "recorded") draw(); s.remove(); };
+    s.onerror = function () { s.remove(); };
+    document.body.appendChild(s);
+  }
+  setInterval(refresh, 5 * 60 * 1000);
+
+  draw();
+})();
+</script>
+</body>
+</html>

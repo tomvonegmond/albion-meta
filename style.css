@@ -1,0 +1,865 @@
+/* ===========================================================
+   Albion Meta - shared stylesheet
+   Everything on every page is styled from this one file.
+   Change a colour here and it changes on all four pages.
+   =========================================================== */
+
+:root {
+  /* --- colours --- */
+  --stone:      #1b1522;  /* page background, deep dungeon aubergine */
+  --stone-deep: #140f1a;  /* header and footer, slightly darker */
+  --panel:      #251d30;  /* boxes and cards */
+  --panel-edge: #3a2f49;  /* thin borders */
+  --bone:       #e9e1d5;  /* main text */
+  --muted:      #a094ad;  /* secondary text */
+  --corrupt:    #a86ce6;  /* the accent, corrupted violet */
+
+  /* --- tier colours --- */
+  --tier-s: #e0674f;
+  --tier-a: #d9a441;
+  --tier-b: #6fa8a0;
+  --tier-c: #85808f;
+
+  /* --- spacing --- */
+  --gutter: 1.25rem;
+  --max:    68rem;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--stone);
+  color: var(--bone);
+  font-family: "Barlow", system-ui, -apple-system, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  width: 100%;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* ---------- header and navigation ---------- */
+
+.site-head {
+  background: var(--stone-deep);
+  border-bottom: 1px solid var(--panel-edge);
+}
+
+.head-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 1.5rem;
+  padding-top: 1.05rem;
+  padding-bottom: 1.05rem;
+}
+
+.wordmark {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--bone);
+  text-decoration: none;
+  line-height: 1;
+}
+
+.wordmark span { color: var(--corrupt); }
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-left: 0.5rem;   /* sits next to the wordmark, over on the left */
+}
+
+.site-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+
+.site-nav a:hover { color: var(--bone); }
+
+.site-nav a[aria-current="page"] {
+  color: var(--bone);
+  border-bottom-color: var(--corrupt);
+}
+
+/* ---------- patch and date, top right of the header ---------- */
+
+.head-meta {
+  margin-left: auto;          /* this is what holds it in the right corner */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.1rem;
+  text-align: right;
+  line-height: 1.25;
+}
+
+.head-patch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--bone);
+}
+
+/* the small violet dot in front of the patch name */
+.head-patch::before {
+  content: "";
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 50%;
+  background: var(--corrupt);
+  box-shadow: 0 0 0 3px rgba(168, 108, 230, 0.16);
+}
+
+.head-updated {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ---------- page intro ---------- */
+
+.intro { padding: 2.75rem 0 1.75rem; }
+
+h1 {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 0.7rem;
+}
+
+.intro p {
+  max-width: 44rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* a page with no intro, like the builds page, still needs air at the top */
+main .wrap > section:first-of-type { padding-top: 2.75rem; }
+main .wrap > section:first-of-type > h2:first-child { margin-top: 0; }
+
+/* ---------- setup tabs on the builds page ---------- */
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 1.5rem;
+}
+
+.tab {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+  background: var(--panel);
+  border: 1px solid var(--panel-edge);
+  border-radius: 3px;
+  padding: 0.6rem 1.15rem;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+
+.tab:hover {
+  color: var(--bone);
+  border-color: var(--corrupt);
+}
+
+.tab[aria-selected="true"] {
+  color: var(--bone);
+  border-color: var(--corrupt);
+  background: rgba(168, 108, 230, 0.14);
+}
+
+[hidden] { display: none !important; }
+
+/* ---------- tier rows ---------- */
+
+.tier {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 0.9rem;
+  border: 1px solid var(--panel-edge);
+  border-radius: 3px;
+  overflow: hidden;
+  background: var(--panel);
+}
+
+.tier-letter {
+  flex: 0 0 4.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15rem;
+  padding: 0.9rem 0.4rem;
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1b1522;
+  text-align: center;
+}
+
+.tier-letter small {
+  font-family: "Barlow", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  opacity: 0.75;
+}
+
+.tier-s .tier-letter { background: var(--tier-s); }
+.tier-a .tier-letter { background: var(--tier-a); }
+.tier-b .tier-letter { background: var(--tier-b); }
+.tier-c .tier-letter { background: var(--tier-c); }
+
+.tier-builds li { display: flex; }
+
+.tier-builds {
+  flex: 1 1 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 0.5rem;
+  padding: 0.8rem;
+  margin: 0;
+  list-style: none;
+}
+
+/* a tier nothing has earned this patch */
+.tier-empty {
+  align-self: center;
+  padding: 0.4rem 0.2rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--muted);
+}
+
+/* ---------- one build chip ---------- */
+
+.build {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: 1px solid var(--panel-edge);
+  border-radius: 3px;
+  padding: 0.5rem 0.75rem;
+  min-width: 9.5rem;
+  cursor: pointer;
+  transition: border-color 0.15s, background-color 0.15s;
+
+  /* the weapon icon sits behind the name, dimmed by a wash so the
+     text stays readable. --icon is set per chip from builds.js */
+  background-color: var(--stone);
+  background-image:
+    linear-gradient(90deg,
+      rgba(27, 21, 34, 0.96) 0%,
+      rgba(27, 21, 34, 0.88) 40%,
+      rgba(27, 21, 34, 0.6) 100%),
+    var(--icon, none);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: 100% 100%, cover;
+}
+
+.build:hover {
+  border-color: var(--corrupt);
+  background-color: var(--panel);
+  background-image:
+    linear-gradient(90deg,
+      rgba(27, 21, 34, 0.92) 0%,
+      rgba(27, 21, 34, 0.72) 40%,
+      rgba(27, 21, 34, 0.3) 100%),
+    var(--icon, none);
+}
+
+.build b {
+  display: block;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.build span {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+/* ---------- the set popup ---------- */
+
+.sheet {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1.5rem var(--gutter);
+  overflow-y: auto;
+  background: rgba(10, 7, 14, 0.78);
+}
+
+body.sheet-open { overflow: hidden; }
+
+.sheet-box {
+  position: relative;
+  width: 100%;
+  max-width: 30rem;
+  margin: auto;
+  padding: 1.5rem;
+  background: var(--panel);
+  border: 1px solid var(--panel-edge);
+  border-radius: 4px;
+}
+
+.sheet-box h2 {
+  margin: 0;
+  padding-right: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.sheet-role {
+  margin: 0.1rem 0 1.3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--corrupt);
+}
+
+.sheet-close {
+  position: absolute;
+  top: 0.9rem;
+  right: 0.9rem;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: var(--muted);
+  background: var(--stone);
+  border: 1px solid var(--panel-edge);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sheet-close:hover { color: var(--bone); border-color: var(--corrupt); }
+
+/* the grid is laid out like the equipment panel in game */
+.gear {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.slot-head    { grid-area: 1 / 2; }
+.slot-cape    { grid-area: 1 / 3; }
+.slot-weapon  { grid-area: 2 / 1; }
+.slot-chest   { grid-area: 2 / 2; }
+.slot-offhand { grid-area: 2 / 3; }
+.slot-potion  { grid-area: 3 / 1; }
+.slot-shoes   { grid-area: 3 / 2; }
+.slot-food    { grid-area: 3 / 3; }
+
+.slot {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem 0.4rem 0.6rem;
+  background: var(--stone);
+  border: 1px solid var(--panel-edge);
+  border-radius: 3px;
+  text-align: center;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.slot:hover:not(:disabled) { border-color: var(--corrupt); }
+
+/* the piece whose abilities are currently on show */
+.slot.is-open {
+  border-color: var(--corrupt);
+  background: var(--panel);
+}
+
+/* potions, food and off hands carry no ability slots in game */
+.slot:disabled { cursor: default; opacity: 0.7; }
+
+.slot img {
+  display: block;
+  width: 100%;
+  max-width: 5rem;
+  aspect-ratio: 1;      /* holds the space so the rows do not jump while loading */
+  object-fit: contain;
+  margin: 0 auto 0.2rem;
+}
+
+.slot b {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* ---------- the suggested abilities tip ---------- */
+
+.tip {
+  position: fixed;               /* fixed so the popup is never clipped */
+  z-index: 60;
+  max-width: 16rem;
+  padding: 0.5rem 0.7rem;
+  background: var(--stone-deep);
+  border: 1px solid var(--corrupt);
+  border-radius: 4px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.55);
+  font-size: 0.8rem;
+  line-height: 1.45;
+  text-align: left;
+  pointer-events: none;          /* never swallows the next click */
+}
+
+.tip-row { display: block; white-space: nowrap; }
+
+.tip-row b {
+  display: inline-block;
+  min-width: 4.7rem;             /* wide enough that Passive lines up with Q */
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  color: var(--corrupt);
+}
+
+/* the little arrow, pointing down at the piece */
+.tip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border: 5px solid transparent;
+  border-top-color: var(--corrupt);
+}
+
+/* flipped underneath when there is no room above */
+.tip.is-below::after {
+  top: auto;
+  bottom: 100%;
+  border-top-color: transparent;
+  border-bottom-color: var(--corrupt);
+}
+
+/* ---------- the weapon finder on the matchups page ---------- */
+
+.finder { position: relative; max-width: 26rem; margin-bottom: 1.25rem; }
+
+.finder-input {
+  width: 100%;
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--bone);
+  background: var(--panel);
+  border: 1px solid var(--panel-edge);
+  border-radius: 3px;
+  padding: 0.65rem 0.85rem;
+}
+
+.finder-input::placeholder { color: var(--muted); }
+.finder-input:focus { outline: none; border-color: var(--corrupt); }
+
+.finder-list {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 0.3rem);
+  left: 0;
+  right: 0;
+  max-height: 17rem;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0.25rem;
+  list-style: none;
+  background: var(--stone-deep);
+  border: 1px solid var(--corrupt);
+  border-radius: 4px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.55);
+}
+
+.finder-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.35rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+
+.finder-list li img { width: 1.7rem; height: 1.7rem; object-fit: contain; }
+.finder-list li:hover,
+.finder-list li.is-active { background: var(--panel); color: var(--bone); }
+.finder-none { color: var(--muted); cursor: default; }
+
+/* ---------- the matchup box ---------- */
+
+.mu {
+  border: 1px solid var(--panel-edge);
+  background: var(--panel);
+  border-radius: 3px;
+  padding: 1.1rem 1.25rem 1.25rem;
+}
+
+.mu-head { display: flex; align-items: center; gap: 0.85rem; margin-bottom: 1rem; }
+.mu-icon { width: 3.5rem; height: 3.5rem; object-fit: contain; }
+.mu-name { font-family: "Cinzel", Georgia, serif; font-size: 1.25rem; margin: 0; }
+.mu-where { margin: 0.1rem 0 0; font-size: 0.8rem; color: var(--muted); }
+
+.mu .tabs { margin-bottom: 1rem; }
+.mu .tab { font-size: 0.9rem; padding: 0.45rem 0.9rem; }
+
+/* the two big ones, duos against enemies */
+.tabs-big { margin-bottom: 0.9rem; gap: 0.5rem; }
+
+.mu .tab-big {
+  font-size: 1.15rem;
+  padding: 0.7rem 1.6rem;
+  letter-spacing: 0.04em;
+}
+
+.mu .tab-big[aria-selected="true"] {
+  background: rgba(168, 108, 230, 0.2);
+  border-color: var(--corrupt);
+}
+
+/* duo verdicts read differently to enemy ones */
+.mu-verdict.is-strong { color: #7fc9a5; border-color: rgba(127, 201, 165, 0.5); }
+.mu-verdict.is-fine   { color: var(--bone); }
+.mu-verdict.is-weak   { color: #e08d7c; border-color: rgba(224, 141, 124, 0.5); }
+
+.mu-row {
+  display: grid;
+  grid-template-columns: 2.4rem 1.6rem 1fr auto;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.5rem 0;
+  border-top: 1px solid rgba(58, 47, 73, 0.6);
+}
+
+.mu-row:first-child { border-top: 0; }
+.mu-row img { width: 2.4rem; height: 2.4rem; object-fit: contain; }
+
+.mu-tier {
+  font-family: "Cinzel", Georgia, serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-align: center;
+  color: #1b1522;
+  border-radius: 2px;
+}
+
+.tier-letter-s { background: var(--tier-s); }
+.tier-letter-a { background: var(--tier-a); }
+.tier-letter-b { background: var(--tier-b); }
+.tier-letter-c { background: var(--tier-c); }
+
+.mu-them b { display: block; font-size: 0.92rem; font-weight: 600; }
+.mu-them span { display: block; font-size: 0.75rem; color: var(--muted); }
+
+.mu-verdict {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--panel-edge);
+  border-radius: 2px;
+  color: var(--muted);
+}
+
+.mu-verdict.is-favoured   { color: #7fc9a5; border-color: rgba(127, 201, 165, 0.5); }
+.mu-verdict.is-even       { color: var(--bone); }
+.mu-verdict.is-unfavoured { color: #e08d7c; border-color: rgba(224, 141, 124, 0.5); }
+
+/* a note sits under the row it belongs to */
+.mu-note {
+  grid-column: 3 / -1;
+  margin: 0.15rem 0 0;
+  font-size: 0.84rem;
+  color: var(--muted);
+}
+
+.mu-empty { color: var(--muted); font-style: italic; margin: 0; }
+
+/* how much data is behind the recorded numbers */
+.mu-sample {
+  margin: 0 0 0.6rem;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+/* which tierlist a run of duos belongs to */
+.mu-group {
+  margin: 1rem 0 0.2rem;
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 0.95rem;
+  color: var(--corrupt);
+}
+
+.mu-group:first-child { margin-top: 0; }
+.mu-group + .mu-row { border-top: 0; }
+
+@media (max-width: 40rem) {
+  .mu-row { grid-template-columns: 2.2rem 1.5rem 1fr; }
+  .mu-verdict { grid-column: 2 / -1; justify-self: start; }
+  .mu-note { grid-column: 1 / -1; }
+}
+
+/* ---------- the weapon against weapon matrix ---------- */
+
+.matrix-wrap {
+  overflow: auto;            /* the grid is wider than the page */
+  max-height: 80vh;
+  border: 1px solid var(--panel-edge);
+  border-radius: 3px;
+  background: var(--panel);
+}
+
+.matrix {
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.78rem;
+}
+
+.matrix th,
+.matrix td {
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid rgba(58, 47, 73, 0.6);
+  border-bottom: 1px solid rgba(58, 47, 73, 0.6);
+}
+
+/* the row of icons across the top stays put */
+.matrix thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  width: 2.3rem;
+  min-width: 2.3rem;
+  height: 2.6rem;
+  background: var(--stone-deep);
+}
+
+.matrix thead th img { width: 1.8rem; height: 1.8rem; object-fit: contain; }
+
+/* so does the column of names down the side */
+.matrix-name {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  display: table-cell;
+  width: 12.5rem;
+  min-width: 12.5rem;
+  background: var(--stone-deep);
+  text-align: left;
+  font-weight: 600;
+  white-space: nowrap;
+  padding: 0.2rem 0.5rem;
+}
+
+.matrix-name img {
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+}
+
+.matrix-name span { vertical-align: middle; }
+
+.matrix-tier {
+  float: right;
+  width: 1.1rem;
+  margin-top: 0.15rem;
+  border-radius: 2px;
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 0.7rem;
+  color: #1b1522;
+  text-align: center;
+}
+
+.matrix .corner {
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  background: var(--stone-deep);
+}
+
+.matrix td { width: 2.3rem; height: 2.2rem; font-weight: 600; }
+
+.matrix .is-up   { background: rgba(127, 201, 165, 0.18); color: #9fdcbf; }
+.matrix .is-down { background: rgba(224, 141, 124, 0.16); color: #eda797; }
+.matrix .is-even { background: rgba(233, 225, 213, 0.06); color: var(--bone); }
+.matrix .is-text { color: var(--corrupt); }
+.matrix .is-none { color: var(--panel-edge); }
+.matrix .is-self { background: repeating-linear-gradient(45deg,
+                     transparent 0 4px, rgba(58, 47, 73, 0.5) 4px 8px); }
+
+.matrix-tabs { margin-bottom: 0.7rem; }
+.matrix-tabs .tab { font-size: 0.9rem; padding: 0.45rem 1rem; }
+
+.matrix-sample {
+  margin: 0 0 0.7rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.matrix-sample:empty { display: none; }
+
+/* too few fights to mean much yet */
+.matrix .is-thin { opacity: 0.45; }
+
+.matrix-key {
+  margin: 0.7rem 0 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.key-cell {
+  display: inline-block;
+  width: 2rem;
+  margin: 0 0.25rem 0 0.9rem;
+  padding: 0.1rem 0;
+  border-radius: 2px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.key-cell:first-child { margin-left: 0; }
+.key-cell.is-up   { background: rgba(127, 201, 165, 0.18); color: #9fdcbf; }
+.key-cell.is-down { background: rgba(224, 141, 124, 0.16); color: #eda797; }
+.key-cell.is-even { background: rgba(233, 225, 213, 0.06); color: var(--bone); }
+.key-cell.is-text { color: var(--corrupt); }
+.key-cell.is-none { color: var(--panel-edge); }
+
+@media (max-width: 40rem) {
+  .matrix-name { width: 8.5rem; min-width: 8.5rem; }
+  .matrix-name span { display: none; }   /* the icon is enough on a phone */
+}
+
+/* ---------- generic content boxes ---------- */
+
+section { padding-bottom: 2.5rem; }
+
+h2 {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 1.35rem;
+  margin: 2rem 0 0.9rem;
+}
+
+h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.35rem;
+}
+
+.card {
+  border: 1px solid var(--panel-edge);
+  background: var(--panel);
+  border-radius: 3px;
+  padding: 1.1rem 1.25rem;
+  margin-bottom: 0.9rem;
+}
+
+.card p:last-child { margin-bottom: 0; }
+
+.card .date {
+  font-size: 0.8rem;
+  color: var(--corrupt);
+  margin: 0 0 0.4rem;
+}
+
+.card ul { margin: 0.5rem 0 0; padding-left: 1.2rem; }
+.card li { margin-bottom: 0.3rem; }
+
+.prose { max-width: 42rem; }
+.prose p { margin: 0 0 1rem; }
+
+a { color: var(--corrupt); }
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--corrupt);
+  outline-offset: 3px;
+}
+
+/* ---------- footer ---------- */
+
+.site-foot {
+  background: var(--stone-deep);
+  border-top: 1px solid var(--panel-edge);
+  padding: 1.75rem 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.site-foot p { margin: 0 0 0.4rem; }
+
+/* ---------- phones ---------- */
+
+@media (max-width: 40rem) {
+  .site-nav {
+    margin-left: 0;
+    width: 100%;
+    gap: 1rem;
+    order: 1;                 /* nav drops to its own row, under the other two */
+  }
+  .head-patch { font-size: 0.85rem; }
+  .head-updated { font-size: 0.64rem; letter-spacing: 0.05em; }
+  .tier { flex-direction: column; }
+  .tier-letter {
+    flex: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.55rem;
+    padding: 0.35rem 0.8rem;
+    font-size: 1.3rem;
+  }
+  .build { min-width: 0; }
+  .tier-builds li { flex: 1 1 8rem; }
+  .sheet { padding: 0.75rem; }
+  .sheet-box { padding: 1.1rem; }
+  .gear { gap: 0.35rem; }
+  .slot { padding: 0.4rem 0.25rem 0.5rem; }
+  .tabs { gap: 0.35rem; }
+  .tab { flex: 1 1 6rem; padding: 0.55rem 0.5rem; font-size: 0.9rem; text-align: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}

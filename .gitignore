@@ -1,0 +1,9 @@
+# the collector's own log, not worth versioning
+collector.log
+collector.log.tmp
+
+# macOS
+.DS_Store
+
+# unrelated archive that happened to be in this folder
+10k-websites-skill.zip
