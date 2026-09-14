@@ -5,9 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Albion Meta | 2v2 Hellgate Matchups</title>
 <meta name="description" content="How heal dps, stun dps and double dps play against each other in 2v2 Hellgates, and how to win each matchup.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Cinzel:wght@700&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -447,25 +446,25 @@
   /* The collector commits to GitHub every 15 minutes, so the newest counts
      live there, not in the copy sitting next to this page. Pull that one in
      on a timer and redraw, which keeps the "last collected" line honest. */
-  var LIVE = "https://raw.githubusercontent.com/tomvonegmond/albion-meta/main/winrates.js";
+  /* Served from this domain so the edge can cache it and GitHub never sees the
+     traffic. Falls back to the file shipped with the page if that route is not
+     there, which is the case when running the site locally. */
+  var LIVE = "/api/winrates";
 
   /* It has to be fetched and parsed rather than dropped in as a script tag:
      raw.githubusercontent serves .js as text/plain with nosniff, so a browser
      refuses to run it. Cross origin fetch is allowed, so read the text and
      lift the object out of it. */
   function refresh() {
-    fetch(LIVE + "?t=" + Date.now())
-      .then(function (r) { return r.ok ? r.text() : Promise.reject(r.status); })
-      .then(function (text) {
-        var body = text.split("window.ALBION_WINRATES = ")[1];
-        if (!body) return;
-        var live = JSON.parse(body.replace(/;\s*$/, ""));
+    fetch(LIVE, { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+      .then(function (live) {
         if (live && live.kills) {
           window.ALBION_WINRATES = live;
           draw();
         }
       })
-      .catch(function () { /* offline or rate limited, keep what we have */ });
+      .catch(function () { /* not deployed, or offline: keep what shipped */ });
   }
   setInterval(refresh, 3 * 60 * 1000);
   refresh();          /* and once now, so the page opens on current numbers */

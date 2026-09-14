@@ -33,7 +33,11 @@ jobs:
             echo "nothing new to record"
             exit 0
           fi
-          git commit -m "Kill data $(date -u '+%Y-%m-%d %H:%M') UTC"
+          # [CI Skip] keeps Cloudflare Pages from building on a data commit.
+          # Without it this alone is ~2,880 builds a month against a 500 limit,
+          # and the site does not need rebuilding anyway: the numbers are read
+          # live from /api/winrates.
+          git commit -m "Kill data $(date -u '+%Y-%m-%d %H:%M') UTC [CI Skip]"
 
           # Someone pushing while this runs would otherwise have the push
           # rejected and the whole collection thrown away, so rebase onto

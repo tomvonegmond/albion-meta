@@ -5,9 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Albion Meta | Cookies</title>
 <meta name="description" content="This site sets no cookies at all.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Cinzel:wght@700&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -38,23 +37,30 @@
 
     <section>
       <div class="card prose">
-        <h3>This site sets no cookies</h3>
-        <p>Not one. Nothing is stored in your browser, nothing is read back, and
-          there is no consent banner because there is nothing to consent to.</p>
+        <h3>This site sets no cookies of its own</h3>
+        <p>There are no accounts, no preferences to remember and no tracking, so
+          nothing is stored in your browser by the site itself. Nothing you do
+          here follows you anywhere.</p>
       </div>
 
       <div class="card prose">
-        <h3>What that means in practice</h3>
-        <p>No session is kept, nothing you click is remembered between visits, and
-          you cannot be recognised on a return visit. Every visitor is served the
-          same pages.</p>
+        <h3>One cookie you may see anyway</h3>
+        <p>The site is served through Cloudflare, which protects it from bots and
+          attacks. Cloudflare may set a cookie named <b>__cf_bm</b> to tell a real
+          reader from a bot. It lasts about half an hour, carries no identity and
+          is not used to profile or advertise to anyone. It exists so the site
+          stays up, which is why it is there whether or not you agree to anything.</p>
+        <p>If Cloudflare ever has to challenge your connection you may also briefly
+          get <b>cf_clearance</b>, which only records that the challenge was passed.</p>
       </div>
 
       <div class="card prose">
-        <h3>Third parties</h3>
-        <p>The site loads fonts from Google and one data file from GitHub. Neither
-          sets a cookie through this site. Should that ever change, this page
-          changes with it and a consent banner goes up before anything is stored.</p>
+        <h3>Nothing else</h3>
+        <p>No analytics, no advertising, no third party scripts. Fonts and item
+          icons are served from this site rather than from anyone else, so there
+          is nothing else to store and nobody else watching you read.</p>
+        <p>Should that ever change, this page changes first and a consent banner
+          goes up before anything is stored.</p>
       </div>
     </section>
 
