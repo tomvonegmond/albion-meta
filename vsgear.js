@@ -6725,12 +6725,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 1
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6750,12 +6754,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 1
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6775,12 +6783,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 1
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6800,12 +6812,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 1
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6825,12 +6841,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 1
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6850,12 +6870,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 1
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6875,12 +6899,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 1
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6900,12 +6928,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 1
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
@@ -6925,12 +6957,16 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 1
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
+     "weapon": "Armor Piercer on W.",
      "potion": "Resistance potion into double dps."
     },
     "items": {
