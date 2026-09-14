@@ -24,6 +24,13 @@
        Lifecurse and Rotcaller staffs, not the Demonic
      dodge roll into the Prowling Staff, except Greataxe,
        Kingmaker and Broadsword
+     the healer, Holy Staff, has its own answers: Holy Beam on
+       W into the Demonic, Arclight, Hellspawn, Rotcaller,
+       Heavy Crossbow and Lifecurse; Ascended into the Demonic
+       and Heavy Crossbow; Refreshing Sprint on the boots into
+       the Demonic, Glaive, Rotcaller and Lifecurse; Frost
+       Shield on the robe into the Hellspawn, Prowling, Fists
+       of Avalon, Heavy Crossbow, Arclight and Greataxe
    =========================================================== */
 
 window.ALBION_VS_GEAR = {
@@ -40,25 +47,110 @@ window.ALBION_VS_GEAR = {
    "picks": {
     "shoes": {
      "Spell": 1
+    },
+    "weapon": {
+     "W": 2
+    },
+    "chest": {
+     "Spell": 2
     }
    },
-   "note": "Dodge roll on the F slot into the Hellspawn Staff."
+   "note": "Dodge roll on the F slot into the Hellspawn Staff. Holy Beam on W. Frost Shield on the robe."
   },
   "Arclight Blasters": {
    "picks": {
     "shoes": {
      "Spell": 1
+    },
+    "weapon": {
+     "W": 2
+    },
+    "chest": {
+     "Spell": 2
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters."
+   "note": "Dodge roll on the F slot into the Arclight Blasters. Holy Beam on W. Frost Shield on the robe."
   },
   "Prowling Staff": {
    "picks": {
     "shoes": {
      "Spell": 1
+    },
+    "chest": {
+     "Spell": 2
     }
    },
-   "note": "Dodge roll on the F slot into the Prowling Staff."
+   "note": "Dodge roll on the F slot into the Prowling Staff. Frost Shield on the robe."
+  },
+  "Demonic Staff": {
+   "picks": {
+    "weapon": {
+     "W": 2,
+     "Passive": 4
+    },
+    "shoes": {
+     "Spell": 2
+    }
+   },
+   "note": "Holy Beam on W. Ascended as the passive. Refreshing Sprint on the boots."
+  },
+  "Rotcaller Staff": {
+   "picks": {
+    "weapon": {
+     "W": 2
+    },
+    "shoes": {
+     "Spell": 2
+    }
+   },
+   "note": "Holy Beam on W. Refreshing Sprint on the boots."
+  },
+  "Heavy Crossbow": {
+   "picks": {
+    "weapon": {
+     "W": 2,
+     "Passive": 4
+    },
+    "chest": {
+     "Spell": 2
+    }
+   },
+   "note": "Holy Beam on W. Ascended as the passive. Frost Shield on the robe."
+  },
+  "Lifecurse Staff": {
+   "picks": {
+    "weapon": {
+     "W": 2
+    },
+    "shoes": {
+     "Spell": 2
+    }
+   },
+   "note": "Holy Beam on W. Refreshing Sprint on the boots."
+  },
+  "Glaive": {
+   "picks": {
+    "shoes": {
+     "Spell": 2
+    }
+   },
+   "note": "Refreshing Sprint on the boots."
+  },
+  "Fists of Avalon": {
+   "picks": {
+    "chest": {
+     "Spell": 2
+    }
+   },
+   "note": "Frost Shield on the robe."
+  },
+  "Greataxe": {
+   "picks": {
+    "chest": {
+     "Spell": 2
+    }
+   },
+   "note": "Frost Shield on the robe."
   }
  },
  "demonic-staff": {
