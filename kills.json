@@ -2,7 +2,7 @@
  "kills": {
   "Carrioncaller": {
    "Dagger": 1,
-   "Holy Staff": 23,
+   "Holy Staff": 24,
    "Grailseeker": 1,
    "Blight Staff": 1,
    "Bloodletter": 3,
@@ -16,9 +16,9 @@
    "Cursed Staff": 1,
    "Heavy Crossbow": 4,
    "Bear Paws": 1,
-   "Dagger Pair": 4,
+   "Dagger Pair": 6,
    "Claymore": 3,
-   "Carrioncaller": 1,
+   "Carrioncaller": 2,
    "Longbow": 2,
    "Demonic Staff": 3,
    "Hellspawn Staff": 3,
@@ -87,12 +87,14 @@
    "Bedrock Mace": 1,
    "Cursed Staff": 3,
    "Whispering Bow": 1,
-   "Warbow": 1
+   "Warbow": 1,
+   "Divine Staff": 1,
+   "Brawler Gloves": 1
   },
   "Demonic Staff": {
    "Blazing Staff": 1,
    "Claymore": 14,
-   "Dagger": 2,
+   "Dagger": 3,
    "Holy Staff": 38,
    "Carrioncaller": 1,
    "Heavy Crossbow": 8,
@@ -118,16 +120,16 @@
    "Fists of Avalon": 2,
    "Demonic Staff": 2,
    "Pike": 2,
-   "Grailseeker": 1
+   "Grailseeker": 3
   },
   "Claymore": {
    "Dagger": 1,
    "Grailseeker": 5,
    "Bloodletter": 4,
-   "Heavy Crossbow": 25,
-   "Holy Staff": 79,
+   "Heavy Crossbow": 27,
+   "Holy Staff": 81,
    "Divine Staff": 4,
-   "Claymore": 15,
+   "Claymore": 16,
    "Great Holy Staff": 3,
    "Bow of Badon": 6,
    "Dagger Pair": 16,
@@ -145,7 +147,7 @@
    "Wildfire Staff": 2,
    "Forcepulse Bracers": 1,
    "Bedrock Mace": 1,
-   "Brawler Gloves": 7,
+   "Brawler Gloves": 9,
    "Longbow": 5,
    "Warbow": 8,
    "Deathgivers": 3,
@@ -160,7 +162,7 @@
    "Glacial Staff": 2,
    "Soulscythe": 1,
    "Great Fire Staff": 4,
-   "Heron Spear": 1,
+   "Heron Spear": 2,
    "Glaive": 1,
    "Prowling Staff": 2,
    "Realmbreaker": 1,
@@ -262,7 +264,7 @@
   },
   "Heavy Crossbow": {
    "Carrioncaller": 4,
-   "Holy Staff": 58,
+   "Holy Staff": 60,
    "Grailseeker": 1,
    "Dagger": 2,
    "Bear Paws": 6,
@@ -322,7 +324,7 @@
    "Demonic Staff": 1,
    "Blight Staff": 1,
    "Prowling Staff": 1,
-   "Dagger Pair": 3,
+   "Dagger Pair": 5,
    "Greataxe": 1,
    "Great Holy Staff": 1
   },
@@ -338,13 +340,13 @@
    "Bloodletter": 5,
    "Crossbow": 2,
    "Hellfire Hands": 1,
-   "Bow of Badon": 5,
+   "Bow of Badon": 6,
    "Permafrost Prism": 2,
    "Great Fire Staff": 3,
    "Blight Staff": 2,
    "Bear Paws": 4,
    "Mistpiercer": 1,
-   "Wildfire Staff": 2,
+   "Wildfire Staff": 3,
    "Ursine Maulers": 1,
    "Realmbreaker": 1,
    "Tombhammer": 1,
@@ -366,7 +368,8 @@
    "Whispering Bow": 2,
    "Arclight Blasters": 1,
    "Hoarfrost Staff": 1,
-   "Divine Staff": 1
+   "Divine Staff": 1,
+   "Broadsword": 1
   },
   "Dawnsong": {
    "Holy Staff": 1,
@@ -375,7 +378,7 @@
   "Bow of Badon": {
    "Mistpiercer": 4,
    "Crossbow": 2,
-   "Bow of Badon": 18,
+   "Bow of Badon": 19,
    "Greataxe": 4,
    "Hellfire Hands": 5,
    "Whispering Bow": 4,
@@ -393,13 +396,13 @@
    "Demonic Staff": 1,
    "Longbow": 8,
    "Battleaxe": 6,
-   "Dagger Pair": 7,
+   "Dagger Pair": 8,
    "Forcepulse Bracers": 1,
    "Broadsword": 2,
    "Tombhammer": 1,
-   "Blight Staff": 1,
+   "Blight Staff": 2,
    "Heron Spear": 2,
-   "Infernal Scythe": 1,
+   "Infernal Scythe": 2,
    "Grailseeker": 1,
    "Hellspawn Staff": 1,
    "Hallowfall": 1,
@@ -407,14 +410,16 @@
    "Great Holy Staff": 1,
    "Arclight Blasters": 3,
    "Soulscythe": 1,
-   "Energy Shaper": 2,
+   "Energy Shaper": 3,
    "Prowling Staff": 1,
    "Spirithunter": 1,
    "Claymore": 1,
    "Heavy Crossbow": 1,
    "Fists of Avalon": 1,
    "Bloodletter": 1,
-   "Carrioncaller": 1
+   "Carrioncaller": 1,
+   "Redemption Staff": 1,
+   "Realmbreaker": 1
   },
   "Broadsword": {
    "Cursed Staff": 2,
@@ -484,39 +489,39 @@
    "Bloodletter": 1
   },
   "Holy Staff": {
-   "Dagger": 5,
-   "Battleaxe": 24,
+   "Dagger": 6,
+   "Battleaxe": 25,
    "Longbow": 25,
    "Mistpiercer": 11,
-   "Claymore": 69,
-   "Holy Staff": 312,
-   "Heavy Crossbow": 74,
+   "Claymore": 71,
+   "Holy Staff": 319,
+   "Heavy Crossbow": 76,
    "Bow of Badon": 47,
    "Bear Paws": 18,
    "Greataxe": 11,
-   "Dagger Pair": 56,
-   "Cursed Staff": 16,
-   "Carrioncaller": 17,
+   "Dagger Pair": 58,
+   "Cursed Staff": 17,
+   "Carrioncaller": 18,
    "Blazing Staff": 7,
    "Arclight Blasters": 11,
    "Carving Sword": 15,
    "Fists of Avalon": 9,
-   "Demonic Staff": 29,
-   "Hallowfall": 9,
+   "Demonic Staff": 30,
+   "Hallowfall": 10,
    "Deathgivers": 17,
    "Warbow": 20,
    "Staff of Balance": 13,
    "Whispering Bow": 8,
    "Hellspawn Staff": 29,
    "Hellfire Hands": 16,
-   "Energy Shaper": 4,
-   "Brawler Gloves": 28,
+   "Energy Shaper": 5,
+   "Brawler Gloves": 30,
    "Rotcaller Staff": 1,
    "Bloodletter": 9,
    "Crossbow": 11,
    "Wildfire Staff": 6,
    "Divine Staff": 5,
-   "Tombhammer": 8,
+   "Tombhammer": 9,
    "Great Fire Staff": 6,
    "Blight Staff": 7,
    "Permafrost Prism": 1,
@@ -527,16 +532,16 @@
    "Broadsword": 5,
    "Glacial Staff": 4,
    "Daybreaker": 1,
-   "Great Holy Staff": 10,
+   "Great Holy Staff": 11,
    "Ursine Maulers": 2,
    "Forcepulse Bracers": 1,
    "Realmbreaker": 3,
    "Kingmaker": 7,
    "Twin Slayers": 7,
    "Crystal Reaper": 4,
-   "Redemption Staff": 4,
-   "Heron Spear": 3,
-   "Grailseeker": 11,
+   "Redemption Staff": 5,
+   "Heron Spear": 4,
+   "Grailseeker": 13,
    "Dawnsong": 1,
    "Infernal Scythe": 2,
    "Prowling Staff": 7,
@@ -599,7 +604,8 @@
    "Crossbow": 2,
    "Hallowfall": 1,
    "Deathgivers": 1,
-   "Whispering Bow": 1
+   "Whispering Bow": 1,
+   "Black Monk Stave": 1
   },
   "Cursed Staff": {
    "Battleaxe": 6,
@@ -628,11 +634,12 @@
    "Carrioncaller": 1,
    "Blazing Staff": 1,
    "Grailseeker": 1,
-   "Broadsword": 1
+   "Broadsword": 1,
+   "Hallowfall": 1
   },
   "Brawler Gloves": {
    "Battleaxe": 3,
-   "Holy Staff": 27,
+   "Holy Staff": 28,
    "Bloodletter": 4,
    "Crossbow": 2,
    "Claymore": 6,
@@ -654,18 +661,20 @@
    "Fists of Avalon": 2,
    "Great Holy Staff": 2,
    "Staff of Balance": 1,
-   "Infernal Scythe": 1
+   "Infernal Scythe": 1,
+   "Divine Staff": 1,
+   "Carrioncaller": 1
   },
   "Carving Sword": {
    "Heron Spear": 1,
    "Bow of Badon": 4,
-   "Holy Staff": 17,
+   "Holy Staff": 18,
    "Arclight Blasters": 2,
    "Carving Sword": 1,
    "Fists of Avalon": 1,
    "Whispering Bow": 1,
    "Blight Staff": 2,
-   "Claymore": 2,
+   "Claymore": 3,
    "Tombhammer": 1,
    "Battleaxe": 5,
    "Ursine Maulers": 1,
@@ -687,11 +696,12 @@
    "Greataxe": 1,
    "Grailseeker": 1,
    "Demonic Staff": 2,
-   "Cursed Staff": 1
+   "Cursed Staff": 1,
+   "Dagger Pair": 2
   },
   "Fists of Avalon": {
    "Heron Spear": 1,
-   "Holy Staff": 12,
+   "Holy Staff": 13,
    "Bow of Badon": 2,
    "Whispering Bow": 1,
    "Warbow": 1,
@@ -712,7 +722,9 @@
    "Prowling Staff": 1,
    "Carving Sword": 2,
    "Bloodletter": 1,
-   "Grailseeker": 1
+   "Grailseeker": 1,
+   "Broadsword": 1,
+   "Wildfire Staff": 1
   },
   "Energy Shaper": {
    "Bear Paws": 2,
@@ -730,13 +742,13 @@
    "Bear Paws": 4,
    "Bloodletter": 1,
    "Bow of Badon": 3,
-   "Holy Staff": 9,
+   "Holy Staff": 10,
    "Bedrock Mace": 1,
    "Hellfire Hands": 1,
    "Great Holy Staff": 1,
    "Fists of Avalon": 1,
    "Warbow": 3,
-   "Black Monk Stave": 1,
+   "Black Monk Stave": 2,
    "Deathgivers": 1,
    "Prowling Staff": 1,
    "Grailseeker": 1,
@@ -750,7 +762,10 @@
    "Blazing Staff": 1,
    "Whispering Bow": 1,
    "Longbow": 1,
-   "Demonic Staff": 1
+   "Demonic Staff": 1,
+   "Carrioncaller": 1,
+   "Infernal Scythe": 1,
+   "Realmbreaker": 1
   },
   "Hallowfall": {
    "Lifecurse Staff": 2,
@@ -804,7 +819,8 @@
    "Glacial Staff": 1,
    "Bow of Badon": 1,
    "Holy Staff": 4,
-   "Crossbow": 1
+   "Crossbow": 1,
+   "Cursed Staff": 1
   },
   "Crossbow": {
    "Dagger Pair": 2,
@@ -872,7 +888,8 @@
    "Grailseeker": 1,
    "Great Fire Staff": 1,
    "Bear Paws": 1,
-   "Bow of Badon": 1
+   "Bow of Badon": 1,
+   "Brawler Gloves": 1
   },
   "Pike": {
    "Bloodletter": 1,
@@ -912,7 +929,8 @@
    "Infernal Scythe": 1,
    "Crystal Reaper": 1,
    "Deathgivers": 1,
-   "Demonic Staff": 1
+   "Demonic Staff": 1,
+   "Blight Staff": 1
   },
   "Kingmaker": {
    "Warbow": 1,
@@ -921,13 +939,13 @@
    "Claymore": 2,
    "Deathgivers": 1,
    "Blazing Staff": 1,
-   "Battleaxe": 1,
+   "Battleaxe": 2,
    "Bear Paws": 1,
    "Great Fire Staff": 1,
    "Heavy Crossbow": 1,
    "Grailseeker": 1,
    "Dagger": 1,
-   "Tombhammer": 1
+   "Tombhammer": 2
   },
   "Bloodletter": {
    "Infernal Scythe": 1,
@@ -1019,10 +1037,10 @@
    "Crossbow": 1
   },
   "Hellspawn Staff": {
-   "Holy Staff": 28,
+   "Holy Staff": 29,
    "Cursed Staff": 6,
    "Claymore": 8,
-   "Dagger Pair": 5,
+   "Dagger Pair": 6,
    "Divine Staff": 1,
    "Heavy Crossbow": 4,
    "Carving Sword": 1,
@@ -1060,7 +1078,7 @@
    "Whispering Bow": 1,
    "Bear Paws": 1,
    "Claymore": 1,
-   "Holy Staff": 2,
+   "Holy Staff": 3,
    "Battleaxe": 2,
    "Heavy Crossbow": 2,
    "Carrioncaller": 1,
@@ -1087,7 +1105,7 @@
    "Mistpiercer": 1,
    "Brawler Gloves": 1,
    "Crystal Reaper": 1,
-   "Bow of Badon": 1,
+   "Bow of Badon": 2,
    "Greataxe": 3,
    "Cursed Staff": 2,
    "Battleaxe": 1,
@@ -1123,7 +1141,9 @@
    "Carving Sword": 1,
    "Hellfire Hands": 1,
    "Infernal Scythe": 1,
-   "Grailseeker": 1
+   "Grailseeker": 1,
+   "Demonic Staff": 1,
+   "Great Holy Staff": 1
   },
   "Ironroot Staff": {
    "Dagger Pair": 3,
@@ -1169,7 +1189,7 @@
   },
   "Staff of Balance": {
    "Fists of Avalon": 1,
-   "Holy Staff": 13,
+   "Holy Staff": 14,
    "Claymore": 4,
    "Bloodletter": 3,
    "Staff of Balance": 1,
@@ -1185,7 +1205,8 @@
    "Soulscythe": 1,
    "Carving Sword": 1,
    "Greataxe": 1,
-   "Tombhammer": 1
+   "Tombhammer": 1,
+   "Bow of Badon": 1
   },
   "Glacial Staff": {
    "Bloodletter": 2,
@@ -1194,7 +1215,7 @@
    "Whispering Bow": 1,
    "Bear Paws": 1,
    "Soulscythe": 1,
-   "Holy Staff": 2,
+   "Holy Staff": 3,
    "Claymore": 1
   },
   "Twin Slayers": {
@@ -17354,7 +17375,320 @@
    1449901209,
    1449901207,
    1449901204,
-   1449901199
+   1449901199,
+   1449914535,
+   1449914533,
+   1449914531,
+   1449914530,
+   1449914521,
+   1449914495,
+   1449914491,
+   1449914489,
+   1449914485,
+   1449914483,
+   1449914467,
+   1449914463,
+   1449914457,
+   1449914446,
+   1449914440,
+   1449914439,
+   1449914425,
+   1449914423,
+   1449914402,
+   1449914380,
+   1449914372,
+   1449914354,
+   1449914350,
+   1449914347,
+   1449914342,
+   1449914328,
+   1449914326,
+   1449914322,
+   1449914316,
+   1449914314,
+   1449914311,
+   1449914299,
+   1449914293,
+   1449914284,
+   1449914282,
+   1449914280,
+   1449914273,
+   1449914270,
+   1449914268,
+   1449914264,
+   1449914258,
+   1449914256,
+   1449914248,
+   1449914246,
+   1449914243,
+   1449914237,
+   1449914235,
+   1449914233,
+   1449914229,
+   1449914227,
+   1449914224,
+   1449914219,
+   1449914217,
+   1449914215,
+   1449914212,
+   1449914197,
+   1449914190,
+   1449914186,
+   1449914184,
+   1449914181,
+   1449914172,
+   1449914170,
+   1449914165,
+   1449914159,
+   1449914152,
+   1449914149,
+   1449914147,
+   1449914136,
+   1449914134,
+   1449914132,
+   1449914125,
+   1449914117,
+   1449914115,
+   1449914112,
+   1449914103,
+   1449914099,
+   1449914096,
+   1449914092,
+   1449914086,
+   1449914062,
+   1449914054,
+   1449914052,
+   1449914050,
+   1449914024,
+   1449914018,
+   1449914010,
+   1449914008,
+   1449913985,
+   1449913971,
+   1449913966,
+   1449913964,
+   1449913962,
+   1449913956,
+   1449913954,
+   1449913950,
+   1449913948,
+   1449913946,
+   1449913930,
+   1449913928,
+   1449913925,
+   1449913920,
+   1449913916,
+   1449913900,
+   1449913893,
+   1449914221,
+   1449913884,
+   1449913878,
+   1449913874,
+   1449913872,
+   1449913870,
+   1449913868,
+   1449913854,
+   1449913851,
+   1449913846,
+   1449913827,
+   1449913825,
+   1449913817,
+   1449913815,
+   1449913808,
+   1449913806,
+   1449913804,
+   1449913802,
+   1449913800,
+   1449913797,
+   1449913795,
+   1449913792,
+   1449913790,
+   1449913787,
+   1449913764,
+   1449913761,
+   1449913758,
+   1449913756,
+   1449913753,
+   1449913751,
+   1449913746,
+   1449913743,
+   1449913740,
+   1449913738,
+   1449913737,
+   1449913734,
+   1449913726,
+   1449913717,
+   1449913713,
+   1449913711,
+   1449913704,
+   1449913702,
+   1449913700,
+   1449913697,
+   1449913695,
+   1449913690,
+   1449913679,
+   1449913677,
+   1449913665,
+   1449913663,
+   1449913661,
+   1449913649,
+   1449913647,
+   1449913645,
+   1449913643,
+   1449913641,
+   1449913639,
+   1449913635,
+   1449913625,
+   1449913623,
+   1449913617,
+   1449913612,
+   1449913609,
+   1449913596,
+   1449913594,
+   1449913592,
+   1449913580,
+   1449913568,
+   1449913561,
+   1449913558,
+   1449913547,
+   1449913543,
+   1449913541,
+   1449913538,
+   1449913535,
+   1449913532,
+   1449913523,
+   1449913488,
+   1449913486,
+   1449913475,
+   1449913473,
+   1449913470,
+   1449913468,
+   1449913465,
+   1449913463,
+   1449913461,
+   1449913459,
+   1449913456,
+   1449913454,
+   1449913452,
+   1449913450,
+   1449913444,
+   1449913429,
+   1449913424,
+   1449913414,
+   1449913411,
+   1449913410,
+   1449913407,
+   1449913402,
+   1449913390,
+   1449913384,
+   1449913380,
+   1449913376,
+   1449913368,
+   1449913362,
+   1449913359,
+   1449913317,
+   1449913315,
+   1449913313,
+   1449913311,
+   1449913305,
+   1449913302,
+   1449913298,
+   1449913296,
+   1449913289,
+   1449913287,
+   1449913270,
+   1449913267,
+   1449913265,
+   1449913263,
+   1449913259,
+   1449913255,
+   1449913252,
+   1449913248,
+   1449913243,
+   1449913238,
+   1449913235,
+   1449913233,
+   1449913230,
+   1449913229,
+   1449913223,
+   1449913215,
+   1449913212,
+   1449913210,
+   1449913204,
+   1449913200,
+   1449913196,
+   1449913193,
+   1449913191,
+   1449913189,
+   1449913187,
+   1449913185,
+   1449913182,
+   1449913176,
+   1449913173,
+   1449913171,
+   1449913164,
+   1449913162,
+   1449913158,
+   1449913156,
+   1449913153,
+   1449913151,
+   1449913146,
+   1449913142,
+   1449913138,
+   1449913133,
+   1449913130,
+   1449913118,
+   1449913115,
+   1449913098,
+   1449913095,
+   1449913092,
+   1449913090,
+   1449913086,
+   1449913082,
+   1449913073,
+   1449913070,
+   1449913060,
+   1449913057,
+   1449913052,
+   1449913047,
+   1449913036,
+   1449913034,
+   1449913026,
+   1449913022,
+   1449913009,
+   1449913006,
+   1449912995,
+   1449912981,
+   1449912979,
+   1449912977,
+   1449912972,
+   1449912970,
+   1449912963,
+   1449912961,
+   1449912955,
+   1449912953,
+   1449912951,
+   1449912945,
+   1449912943,
+   1449912939,
+   1449912937,
+   1449912935,
+   1449912930,
+   1449912924,
+   1449912912,
+   1449912910,
+   1449912898,
+   1449912889,
+   1449912885,
+   1449912882,
+   1449912871,
+   1449912869,
+   1449912865,
+   1449912842,
+   1449912836,
+   1449912834,
+   1449912825,
+   1449912815
   ],
   "europe": [
    434135230,
@@ -27932,7 +28266,205 @@
    434257675,
    434257671,
    434257665,
-   434257661
+   434257661,
+   434266698,
+   434266683,
+   434266675,
+   434266673,
+   434266660,
+   434266658,
+   434266648,
+   434266644,
+   434266615,
+   434266597,
+   434266595,
+   434266584,
+   434266548,
+   434266542,
+   434266539,
+   434266536,
+   434266534,
+   434266531,
+   434266527,
+   434266520,
+   434266518,
+   434266512,
+   434266505,
+   434266503,
+   434266500,
+   434266498,
+   434266482,
+   434266475,
+   434266468,
+   434266465,
+   434266451,
+   434266448,
+   434266441,
+   434266429,
+   434266423,
+   434266418,
+   434266417,
+   434266414,
+   434266409,
+   434266407,
+   434266399,
+   434266382,
+   434266375,
+   434266371,
+   434266362,
+   434266355,
+   434266353,
+   434266350,
+   434266323,
+   434266321,
+   434266316,
+   434231526,
+   434231511,
+   434231508,
+   434231506,
+   434231504,
+   434231501,
+   434231499,
+   434231490,
+   434231482,
+   434231479,
+   434231477,
+   434231474,
+   434231460,
+   434231453,
+   434263562,
+   434263559,
+   434263550,
+   434263548,
+   434263546,
+   434263543,
+   434263541,
+   434263539,
+   434263510,
+   434263507,
+   434263506,
+   434263501,
+   434263494,
+   434263489,
+   434263487,
+   434263480,
+   434263474,
+   434263465,
+   434263459,
+   434263457,
+   434263448,
+   434263441,
+   434263423,
+   434263416,
+   434263397,
+   434263395,
+   434263390,
+   434263384,
+   434263382,
+   434263376,
+   434263372,
+   434263370,
+   434263366,
+   434263357,
+   434263339,
+   434263337,
+   434263334,
+   434263317,
+   434263312,
+   434263310,
+   434263293,
+   434263291,
+   434263287,
+   434263274,
+   434263272,
+   434263263,
+   434263257,
+   434263241,
+   434263238,
+   434263228,
+   434263224,
+   434263222,
+   434263217,
+   434263215,
+   434263209,
+   434263208,
+   434263205,
+   434263199,
+   434263196,
+   434263184,
+   434263180,
+   434263175,
+   434263170,
+   434263167,
+   434263153,
+   434263152,
+   434263144,
+   434263143,
+   434263139,
+   434263135,
+   434263133,
+   434263130,
+   434263121,
+   434263117,
+   434263114,
+   434263108,
+   434263097,
+   434263092,
+   434263084,
+   434263080,
+   434263078,
+   434263068,
+   434263066,
+   434263057,
+   434263054,
+   434263052,
+   434263050,
+   434263043,
+   434263040,
+   434263033,
+   434263032,
+   434263027,
+   434263025,
+   434263024,
+   434263020,
+   434263008,
+   434263005,
+   434263002,
+   434262981,
+   434262953,
+   434262949,
+   434262929,
+   434262924,
+   434262922,
+   434262920,
+   434262918,
+   434262915,
+   434262913,
+   434262911,
+   434262909,
+   434262902,
+   434262900,
+   434262898,
+   434262894,
+   434262891,
+   434262890,
+   434262880,
+   434262879,
+   434262874,
+   434262872,
+   434262865,
+   434262861,
+   434262842,
+   434262840,
+   434262831,
+   434262828,
+   434262825,
+   434262819,
+   434262797,
+   434262788,
+   434262786,
+   434262783,
+   434262773
   ],
   "asia": [
    510907442,
@@ -32304,20 +32836,71 @@
    510930563,
    510930558,
    510930541,
-   510930525
+   510930525,
+   510932403,
+   510932396,
+   510932388,
+   510932376,
+   510932369,
+   510932358,
+   510932352,
+   510932338,
+   510932329,
+   510932321,
+   510932312,
+   510932306,
+   510932293,
+   510932260,
+   510932251,
+   510932222,
+   510932214,
+   510932191,
+   510932183,
+   510932163,
+   510932150,
+   510932149,
+   510932123,
+   510932117,
+   510932115,
+   510932102,
+   510932100,
+   510932085,
+   510932076,
+   510932072,
+   510932065,
+   510932022,
+   510932013,
+   510932010,
+   510932008,
+   510932006,
+   510931994,
+   510931964,
+   510931960,
+   510931957,
+   510931952,
+   510931941,
+   510931934,
+   510931932,
+   510931924,
+   510931917,
+   510931894,
+   510931886,
+   510931881,
+   510931852,
+   510931849
   ]
  },
- "eventsSeen": 30820,
- "qualifying": 1839,
- "runs": 27,
- "updated": "2026-09-14T22:28:21+00:00",
+ "eventsSeen": 31382,
+ "qualifying": 1884,
+ "runs": 28,
+ "updated": "2026-09-14T22:42:43+00:00",
  "duos": {
   "Energy Shaper + Tombhammer": {
    "Bear Paws + Bear Paws": 1
   },
   "Claymore + Holy Staff": {
-   "Claymore + Holy Staff": 9,
-   "Heavy Crossbow + Holy Staff": 11,
+   "Claymore + Holy Staff": 10,
+   "Heavy Crossbow + Holy Staff": 12,
    "Dagger Pair + Holy Staff": 3,
    "Demonic Staff + Holy Staff": 8,
    "Hellfire Hands + Tombhammer": 2,
@@ -32354,7 +32937,9 @@
    "Greataxe + Hellfire Hands": 1,
    "Arclight Blasters + Holy Staff": 1,
    "Dagger Pair + Great Holy Staff": 1,
-   "Dagger Pair + Divine Staff": 1
+   "Dagger Pair + Divine Staff": 1,
+   "Brawler Gloves + Heavy Crossbow": 1,
+   "Brawler Gloves + Heron Spear": 1
   },
   "Greataxe + Hallowfall": {
    "Hallowfall + Lifecurse Staff": 1
@@ -32559,7 +33144,7 @@
    "Demonic Staff + Holy Staff": 2,
    "Fists of Avalon + Staff of Balance": 1,
    "Pike + Pike": 1,
-   "Dagger + Grailseeker": 1
+   "Dagger + Grailseeker": 2
   },
   "Brawler Gloves + Dagger Pair": {
    "Bloodletter + Crossbow": 1,
@@ -32587,13 +33172,14 @@
   "Carrioncaller + Holy Staff": {
    "Bloodletter + Crossbow": 2,
    "Bear Paws + Holy Staff": 1,
-   "Carrioncaller + Holy Staff": 1,
+   "Carrioncaller + Holy Staff": 2,
    "Demonic Staff + Holy Staff": 3,
    "Hellspawn Staff + Holy Staff": 3,
    "Claymore + Great Holy Staff": 1,
    "Dagger Pair + Holy Staff": 1,
    "Heavy Crossbow + Holy Staff": 1,
-   "Carving Sword + Holy Staff": 1
+   "Carving Sword + Holy Staff": 1,
+   "Dagger Pair + Dagger Pair": 1
   },
   "Realmbreaker + Tombhammer": {
    "Bow of Badon + Bow of Badon": 1
@@ -32663,7 +33249,8 @@
    "Brawler Gloves + Dagger Pair": 1,
    "Hellspawn Staff + Holy Staff": 2,
    "Claymore + Holy Staff": 2,
-   "Carving Sword + Holy Staff": 1
+   "Carving Sword + Holy Staff": 1,
+   "Demonic Staff + Great Holy Staff": 1
   },
   "Broadsword + Ironroot Staff": {
    "Blight Staff + Greataxe": 1
@@ -32855,7 +33442,8 @@
    "Bear Paws + Blazing Staff": 1
   },
   "Bow of Badon + Tombhammer": {
-   "Warbow + Warbow": 1
+   "Warbow + Warbow": 1,
+   "Infernal Scythe + Realmbreaker": 1
   },
   "Fists of Avalon + Staff of Balance": {
    "Claymore + Holy Staff": 1
@@ -32864,253 +33452,20 @@
    "Hellspawn Staff + Holy Staff": 1
   },
   "Brawler Gloves + Tombhammer": {
-   "Demonic Staff + Holy Staff": 1
+   "Demonic Staff + Holy Staff": 1,
+   "Carrioncaller + Holy Staff": 1
   },
   "Brawler Gloves + Heron Spear": {
    "Demonic Staff + Holy Staff": 1
+  },
+  "Battleaxe + Fists of Avalon": {
+   "Broadsword + Wildfire Staff": 1
+  },
+  "Carving Sword + Warbow": {
+   "Dagger Pair + Dagger Pair": 1
   }
  },
  "pending": {
-  "americas:1449828416": {
-   "won": [
-    "Claymore",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Brawler Gloves"
-   ],
-   "at": "2026-09-14T19:34:11.975480700Z"
-  },
-  "americas:1449828261": {
-   "won": [
-    "Claymore",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Hallowfall"
-   ],
-   "at": "2026-09-14T19:33:45.198515200Z"
-  },
-  "americas:1449827608": {
-   "won": [
-    "Brawler Gloves",
-    "Dagger Pair"
-   ],
-   "lost": [
-    "Blight Staff"
-   ],
-   "at": "2026-09-14T19:32:15.750715700Z"
-  },
-  "americas:1449827596": {
-   "won": [
-    "Deathgivers",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Greataxe"
-   ],
-   "at": "2026-09-14T19:32:14.035851100Z"
-  },
-  "americas:1449827388": {
-   "won": [
-    "Bow of Badon",
-    "Longbow"
-   ],
-   "lost": [
-    "Dagger Pair"
-   ],
-   "at": "2026-09-14T19:31:43.678170500Z"
-  },
-  "americas:1449826982": {
-   "won": [
-    "Fists of Avalon",
-    "Ironroot Staff"
-   ],
-   "lost": [
-    "Dagger Pair"
-   ],
-   "at": "2026-09-14T19:30:58.613704900Z"
-  },
-  "americas:1449826844": {
-   "won": [
-    "Fists of Avalon",
-    "Ironroot Staff"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-14T19:30:44.098855Z"
-  },
-  "americas:1449826529": {
-   "won": [
-    "Glacial Staff",
-    "Staff of Balance"
-   ],
-   "lost": [
-    "Crossbow"
-   ],
-   "at": "2026-09-14T19:30:02.064378500Z"
-  },
-  "americas:1449826311": {
-   "won": [
-    "Prowling Staff",
-    "Wildfire Staff"
-   ],
-   "lost": [
-    "Warbow"
-   ],
-   "at": "2026-09-14T19:29:32.288259Z"
-  },
-  "americas:1449826257": {
-   "won": [
-    "Battleaxe",
-    "Warbow"
-   ],
-   "lost": [
-    "Deathgivers"
-   ],
-   "at": "2026-09-14T19:29:20.525729900Z"
-  },
-  "americas:1449826023": {
-   "won": [
-    "Bow of Badon",
-    "Crystal Reaper"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-14T19:29:11.843891400Z"
-  },
-  "americas:1449826150": {
-   "won": [
-    "Longbow",
-    "Pike"
-   ],
-   "lost": [
-    "Whispering Bow"
-   ],
-   "at": "2026-09-14T19:29:09.804301100Z"
-  },
-  "europe:434166590": {
-   "won": [
-    "Hellspawn Staff",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-14T19:34:08.727693700Z"
-  },
-  "europe:434167118": {
-   "won": [
-    "Soulscythe",
-    "Twin Slayers"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-14T19:33:59.665863900Z"
-  },
-  "europe:434167038": {
-   "won": [
-    "Heavy Crossbow",
-    "Staff of Balance"
-   ],
-   "lost": [
-    "Glacial Staff"
-   ],
-   "at": "2026-09-14T19:33:51.910065200Z"
-  },
-  "europe:434165125": {
-   "won": [
-    "Soulscythe",
-    "Twin Slayers"
-   ],
-   "lost": [
-    "Heavy Crossbow"
-   ],
-   "at": "2026-09-14T19:31:11.938273100Z"
-  },
-  "europe:434165582": {
-   "won": [
-    "Bloodletter",
-    "Brawler Gloves"
-   ],
-   "lost": [
-    "Bloodletter"
-   ],
-   "at": "2026-09-14T19:31:08.523014300Z"
-  },
-  "europe:434165251": {
-   "won": [
-    "Arclight Blasters",
-    "Carrioncaller"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-14T19:30:56.296416700Z"
-  },
-  "europe:434164839": {
-   "won": [
-    "Bear Paws",
-    "Bear Paws"
-   ],
-   "lost": [
-    "Bloodletter"
-   ],
-   "at": "2026-09-14T19:30:04.201667800Z"
-  },
-  "europe:434164384": {
-   "won": [
-    "Claymore",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Brawler Gloves"
-   ],
-   "at": "2026-09-14T19:29:37.515433800Z"
-  },
-  "europe:434164196": {
-   "won": [
-    "Heavy Crossbow",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Battleaxe"
-   ],
-   "at": "2026-09-14T19:29:03.099511Z"
-  },
-  "europe:434163903": {
-   "won": [
-    "Bear Paws",
-    "Dagger Pair"
-   ],
-   "lost": [
-    "Longbow"
-   ],
-   "at": "2026-09-14T19:28:34.039362100Z"
-  },
-  "europe:434163822": {
-   "won": [
-    "Arclight Blasters",
-    "Hellfire Hands"
-   ],
-   "lost": [
-    "Mistpiercer"
-   ],
-   "at": "2026-09-14T19:28:23.131770700Z"
-  },
-  "asia:510913705": {
-   "won": [
-    "Bow of Badon",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Bow of Badon"
-   ],
-   "at": "2026-09-14T19:29:26.249256500Z"
-  },
   "americas:1449833304": {
    "won": [
     "Claymore",
@@ -33181,116 +33536,6 @@
    ],
    "at": "2026-09-14T19:42:52.428678300Z"
   },
-  "americas:1449831933": {
-   "won": [
-    "Greataxe",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Fists of Avalon"
-   ],
-   "at": "2026-09-14T19:42:22.459103400Z"
-  },
-  "americas:1449831362": {
-   "won": [
-    "Claymore",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Battleaxe"
-   ],
-   "at": "2026-09-14T19:41:18.106777Z"
-  },
-  "americas:1449831139": {
-   "won": [
-    "Claymore",
-    "Redemption Staff"
-   ],
-   "lost": [
-    "Heavy Crossbow"
-   ],
-   "at": "2026-09-14T19:40:43.248350400Z"
-  },
-  "americas:1449831053": {
-   "won": [
-    "Bow of Badon",
-    "Demonic Staff"
-   ],
-   "lost": [
-    "Longbow"
-   ],
-   "at": "2026-09-14T19:40:31.342888Z"
-  },
-  "americas:1449830917": {
-   "won": [
-    "Bow of Badon",
-    "Tombhammer"
-   ],
-   "lost": [
-    "Hallowfall"
-   ],
-   "at": "2026-09-14T19:40:09.907215200Z"
-  },
-  "americas:1449830867": {
-   "won": [
-    "Bow of Badon",
-    "Longbow"
-   ],
-   "lost": [
-    "Longbow"
-   ],
-   "at": "2026-09-14T19:40:00.816109600Z"
-  },
-  "americas:1449830431": {
-   "won": [
-    "Claymore",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Blight Staff"
-   ],
-   "at": "2026-09-14T19:39:10.875811Z"
-  },
-  "americas:1449830347": {
-   "won": [
-    "Dagger Pair",
-    "Soulscythe"
-   ],
-   "lost": [
-    "Carrioncaller"
-   ],
-   "at": "2026-09-14T19:38:57.806164400Z"
-  },
-  "americas:1449830020": {
-   "won": [
-    "Hellfire Hands",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Dagger Pair"
-   ],
-   "at": "2026-09-14T19:38:34.974204900Z"
-  },
-  "americas:1449828996": {
-   "won": [
-    "Bear Paws",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Whispering Bow"
-   ],
-   "at": "2026-09-14T19:37:40.342854700Z"
-  },
-  "americas:1449829541": {
-   "won": [
-    "Carving Sword",
-    "Hallowfall"
-   ],
-   "lost": [
-    "Warbow"
-   ],
-   "at": "2026-09-14T19:37:06.530321900Z"
-  },
   "europe:434174511": {
    "won": [
     "Glaive",
@@ -33320,126 +33565,6 @@
     "Deathgivers"
    ],
    "at": "2026-09-14T19:42:56.152689Z"
-  },
-  "europe:434172252": {
-   "won": [
-    "Crossbow",
-    "Crossbow"
-   ],
-   "lost": [
-    "Bow of Badon"
-   ],
-   "at": "2026-09-14T19:42:22.840915Z"
-  },
-  "europe:434172248": {
-   "won": [
-    "Brawler Gloves",
-    "Brawler Gloves"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-14T19:42:22.378205800Z"
-  },
-  "europe:434171924": {
-   "won": [
-    "Soulscythe",
-    "Twin Slayers"
-   ],
-   "lost": [
-    "Redemption Staff"
-   ],
-   "at": "2026-09-14T19:41:48.010416900Z"
-  },
-  "europe:434171596": {
-   "won": [
-    "Bow of Badon",
-    "Soulscythe"
-   ],
-   "lost": [
-    "Battleaxe"
-   ],
-   "at": "2026-09-14T19:41:28.573032500Z"
-  },
-  "europe:434171550": {
-   "won": [
-    "Holy Staff",
-    "Infernal Scythe"
-   ],
-   "lost": [
-    "Crossbow"
-   ],
-   "at": "2026-09-14T19:41:13.536545600Z"
-  },
-  "europe:434171423": {
-   "won": [
-    "Dagger",
-    "Grailseeker"
-   ],
-   "lost": [
-    "Battleaxe"
-   ],
-   "at": "2026-09-14T19:41:04.365365900Z"
-  },
-  "europe:434169812": {
-   "won": [
-    "Dagger",
-    "Grailseeker"
-   ],
-   "lost": [
-    "Arclight Blasters"
-   ],
-   "at": "2026-09-14T19:40:17.310160300Z"
-  },
-  "europe:434170844": {
-   "won": [
-    "Heavy Crossbow",
-    "Prowling Staff"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-14T19:40:06.460008Z"
-  },
-  "europe:434170761": {
-   "won": [
-    "Blazing Staff",
-    "Staff of Balance"
-   ],
-   "lost": [
-    "Heavy Crossbow"
-   ],
-   "at": "2026-09-14T19:39:57.977603300Z"
-  },
-  "europe:434170711": {
-   "won": [
-    "Heavy Crossbow",
-    "Prowling Staff"
-   ],
-   "lost": [
-    "Carrioncaller"
-   ],
-   "at": "2026-09-14T19:39:54.055305500Z"
-  },
-  "europe:434170626": {
-   "won": [
-    "Brawler Gloves",
-    "Brawler Gloves"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-14T19:39:47.765963Z"
-  },
-  "europe:434170414": {
-   "won": [
-    "Broadsword",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Deathgivers"
-   ],
-   "at": "2026-09-14T19:39:32.044131200Z"
   },
   "americas:1449840837": {
    "won": [
@@ -34070,66 +34195,6 @@
     "Bedrock Mace"
    ],
    "at": "2026-09-14T19:50:40.954153Z"
-  },
-  "asia:510914893": {
-   "won": [
-    "Bow of Badon",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Hellfire Hands"
-   ],
-   "at": "2026-09-14T19:39:19.716934700Z"
-  },
-  "asia:510914835": {
-   "won": [
-    "Bow of Badon",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Greataxe"
-   ],
-   "at": "2026-09-14T19:38:07.505445700Z"
-  },
-  "asia:510914817": {
-   "won": [
-    "Bow of Badon",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Great Holy Staff"
-   ],
-   "at": "2026-09-14T19:38:00.559230800Z"
-  },
-  "asia:510914654": {
-   "won": [
-    "Arclight Blasters",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Blazing Staff"
-   ],
-   "at": "2026-09-14T19:36:40.220723800Z"
-  },
-  "asia:510914430": {
-   "won": [
-    "Bear Paws",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Bear Paws"
-   ],
-   "at": "2026-09-14T19:35:37.652907400Z"
-  },
-  "asia:510913804": {
-   "won": [
-    "Brawler Gloves",
-    "Soulscythe"
-   ],
-   "lost": [
-    "Longbow"
-   ],
-   "at": "2026-09-14T19:30:05.040468800Z"
   },
   "americas:1449855137": {
    "won": [
@@ -37640,24 +37705,234 @@
     "Holy Staff"
    ],
    "at": "2026-09-14T22:13:51.362321300Z"
+  },
+  "americas:1449914521": {
+   "won": [
+    "Blazing Staff",
+    "Staff of Balance"
+   ],
+   "lost": [
+    "Bow of Badon"
+   ],
+   "at": "2026-09-14T22:35:27.434053500Z"
+  },
+  "americas:1449914115": {
+   "won": [
+    "Brawler Gloves",
+    "Dagger Pair"
+   ],
+   "lost": [
+    "Divine Staff"
+   ],
+   "at": "2026-09-14T22:35:07.685014300Z"
+  },
+  "americas:1449913743": {
+   "won": [
+    "Glacial Staff",
+    "Staff of Balance"
+   ],
+   "lost": [
+    "Holy Staff"
+   ],
+   "at": "2026-09-14T22:34:19.884416200Z"
+  },
+  "americas:1449913390": {
+   "won": [
+    "Cursed Staff",
+    "Holy Staff"
+   ],
+   "lost": [
+    "Hallowfall"
+   ],
+   "at": "2026-09-14T22:33:41.398529100Z"
+  },
+  "americas:1449913229": {
+   "won": [
+    "Battleaxe",
+    "Bow of Badon"
+   ],
+   "lost": [
+    "Bow of Badon"
+   ],
+   "at": "2026-09-14T22:33:33.891703900Z"
+  },
+  "americas:1449913223": {
+   "won": [
+    "Bow of Badon",
+    "Hellspawn Staff"
+   ],
+   "lost": [
+    "Dagger Pair"
+   ],
+   "at": "2026-09-14T22:33:21.510359100Z"
+  },
+  "americas:1449912796": {
+   "won": [
+    "Fists of Avalon",
+    "Soulscythe"
+   ],
+   "lost": [
+    "Holy Staff"
+   ],
+   "at": "2026-09-14T22:32:44.541986Z"
+  },
+  "americas:1449912898": {
+   "won": [
+    "Bow of Badon",
+    "Heron Spear"
+   ],
+   "lost": [
+    "Blight Staff"
+   ],
+   "at": "2026-09-14T22:32:38.787854800Z"
+  },
+  "americas:1449912889": {
+   "won": [
+    "Heavy Crossbow",
+    "Holy Staff"
+   ],
+   "lost": [
+    "Holy Staff"
+   ],
+   "at": "2026-09-14T22:32:37.627460300Z"
+  },
+  "europe:434266660": {
+   "won": [
+    "Hellspawn Staff",
+    "Holy Staff"
+   ],
+   "lost": [
+    "Holy Staff"
+   ],
+   "at": "2026-09-14T22:36:17.414191600Z"
+  },
+  "europe:434266468": {
+   "won": [
+    "Holy Staff",
+    "Kingmaker"
+   ],
+   "lost": [
+    "Tombhammer"
+   ],
+   "at": "2026-09-14T22:35:46.504001400Z"
+  },
+  "europe:434266017": {
+   "won": [
+    "Bow of Badon",
+    "Holy Staff"
+   ],
+   "lost": [
+    "Redemption Staff"
+   ],
+   "at": "2026-09-14T22:35:45.579104Z"
+  },
+  "europe:434263548": {
+   "won": [
+    "Demonic Staff",
+    "Holy Staff"
+   ],
+   "lost": [
+    "Grailseeker"
+   ],
+   "at": "2026-09-14T22:27:37.460678100Z"
+  },
+  "europe:434263501": {
+   "won": [
+    "Bow of Badon",
+    "Holy Staff"
+   ],
+   "lost": [
+    "Energy Shaper"
+   ],
+   "at": "2026-09-14T22:27:29.857945500Z"
+  },
+  "europe:434263480": {
+   "won": [
+    "Holy Staff",
+    "Kingmaker"
+   ],
+   "lost": [
+    "Battleaxe"
+   ],
+   "at": "2026-09-14T22:27:26.780079800Z"
+  },
+  "europe:434263052": {
+   "won": [
+    "Dagger Pair",
+    "Great Holy Staff"
+   ],
+   "lost": [
+    "Brawler Gloves"
+   ],
+   "at": "2026-09-14T22:26:23.126925100Z"
+  },
+  "europe:434263068": {
+   "won": [
+    "Grailseeker",
+    "Tombhammer"
+   ],
+   "lost": [
+    "Black Monk Stave"
+   ],
+   "at": "2026-09-14T22:26:13.084197700Z"
+  },
+  "europe:434263040": {
+   "won": [
+    "Carving Sword",
+    "Holy Staff"
+   ],
+   "lost": [
+    "Holy Staff"
+   ],
+   "at": "2026-09-14T22:26:08.318514600Z"
+  },
+  "europe:434262909": {
+   "won": [
+    "Carving Sword",
+    "Holy Staff"
+   ],
+   "lost": [
+    "Claymore"
+   ],
+   "at": "2026-09-14T22:25:46.583555500Z"
+  },
+  "europe:434262900": {
+   "won": [
+    "Holy Staff",
+    "Infernal Scythe"
+   ],
+   "lost": [
+    "Cursed Staff"
+   ],
+   "at": "2026-09-14T22:25:45.991224600Z"
+  },
+  "europe:434262728": {
+   "won": [
+    "Heavy Crossbow",
+    "Holy Staff"
+   ],
+   "lost": [
+    "Holy Staff"
+   ],
+   "at": "2026-09-14T22:25:45.520344800Z"
   }
  },
- "duoFights": 440,
+ "duoFights": 452,
  "regions": {
   "americas": {
-   "events": 15874,
-   "kills": 950,
-   "lastSeen": "2026-09-14T22:21:59.618666500Z"
+   "events": 16187,
+   "kills": 971,
+   "lastSeen": "2026-09-14T22:35:28.979485900Z"
   },
   "europe": {
-   "events": 10576,
-   "kills": 691,
-   "lastSeen": "2026-09-14T22:21:59.652333700Z"
+   "events": 10774,
+   "kills": 713,
+   "lastSeen": "2026-09-14T22:36:22.313366Z"
   },
   "asia": {
-   "events": 4370,
-   "kills": 198,
-   "lastSeen": "2026-09-14T22:22:21.828690600Z"
+   "events": 4421,
+   "kills": 200,
+   "lastSeen": "2026-09-14T22:36:40.550149200Z"
   }
  }
 }
