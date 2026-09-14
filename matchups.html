@@ -435,7 +435,8 @@
     if (source === "recorded") {
       var wr = window.ALBION_WINRATES;
       sample.textContent = wr && wr.qualifying
-        ? wr.qualifying + " kills counted from " + wr.eventsSeen + " events, last collected "
+        ? wr.qualifying + " kills counted from " + wr.eventsSeen
+          + " events across Americas, Europe and Asia, last collected "
           + String(wr.updated).slice(0, 16).replace("T", " ")
           + ". Healers are in here, unlike the theoretical ones. A faded square is under ten fights."
         : "No kills collected yet. Run collect-winrates.py.";

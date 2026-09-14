@@ -882,3 +882,11 @@ button:focus-visible {
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* postal address on the contact and details cards, upright not italic */
+.prose address {
+  font-style: normal;
+  color: var(--muted);
+  line-height: 1.5;
+  margin-top: 0.75rem;
+}
