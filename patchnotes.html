@@ -35,39 +35,15 @@
 
     <section class="intro">
       <h1>Patch notes</h1>
-      <p>Only the changes that actually move a comp or a build up or down the list. Newest first. Copy one card below to add the next patch.</p>
+      <p>Every combat balance change from the live patches, newest first.</p>
     </section>
 
     <section>
-
-      <article class="card">
-        <p class="date">13 September 2026</p>
-        <h3>Radiant Wilds, balance pass 2</h3>
-        <ul>
-          <li>Bloodletter stays in S, since the cooldown change did not stop it from resetting out of a losing fight.</li>
-          <li>Hallowfall moves ahead of Redemption as the default healer because the shield now holds through a full dive.</li>
-          <li>Hoarfrost drops to B, as control alone does not kill a duo with a healer.</li>
-        </ul>
-      </article>
-
-      <article class="card">
-        <p class="date">3 August 2026</p>
-        <h3>Radiant Wilds launch</h3>
-        <ul>
-          <li>Both pages were rebuilt from scratch after the gate reward change pulled more players into 2v2.</li>
-          <li>Double Bloodletter enters at S thanks to how fast it closes a fight before any heal matters.</li>
-          <li>Longbow falls to C since nothing about it survives a dive comp.</li>
-        </ul>
-      </article>
-
-      <article class="card">
-        <p class="date">19 June 2026</p>
-        <h3>Hotfix</h3>
-        <ul>
-          <li>Dagger mobility reverted, so no comp moved on either page.</li>
-        </ul>
-      </article>
-
+      <p class="prose">Pulled from each live patch as it lands. Only the combat
+        balance section, and only once the patch is actually out, never when it
+        is merely announced or on the test server.</p>
+      <p class="patch-updated" id="patch-updated"></p>
+      <div id="patch-list"></div>
     </section>
 
   </div>
@@ -80,5 +56,44 @@
   </div>
 </footer>
 
+
+<script src="patchnotes.js"></script>
+<script>
+(function () {
+  var list = document.getElementById("patch-list");
+  var when = document.getElementById("patch-updated");
+  if (!list || !window.ALBION_PATCHES) return;
+
+  function esc(t) {
+    return String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  var data = window.ALBION_PATCHES;
+  when.textContent = data.updated
+    ? "Last checked " + String(data.updated).slice(0, 16).replace("T", " ")
+    : "";
+
+  list.innerHTML = (data.patches || []).map(function (p) {
+    return '<article class="card">' +
+      '<p class="date">' + esc(p.date) + "</p>" +
+      "<h3>" + esc(p.title) + "</h3>" +
+      p.groups.map(function (g) {
+        return '<div class="patch-group">' +
+          "<h4>" + esc(g.name) + "</h4>" +
+          (g.why ? '<p class="patch-why">' + esc(g.why) + "</p>" : "") +
+          "<ul>" + g.entries.map(function (e) {
+            return "<li>" + esc(e.what) +
+              (e.changes.length
+                ? "<ul>" + e.changes.map(function (c) { return "<li>" + esc(c) + "</li>"; }).join("") + "</ul>"
+                : "") +
+              "</li>";
+          }).join("") + "</ul>" +
+        "</div>";
+      }).join("") +
+      (p.url ? '<p class="patch-source"><a href="' + esc(p.url) + '" rel="noopener">The full changelog</a></p>' : "") +
+    "</article>";
+  }).join("") || '<p class="mu-empty">No combat changes collected yet.</p>';
+})();
+</script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-name: Collect 2v2 kill data
+name: Collect kill data and patch notes
 
 # Every 15 minutes. The Albion API only keeps about the last half hour of
 # kills, so the gap has to stay well under that or fights are lost for good.
@@ -24,11 +24,14 @@ jobs:
       - name: Read the kill feed
         run: python3 collect-winrates.py
 
+      - name: Check for a new patch
+        run: python3 collect-patchnotes.py
+
       - name: Commit the new counts
         run: |
           git config user.name  "albion-meta-collector"
           git config user.email "collector@users.noreply.github.com"
-          git add kills.json winrates.js
+          git add kills.json winrates.js patchnotes.js
           if git diff --staged --quiet; then
             echo "nothing new to record"
             exit 0

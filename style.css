@@ -833,6 +833,36 @@ button:focus-visible {
   outline-offset: 3px;
 }
 
+/* ---------- patch notes ---------- */
+
+.patch-updated { font-size: 0.78rem; color: var(--muted); margin: 0 0 1rem; }
+
+.patch-group { margin-top: 1rem; }
+.patch-group:first-of-type { margin-top: 0.6rem; }
+
+.patch-group h4 {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 1rem;
+  margin: 0 0 0.25rem;
+  color: var(--corrupt);
+}
+
+/* the developers' own reasoning, kept because it says why a thing moved */
+.patch-why {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--muted);
+  max-width: 44rem;
+}
+
+.patch-group > ul { margin: 0; padding-left: 1.1rem; }
+.patch-group > ul > li { margin-bottom: 0.35rem; font-weight: 600; font-size: 0.92rem; }
+.patch-group ul ul { margin: 0.2rem 0 0.5rem; padding-left: 1.1rem; }
+.patch-group ul ul li { font-weight: 400; font-size: 0.88rem; color: var(--muted); }
+
+.patch-source { margin: 0.9rem 0 0; font-size: 0.8rem; }
+
 /* ---------- footer ---------- */
 
 .site-foot {
