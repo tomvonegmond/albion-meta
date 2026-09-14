@@ -247,6 +247,10 @@
 
     var roster = topTier(setup);
     rows.innerHTML = roster.map(function (them) {
+      /* the same weapon on both sides is a mirror, not something to rate */
+      if (them.name === chosen.name) {
+        return rowFor(them, { text: "Mirror" }, ENEMY_WORDS);
+      }
       return rowFor(them, verdictFor(chosen, them.key), ENEMY_WORDS);
     }).join("") || '<p class="mu-empty">Nothing sits on this tierlist yet.</p>';
   }
