@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Albion Meta">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c79bf5"/>
+      <stop offset="1" stop-color="#7d3fc4"/>
+    </linearGradient>
+    <radialGradient id="v" cx="0.5" cy="0.62" r="0.55">
+      <stop offset="0" stop-color="#2a0f3f"/>
+      <stop offset="1" stop-color="#120a1c"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="13" fill="#140f1a"/>
+  <!-- the gate: a pointed arch standing on the floor -->
+  <path d="M14 55 L14 30 Q14 12 32 7 Q50 12 50 30 L50 55 Z" fill="url(#g)"/>
+  <path d="M21 55 L21 31 Q21 18 32 14 Q43 18 43 31 L43 55 Z" fill="url(#v)"/>
+  <!-- the rift down the middle -->
+  <path d="M32 19 L36 34 L32 51 L28 34 Z" fill="#e3c8ff" opacity="0.92"/>
+  <rect x="10" y="55" width="44" height="4" rx="2" fill="url(#g)"/>
+</svg>

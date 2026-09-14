@@ -37,20 +37,60 @@ to GitHub so it runs without you.
 3. On the repo, open **Actions** and enable workflows.
    `.github/workflows/collect.yml` is already there and runs every 15 minutes.
 
-4. **Settings > Actions > General > Workflow permissions** must be
-   **Read and write**, or it cannot commit the data back.
+4. Nothing to change under **Settings > Actions > General**. The workflow asks
+   for write access itself (`permissions: contents: write`), which is enough
+   even while the repo default is Read only.
 
-5. Serve the site from the same repo: **Settings > Pages**, source
-   **Deploy from a branch**, branch `main`, folder `/ (root)`. The site lands at
-   `https://YOURNAME.github.io/albion-meta/` and picks up each new commit of
-   `winrates.js` by itself. A tab left open also refreshes every five minutes.
-
-6. Stop the copy on this Mac, so only one collector is banking data:
+5. Stop the copy on this Mac, so only one collector is banking data:
 
        crontab -r
 
    Two collectors is not harmful, each skips event ids it has already seen, but
    the two `kills.json` files never merge, so the counts end up split.
+
+## Putting the site on Cloudflare Pages
+
+The site is plain files, so there is no build step.
+
+1. Cloudflare dashboard > **Workers & Pages** > **Create** > **Pages** >
+   **Connect to Git**, pick the `albion-meta` repo.
+
+2. Build settings:
+
+   - Framework preset: **None**
+   - Build command: **leave empty**
+   - Build output directory: **/**
+
+   Deploy. `functions/api/winrates.js` is picked up automatically and serves
+   `/api/winrates`.
+
+3. **Custom domains** > add `hellgatemeta.com` and `www.hellgatemeta.com`. If the
+   domain is on Cloudflare already the DNS records are written for you.
+
+4. **Web Analytics**: Cloudflare dashboard > **Analytics & Logs** >
+   **Web Analytics** > **Add a site** > pick the Pages project. Choose the
+   automatic setup so Cloudflare injects the beacon; there is nothing to paste
+   into the HTML. It is cookieless, and `privacy.html` and `cookies.html`
+   already describe it.
+
+5. Check the deploy:
+
+       curl -sI https://hellgatemeta.com/ | grep -i -E 'cf-cache|content-security'
+       curl -s  https://hellgatemeta.com/api/winrates | head -c 200
+
+   The second should return JSON with a `kills` field.
+
+### Builds stay under the free 500 a month
+
+The collector commits every 15 minutes, which on its own is about 2,900 commits
+a month. Its commit message ends in `[CI Skip]`, which Cloudflare Pages reads and
+skips the build. Only the commits you push yourself build the site. After the
+first data commit lands, open the Pages project and confirm that deploy was
+skipped rather than built.
+
+The data still updates without a build: the page asks `/api/winrates`, and that
+function reads the latest `winrates.js` straight from GitHub and caches it at the
+edge for five minutes.
 
 ## Running it by hand
 
