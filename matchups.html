@@ -150,9 +150,19 @@
     return all.filter(function (r) { return r.tier === "S" || r.tier === "A"; });
   }
 
+  /* duos reach one tier further down heal dps, a B tier partner is still a
+     partner even if it is not worth listing as an enemy */
+  function duoRoster(setup) {
+    var all = window.ALBION_ROSTERS[setup] || [];
+    if (setup !== "heal") return all;
+    return all.filter(function (r) {
+      return r.tier === "S" || r.tier === "A" || r.tier === "B";
+    });
+  }
+
   var weapons = {};
   Object.keys(window.ALBION_ROSTERS).forEach(function (setup) {
-    topTier(setup).forEach(function (r) {
+    duoRoster(setup).forEach(function (r) {
       var w = weapons[r.name] || (weapons[r.name] = { name: r.name, icon: r.icon, keys: {}, tiers: {} });
       w.keys[setup] = r.key;
       w.tiers[setup] = r.tier;
@@ -165,7 +175,7 @@
   /* who can even stand next to you: heal dps pairs damage with a healer,
      stun dps pairs damage with a stunner, double dps pairs anyone */
   function partnersIn(setup) {
-    var roster = topTier(setup);
+    var roster = duoRoster(setup);
     var mineKey = chosen.keys[setup];
     if (!mineKey) return null;
     var me = null;
@@ -228,7 +238,7 @@
         var mineKey = chosen.keys[s];
         if (!mineKey) return;                       /* not on that tierlist */
         var listed = (table[mineKey] && table[mineKey][s]) || {};
-        var roster = topTier(s);
+        var roster = duoRoster(s);
         var shown = roster.filter(function (them) { return listed[them.key]; });
         if (!shown.length) return;
         out.push('<h4 class="mu-group">' + SETUPS[s] + '</h4>' +
