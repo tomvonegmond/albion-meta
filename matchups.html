@@ -429,16 +429,31 @@
     });
   });
 
-  /* the collector runs on its own, so pull the file again now and then and
-     redraw if the recorded numbers are the ones on screen */
+  /* The collector commits to GitHub every 15 minutes, so the newest counts
+     live there, not in the copy sitting next to this page. Pull that one in
+     on a timer and redraw, which keeps the "last collected" line honest. */
+  var LIVE = "https://raw.githubusercontent.com/tomvonegmond/albion-meta/main/winrates.js";
+
+  /* It has to be fetched and parsed rather than dropped in as a script tag:
+     raw.githubusercontent serves .js as text/plain with nosniff, so a browser
+     refuses to run it. Cross origin fetch is allowed, so read the text and
+     lift the object out of it. */
   function refresh() {
-    var s = document.createElement("script");
-    s.src = "winrates.js?t=" + Date.now();
-    s.onload = function () { if (source === "recorded") draw(); s.remove(); };
-    s.onerror = function () { s.remove(); };
-    document.body.appendChild(s);
+    fetch(LIVE + "?t=" + Date.now())
+      .then(function (r) { return r.ok ? r.text() : Promise.reject(r.status); })
+      .then(function (text) {
+        var body = text.split("window.ALBION_WINRATES = ")[1];
+        if (!body) return;
+        var live = JSON.parse(body.replace(/;\s*$/, ""));
+        if (live && live.kills) {
+          window.ALBION_WINRATES = live;
+          draw();
+        }
+      })
+      .catch(function () { /* offline or rate limited, keep what we have */ });
   }
-  setInterval(refresh, 5 * 60 * 1000);
+  setInterval(refresh, 3 * 60 * 1000);
+  refresh();          /* and once now, so the page opens on current numbers */
 
   draw();
 })();
