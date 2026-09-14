@@ -33,11 +33,29 @@ jobs:
             echo "nothing new to record"
             exit 0
           fi
-          # [CI Skip] keeps Cloudflare Pages from building on a data commit.
-          # Without it this alone is ~2,880 builds a month against a 500 limit,
-          # and the site does not need rebuilding anyway: the numbers are read
-          # live from /api/winrates.
-          git commit -m "Kill data $(date -u '+%Y-%m-%d %H:%M') UTC [CI Skip]"
+          # Cloudflare Pages allows 500 builds a month on the free plan, and
+          # this job alone would ask for ~2,880. A commit ending in [CI Skip]
+          # is not built.
+          #
+          # The matrix does not need a build to move: the page reads the live
+          # numbers from /api/winrates every five minutes whatever happens
+          # here. A build only refreshes the copy of winrates.js that ships
+          # with the site, which is what readers fall back on if GitHub is
+          # unreachable. Sixteen builds a day keeps that fallback at most
+          # ninety minutes old.
+          #
+          # One build per ninety minute window, and none on a 31st, so the
+          # ceiling is exactly 16 * 30 = 480 a month. The other 20 are yours
+          # to push with.
+          MINUTES=$(( 10#$(date -u +%H) * 60 + 10#$(date -u +%M) ))
+          DAY=$(( 10#$(date -u +%d) ))
+          if [ $(( MINUTES % 90 )) -lt 15 ] && [ "$DAY" -le 30 ]; then
+            SKIP=""
+            echo "this one rebuilds the site"
+          else
+            SKIP=" [CI Skip]"
+          fi
+          git commit -m "Kill data $(date -u '+%Y-%m-%d %H:%M') UTC$SKIP"
 
           # Someone pushing while this runs would otherwise have the push
           # rejected and the whole collection thrown away, so rebase onto
