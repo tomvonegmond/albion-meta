@@ -455,6 +455,18 @@ body.sheet-open { overflow: hidden; }
   color: var(--corrupt);
 }
 
+/* why this matchup wants something different */
+.tip-why {
+  display: block;
+  margin-top: 0.35rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid var(--panel-edge);
+  max-width: 13rem;
+  white-space: normal;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
 /* the little arrow, pointing down at the piece */
 .tip::after {
   content: "";

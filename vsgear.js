@@ -30,7 +30,9 @@
        and Heavy Crossbow; Refreshing Sprint on the boots into
        the Demonic, Glaive, Rotcaller and Lifecurse; Frost
        Shield on the robe into the Hellspawn, Prowling, Fists
-       of Avalon, Heavy Crossbow, Arclight and Greataxe
+       of Avalon, Heavy Crossbow, Arclight and Greataxe;
+       Sacred Pulse on W into the Broadsword with Ascended,
+       and into the Fists of Avalon with the first passive
    =========================================================== */
 
 window.ALBION_VS_GEAR = {
@@ -41,7 +43,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Claymore."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Claymore."
+   }
   },
   "Hellspawn Staff": {
    "picks": {
@@ -55,7 +59,11 @@ window.ALBION_VS_GEAR = {
      "Spell": 2
     }
    },
-   "note": "Dodge roll on the F slot into the Hellspawn Staff. Holy Beam on W. Frost Shield on the robe."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Hellspawn Staff.",
+    "weapon": "Holy Beam on W.",
+    "chest": "Frost Shield on the robe."
+   }
   },
   "Arclight Blasters": {
    "picks": {
@@ -69,7 +77,11 @@ window.ALBION_VS_GEAR = {
      "Spell": 2
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters. Holy Beam on W. Frost Shield on the robe."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Arclight Blasters.",
+    "weapon": "Holy Beam on W.",
+    "chest": "Frost Shield on the robe."
+   }
   },
   "Prowling Staff": {
    "picks": {
@@ -80,7 +92,10 @@ window.ALBION_VS_GEAR = {
      "Spell": 2
     }
    },
-   "note": "Dodge roll on the F slot into the Prowling Staff. Frost Shield on the robe."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Prowling Staff.",
+    "chest": "Frost Shield on the robe."
+   }
   },
   "Demonic Staff": {
    "picks": {
@@ -92,7 +107,10 @@ window.ALBION_VS_GEAR = {
      "Spell": 2
     }
    },
-   "note": "Holy Beam on W. Ascended as the passive. Refreshing Sprint on the boots."
+   "notes": {
+    "weapon": "Holy Beam on W. Ascended as the passive.",
+    "shoes": "Refreshing Sprint on the boots."
+   }
   },
   "Rotcaller Staff": {
    "picks": {
@@ -103,7 +121,10 @@ window.ALBION_VS_GEAR = {
      "Spell": 2
     }
    },
-   "note": "Holy Beam on W. Refreshing Sprint on the boots."
+   "notes": {
+    "weapon": "Holy Beam on W.",
+    "shoes": "Refreshing Sprint on the boots."
+   }
   },
   "Heavy Crossbow": {
    "picks": {
@@ -115,7 +136,10 @@ window.ALBION_VS_GEAR = {
      "Spell": 2
     }
    },
-   "note": "Holy Beam on W. Ascended as the passive. Frost Shield on the robe."
+   "notes": {
+    "weapon": "Holy Beam on W. Ascended as the passive.",
+    "chest": "Frost Shield on the robe."
+   }
   },
   "Lifecurse Staff": {
    "picks": {
@@ -126,7 +150,10 @@ window.ALBION_VS_GEAR = {
      "Spell": 2
     }
    },
-   "note": "Holy Beam on W. Refreshing Sprint on the boots."
+   "notes": {
+    "weapon": "Holy Beam on W.",
+    "shoes": "Refreshing Sprint on the boots."
+   }
   },
   "Glaive": {
    "picks": {
@@ -134,15 +161,35 @@ window.ALBION_VS_GEAR = {
      "Spell": 2
     }
    },
-   "note": "Refreshing Sprint on the boots."
+   "notes": {
+    "shoes": "Refreshing Sprint on the boots."
+   }
+  },
+  "Broadsword": {
+   "picks": {
+    "weapon": {
+     "W": 1,
+     "Passive": 4
+    }
+   },
+   "notes": {
+    "weapon": "Sacred Pulse on W, Ascended as the passive."
+   }
   },
   "Fists of Avalon": {
    "picks": {
+    "weapon": {
+     "W": 1,
+     "Passive": 1
+    },
     "chest": {
      "Spell": 2
     }
    },
-   "note": "Frost Shield on the robe."
+   "notes": {
+    "weapon": "Sacred Pulse on W, Adrenaline Driven Charity as the passive.",
+    "chest": "Frost Shield on the robe."
+   }
   },
   "Greataxe": {
    "picks": {
@@ -150,7 +197,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 2
     }
    },
-   "note": "Frost Shield on the robe."
+   "notes": {
+    "chest": "Frost Shield on the robe."
+   }
   }
  },
  "demonic-staff": {
@@ -160,7 +209,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Claymore."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Claymore."
+   }
   },
   "Hellspawn Staff": {
    "picks": {
@@ -168,7 +219,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Hellspawn Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Hellspawn Staff."
+   }
   },
   "Arclight Blasters": {
    "picks": {
@@ -176,7 +229,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+   }
   },
   "Prowling Staff": {
    "picks": {
@@ -184,7 +239,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Prowling Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Prowling Staff."
+   }
   }
  },
  "arclight-blasters": {
@@ -194,7 +251,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Claymore."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Claymore."
+   }
   },
   "Hellspawn Staff": {
    "picks": {
@@ -202,7 +261,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Hellspawn Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Hellspawn Staff."
+   }
   },
   "Arclight Blasters": {
    "picks": {
@@ -210,7 +271,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+   }
   },
   "Prowling Staff": {
    "picks": {
@@ -218,7 +281,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Prowling Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Prowling Staff."
+   }
   },
   "Lifecurse Staff": {
    "picks": {
@@ -226,7 +291,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Lifecurse Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Lifecurse Staff."
+   }
   },
   "Rotcaller Staff": {
    "picks": {
@@ -234,7 +301,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Rotcaller Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Rotcaller Staff."
+   }
   }
  },
  "glaive": {
@@ -244,7 +313,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Claymore."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Claymore."
+   }
   },
   "Hellspawn Staff": {
    "picks": {
@@ -252,7 +323,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Hellspawn Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Hellspawn Staff."
+   }
   },
   "Arclight Blasters": {
    "picks": {
@@ -260,7 +333,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+   }
   },
   "Prowling Staff": {
    "picks": {
@@ -268,7 +343,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Prowling Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Prowling Staff."
+   }
   }
  },
  "claymore": {
@@ -278,7 +355,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Claymore."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Claymore."
+   }
   },
   "Hellspawn Staff": {
    "picks": {
@@ -286,7 +365,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Hellspawn Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Hellspawn Staff."
+   }
   },
   "Arclight Blasters": {
    "picks": {
@@ -294,7 +375,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+   }
   },
   "Prowling Staff": {
    "picks": {
@@ -302,7 +385,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Prowling Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Prowling Staff."
+   }
   }
  },
  "fists-of-avalon": {
@@ -312,7 +397,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Claymore."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Claymore."
+   }
   },
   "Arclight Blasters": {
    "picks": {
@@ -320,7 +407,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+   }
   },
   "Prowling Staff": {
    "picks": {
@@ -328,7 +417,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Prowling Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Prowling Staff."
+   }
   }
  },
  "rotcaller-staff": {
@@ -338,7 +429,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Claymore."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Claymore."
+   }
   },
   "Hellspawn Staff": {
    "picks": {
@@ -346,7 +439,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Hellspawn Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Hellspawn Staff."
+   }
   },
   "Arclight Blasters": {
    "picks": {
@@ -354,7 +449,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+   }
   },
   "Prowling Staff": {
    "picks": {
@@ -362,7 +459,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Prowling Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Prowling Staff."
+   }
   }
  },
  "heavy-crossbow": {
@@ -372,7 +471,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Claymore."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Claymore."
+   }
   },
   "Hellspawn Staff": {
    "picks": {
@@ -380,7 +481,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Hellspawn Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Hellspawn Staff."
+   }
   },
   "Arclight Blasters": {
    "picks": {
@@ -388,7 +491,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+   }
   },
   "Prowling Staff": {
    "picks": {
@@ -396,7 +501,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Prowling Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Prowling Staff."
+   }
   },
   "Lifecurse Staff": {
    "picks": {
@@ -404,7 +511,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Lifecurse Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Lifecurse Staff."
+   }
   },
   "Rotcaller Staff": {
    "picks": {
@@ -412,7 +521,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Rotcaller Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Rotcaller Staff."
+   }
   }
  },
  "broadsword": {
@@ -422,7 +533,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Claymore."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Claymore."
+   }
   },
   "Hellspawn Staff": {
    "picks": {
@@ -430,7 +543,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Hellspawn Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Hellspawn Staff."
+   }
   },
   "Arclight Blasters": {
    "picks": {
@@ -438,7 +553,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+   }
   }
  },
  "lifecurse-staff": {
@@ -448,7 +565,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Claymore."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Claymore."
+   }
   },
   "Hellspawn Staff": {
    "picks": {
@@ -456,7 +575,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Hellspawn Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Hellspawn Staff."
+   }
   },
   "Arclight Blasters": {
    "picks": {
@@ -464,7 +585,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+   }
   },
   "Prowling Staff": {
    "picks": {
@@ -472,7 +595,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Prowling Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Prowling Staff."
+   }
   }
  },
  "prowling-staff": {
@@ -482,7 +607,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Hellspawn Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Hellspawn Staff."
+   }
   },
   "Arclight Blasters": {
    "picks": {
@@ -490,7 +617,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+   }
   },
   "Prowling Staff": {
    "picks": {
@@ -498,7 +627,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Prowling Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Prowling Staff."
+   }
   }
  },
  "hellspawn-staff": {
@@ -508,7 +639,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Hellspawn Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Hellspawn Staff."
+   }
   },
   "Arclight Blasters": {
    "picks": {
@@ -516,7 +649,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+   }
   },
   "Prowling Staff": {
    "picks": {
@@ -524,7 +659,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Prowling Staff."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Prowling Staff."
+   }
   },
   "Demonic Staff": {
    "picks": {
@@ -532,7 +669,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 4
     }
    },
-   "note": "Bear Trap on the helmet into the Demonic Staff."
+   "notes": {
+    "head": "Bear Trap on the helmet into the Demonic Staff."
+   }
   },
   "Lifecurse Staff": {
    "picks": {
@@ -540,7 +679,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 4
     }
    },
-   "note": "Bear Trap on the helmet into the Lifecurse Staff."
+   "notes": {
+    "head": "Bear Trap on the helmet into the Lifecurse Staff."
+   }
   },
   "Rotcaller Staff": {
    "picks": {
@@ -548,7 +689,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 4
     }
    },
-   "note": "Bear Trap on the helmet into the Rotcaller Staff."
+   "notes": {
+    "head": "Bear Trap on the helmet into the Rotcaller Staff."
+   }
   }
  },
  "greataxe": {
@@ -558,7 +701,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+   }
   }
  },
  "kingmaker": {
@@ -568,7 +713,9 @@ window.ALBION_VS_GEAR = {
      "Spell": 1
     }
    },
-   "note": "Dodge roll on the F slot into the Arclight Blasters."
+   "notes": {
+    "shoes": "Dodge roll on the F slot into the Arclight Blasters."
+   }
   }
  }
 };

@@ -542,14 +542,16 @@
     /* this one fight may want a different ability than the build normally takes */
     var against = sheet.getAttribute("data-vs");
     var swap = against && ((window.ALBION_VS_GEAR || {})[buildKey] || {})[against];
+    var why = "";
     if (swap && swap.picks && mySlot && swap.picks[mySlot]) {
       Object.keys(swap.picks[mySlot]).forEach(function (k) { picks[k] = swap.picks[mySlot][k]; });
+      why = (swap.notes && swap.notes[mySlot]) || "";
     }
 
     hideTip();
     tip.innerHTML = Object.keys(picks).map(function (key) {
       return '<span class="tip-row"><b>' + key + '</b>' + picks[key] + '</span>';
-    }).join("");
+    }).join("") + (why ? '<span class="tip-why">' + why + '</span>' : "");
     tip.hidden = false;
     placeTip(button);
     openSlot = button;
@@ -564,14 +566,8 @@
     title.textContent = build.name;
     var against = button.getAttribute("data-vs");
     sheet.setAttribute("data-vs", against || "");
-    if (against) {
-      role.textContent = "Against " + against;
-      var swap = ((window.ALBION_VS_GEAR || {})[button.getAttribute("data-build")] || {})[against];
-      role.textContent += swap && swap.note ? " \u00b7 " + swap.note : "";
-    } else {
-      var span = button.querySelector("span");
-      role.textContent = span ? span.textContent : "";
-    }
+    /* nothing written across the top: click a piece and it says what to take */
+    role.textContent = "";
     gear.innerHTML = SLOTS.map(function (slot) {
       return piece(slot[0], slot[1], build[slot[0]]);
     }).join("");
