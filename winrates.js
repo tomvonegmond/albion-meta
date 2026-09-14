@@ -32,7 +32,8 @@ window.ALBION_WINRATES = {
   },
   "Deathgivers": {
    "Warbow": 1,
-   "Dagger Pair": 1
+   "Dagger Pair": 1,
+   "Cursed Staff": 1
   },
   "Dagger Pair": {
    "Holy Staff": 3,
@@ -156,7 +157,7 @@ window.ALBION_WINRATES = {
    "Grailseeker": 1
   },
   "Dagger": {
-   "Holy Staff": 1,
+   "Holy Staff": 2,
    "Heron Spear": 1
   },
   "Grailseeker": {
