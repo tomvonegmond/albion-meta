@@ -92,6 +92,26 @@ The data still updates without a build: the page asks `/api/winrates`, and that
 function reads the latest `winrates.js` straight from GitHub and caches it at the
 edge for five minutes.
 
+## After changing any css or js
+
+    python3 stamp-assets.py
+
+Cloudflare's zone level Browser Cache TTL rewrites the cache headers on .js and
+.css, because they sit on its default cached-extensions list. `_headers` asking
+for max-age=0 does not survive it: the zone sends max-age=14400 on every
+response, from origin, cached or not. Readers would keep a whole afternoon's
+stale builds.js and your change would look like it never went live.
+
+So the links carry a content hash instead, `builds.js?v=20e59f36`. Change the
+file, the hash changes, the old url is never asked for again. The html is not
+cached, Cloudflare does not cache html by default, so the new links land at
+once. `dev-server.py` says so on startup if you forget.
+
+Setting **Caching > Configuration > Browser Cache TTL** to **Respect Existing
+Headers** in the Cloudflare dashboard is worth doing as well, so the zone stops
+rewriting headers behind your back, but the stamping is what makes it correct
+either way.
+
 ## Running it by hand
 
     python3 collect-winrates.py

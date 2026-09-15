@@ -27,69 +27,62 @@ jobs:
         with:
           python-version: "3.12"
 
-      # GitHub delivers a */15 schedule late and unevenly: measured over the
-      # last thirteen runs the gaps were 12 to 23 minutes, averaging 17. The
-      # API only holds about thirty minutes of kills, so a 23 minute gap is
-      # uncomfortably close to losing fights for good, and the site's numbers
-      # visibly stall.
+      # GitHub delivers a */15 schedule late and unevenly: measured over
+      # thirteen runs the gaps were 12 to 23 minutes, averaging 17. The API
+      # only holds about thirty minutes of kills, so a long gap loses fights
+      # for good and the site's numbers visibly stall.
       #
-      # So one trigger now collects three times, ten minutes apart. Whatever
-      # the scheduler does, the feed is read every five minutes or so, and a
-      # late trigger costs far less. The script is safe to repeat, it skips
-      # event ids it has already banked.
-      - name: Read the kill feed
+      # So one trigger collects three times, five minutes apart, and banks
+      # each pass as it goes. Banking every pass rather than once at the end
+      # matters: the site reads winrates.js through /api/winrates, so a commit
+      # is what readers actually see, and holding all three back would leave
+      # the numbers twenty minutes old however often the feed was read.
+      #
+      # Repeating is safe, the script skips event ids it has already banked.
+      - name: Read the kill feed and bank each pass
         run: |
-          for pass in 1 2 3; do
-            echo "--- pass $pass of 3, $(date -u '+%H:%M:%S') UTC ---"
-            python3 collect-winrates.py
-            if [ "$pass" != "3" ]; then sleep 300; fi
-          done
-
-      - name: Commit the new counts
-        run: |
-          git config user.name  "albion-meta-collector"
-          git config user.email "collector@users.noreply.github.com"
-          git add kills.json winrates.js
-          if git diff --staged --quiet; then
-            echo "nothing new to record"
-            exit 0
-          fi
-          # Cloudflare Pages allows 500 builds a month on the free plan, and
-          # this job alone would ask for ~2,880. A commit ending in [CI Skip]
-          # is not built.
-          #
-          # The matrix does not need a build to move: the page reads the live
-          # numbers from /api/winrates every five minutes whatever happens
-          # here. A build only refreshes the copy of winrates.js that ships
-          # with the site, which is what readers fall back on if GitHub is
-          # unreachable. Sixteen builds a day keeps that fallback at most
-          # ninety minutes old.
-          #
-          # One build per ninety minute window, and none on a 31st, so the
-          # ceiling is exactly 16 * 30 = 480 a month. The other 20 are yours
-          # to push with.
+          # Whether this run is allowed to rebuild the site is decided once,
+          # from the time the run started, so three commits cannot spend three
+          # builds. Only the first pass can carry it. One build per ninety
+          # minute window and none on a 31st caps it at 16 * 30 = 480 a month,
+          # against Cloudflare's free 500, leaving 20 for your own pushes.
           MINUTES=$(( 10#$(date -u +%H) * 60 + 10#$(date -u +%M) ))
           DAY=$(( 10#$(date -u +%d) ))
           if [ $(( MINUTES % 90 )) -lt 15 ] && [ "$DAY" -le 30 ]; then
-            SKIP=""
-            echo "this one rebuilds the site"
+            MAY_BUILD=1
+            echo "this run may rebuild the site"
           else
-            SKIP=" [CI Skip]"
+            MAY_BUILD=0
           fi
-          git commit -m "Kill data $(date -u '+%Y-%m-%d %H:%M') UTC$SKIP"
 
-          # Someone pushing while this runs would otherwise have the push
-          # rejected and the whole collection thrown away, so rebase onto
-          # whatever landed and try again. The counts are ours, they are the
-          # only thing in this commit.
-          for attempt in 1 2 3 4 5; do
-            if git push; then
-              echo "pushed on attempt $attempt"
-              exit 0
+          git config user.name  "albion-meta-collector"
+          git config user.email "collector@users.noreply.github.com"
+
+          for pass in 1 2 3; do
+            echo "--- pass $pass of 3, $(date -u '+%H:%M:%S') UTC ---"
+            python3 collect-winrates.py
+
+            git add kills.json winrates.js
+            if git diff --staged --quiet; then
+              echo "nothing new to record"
+            else
+              # [CI Skip] keeps Cloudflare Pages from building on a data commit.
+              if [ "$pass" = "1" ] && [ "$MAY_BUILD" = "1" ]; then SKIP=""; else SKIP=" [CI Skip]"; fi
+              git commit -m "Kill data $(date -u '+%Y-%m-%d %H:%M') UTC$SKIP"
+
+              # Someone pushing while this runs would otherwise have the push
+              # rejected and the collection thrown away, so rebase onto
+              # whatever landed and try again. The counts are ours, and they
+              # are the only thing in this commit.
+              pushed=0
+              for attempt in 1 2 3 4 5; do
+                if git push; then pushed=1; echo "pushed on attempt $attempt"; break; fi
+                echo "push rejected, rebasing and retrying"
+                git pull --rebase -X ours origin main || git rebase --abort
+                sleep $((attempt * 5))
+              done
+              if [ "$pushed" = "0" ]; then echo "could not push after five tries"; exit 1; fi
             fi
-            echo "push rejected, rebasing and retrying"
-            git pull --rebase -X ours origin main || git rebase --abort
-            sleep $((attempt * 5))
+
+            if [ "$pass" != "3" ]; then sleep 300; fi
           done
-          echo "could not push after five tries"
-          exit 1

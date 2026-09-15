@@ -67,8 +67,23 @@ class PagesHandler(SimpleHTTPRequestHandler):
         sys.stderr.write("  %s\n" % (fmt % args))
 
 
+def warn_if_unstamped():
+    """A stale ?v= hash is invisible locally and four hours long in a reader's
+    browser, so say so here rather than let it ship."""
+    try:
+        import subprocess
+        out = subprocess.run([sys.executable, str(ROOT / "stamp-assets.py"), "--check"],
+                             capture_output=True, text=True, timeout=10)
+        if "already current" not in out.stdout:
+            print("  ! css or js has changed since the pages were stamped.")
+            print("  ! run: python3 stamp-assets.py")
+    except Exception:
+        pass
+
+
 if __name__ == "__main__":
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 4173
     handler = partial(PagesHandler, directory=str(ROOT))
     print(f"Albion Meta on http://localhost:{port}  (routing like Cloudflare Pages)")
+    warn_if_unstamped()
     ThreadingHTTPServer(("127.0.0.1", port), handler).serve_forever()
