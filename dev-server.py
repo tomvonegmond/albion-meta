@@ -56,6 +56,13 @@ class PagesHandler(SimpleHTTPRequestHandler):
 
         return super().send_head()
 
+    def end_headers(self):
+        # Never let the browser cache anything locally. A stale spells.js or
+        # style.css looks exactly like a change that did not work, and the
+        # live site sets its own caching through _headers anyway.
+        self.send_header("Cache-Control", "no-store, must-revalidate")
+        super().end_headers()
+
     def log_message(self, fmt, *args):
         sys.stderr.write("  %s\n" % (fmt % args))
 

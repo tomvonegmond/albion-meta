@@ -14,7 +14,7 @@
      two handed cursed    Q1 W3 P1
      holy staffs          Q1 W3 P1
      nature staffs        Q1 W3 P1
-     spears               Q1 W4, last passive
+     spears               Q1 W5, last passive
      swords               Q1 W1 P1
      axes                 Q3 W1 P1
      fire staffs          Q1 W4 P3
@@ -841,7 +841,7 @@ window.ALBION_SPELLS = {
  "T8_MAIN_SPEAR_LANCE_AVALON": {
   "picks": {
    "Q": 1,
-   "W": 4,
+   "W": 5,
    "E": 1,
    "Passive": 4
   },
@@ -1217,7 +1217,7 @@ window.ALBION_SPELLS = {
  "T8_2H_GLAIVE": {
   "picks": {
    "Q": 1,
-   "W": 4,
+   "W": 5,
    "E": 1,
    "Passive": 4
   },
@@ -2276,7 +2276,7 @@ window.ALBION_SPELLS = {
  "T8_2H_SPEAR": {
   "picks": {
    "Q": 1,
-   "W": 4,
+   "W": 5,
    "E": 1,
    "Passive": 4
   },
@@ -2617,7 +2617,7 @@ window.ALBION_SPELLS = {
  "T8_2H_HARPOON_HELL": {
   "picks": {
    "Q": 1,
-   "W": 4,
+   "W": 5,
    "E": 1,
    "Passive": 3
   },
