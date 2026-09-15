@@ -9653,6 +9653,168 @@ window.ALBION_VS_GEAR = {
      "weapon": "Deflecting Spin on W, the reflect."
     }
    }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   }
   }
  },
  "spirithunter": {
@@ -9738,6 +9900,588 @@ window.ALBION_VS_GEAR = {
     }
    },
    "Mistpiercer": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   }
+  },
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   }
+  }
+ },
+ "daybreaker": {
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Permafrost Prism": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   }
+  },
+  "double": {
+   "Warbow": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Dagger Pair": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Carrioncaller": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Heron Spear": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Whispering Bow": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Mistpiercer": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   }
+  }
+ },
+ "heron-spear": {
+  "stun": {
+   "Staff of Balance": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Dagger": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Soulscythe": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Energy Shaper": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Glacial Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Blazing Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Crossbow": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Grailseeker": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Realmbreaker": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Spirithunter": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Hellfire Hands": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Great Arcane Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Tombhammer": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Great Fire Staff": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Permafrost Prism": {
     "picks": {
      "weapon": {
       "W": 4
