@@ -49,6 +49,11 @@
      the healer swaps its potion: cleansing into the Demonic,
        Rotcaller and Lifecurse, tornado into the Broadsword and
        the Greataxe
+     the Demonic and the Lifecurse run Refreshing Sprint by
+       default, so they take it into every heal dps that is not
+       one of the four dodge roll matchups above. That default
+       lives on the build in builds.js, not here, which is why
+       there is no entry per opponent for it
    =========================================================== */
 
 window.ALBION_VS_GEAR = {

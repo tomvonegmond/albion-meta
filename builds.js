@@ -79,7 +79,10 @@ window.ALBION_BUILDS = {
     },
     "shoes": {
       "id": "T8_SHOES_LEATHER_SET1",
-      "name": "Mercenary Shoes"
+      "name": "Mercenary Shoes",
+      "picks": {
+        "Spell": 2
+      }
     },
     "cape": {
       "id": "T8_CAPEITEM_FW_THETFORD",
@@ -408,7 +411,10 @@ window.ALBION_BUILDS = {
     },
     "shoes": {
       "id": "T8_SHOES_LEATHER_SET1",
-      "name": "Mercenary Shoes"
+      "name": "Mercenary Shoes",
+      "picks": {
+        "Spell": 2
+      }
     },
     "cape": {
       "id": "T8_CAPEITEM_FW_THETFORD",
