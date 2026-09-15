@@ -44,6 +44,10 @@
        weapon pick of its own
      facing double dps everyone but the healer takes the dodge
        roll, robe 2 and helmet 1, with a weapon pick of its own
+     the spears drop back to Deflecting Spin, W4, into double
+       dps: the Glaive, the Pike and the Spirithunter. Impaler,
+       W5, is the spear pick everywhere else. The Heron Spear
+       keeps its own W1 and is not in here
      everyone drinks a cleansing potion into stun dps and a
        resistance potion into double dps
      the healer swaps its potion: cleansing into the Demonic,
@@ -2731,13 +2735,17 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
-     "potion": "Resistance potion into double dps."
+     "potion": "Resistance potion into double dps.",
+     "weapon": "Deflecting Spin on W, the reflect."
     },
     "items": {
      "potion": {
@@ -2756,13 +2764,17 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
-     "potion": "Resistance potion into double dps."
+     "potion": "Resistance potion into double dps.",
+     "weapon": "Deflecting Spin on W, the reflect."
     },
     "items": {
      "potion": {
@@ -2781,13 +2793,17 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
-     "potion": "Resistance potion into double dps."
+     "potion": "Resistance potion into double dps.",
+     "weapon": "Deflecting Spin on W, the reflect."
     },
     "items": {
      "potion": {
@@ -2806,13 +2822,17 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
-     "potion": "Resistance potion into double dps."
+     "potion": "Resistance potion into double dps.",
+     "weapon": "Deflecting Spin on W, the reflect."
     },
     "items": {
      "potion": {
@@ -2831,13 +2851,17 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
-     "potion": "Resistance potion into double dps."
+     "potion": "Resistance potion into double dps.",
+     "weapon": "Deflecting Spin on W, the reflect."
     },
     "items": {
      "potion": {
@@ -2856,13 +2880,17 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
-     "potion": "Resistance potion into double dps."
+     "potion": "Resistance potion into double dps.",
+     "weapon": "Deflecting Spin on W, the reflect."
     },
     "items": {
      "potion": {
@@ -2881,13 +2909,17 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
-     "potion": "Resistance potion into double dps."
+     "potion": "Resistance potion into double dps.",
+     "weapon": "Deflecting Spin on W, the reflect."
     },
     "items": {
      "potion": {
@@ -2906,13 +2938,17 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
-     "potion": "Resistance potion into double dps."
+     "potion": "Resistance potion into double dps.",
+     "weapon": "Deflecting Spin on W, the reflect."
     },
     "items": {
      "potion": {
@@ -2931,13 +2967,17 @@ window.ALBION_VS_GEAR = {
      },
      "head": {
       "Spell": 1
+     },
+     "weapon": {
+      "W": 4
      }
     },
     "notes": {
      "shoes": "Dodge roll on the boots.",
      "chest": "Second spell on the robe.",
      "head": "First spell on the helmet.",
-     "potion": "Resistance potion into double dps."
+     "potion": "Resistance potion into double dps.",
+     "weapon": "Deflecting Spin on W, the reflect."
     },
     "items": {
      "potion": {
@@ -9517,6 +9557,194 @@ window.ALBION_VS_GEAR = {
       "id": "T7_POTION_STONESKIN",
       "name": "Major Resistance Potion"
      }
+    }
+   }
+  }
+ },
+ "pike": {
+  "double": {
+   "Warbow": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Dagger Pair": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Carrioncaller": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Heron Spear": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Whispering Bow": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Mistpiercer": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   }
+  }
+ },
+ "spirithunter": {
+  "double": {
+   "Warbow": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Brawler Gloves": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Bloodletter": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Dagger Pair": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Carrioncaller": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Ursine Maulers": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Heron Spear": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Whispering Bow": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
+    }
+   },
+   "Mistpiercer": {
+    "picks": {
+     "weapon": {
+      "W": 4
+     }
+    },
+    "notes": {
+     "weapon": "Deflecting Spin on W, the reflect."
     }
    }
   }
