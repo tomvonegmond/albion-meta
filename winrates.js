@@ -188,7 +188,7 @@ window.ALBION_WINRATES = {
    "Brawler Gloves": 24,
    "Broadsword": 13,
    "Grailseeker": 13,
-   "Kingmaker": 5,
+   "Kingmaker": 6,
    "Tombhammer": 10,
    "Ursine Maulers": 3,
    "Heron Spear": 6,
@@ -475,7 +475,7 @@ window.ALBION_WINRATES = {
    "Energy Shaper": 1,
    "Wailing Bow": 1,
    "Ironroot Staff": 3,
-   "Kingmaker": 1,
+   "Kingmaker": 2,
    "Great Holy Staff": 6,
    "Prowling Staff": 4,
    "Daybreaker": 5,
@@ -1309,7 +1309,7 @@ window.ALBION_WINRATES = {
    "Crossbow": 9,
    "Energy Shaper": 1,
    "Forcepulse Bracers": 1,
-   "Mistpiercer": 2,
+   "Mistpiercer": 3,
    "Ironroot Staff": 2,
    "Daybreaker": 2,
    "Spirithunter": 2,
@@ -1331,7 +1331,7 @@ window.ALBION_WINRATES = {
    "Bear Paws": 4,
    "Warbow": 1,
    "Heron Spear": 3,
-   "Mistpiercer": 1,
+   "Mistpiercer": 2,
    "Energy Shaper": 1,
    "Bow of Badon": 7,
    "Holy Staff": 18,
@@ -1717,7 +1717,7 @@ window.ALBION_WINRATES = {
   "Pike": {
    "Bloodletter": 6,
    "Greataxe": 5,
-   "Holy Staff": 14,
+   "Holy Staff": 15,
    "Heavy Crossbow": 5,
    "Whispering Bow": 1,
    "Deathgivers": 3,
@@ -1740,7 +1740,7 @@ window.ALBION_WINRATES = {
    "Crossbow": 1,
    "Warbow": 2,
    "Brawler Gloves": 3,
-   "Demonic Staff": 1,
+   "Demonic Staff": 2,
    "Bedrock Mace": 1,
    "Wildfire Staff": 1,
    "Wailing Bow": 2,
@@ -2574,7 +2574,7 @@ window.ALBION_WINRATES = {
   },
   "Glaive": {
    "Brawler Gloves": 4,
-   "Claymore": 22,
+   "Claymore": 23,
    "Heavy Crossbow": 14,
    "Holy Staff": 70,
    "Dagger Pair": 7,
@@ -2594,7 +2594,7 @@ window.ALBION_WINRATES = {
    "Broadsword": 1,
    "Carving Sword": 1,
    "Kingmaker": 2,
-   "Hallowfall": 1,
+   "Hallowfall": 2,
    "Hellfire Hands": 2,
    "Dagger": 3,
    "Staff of Balance": 3,
@@ -4170,7 +4170,8 @@ window.ALBION_WINRATES = {
    "Battleaxe + Heavy Crossbow": 1,
    "Dagger + Grailseeker": 1,
    "Dagger + Whispering Bow": 1,
-   "Bloodletter + Hellfire Hands": 1
+   "Bloodletter + Hellfire Hands": 1,
+   "Claymore + Hallowfall": 1
   },
   "Claymore + Heavy Crossbow": {
    "Glaive + Holy Staff": 1,
@@ -4237,7 +4238,8 @@ window.ALBION_WINRATES = {
    "Glaive + Holy Staff": 1,
    "Broadsword + Holy Staff": 1,
    "Bloodletter + Brawler Gloves": 2,
-   "Dagger Pair + Wildfire Staff": 1
+   "Dagger Pair + Wildfire Staff": 1,
+   "Demonic Staff + Holy Staff": 1
   },
   "Dagger Pair + Greataxe": {
    "Heavy Crossbow + Holy Staff": 1
