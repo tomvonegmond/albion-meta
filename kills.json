@@ -138,9 +138,9 @@
    "Bedrock Mace": 3,
    "Cursed Staff": 23,
    "Whispering Bow": 9,
-   "Warbow": 13,
+   "Warbow": 14,
    "Divine Staff": 5,
-   "Brawler Gloves": 28,
+   "Brawler Gloves": 29,
    "Broadsword": 15,
    "Grailseeker": 14,
    "Kingmaker": 8,
@@ -681,7 +681,7 @@
    "Demonic Staff": 4,
    "Longbow": 42,
    "Battleaxe": 45,
-   "Dagger Pair": 27,
+   "Dagger Pair": 29,
    "Forcepulse Bracers": 1,
    "Broadsword": 11,
    "Tombhammer": 11,
@@ -891,7 +891,7 @@
    "Demonic Staff": 211,
    "Hallowfall": 77,
    "Deathgivers": 88,
-   "Warbow": 153,
+   "Warbow": 154,
    "Staff of Balance": 137,
    "Whispering Bow": 57,
    "Hellspawn Staff": 176,
@@ -1260,7 +1260,7 @@
    "Kingmaker": 1,
    "Heavy Crossbow": 15,
    "Infernal Scythe": 2,
-   "Dagger Pair": 13,
+   "Dagger Pair": 15,
    "Blight Staff": 4,
    "Battleaxe": 17,
    "Bear Paws": 3,
@@ -124565,7 +124565,8 @@
    "Dagger Pair + Holy Staff": 1
   },
   "Bow of Badon + Fists of Avalon": {
-   "Carving Sword + Holy Staff": 1
+   "Carving Sword + Holy Staff": 1,
+   "Dagger Pair + Dagger Pair": 1
   },
   "Holy Staff + Twin Slayers": {
    "Arclight Blasters + Greataxe": 1,
@@ -125160,46 +125161,6 @@
     "Longbow"
    ],
    "at": "2026-09-16T02:10:00.879983400Z"
-  },
-  "americas:1450553275": {
-   "won": [
-    "Bow of Badon",
-    "Deathgivers"
-   ],
-   "lost": [
-    "Dagger Pair"
-   ],
-   "at": "2026-09-16T02:09:33.255450100Z"
-  },
-  "americas:1450553177": {
-   "won": [
-    "Fists of Avalon",
-    "Hellfire Hands"
-   ],
-   "lost": [
-    "Cursed Staff"
-   ],
-   "at": "2026-09-16T02:09:21.829897300Z"
-  },
-  "americas:1450553079": {
-   "won": [
-    "Claymore",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Carving Sword"
-   ],
-   "at": "2026-09-16T02:09:20.109659600Z"
-  },
-  "americas:1450553123": {
-   "won": [
-    "Battleaxe",
-    "Dagger Pair"
-   ],
-   "lost": [
-    "Cursed Staff"
-   ],
-   "at": "2026-09-16T02:09:18.047949900Z"
   },
   "europe:434814145": {
    "won": [
