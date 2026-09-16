@@ -22,16 +22,16 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-16T15:08:18+00:00",
- "eventsSeen": 281909,
- "qualifying": 15686,
- "duoFights": 4091,
- "runs": 385,
+ "updated": "2026-09-16T15:09:03+00:00",
+ "eventsSeen": 282005,
+ "qualifying": 15690,
+ "duoFights": 4093,
+ "runs": 386,
  "regions": {
   "americas": {
-   "events": 112545,
-   "kills": 5951,
-   "lastSeen": "2026-09-16T15:01:20.809528900Z"
+   "events": 112641,
+   "kills": 5955,
+   "lastSeen": "2026-09-16T15:02:48.688426300Z"
   },
   "europe": {
    "events": 112023,
@@ -47,7 +47,7 @@ window.ALBION_WINRATES = {
  "kills": {
   "Carrioncaller": {
    "Dagger": 5,
-   "Holy Staff": 183,
+   "Holy Staff": 184,
    "Grailseeker": 11,
    "Blight Staff": 4,
    "Bloodletter": 12,
@@ -276,7 +276,7 @@ window.ALBION_WINRATES = {
    "Grailseeker": 37,
    "Bloodletter": 39,
    "Heavy Crossbow": 121,
-   "Holy Staff": 617,
+   "Holy Staff": 618,
    "Divine Staff": 6,
    "Claymore": 130,
    "Great Holy Staff": 28,
@@ -296,7 +296,7 @@ window.ALBION_WINRATES = {
    "Wildfire Staff": 11,
    "Forcepulse Bracers": 3,
    "Bedrock Mace": 1,
-   "Brawler Gloves": 45,
+   "Brawler Gloves": 46,
    "Longbow": 47,
    "Warbow": 79,
    "Deathgivers": 34,
@@ -604,7 +604,7 @@ window.ALBION_WINRATES = {
    "Bear Paws": 12,
    "Dawnsong": 1,
    "Mistpiercer": 4,
-   "Warbow": 16,
+   "Warbow": 18,
    "Broadsword": 5,
    "Grailseeker": 11,
    "Deathgivers": 15,
@@ -953,7 +953,7 @@ window.ALBION_WINRATES = {
    "Longbow": 133,
    "Mistpiercer": 50,
    "Claymore": 585,
-   "Holy Staff": 2546,
+   "Holy Staff": 2548,
    "Heavy Crossbow": 493,
    "Bow of Badon": 312,
    "Bear Paws": 135,
@@ -2443,7 +2443,7 @@ window.ALBION_WINRATES = {
    "Heavy Crossbow": 8,
    "Claymore": 10,
    "Warbow": 4,
-   "Brawler Gloves": 14,
+   "Brawler Gloves": 15,
    "Bow of Badon": 5,
    "Greataxe": 4,
    "Blight Staff": 2,
@@ -4034,7 +4034,7 @@ window.ALBION_WINRATES = {
    "Hellspawn Staff + Holy Staff": 6,
    "Claymore + Great Holy Staff": 1,
    "Dagger Pair + Holy Staff": 10,
-   "Heavy Crossbow + Holy Staff": 8,
+   "Heavy Crossbow + Holy Staff": 9,
    "Carving Sword + Holy Staff": 3,
    "Dagger Pair + Dagger Pair": 3,
    "Fists of Avalon + Soulscythe": 1,
@@ -4270,7 +4270,8 @@ window.ALBION_WINRATES = {
    "Glaive + Holy Staff": 2,
    "Holy Staff + Holy Staff": 1,
    "Carving Sword + Wailing Bow": 1,
-   "Holy Staff + Pike": 1
+   "Holy Staff + Pike": 1,
+   "Blight Staff + Warbow": 1
   },
   "Dagger Pair + Ironroot Staff": {
    "Claymore + Holy Staff": 2,
