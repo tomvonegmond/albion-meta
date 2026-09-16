@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-16T10:15:45+00:00",
- "eventsSeen": 250409,
- "qualifying": 14006,
- "duoFights": 3658,
- "runs": 335,
+ "updated": "2026-09-16T10:21:50+00:00",
+ "eventsSeen": 250560,
+ "qualifying": 14009,
+ "duoFights": 3659,
+ "runs": 336,
  "regions": {
   "americas": {
    "events": 106304,
@@ -34,14 +34,14 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-09-16T10:00:09.115513600Z"
   },
   "europe": {
-   "events": 96890,
-   "kills": 6446,
-   "lastSeen": "2026-09-16T10:08:41.174198900Z"
+   "events": 96918,
+   "kills": 6448,
+   "lastSeen": "2026-09-16T10:15:23.290594900Z"
   },
   "asia": {
-   "events": 47266,
-   "kills": 1864,
-   "lastSeen": "2026-09-16T10:10:24.206910Z"
+   "events": 47389,
+   "kills": 1865,
+   "lastSeen": "2026-09-16T10:16:34.845403400Z"
   }
  },
  "kills": {
@@ -720,7 +720,7 @@ window.ALBION_WINRATES = {
    "Bow of Badon": 104,
    "Greataxe": 38,
    "Hellfire Hands": 16,
-   "Whispering Bow": 14,
+   "Whispering Bow": 16,
    "Holy Staff": 87,
    "Blazing Staff": 16,
    "Bear Paws": 41,
@@ -932,7 +932,7 @@ window.ALBION_WINRATES = {
    "Longbow": 118,
    "Mistpiercer": 45,
    "Claymore": 543,
-   "Holy Staff": 2246,
+   "Holy Staff": 2247,
    "Heavy Crossbow": 450,
    "Bow of Badon": 270,
    "Bear Paws": 120,
@@ -954,7 +954,7 @@ window.ALBION_WINRATES = {
    "Hellfire Hands": 65,
    "Energy Shaper": 43,
    "Brawler Gloves": 199,
-   "Rotcaller Staff": 22,
+   "Rotcaller Staff": 23,
    "Bloodletter": 110,
    "Crossbow": 90,
    "Wildfire Staff": 35,
@@ -2691,7 +2691,7 @@ window.ALBION_WINRATES = {
    "Brawler Gloves": 4,
    "Claymore": 25,
    "Heavy Crossbow": 14,
-   "Holy Staff": 71,
+   "Holy Staff": 72,
    "Dagger Pair": 7,
    "Demonic Staff": 12,
    "Bloodletter": 4,
@@ -2720,7 +2720,8 @@ window.ALBION_WINRATES = {
    "Energy Shaper": 2,
    "Battleaxe": 3,
    "Grailseeker": 1,
-   "Whispering Bow": 1
+   "Whispering Bow": 1,
+   "Rotcaller Staff": 1
   },
   "Daybreaker": {
    "Greataxe": 5,
@@ -4437,7 +4438,8 @@ window.ALBION_WINRATES = {
    "Dagger + Grailseeker": 1,
    "Dagger + Whispering Bow": 1,
    "Bloodletter + Hellfire Hands": 1,
-   "Claymore + Hallowfall": 2
+   "Claymore + Hallowfall": 2,
+   "Holy Staff + Rotcaller Staff": 1
   },
   "Claymore + Heavy Crossbow": {
    "Glaive + Holy Staff": 1,
