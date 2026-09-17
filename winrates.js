@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-17T08:59:21+00:00",
- "eventsSeen": 417160,
- "qualifying": 23222,
- "duoFights": 6048,
- "runs": 578,
+ "updated": "2026-09-17T09:04:39+00:00",
+ "eventsSeen": 417403,
+ "qualifying": 23229,
+ "duoFights": 6049,
+ "runs": 579,
  "regions": {
   "americas": {
    "events": 172083,
@@ -34,14 +34,14 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-09-17T07:49:22.811859600Z"
   },
   "europe": {
-   "events": 166018,
-   "kills": 11009,
-   "lastSeen": "2026-09-17T08:53:02.603708300Z"
+   "events": 166210,
+   "kills": 11015,
+   "lastSeen": "2026-09-17T08:59:06.836542600Z"
   },
   "asia": {
-   "events": 79110,
-   "kills": 3045,
-   "lastSeen": "2026-09-17T08:52:55.918879800Z"
+   "events": 79161,
+   "kills": 3046,
+   "lastSeen": "2026-09-17T08:59:09.659518500Z"
   }
  },
  "kills": {
@@ -296,7 +296,7 @@ window.ALBION_WINRATES = {
    "Dagger Pair": 185,
    "Cursed Staff": 36,
    "Blight Staff": 16,
-   "Demonic Staff": 92,
+   "Demonic Staff": 93,
    "Battleaxe": 129,
    "Hellfire Hands": 33,
    "Greataxe": 63,
@@ -314,7 +314,7 @@ window.ALBION_WINRATES = {
    "Deathgivers": 49,
    "Hellspawn Staff": 75,
    "Crystal Reaper": 16,
-   "Carving Sword": 47,
+   "Carving Sword": 48,
    "Ironroot Staff": 25,
    "Carrioncaller": 44,
    "Hallowfall": 20,
@@ -401,7 +401,7 @@ window.ALBION_WINRATES = {
   },
   "Arclight Blasters": {
    "Demonic Staff": 35,
-   "Holy Staff": 337,
+   "Holy Staff": 338,
    "Hellspawn Staff": 38,
    "Bow of Badon": 98,
    "Energy Shaper": 10,
@@ -433,7 +433,7 @@ window.ALBION_WINRATES = {
    "Rotcaller Staff": 11,
    "Brawler Gloves": 17,
    "Kingmaker": 14,
-   "Dagger Pair": 24,
+   "Dagger Pair": 25,
    "Daybreaker": 11,
    "Crystal Reaper": 14,
    "Twin Slayers": 10,
@@ -674,7 +674,7 @@ window.ALBION_WINRATES = {
    "Permafrost Prism": 1,
    "Pike": 3,
    "Icicle Staff": 1,
-   "Black Monk Stave": 1,
+   "Black Monk Stave": 2,
    "Daybreaker": 2,
    "Divine Staff": 2,
    "Great Arcane Staff": 1
@@ -1010,19 +1010,19 @@ window.ALBION_WINRATES = {
    "Longbow": 205,
    "Mistpiercer": 87,
    "Claymore": 858,
-   "Holy Staff": 3719,
+   "Holy Staff": 3720,
    "Heavy Crossbow": 696,
    "Bow of Badon": 461,
    "Bear Paws": 212,
    "Greataxe": 201,
-   "Dagger Pair": 595,
+   "Dagger Pair": 596,
    "Cursed Staff": 141,
    "Carrioncaller": 202,
    "Blazing Staff": 129,
    "Arclight Blasters": 242,
-   "Carving Sword": 173,
+   "Carving Sword": 174,
    "Fists of Avalon": 154,
-   "Demonic Staff": 425,
+   "Demonic Staff": 426,
    "Hallowfall": 136,
    "Deathgivers": 166,
    "Warbow": 324,
@@ -1149,7 +1149,7 @@ window.ALBION_WINRATES = {
    "Great Arcane Staff": 1,
    "Carrioncaller": 8,
    "Rotcaller Staff": 3,
-   "Whispering Bow": 9,
+   "Whispering Bow": 10,
    "Twin Slayers": 3,
    "Energy Shaper": 5,
    "Great Holy Staff": 10,
@@ -1714,7 +1714,7 @@ window.ALBION_WINRATES = {
    "Mistpiercer": 4,
    "Heavy Crossbow": 5,
    "Crossbow": 1,
-   "Deathgivers": 1,
+   "Deathgivers": 2,
    "Demonic Staff": 1,
    "Greataxe": 5,
    "Whispering Bow": 5,
@@ -1739,7 +1739,8 @@ window.ALBION_WINRATES = {
    "Claymore": 2,
    "Great Fire Staff": 1,
    "Wailing Bow": 1,
-   "Forcepulse Bracers": 2
+   "Forcepulse Bracers": 2,
+   "Black Monk Stave": 1
   },
   "Infernal Scythe": {
    "Hellfire Hands": 1,
@@ -1798,7 +1799,7 @@ window.ALBION_WINRATES = {
    "Bear Paws": 8,
    "Cursed Staff": 10,
    "Glaive": 1,
-   "Deathgivers": 6,
+   "Deathgivers": 7,
    "Bow of Badon": 19,
    "Bedrock Mace": 1,
    "Greataxe": 12,
@@ -2820,7 +2821,7 @@ window.ALBION_WINRATES = {
    "Glacial Staff": 6,
    "Dagger Pair": 54,
    "Heavy Crossbow": 33,
-   "Whispering Bow": 10,
+   "Whispering Bow": 11,
    "Bear Paws": 15,
    "Soulscythe": 2,
    "Carving Sword": 10,
@@ -4037,7 +4038,7 @@ window.ALBION_WINRATES = {
    "Holy Staff + Kingmaker": 2,
    "Bear Paws + Warbow": 1,
    "Hellspawn Staff + Holy Staff": 15,
-   "Dagger Pair + Holy Staff": 11,
+   "Dagger Pair + Holy Staff": 12,
    "Arclight Blasters + Great Holy Staff": 3,
    "Carving Sword + Great Holy Staff": 2,
    "Brawler Gloves + Brawler Gloves": 1,
