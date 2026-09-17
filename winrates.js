@@ -405,7 +405,7 @@ window.ALBION_WINRATES = {
    "Realmbreaker": 2,
    "Grailseeker": 7,
    "Glaive": 2,
-   "Redemption Staff": 1,
+   "Redemption Staff": 2,
    "Daybreaker": 1,
    "Twin Slayers": 1,
    "Dawnsong": 2
@@ -946,7 +946,7 @@ window.ALBION_WINRATES = {
    "Blight Staff": 17,
    "Carving Sword": 26,
    "Warbow": 43,
-   "Brawler Gloves": 17,
+   "Brawler Gloves": 18,
    "Dawnsong": 7,
    "Energy Shaper": 9,
    "Tombhammer": 14,
@@ -1191,7 +1191,7 @@ window.ALBION_WINRATES = {
    "Blight Staff": 12,
    "Lifecurse Staff": 7,
    "Dagger Pair": 60,
-   "Holy Staff": 218,
+   "Holy Staff": 219,
    "Heavy Crossbow": 53,
    "Brawler Gloves": 35,
    "Mistpiercer": 12,
@@ -2329,7 +2329,8 @@ window.ALBION_WINRATES = {
    "Blight Staff": 1,
    "Wailing Bow": 1,
    "Brawler Gloves": 2,
-   "Demonic Staff": 2
+   "Demonic Staff": 2,
+   "Redemption Staff": 1
   },
   "Crystal Reaper": {
    "Bloodletter": 7,
@@ -7118,7 +7119,7 @@ window.ALBION_WINRATES = {
    "Brawler Gloves + Staff of Balance": 1,
    "Blazing Staff + Staff of Balance": 1,
    "Greataxe + Holy Staff": 1,
-   "Claymore + Holy Staff": 1,
+   "Claymore + Holy Staff": 2,
    "Battleaxe + Bear Paws": 1,
    "Crossbow + Heron Spear": 1,
    "Dagger Pair + Holy Staff": 1,
