@@ -516,7 +516,7 @@
    "Holy Staff": 425,
    "Grailseeker": 24,
    "Dagger": 28,
-   "Bear Paws": 25,
+   "Bear Paws": 26,
    "Longbow": 29,
    "Greataxe": 24,
    "Heavy Crossbow": 133,
@@ -560,7 +560,7 @@
    "Soulscythe": 14,
    "Wildfire Staff": 10,
    "Arclight Blasters": 12,
-   "Bow of Badon": 14,
+   "Bow of Badon": 15,
    "Ironroot Staff": 7,
    "Redemption Staff": 3,
    "Lifecurse Staff": 3,
@@ -1656,12 +1656,12 @@
    "Blazing Staff": 3,
    "Battleaxe": 16,
    "Dagger": 2,
-   "Bow of Badon": 7,
+   "Bow of Badon": 8,
    "Broadsword": 2,
    "Wildfire Staff": 3,
    "Lifecurse Staff": 2,
    "Brawler Gloves": 5,
-   "Bear Paws": 5,
+   "Bear Paws": 6,
    "Holy Staff": 14,
    "Hellfire Hands": 1,
    "Rotcaller Staff": 1,
@@ -2744,7 +2744,7 @@
    "Bow of Badon": 5,
    "Longbow": 5,
    "Battleaxe": 6,
-   "Claymore": 3,
+   "Claymore": 4,
    "Dagger Pair": 3,
    "Hallowfall": 1,
    "Tombhammer": 1,
@@ -3044,7 +3044,7 @@
    "Greataxe": 10,
    "Warbow": 4,
    "Battleaxe": 13,
-   "Claymore": 9,
+   "Claymore": 10,
    "Crystal Reaper": 4,
    "Bear Paws": 7,
    "Holy Staff": 28,
@@ -127518,16 +127518,6 @@
     "Holy Staff"
    ],
    "at": "2026-09-17T04:57:21.733569200Z"
-  },
-  "americas:1451162553": {
-   "won": [
-    "Crystal Reaper",
-    "Tombhammer"
-   ],
-   "lost": [
-    "Dawnsong"
-   ],
-   "at": "2026-09-17T04:56:40.063441700Z"
   },
   "americas:1451168050": {
    "won": [
