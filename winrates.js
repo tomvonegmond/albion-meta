@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-17T09:19:35+00:00",
+ "updated": "2026-09-17T09:27:00+00:00",
  "eventsSeen": 418061,
  "qualifying": 23253,
  "duoFights": 6054,
- "runs": 582,
+ "runs": 583,
  "regions": {
   "americas": {
    "events": 172083,

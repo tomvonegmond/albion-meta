@@ -123240,8 +123240,8 @@
  },
  "eventsSeen": 418061,
  "qualifying": 23253,
- "runs": 582,
- "updated": "2026-09-17T09:19:35+00:00",
+ "runs": 583,
+ "updated": "2026-09-17T09:27:00+00:00",
  "duos": {
   "Energy Shaper + Tombhammer": {
    "Bear Paws + Bear Paws": 1,
@@ -127322,156 +127322,6 @@
   }
  },
  "pending": {
-  "americas:1451194433": {
-   "won": [
-    "Demonic Staff",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Heavy Crossbow"
-   ],
-   "at": "2026-09-17T06:26:02.958263200Z"
-  },
-  "americas:1451194370": {
-   "won": [
-    "Battleaxe",
-    "Crystal Reaper"
-   ],
-   "lost": [
-    "Deathgivers"
-   ],
-   "at": "2026-09-17T06:25:44.604584200Z"
-  },
-  "americas:1451194158": {
-   "won": [
-    "Energy Shaper",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Bear Paws"
-   ],
-   "at": "2026-09-17T06:25:02.305042Z"
-  },
-  "americas:1451193909": {
-   "won": [
-    "Claymore",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Brawler Gloves"
-   ],
-   "at": "2026-09-17T06:24:06.228739700Z"
-  },
-  "americas:1451193588": {
-   "won": [
-    "Permafrost Prism",
-    "Ursine Maulers"
-   ],
-   "lost": [
-    "Dagger"
-   ],
-   "at": "2026-09-17T06:22:57.142306500Z"
-  },
-  "americas:1451193423": {
-   "won": [
-    "Arclight Blasters",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Broadsword"
-   ],
-   "at": "2026-09-17T06:22:50.548792800Z"
-  },
-  "americas:1451193419": {
-   "won": [
-    "Battleaxe",
-    "Battleaxe"
-   ],
-   "lost": [
-    "Battleaxe"
-   ],
-   "at": "2026-09-17T06:22:05.025137400Z"
-  },
-  "americas:1451193098": {
-   "won": [
-    "Brawler Gloves",
-    "Brawler Gloves"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-17T06:21:02.927010800Z"
-  },
-  "americas:1451192997": {
-   "won": [
-    "Energy Shaper",
-    "Permafrost Prism"
-   ],
-   "lost": [
-    "Bow of Badon"
-   ],
-   "at": "2026-09-17T06:20:39.248558900Z"
-  },
-  "americas:1451192982": {
-   "won": [
-    "Heavy Crossbow",
-    "Staff of Balance"
-   ],
-   "lost": [
-    "Heavy Crossbow"
-   ],
-   "at": "2026-09-17T06:20:36.090489100Z"
-  },
-  "americas:1451192960": {
-   "won": [
-    "Battleaxe",
-    "Realmbreaker"
-   ],
-   "lost": [
-    "Longbow"
-   ],
-   "at": "2026-09-17T06:20:30.571612800Z"
-  },
-  "americas:1451192944": {
-   "won": [
-    "Crossbow",
-    "Cursed Staff"
-   ],
-   "lost": [
-    "Wailing Bow"
-   ],
-   "at": "2026-09-17T06:20:26.326679300Z"
-  },
-  "americas:1451192905": {
-   "won": [
-    "Dagger Pair",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Heavy Crossbow"
-   ],
-   "at": "2026-09-17T06:20:12.581651200Z"
-  },
-  "americas:1451192849": {
-   "won": [
-    "Brawler Gloves",
-    "Hellfire Hands"
-   ],
-   "lost": [
-    "Brawler Gloves"
-   ],
-   "at": "2026-09-17T06:19:58.513576Z"
-  },
-  "europe:435306072": {
-   "won": [
-    "Battleaxe",
-    "Hellfire Hands"
-   ],
-   "lost": [
-    "Heavy Crossbow"
-   ],
-   "at": "2026-09-17T06:25:14.936014700Z"
-  },
   "americas:1451195873": {
    "won": [
     "Dagger",
@@ -127552,16 +127402,6 @@
    ],
    "at": "2026-09-17T06:30:01.290503Z"
   },
-  "europe:435305774": {
-   "won": [
-    "Claymore",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Demonic Staff"
-   ],
-   "at": "2026-09-17T06:22:36.752208700Z"
-  },
   "asia:511617394": {
    "won": [
     "Hellspawn Staff",
@@ -127641,26 +127481,6 @@
     "Holy Staff"
    ],
    "at": "2026-09-17T06:37:28.024589100Z"
-  },
-  "asia:511615826": {
-   "won": [
-    "Carving Sword",
-    "Redemption Staff"
-   ],
-   "lost": [
-    "Great Fire Staff"
-   ],
-   "at": "2026-09-17T06:23:48.654447500Z"
-  },
-  "asia:511615535": {
-   "won": [
-    "Dagger Pair",
-    "Dagger Pair"
-   ],
-   "lost": [
-    "Fists of Avalon"
-   ],
-   "at": "2026-09-17T06:22:35.485584900Z"
   },
   "americas:1451199769": {
    "won": [
