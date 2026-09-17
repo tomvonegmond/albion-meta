@@ -562,7 +562,7 @@ window.ALBION_WINRATES = {
   },
   "Heavy Crossbow": {
    "Carrioncaller": 28,
-   "Holy Staff": 439,
+   "Holy Staff": 440,
    "Grailseeker": 25,
    "Dagger": 28,
    "Bear Paws": 26,
