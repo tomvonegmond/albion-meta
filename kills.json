@@ -113,7 +113,8 @@
    "Arclight Blasters": 3,
    "Spirithunter": 1,
    "Rotcaller Staff": 2,
-   "Great Arcane Staff": 1
+   "Great Arcane Staff": 1,
+   "Ironroot Staff": 1
   },
   "Dagger Pair": {
    "Holy Staff": 502,
@@ -269,9 +270,9 @@
    "Warbow": 118,
    "Deathgivers": 50,
    "Hellspawn Staff": 77,
-   "Crystal Reaper": 18,
+   "Crystal Reaper": 19,
    "Carving Sword": 50,
-   "Ironroot Staff": 26,
+   "Ironroot Staff": 27,
    "Carrioncaller": 47,
    "Hallowfall": 20,
    "Fists of Avalon": 30,
@@ -851,7 +852,7 @@
   },
   "Bear Paws": {
    "Bow of Badon": 93,
-   "Holy Staff": 121,
+   "Holy Staff": 122,
    "Broadsword": 15,
    "Claymore": 27,
    "Dagger Pair": 31,
@@ -879,7 +880,7 @@
    "Infernal Scythe": 10,
    "Blazing Staff": 29,
    "Dagger": 20,
-   "Cursed Staff": 36,
+   "Cursed Staff": 37,
    "Arclight Blasters": 21,
    "Demonic Staff": 12,
    "Lifecurse Staff": 8,
@@ -1014,7 +1015,7 @@
    "Realmbreaker": 41,
    "Kingmaker": 100,
    "Twin Slayers": 54,
-   "Crystal Reaper": 67,
+   "Crystal Reaper": 68,
    "Redemption Staff": 47,
    "Heron Spear": 100,
    "Grailseeker": 215,
@@ -1077,7 +1078,7 @@
    "Battleaxe": 48,
    "Warbow": 15,
    "Kingmaker": 10,
-   "Greataxe": 20,
+   "Greataxe": 21,
    "Arclight Blasters": 7,
    "Crossbow": 12,
    "Dagger": 13,
@@ -1660,7 +1661,7 @@
    "Black Monk Stave": 1
   },
   "Blight Staff": {
-   "Cursed Staff": 11,
+   "Cursed Staff": 12,
    "Longbow": 10,
    "Twin Slayers": 3,
    "Blazing Staff": 3,
@@ -1848,7 +1849,7 @@
    "Tombhammer": 7,
    "Ursine Maulers": 3,
    "Hallowfall": 21,
-   "Brawler Gloves": 14,
+   "Brawler Gloves": 16,
    "Wildfire Staff": 8,
    "Daybreaker": 6,
    "Spirithunter": 4,
@@ -127508,16 +127509,6 @@
   }
  },
  "pending": {
-  "europe:435355268": {
-   "won": [
-    "Hellfire Hands",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Crystal Reaper"
-   ],
-   "at": "2026-09-17T10:13:43.532659200Z"
-  },
   "americas:1451227601": {
    "won": [
     "Cursed Staff",
