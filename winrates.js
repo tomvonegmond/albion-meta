@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-17T08:53:25+00:00",
- "eventsSeen": 416608,
- "qualifying": 23202,
- "duoFights": 6041,
- "runs": 576,
+ "updated": "2026-09-17T08:54:01+00:00",
+ "eventsSeen": 416669,
+ "qualifying": 23205,
+ "duoFights": 6042,
+ "runs": 577,
  "regions": {
   "americas": {
    "events": 172083,
@@ -34,14 +34,14 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-09-17T07:49:22.811859600Z"
   },
   "europe": {
-   "events": 165856,
-   "kills": 11001,
-   "lastSeen": "2026-09-17T08:46:48.709612Z"
+   "events": 165889,
+   "kills": 11004,
+   "lastSeen": "2026-09-17T08:47:49.561386900Z"
   },
   "asia": {
-   "events": 78720,
+   "events": 78748,
    "kills": 3033,
-   "lastSeen": "2026-09-17T08:47:47.014351100Z"
+   "lastSeen": "2026-09-17T08:23:42.808796600Z"
   }
  },
  "kills": {
@@ -380,7 +380,7 @@ window.ALBION_WINRATES = {
    "Divine Staff": 2,
    "Tombhammer": 3,
    "Fists of Avalon": 6,
-   "Hellfire Hands": 4,
+   "Hellfire Hands": 6,
    "Whispering Bow": 5,
    "Staff of Balance": 5,
    "Great Holy Staff": 4,
@@ -397,11 +397,11 @@ window.ALBION_WINRATES = {
    "Bedrock Mace": 2,
    "Hellspawn Staff": 3,
    "Realmbreaker": 2,
-   "Grailseeker": 5
+   "Grailseeker": 7
   },
   "Arclight Blasters": {
    "Demonic Staff": 35,
-   "Holy Staff": 336,
+   "Holy Staff": 337,
    "Hellspawn Staff": 38,
    "Bow of Badon": 98,
    "Energy Shaper": 10,
@@ -1010,7 +1010,7 @@ window.ALBION_WINRATES = {
    "Longbow": 205,
    "Mistpiercer": 87,
    "Claymore": 856,
-   "Holy Staff": 3714,
+   "Holy Staff": 3715,
    "Heavy Crossbow": 696,
    "Bow of Badon": 461,
    "Bear Paws": 212,
@@ -4016,7 +4016,7 @@ window.ALBION_WINRATES = {
   "Arclight Blasters + Holy Staff": {
    "Bow of Badon + Bow of Badon": 2,
    "Carrioncaller + Holy Staff": 7,
-   "Claymore + Holy Staff": 32,
+   "Claymore + Holy Staff": 33,
    "Claymore + Great Holy Staff": 3,
    "Longbow + Realmbreaker": 1,
    "Battleaxe + Bow of Badon": 6,
