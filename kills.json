@@ -168,7 +168,7 @@
    "Arclight Blasters": 16,
    "Hellfire Hands": 15,
    "Pike": 10,
-   "Fists of Avalon": 21,
+   "Fists of Avalon": 22,
    "Blazing Staff": 25,
    "Glaive": 6,
    "Great Arcane Staff": 2,
@@ -290,7 +290,7 @@
    "Prowling Staff": 20,
    "Realmbreaker": 18,
    "Energy Shaper": 32,
-   "Arclight Blasters": 67,
+   "Arclight Blasters": 68,
    "Rotcaller Staff": 12,
    "Broadsword": 29,
    "Spirithunter": 11,
@@ -1089,7 +1089,7 @@
   "Dagger": {
    "Holy Staff": 277,
    "Heron Spear": 11,
-   "Dagger Pair": 74,
+   "Dagger Pair": 75,
    "Heavy Crossbow": 56,
    "Brawler Gloves": 32,
    "Bow of Badon": 18,
@@ -1152,7 +1152,7 @@
    "Claymore": 67,
    "Blight Staff": 13,
    "Lifecurse Staff": 7,
-   "Dagger Pair": 62,
+   "Dagger Pair": 63,
    "Holy Staff": 224,
    "Heavy Crossbow": 54,
    "Brawler Gloves": 35,
@@ -1397,7 +1397,7 @@
    "Black Monk Stave": 3,
    "Redemption Staff": 6,
    "Wailing Bow": 6,
-   "Infernal Scythe": 7,
+   "Infernal Scythe": 8,
    "Rotcaller Staff": 9,
    "Glacial Staff": 1,
    "Forcepulse Bracers": 3,
@@ -2298,7 +2298,7 @@
    "Dawnsong": 2,
    "Tombhammer": 2,
    "Permafrost Prism": 1,
-   "Infernal Scythe": 2,
+   "Infernal Scythe": 3,
    "Wildfire Staff": 2,
    "Greataxe": 4,
    "Fists of Avalon": 1,
@@ -123433,7 +123433,7 @@
    "Dagger Pair + Hellfire Hands": 1,
    "Carrioncaller + Hellfire Hands": 1,
    "Greataxe + Hellfire Hands": 1,
-   "Arclight Blasters + Holy Staff": 27,
+   "Arclight Blasters + Holy Staff": 28,
    "Dagger Pair + Great Holy Staff": 4,
    "Dagger Pair + Divine Staff": 1,
    "Brawler Gloves + Heavy Crossbow": 1,
@@ -128399,26 +128399,6 @@
     "Crystal Reaper"
    ],
    "at": "2026-09-18T03:10:42.523949900Z"
-  },
-  "europe:435753237": {
-   "won": [
-    "Warbow",
-    "Warbow"
-   ],
-   "lost": [
-    "Deathgivers"
-   ],
-   "at": "2026-09-18T03:07:07.180402Z"
-  },
-  "europe:435753230": {
-   "won": [
-    "Dagger",
-    "Grailseeker"
-   ],
-   "lost": [
-    "Fists of Avalon"
-   ],
-   "at": "2026-09-18T03:07:02.963867100Z"
   },
   "asia:511884028": {
    "won": [
