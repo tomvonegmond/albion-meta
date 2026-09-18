@@ -22,32 +22,32 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-18T02:39:37+00:00",
- "eventsSeen": 511948,
- "qualifying": 29042,
- "duoFights": 7545,
- "runs": 709,
+ "updated": "2026-09-18T02:51:09+00:00",
+ "eventsSeen": 512349,
+ "qualifying": 29059,
+ "duoFights": 7547,
+ "runs": 710,
  "regions": {
   "americas": {
-   "events": 186709,
-   "kills": 9862,
-   "lastSeen": "2026-09-17T21:00:49.820521200Z"
+   "events": 186910,
+   "kills": 9872,
+   "lastSeen": "2026-09-17T21:05:20.327042200Z"
   },
   "europe": {
-   "events": 224028,
-   "kills": 15262,
-   "lastSeen": "2026-09-18T02:33:37.144330900Z"
+   "events": 224177,
+   "kills": 15268,
+   "lastSeen": "2026-09-18T02:44:55.366609Z"
   },
   "asia": {
-   "events": 101262,
-   "kills": 3923,
-   "lastSeen": "2026-09-18T02:34:06.139386300Z"
+   "events": 101313,
+   "kills": 3924,
+   "lastSeen": "2026-09-18T02:45:17.357753300Z"
   }
  },
  "kills": {
   "Carrioncaller": {
    "Dagger": 10,
-   "Holy Staff": 257,
+   "Holy Staff": 258,
    "Grailseeker": 17,
    "Blight Staff": 6,
    "Bloodletter": 16,
@@ -215,7 +215,7 @@ window.ALBION_WINRATES = {
    "Fists of Avalon": 21,
    "Blazing Staff": 25,
    "Glaive": 6,
-   "Great Arcane Staff": 1,
+   "Great Arcane Staff": 2,
    "Black Monk Stave": 1,
    "Daybreaker": 8,
    "Crystal Reaper": 4,
@@ -252,7 +252,7 @@ window.ALBION_WINRATES = {
    "Bow of Badon": 23,
    "Twin Slayers": 2,
    "Wildfire Staff": 6,
-   "Staff of Balance": 75,
+   "Staff of Balance": 76,
    "Carving Sword": 22,
    "Arclight Blasters": 39,
    "Fists of Avalon": 22,
@@ -364,7 +364,7 @@ window.ALBION_WINRATES = {
    "Warbow": 22,
    "Spirithunter": 1,
    "Claymore": 24,
-   "Holy Staff": 58,
+   "Holy Staff": 59,
    "Crossbow": 12,
    "Mistpiercer": 3,
    "Lifecurse Staff": 5,
@@ -476,7 +476,7 @@ window.ALBION_WINRATES = {
   },
   "Greataxe": {
    "Mistpiercer": 16,
-   "Battleaxe": 77,
+   "Battleaxe": 78,
    "Broadsword": 11,
    "Lifecurse Staff": 5,
    "Hallowfall": 14,
@@ -511,7 +511,7 @@ window.ALBION_WINRATES = {
    "Infernal Scythe": 3,
    "Grailseeker": 8,
    "Carving Sword": 19,
-   "Brawler Gloves": 9,
+   "Brawler Gloves": 10,
    "Divine Staff": 3,
    "Tombhammer": 13,
    "Energy Shaper": 8,
@@ -960,7 +960,7 @@ window.ALBION_WINRATES = {
    "Carrioncaller": 5,
    "Daybreaker": 13,
    "Glacial Staff": 11,
-   "Crystal Reaper": 9,
+   "Crystal Reaper": 10,
    "Great Holy Staff": 15,
    "Realmbreaker": 5,
    "Redemption Staff": 5,
@@ -1036,13 +1036,13 @@ window.ALBION_WINRATES = {
    "Longbow": 247,
    "Mistpiercer": 115,
    "Claymore": 1083,
-   "Holy Staff": 4656,
+   "Holy Staff": 4657,
    "Heavy Crossbow": 851,
    "Bow of Badon": 595,
    "Bear Paws": 262,
    "Greataxe": 234,
    "Dagger Pair": 737,
-   "Cursed Staff": 175,
+   "Cursed Staff": 176,
    "Carrioncaller": 246,
    "Blazing Staff": 156,
    "Arclight Blasters": 323,
@@ -1052,12 +1052,12 @@ window.ALBION_WINRATES = {
    "Hallowfall": 169,
    "Deathgivers": 226,
    "Warbow": 386,
-   "Staff of Balance": 343,
+   "Staff of Balance": 344,
    "Whispering Bow": 161,
    "Hellspawn Staff": 383,
    "Hellfire Hands": 145,
    "Energy Shaper": 111,
-   "Brawler Gloves": 374,
+   "Brawler Gloves": 375,
    "Rotcaller Staff": 58,
    "Bloodletter": 227,
    "Crossbow": 179,
@@ -1096,7 +1096,8 @@ window.ALBION_WINRATES = {
    "Great Arcane Staff": 29,
    "Bedrock Mace": 2,
    "Camlann Mace": 5,
-   "Hoarfrost Staff": 7
+   "Hoarfrost Staff": 7,
+   "Grovekeeper": 1
   },
   "Divine Staff": {
    "Grailseeker": 3,
@@ -1134,7 +1135,7 @@ window.ALBION_WINRATES = {
    "Dagger Pair": 74,
    "Heavy Crossbow": 56,
    "Brawler Gloves": 32,
-   "Bow of Badon": 17,
+   "Bow of Badon": 18,
    "Claymore": 89,
    "Fists of Avalon": 8,
    "Hallowfall": 7,
@@ -1258,7 +1259,7 @@ window.ALBION_WINRATES = {
    "Bedrock Mace": 1
   },
   "Cursed Staff": {
-   "Battleaxe": 75,
+   "Battleaxe": 76,
    "Warbow": 28,
    "Cursed Staff": 20,
    "Longbow": 42,
@@ -1275,7 +1276,7 @@ window.ALBION_WINRATES = {
    "Dawnsong": 1,
    "Fists of Avalon": 13,
    "Heavy Crossbow": 28,
-   "Bow of Badon": 29,
+   "Bow of Badon": 30,
    "Bedrock Mace": 4,
    "Kingmaker": 6,
    "Bloodletter": 16,
@@ -1623,7 +1624,8 @@ window.ALBION_WINRATES = {
    "Spirithunter": 1,
    "Soulscythe": 2,
    "Camlann Mace": 1,
-   "Glaive": 3
+   "Glaive": 3,
+   "Great Arcane Staff": 1
   },
   "Hallowfall": {
    "Lifecurse Staff": 2,
@@ -1691,7 +1693,7 @@ window.ALBION_WINRATES = {
   "Wildfire Staff": {
    "Cursed Staff": 11,
    "Battleaxe": 20,
-   "Claymore": 10,
+   "Claymore": 11,
    "Heavy Crossbow": 16,
    "Dagger Pair": 11,
    "Longbow": 9,
@@ -1774,7 +1776,7 @@ window.ALBION_WINRATES = {
    "Blight Staff": 3,
    "Pike": 3,
    "Kingmaker": 2,
-   "Crystal Reaper": 1,
+   "Crystal Reaper": 2,
    "Glaive": 1,
    "Grailseeker": 1,
    "Redemption Staff": 1,
@@ -1791,7 +1793,7 @@ window.ALBION_WINRATES = {
    "Staff of Balance": 1,
    "Glacial Staff": 1,
    "Bow of Badon": 8,
-   "Holy Staff": 17,
+   "Holy Staff": 18,
    "Crossbow": 1,
    "Cursed Staff": 4,
    "Battleaxe": 10,
@@ -1807,10 +1809,10 @@ window.ALBION_WINRATES = {
    "Dagger": 1,
    "Wailing Bow": 2,
    "Lifecurse Staff": 1,
-   "Bloodletter": 3,
-   "Dagger Pair": 4,
+   "Bloodletter": 4,
+   "Dagger Pair": 6,
    "Deathgivers": 1,
-   "Soulscythe": 2,
+   "Soulscythe": 3,
    "Claymore": 6,
    "Greataxe": 1,
    "Kingmaker": 1,
@@ -2013,7 +2015,7 @@ window.ALBION_WINRATES = {
   "Pike": {
    "Bloodletter": 9,
    "Greataxe": 9,
-   "Holy Staff": 32,
+   "Holy Staff": 33,
    "Heavy Crossbow": 7,
    "Whispering Bow": 2,
    "Deathgivers": 3,
@@ -2021,7 +2023,7 @@ window.ALBION_WINRATES = {
    "Prowling Staff": 1,
    "Hellspawn Staff": 4,
    "Bear Paws": 6,
-   "Claymore": 5,
+   "Claymore": 6,
    "Blight Staff": 2,
    "Energy Shaper": 1,
    "Dagger Pair": 13,
@@ -2128,7 +2130,7 @@ window.ALBION_WINRATES = {
    "Grailseeker": 10,
    "Dagger": 10,
    "Tombhammer": 8,
-   "Cursed Staff": 12,
+   "Cursed Staff": 13,
    "Dagger Pair": 11,
    "Hellspawn Staff": 11,
    "Rotcaller Staff": 3,
@@ -2471,7 +2473,7 @@ window.ALBION_WINRATES = {
    "Whispering Bow": 4,
    "Bear Paws": 10,
    "Claymore": 31,
-   "Holy Staff": 118,
+   "Holy Staff": 119,
    "Battleaxe": 16,
    "Heavy Crossbow": 22,
    "Carrioncaller": 4,
@@ -2480,15 +2482,15 @@ window.ALBION_WINRATES = {
    "Glacial Staff": 7,
    "Bedrock Mace": 1,
    "Hellfire Hands": 3,
-   "Bloodletter": 6,
+   "Bloodletter": 7,
    "Tombhammer": 1,
    "Heron Spear": 3,
    "Bow of Badon": 9,
-   "Dagger Pair": 22,
+   "Dagger Pair": 24,
    "Deathgivers": 13,
    "Cursed Staff": 5,
    "Kingmaker": 2,
-   "Soulscythe": 1,
+   "Soulscythe": 2,
    "Demonic Staff": 17,
    "Brawler Gloves": 12,
    "Warbow": 5,
@@ -2721,7 +2723,8 @@ window.ALBION_WINRATES = {
    "Redemption Staff": 2,
    "Great Fire Staff": 1,
    "Glacial Staff": 2,
-   "Soulscythe": 3
+   "Soulscythe": 3,
+   "Grovekeeper": 1
   },
   "Ironroot Staff": {
    "Dagger Pair": 17,
@@ -2926,7 +2929,7 @@ window.ALBION_WINRATES = {
    "Demonic Staff": 22,
    "Dagger": 16,
    "Deathgivers": 33,
-   "Warbow": 23,
+   "Warbow": 24,
    "Rotcaller Staff": 5,
    "Arclight Blasters": 14,
    "Ironroot Staff": 13,
@@ -2982,7 +2985,7 @@ window.ALBION_WINRATES = {
    "Dagger Pair": 43,
    "Deathgivers": 19,
    "Prowling Staff": 7,
-   "Warbow": 12,
+   "Warbow": 13,
    "Ironroot Staff": 6,
    "Arclight Blasters": 7,
    "Daybreaker": 5,
@@ -8261,7 +8264,9 @@ window.ALBION_WINRATES = {
    "Bow of Badon + Greataxe": 1
   },
   "Infernal Scythe + Soulscythe": {
-   "Glaive + Pike": 2
+   "Glaive + Pike": 2,
+   "Dagger Pair + Soulscythe": 1,
+   "Bloodletter + Dagger Pair": 1
   },
   "Cursed Staff + Whispering Bow": {
    "Hellspawn Staff + Holy Staff": 1
