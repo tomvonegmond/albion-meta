@@ -368,7 +368,7 @@
   },
   "Arclight Blasters": {
    "Demonic Staff": 49,
-   "Holy Staff": 442,
+   "Holy Staff": 443,
    "Hellspawn Staff": 45,
    "Bow of Badon": 137,
    "Energy Shaper": 13,
@@ -531,7 +531,7 @@
   },
   "Heavy Crossbow": {
    "Carrioncaller": 35,
-   "Holy Staff": 555,
+   "Holy Staff": 556,
    "Grailseeker": 28,
    "Dagger": 38,
    "Bear Paws": 32,
@@ -677,7 +677,7 @@
    "Holy Staff": 203,
    "Ironroot Staff": 9,
    "Heron Spear": 18,
-   "Carving Sword": 21,
+   "Carving Sword": 22,
    "Crystal Reaper": 6,
    "Claymore": 56,
    "Heavy Crossbow": 54,
@@ -1566,7 +1566,7 @@
    "Redemption Staff": 4,
    "Blight Staff": 4,
    "Great Fire Staff": 6,
-   "Crystal Reaper": 2,
+   "Crystal Reaper": 3,
    "Cursed Staff": 6,
    "Dawnsong": 2,
    "Wildfire Staff": 6,
@@ -2009,7 +2009,8 @@
    "Blazing Staff": 2,
    "Glacial Staff": 3,
    "Lifecurse Staff": 1,
-   "Mistpiercer": 2
+   "Mistpiercer": 2,
+   "Soulscythe": 1
   },
   "Heron Spear": {
    "Lifecurse Staff": 2,
@@ -3124,7 +3125,7 @@
    "Rotcaller Staff": 1,
    "Crossbow": 4,
    "Wildfire Staff": 1,
-   "Soulscythe": 2,
+   "Soulscythe": 3,
    "Warbow": 10,
    "Pike": 1,
    "Spirithunter": 1,
@@ -128288,36 +128289,6 @@
     "Deathgivers"
    ],
    "at": "2026-09-17T23:13:13.477969200Z"
-  },
-  "europe:435706988": {
-   "won": [
-    "Deathgivers",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Glaive"
-   ],
-   "at": "2026-09-17T23:05:19.062455700Z"
-  },
-  "europe:435705975": {
-   "won": [
-    "Crystal Reaper",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Bow of Badon"
-   ],
-   "at": "2026-09-17T23:04:44.737156300Z"
-  },
-  "europe:435706745": {
-   "won": [
-    "Bow of Badon",
-    "Bow of Badon"
-   ],
-   "lost": [
-    "Crystal Reaper"
-   ],
-   "at": "2026-09-17T23:04:31.291576900Z"
   },
   "europe:435707563": {
    "won": [

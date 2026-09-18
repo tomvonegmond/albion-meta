@@ -413,7 +413,7 @@ window.ALBION_WINRATES = {
   },
   "Arclight Blasters": {
    "Demonic Staff": 49,
-   "Holy Staff": 442,
+   "Holy Staff": 443,
    "Hellspawn Staff": 45,
    "Bow of Badon": 137,
    "Energy Shaper": 13,
@@ -576,7 +576,7 @@ window.ALBION_WINRATES = {
   },
   "Heavy Crossbow": {
    "Carrioncaller": 35,
-   "Holy Staff": 555,
+   "Holy Staff": 556,
    "Grailseeker": 28,
    "Dagger": 38,
    "Bear Paws": 32,
@@ -722,7 +722,7 @@ window.ALBION_WINRATES = {
    "Holy Staff": 203,
    "Ironroot Staff": 9,
    "Heron Spear": 18,
-   "Carving Sword": 21,
+   "Carving Sword": 22,
    "Crystal Reaper": 6,
    "Claymore": 56,
    "Heavy Crossbow": 54,
@@ -1611,7 +1611,7 @@ window.ALBION_WINRATES = {
    "Redemption Staff": 4,
    "Blight Staff": 4,
    "Great Fire Staff": 6,
-   "Crystal Reaper": 2,
+   "Crystal Reaper": 3,
    "Cursed Staff": 6,
    "Dawnsong": 2,
    "Wildfire Staff": 6,
@@ -2054,7 +2054,8 @@ window.ALBION_WINRATES = {
    "Blazing Staff": 2,
    "Glacial Staff": 3,
    "Lifecurse Staff": 1,
-   "Mistpiercer": 2
+   "Mistpiercer": 2,
+   "Soulscythe": 1
   },
   "Heron Spear": {
    "Lifecurse Staff": 2,
@@ -3169,7 +3170,7 @@ window.ALBION_WINRATES = {
    "Rotcaller Staff": 1,
    "Crossbow": 4,
    "Wildfire Staff": 1,
-   "Soulscythe": 2,
+   "Soulscythe": 3,
    "Warbow": 10,
    "Pike": 1,
    "Spirithunter": 1,
