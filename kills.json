@@ -595,7 +595,7 @@
    "Battleaxe": 69,
    "Cursed Staff": 33,
    "Claymore": 47,
-   "Longbow": 47,
+   "Longbow": 48,
    "Holy Staff": 160,
    "Lifecurse Staff": 5,
    "Twin Slayers": 3,
@@ -767,7 +767,7 @@
    "Deathgivers": 24,
    "Pike": 3,
    "Demonic Staff": 12,
-   "Longbow": 105,
+   "Longbow": 106,
    "Battleaxe": 105,
    "Dagger Pair": 61,
    "Forcepulse Bracers": 11,
@@ -886,7 +886,7 @@
    "Fists of Avalon": 15,
    "Ironroot Staff": 2,
    "Battleaxe": 137,
-   "Bear Paws": 56,
+   "Bear Paws": 57,
    "Heron Spear": 19,
    "Permafrost Prism": 6,
    "Bedrock Mace": 4,
@@ -1010,7 +1010,7 @@
    "Staff of Balance": 343,
    "Whispering Bow": 160,
    "Hellspawn Staff": 383,
-   "Hellfire Hands": 143,
+   "Hellfire Hands": 144,
    "Energy Shaper": 111,
    "Brawler Gloves": 374,
    "Rotcaller Staff": 58,
@@ -1215,7 +1215,7 @@
   "Cursed Staff": {
    "Battleaxe": 75,
    "Warbow": 28,
-   "Cursed Staff": 18,
+   "Cursed Staff": 19,
    "Longbow": 42,
    "Holy Staff": 121,
    "Lifecurse Staff": 3,
@@ -1368,7 +1368,7 @@
    "Greataxe": 38,
    "Grailseeker": 16,
    "Demonic Staff": 11,
-   "Cursed Staff": 30,
+   "Cursed Staff": 31,
    "Dagger Pair": 28,
    "Energy Shaper": 12,
    "Longbow": 44,
@@ -1523,7 +1523,7 @@
    "Bear Paws": 18,
    "Bloodletter": 16,
    "Bow of Badon": 34,
-   "Holy Staff": 143,
+   "Holy Staff": 144,
    "Bedrock Mace": 1,
    "Hellfire Hands": 11,
    "Great Holy Staff": 7,
@@ -1855,7 +1855,7 @@
    "Crossbow": 19,
    "Dawnsong": 6,
    "Warbow": 39,
-   "Bear Paws": 29,
+   "Bear Paws": 30,
    "Forcepulse Bracers": 3,
    "Longbow": 84,
    "Lifecurse Staff": 6,
@@ -2347,7 +2347,7 @@
    "Whispering Bow": 6,
    "Realmbreaker": 1,
    "Ursine Maulers": 4,
-   "Hellfire Hands": 4,
+   "Hellfire Hands": 5,
    "Black Monk Stave": 1,
    "Bedrock Mace": 1,
    "Demonic Staff": 4,
@@ -128276,16 +128276,6 @@
     "Whispering Bow"
    ],
    "at": "2026-09-17T23:23:30.876917800Z"
-  },
-  "europe:435711519": {
-   "won": [
-    "Dagger Pair",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-17T23:22:27.866712Z"
   },
   "asia:511852823": {
    "won": [
