@@ -257,7 +257,7 @@ window.ALBION_WINRATES = {
    "Carving Sword": 22,
    "Arclight Blasters": 39,
    "Fists of Avalon": 22,
-   "Demonic Staff": 101,
+   "Demonic Staff": 102,
    "Pike": 11,
    "Grailseeker": 36,
    "Hellfire Hands": 22,
@@ -592,7 +592,7 @@ window.ALBION_WINRATES = {
    "Whispering Bow": 18,
    "Fists of Avalon": 30,
    "Broadsword": 16,
-   "Cursed Staff": 29,
+   "Cursed Staff": 30,
    "Hellspawn Staff": 33,
    "Brawler Gloves": 55,
    "Great Fire Staff": 7,
@@ -607,7 +607,7 @@ window.ALBION_WINRATES = {
    "Bloodletter": 40,
    "Black Monk Stave": 2,
    "Demonic Staff": 56,
-   "Glacial Staff": 11,
+   "Glacial Staff": 12,
    "Battleaxe": 74,
    "Prowling Staff": 12,
    "Glaive": 8,
@@ -808,7 +808,7 @@ window.ALBION_WINRATES = {
    "Twin Slayers": 33,
    "Staff of Balance": 15,
    "Glacial Staff": 9,
-   "Warbow": 44,
+   "Warbow": 45,
    "Brawler Gloves": 32,
    "Crystal Reaper": 31,
    "Deathgivers": 24,
@@ -1352,7 +1352,7 @@ window.ALBION_WINRATES = {
    "Infernal Scythe": 4,
    "Divine Staff": 4,
    "Carrioncaller": 10,
-   "Dagger Pair": 68,
+   "Dagger Pair": 70,
    "Warbow": 22,
    "Glacial Staff": 13,
    "Brawler Gloves": 22,
@@ -1709,7 +1709,7 @@ window.ALBION_WINRATES = {
    "Bloodletter": 4,
    "Mistpiercer": 1,
    "Bow of Badon": 12,
-   "Carrioncaller": 4,
+   "Carrioncaller": 5,
    "Divine Staff": 2,
    "Wildfire Staff": 3,
    "Heron Spear": 4,
@@ -1806,14 +1806,14 @@ window.ALBION_WINRATES = {
    "Holy Staff": 23,
    "Crossbow": 1,
    "Cursed Staff": 4,
-   "Battleaxe": 10,
+   "Battleaxe": 11,
    "Great Holy Staff": 1,
    "Infernal Scythe": 2,
    "Divine Staff": 1,
    "Redemption Staff": 1,
    "Carving Sword": 1,
    "Heavy Crossbow": 5,
-   "Longbow": 7,
+   "Longbow": 8,
    "Fists of Avalon": 1,
    "Grailseeker": 2,
    "Dagger": 1,
@@ -2146,7 +2146,7 @@ window.ALBION_WINRATES = {
    "Grailseeker": 10,
    "Dagger": 10,
    "Tombhammer": 8,
-   "Cursed Staff": 13,
+   "Cursed Staff": 14,
    "Dagger Pair": 11,
    "Hellspawn Staff": 11,
    "Rotcaller Staff": 3,
@@ -2375,7 +2375,7 @@ window.ALBION_WINRATES = {
    "Bow of Badon": 47,
    "Greataxe": 13,
    "Longbow": 20,
-   "Bear Paws": 24,
+   "Bear Paws": 25,
    "Grailseeker": 6,
    "Energy Shaper": 4,
    "Crossbow": 4,
@@ -2424,12 +2424,12 @@ window.ALBION_WINRATES = {
    "Camlann Mace": 1
   },
   "Hellspawn Staff": {
-   "Holy Staff": 526,
+   "Holy Staff": 528,
    "Cursed Staff": 23,
    "Claymore": 104,
    "Dagger Pair": 61,
    "Divine Staff": 5,
-   "Heavy Crossbow": 76,
+   "Heavy Crossbow": 78,
    "Carving Sword": 32,
    "Hellspawn Staff": 69,
    "Soulscythe": 12,
@@ -3312,7 +3312,8 @@ window.ALBION_WINRATES = {
    "Bedrock Mace": 3,
    "Hellspawn Staff": 1,
    "Soulscythe": 1,
-   "Heron Spear": 1
+   "Heron Spear": 1,
+   "Carrioncaller": 1
   },
   "Occult Staff": {
    "Occult Staff": 2,
@@ -3717,7 +3718,7 @@ window.ALBION_WINRATES = {
    "Glaive + Holy Staff": 2,
    "Dagger Pair + Soulscythe": 2,
    "Holy Staff + Pike": 2,
-   "Glacial Staff + Staff of Balance": 3,
+   "Glacial Staff + Staff of Balance": 4,
    "Dagger Pair + Tombhammer": 1,
    "Heavy Crossbow + Ironroot Staff": 2,
    "Bloodletter + Soulscythe": 1,
@@ -4433,7 +4434,7 @@ window.ALBION_WINRATES = {
    "Cursed Staff + Holy Staff": 5,
    "Claymore + Holy Staff": 58,
    "Dagger Pair + Divine Staff": 4,
-   "Heavy Crossbow + Holy Staff": 26,
+   "Heavy Crossbow + Holy Staff": 28,
    "Hellspawn Staff + Holy Staff": 27,
    "Demonic Staff + Holy Staff": 41,
    "Dagger Pair + Holy Staff": 21,
@@ -5222,7 +5223,8 @@ window.ALBION_WINRATES = {
    "Energy Shaper + Soulscythe": 1,
    "Demonic Staff + Holy Staff": 2,
    "Bloodletter + Crossbow": 1,
-   "Dagger + Grailseeker": 1
+   "Dagger + Grailseeker": 1,
+   "Brawler Gloves + Dagger Pair": 1
   },
   "Crystal Reaper + Holy Staff": {
    "Mistpiercer + Mistpiercer": 1,
@@ -8380,6 +8382,9 @@ window.ALBION_WINRATES = {
   },
   "Arclight Blasters + Hellfire Hands": {
    "Arclight Blasters + Infernal Scythe": 1
+  },
+  "Infernal Scythe + Longbow": {
+   "Battleaxe + Longbow": 1
   }
  }
 };
