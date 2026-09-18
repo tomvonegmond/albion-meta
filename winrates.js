@@ -29,9 +29,9 @@ window.ALBION_WINRATES = {
  "runs": 739,
  "regions": {
   "americas": {
-   "events": 190235,
-   "kills": 9991,
-   "lastSeen": "2026-09-17T22:46:45.309135300Z"
+   "events": 190286,
+   "kills": 9993,
+   "lastSeen": "2026-09-17T22:49:28.910850700Z"
   },
   "europe": {
    "events": 227847,
@@ -325,7 +325,7 @@ window.ALBION_WINRATES = {
    "Ironroot Staff": 33,
    "Carrioncaller": 56,
    "Hallowfall": 29,
-   "Fists of Avalon": 43,
+   "Fists of Avalon": 44,
    "Staff of Balance": 86,
    "Glacial Staff": 34,
    "Soulscythe": 39,
@@ -424,7 +424,7 @@ window.ALBION_WINRATES = {
    "Arclight Blasters": 76,
    "Great Holy Staff": 32,
    "Heavy Crossbow": 43,
-   "Longbow": 38,
+   "Longbow": 39,
    "Realmbreaker": 8,
    "Battleaxe": 49,
    "Greataxe": 47,
@@ -584,7 +584,7 @@ window.ALBION_WINRATES = {
    "Longbow": 38,
    "Greataxe": 29,
    "Heavy Crossbow": 162,
-   "Dagger Pair": 88,
+   "Dagger Pair": 89,
    "Warbow": 44,
    "Deathgivers": 32,
    "Claymore": 149,
@@ -700,7 +700,7 @@ window.ALBION_WINRATES = {
    "Great Arcane Staff": 3
   },
   "Battleaxe": {
-   "Dagger Pair": 60,
+   "Dagger Pair": 61,
    "Cursed Staff": 77,
    "Pike": 13,
    "Battleaxe": 186,
@@ -1034,7 +1034,7 @@ window.ALBION_WINRATES = {
   },
   "Holy Staff": {
    "Dagger": 271,
-   "Battleaxe": 480,
+   "Battleaxe": 481,
    "Longbow": 253,
    "Mistpiercer": 115,
    "Claymore": 1101,
@@ -1392,7 +1392,7 @@ window.ALBION_WINRATES = {
    "Holy Staff": 193,
    "Arclight Blasters": 25,
    "Carving Sword": 24,
-   "Fists of Avalon": 18,
+   "Fists of Avalon": 19,
    "Whispering Bow": 15,
    "Blight Staff": 11,
    "Claymore": 41,
@@ -2204,7 +2204,7 @@ window.ALBION_WINRATES = {
    "Brawler Gloves": 17,
    "Wildfire Staff": 12,
    "Bloodletter": 14,
-   "Battleaxe": 60,
+   "Battleaxe": 61,
    "Great Arcane Staff": 2,
    "Glaive": 5,
    "Heavy Crossbow": 32,
@@ -2714,7 +2714,7 @@ window.ALBION_WINRATES = {
    "Crystal Reaper": 5,
    "Hallowfall": 10,
    "Permafrost Prism": 3,
-   "Longbow": 23,
+   "Longbow": 24,
    "Ironroot Staff": 4,
    "Heron Spear": 7,
    "Carrioncaller": 12,
