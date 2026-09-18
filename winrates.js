@@ -2420,7 +2420,7 @@ window.ALBION_WINRATES = {
   "Hellspawn Staff": {
    "Holy Staff": 522,
    "Cursed Staff": 23,
-   "Claymore": 101,
+   "Claymore": 102,
    "Dagger Pair": 61,
    "Divine Staff": 5,
    "Heavy Crossbow": 76,
@@ -4417,7 +4417,7 @@ window.ALBION_WINRATES = {
   },
   "Hellspawn Staff + Holy Staff": {
    "Cursed Staff + Holy Staff": 5,
-   "Claymore + Holy Staff": 56,
+   "Claymore + Holy Staff": 57,
    "Dagger Pair + Divine Staff": 4,
    "Heavy Crossbow + Holy Staff": 26,
    "Hellspawn Staff + Holy Staff": 27,
