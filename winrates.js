@@ -22,26 +22,26 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-18T04:12:26+00:00",
- "eventsSeen": 516374,
- "qualifying": 29227,
- "duoFights": 7586,
- "runs": 718,
+ "updated": "2026-09-18T04:19:56+00:00",
+ "eventsSeen": 516700,
+ "qualifying": 29234,
+ "duoFights": 7588,
+ "runs": 719,
  "regions": {
   "americas": {
-   "events": 188157,
-   "kills": 9925,
-   "lastSeen": "2026-09-17T21:30:00.309710300Z"
+   "events": 188309,
+   "kills": 9930,
+   "lastSeen": "2026-09-17T21:46:50.625723700Z"
   },
   "europe": {
-   "events": 225216,
-   "kills": 15335,
-   "lastSeen": "2026-09-18T04:06:56.769641300Z"
+   "events": 225321,
+   "kills": 15337,
+   "lastSeen": "2026-09-18T04:14:01.703335300Z"
   },
   "asia": {
-   "events": 103052,
+   "events": 103121,
    "kills": 3972,
-   "lastSeen": "2026-09-18T04:06:43.113505500Z"
+   "lastSeen": "2026-09-18T04:13:52.776442300Z"
   }
  },
  "kills": {
@@ -166,7 +166,7 @@ window.ALBION_WINRATES = {
    "Soulscythe": 2
   },
   "Dagger Pair": {
-   "Holy Staff": 603,
+   "Holy Staff": 604,
    "Dagger": 38,
    "Longbow": 66,
    "Carrioncaller": 31,
@@ -175,7 +175,7 @@ window.ALBION_WINRATES = {
    "Battleaxe": 134,
    "Heavy Crossbow": 99,
    "Hallowfall": 13,
-   "Dagger Pair": 121,
+   "Dagger Pair": 122,
    "Rotcaller Staff": 6,
    "Hellspawn Staff": 27,
    "Blight Staff": 5,
@@ -295,7 +295,7 @@ window.ALBION_WINRATES = {
    "Grailseeker": 72,
    "Bloodletter": 75,
    "Heavy Crossbow": 222,
-   "Holy Staff": 1134,
+   "Holy Staff": 1135,
    "Divine Staff": 6,
    "Claymore": 276,
    "Great Holy Staff": 49,
@@ -487,7 +487,7 @@ window.ALBION_WINRATES = {
    "Blight Staff": 12,
    "Crystal Reaper": 3,
    "Spirithunter": 4,
-   "Soulscythe": 3,
+   "Soulscythe": 4,
    "Hellspawn Staff": 11,
    "Holy Staff": 116,
    "Cursed Staff": 34,
@@ -509,7 +509,7 @@ window.ALBION_WINRATES = {
    "Whispering Bow": 13,
    "Heavy Crossbow": 26,
    "Claymore": 29,
-   "Infernal Scythe": 3,
+   "Infernal Scythe": 4,
    "Grailseeker": 8,
    "Carving Sword": 19,
    "Brawler Gloves": 10,
@@ -700,7 +700,7 @@ window.ALBION_WINRATES = {
    "Great Arcane Staff": 3
   },
   "Battleaxe": {
-   "Dagger Pair": 59,
+   "Dagger Pair": 60,
    "Cursed Staff": 75,
    "Pike": 12,
    "Battleaxe": 182,
@@ -721,7 +721,7 @@ window.ALBION_WINRATES = {
    "Ursine Maulers": 7,
    "Realmbreaker": 4,
    "Tombhammer": 26,
-   "Holy Staff": 206,
+   "Holy Staff": 207,
    "Ironroot Staff": 9,
    "Heron Spear": 19,
    "Carving Sword": 23,
@@ -1038,12 +1038,12 @@ window.ALBION_WINRATES = {
    "Longbow": 249,
    "Mistpiercer": 115,
    "Claymore": 1086,
-   "Holy Staff": 4675,
+   "Holy Staff": 4678,
    "Heavy Crossbow": 853,
    "Bow of Badon": 599,
    "Bear Paws": 265,
    "Greataxe": 237,
-   "Dagger Pair": 740,
+   "Dagger Pair": 742,
    "Cursed Staff": 178,
    "Carrioncaller": 247,
    "Blazing Staff": 156,
@@ -1071,7 +1071,7 @@ window.ALBION_WINRATES = {
    "Permafrost Prism": 34,
    "Lifecurse Staff": 32,
    "Spirithunter": 38,
-   "Soulscythe": 112,
+   "Soulscythe": 113,
    "Ironroot Staff": 141,
    "Broadsword": 111,
    "Glacial Staff": 124,
@@ -1087,7 +1087,7 @@ window.ALBION_WINRATES = {
    "Heron Spear": 117,
    "Grailseeker": 268,
    "Dawnsong": 24,
-   "Infernal Scythe": 55,
+   "Infernal Scythe": 56,
    "Prowling Staff": 140,
    "Pike": 59,
    "Glaive": 86,
@@ -3882,7 +3882,7 @@ window.ALBION_WINRATES = {
    "Dagger Pair + Dagger Pair": 3,
    "Hellspawn Staff + Holy Staff": 8,
    "Blight Staff + Great Fire Staff": 2,
-   "Dagger Pair + Holy Staff": 20,
+   "Dagger Pair + Holy Staff": 21,
    "Claymore + Ironroot Staff": 1,
    "Deathgivers + Holy Staff": 16,
    "Greataxe + Holy Staff": 4,
@@ -4766,7 +4766,8 @@ window.ALBION_WINRATES = {
    "Lifecurse Staff + Lifecurse Staff": 1,
    "Battleaxe + Heavy Crossbow": 1,
    "Battleaxe + Greataxe": 1,
-   "Demonic Staff + Holy Staff": 1
+   "Demonic Staff + Holy Staff": 1,
+   "Infernal Scythe + Soulscythe": 1
   },
   "Soulscythe + Spirithunter": {
    "Bear Paws + Claymore": 1,
