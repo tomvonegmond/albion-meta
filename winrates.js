@@ -434,7 +434,7 @@ window.ALBION_WINRATES = {
    "Claymore": 112,
    "Arclight Blasters": 83,
    "Great Holy Staff": 45,
-   "Heavy Crossbow": 53,
+   "Heavy Crossbow": 54,
    "Longbow": 42,
    "Realmbreaker": 14,
    "Battleaxe": 67,
