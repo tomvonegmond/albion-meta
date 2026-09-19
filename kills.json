@@ -195,7 +195,7 @@
    "Blazing Staff": 20,
    "Claymore": 211,
    "Dagger": 61,
-   "Holy Staff": 875,
+   "Holy Staff": 876,
    "Carrioncaller": 32,
    "Heavy Crossbow": 172,
    "Dagger Pair": 146,
@@ -271,7 +271,7 @@
    "Tombhammer": 71,
    "Lifecurse Staff": 11,
    "Crossbow": 57,
-   "Whispering Bow": 74,
+   "Whispering Bow": 75,
    "Daybreaker": 22,
    "Wildfire Staff": 27,
    "Forcepulse Bracers": 11,
@@ -400,7 +400,7 @@
    "Hallowfall": 48,
    "Bloodletter": 18,
    "Mistpiercer": 28,
-   "Warbow": 34,
+   "Warbow": 36,
    "Blazing Staff": 28,
    "Bear Paws": 53,
    "Grailseeker": 27,
@@ -702,7 +702,7 @@
    "Wildfire Staff": 19,
    "Ursine Maulers": 7,
    "Realmbreaker": 4,
-   "Tombhammer": 32,
+   "Tombhammer": 33,
    "Holy Staff": 273,
    "Ironroot Staff": 9,
    "Heron Spear": 22,
@@ -2984,7 +2984,7 @@
    "Staff of Balance": 50,
    "Prowling Staff": 17,
    "Kingmaker": 11,
-   "Battleaxe": 85,
+   "Battleaxe": 86,
    "Crossbow": 17,
    "Glacial Staff": 23,
    "Dagger Pair": 101,
@@ -3044,7 +3044,7 @@
   },
   "Glacial Staff": {
    "Bloodletter": 25,
-   "Battleaxe": 53,
+   "Battleaxe": 54,
    "Crossbow": 9,
    "Whispering Bow": 14,
    "Bear Paws": 26,
@@ -124652,7 +124652,7 @@
    "Mistpiercer + Realmbreaker": 1,
    "Bow of Badon + Staff of Balance": 1,
    "Great Fire Staff + Holy Staff": 1,
-   "Warbow + Warbow": 6,
+   "Warbow + Warbow": 7,
    "Arclight Blasters + Hellfire Hands": 1,
    "Blazing Staff + Tombhammer": 1,
    "Battleaxe + Longbow": 1,
@@ -125197,7 +125197,7 @@
    "Fists of Avalon + Staff of Balance": 1,
    "Pike + Pike": 1,
    "Dagger + Grailseeker": 27,
-   "Holy Staff + Prowling Staff": 24,
+   "Holy Staff + Prowling Staff": 25,
    "Glacial Staff + Staff of Balance": 31,
    "Claymore + Claymore": 2,
    "Dagger Pair + Heavy Crossbow": 6,
@@ -131686,16 +131686,6 @@
     "Longbow"
    ],
    "at": "2026-09-19T09:37:42.816714800Z"
-  },
-  "europe:436324773": {
-   "won": [
-    "Demonic Staff",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Prowling Staff"
-   ],
-   "at": "2026-09-19T09:33:39.529291400Z"
   },
   "europe:436324597": {
    "won": [
