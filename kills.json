@@ -1950,7 +1950,7 @@
    "Wildfire Staff": 14,
    "Daybreaker": 9,
    "Spirithunter": 4,
-   "Dagger": 17,
+   "Dagger": 19,
    "Ironroot Staff": 3,
    "Carrioncaller": 7,
    "Hellspawn Staff": 8,
@@ -129718,16 +129718,6 @@
     "Battleaxe"
    ],
    "at": "2026-09-19T01:08:39.463953200Z"
-  },
-  "asia:512182803": {
-   "won": [
-    "Arclight Blasters",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Deathgivers"
-   ],
-   "at": "2026-09-19T01:04:57.359744500Z"
   },
   "europe:436235550": {
    "won": [

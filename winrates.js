@@ -1995,7 +1995,7 @@ window.ALBION_WINRATES = {
    "Wildfire Staff": 14,
    "Daybreaker": 9,
    "Spirithunter": 4,
-   "Dagger": 17,
+   "Dagger": 19,
    "Ironroot Staff": 3,
    "Carrioncaller": 7,
    "Hellspawn Staff": 8,
