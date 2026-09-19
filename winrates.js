@@ -22,26 +22,26 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-19T02:33:59+00:00",
- "eventsSeen": 629187,
- "qualifying": 35788,
+ "updated": "2026-09-19T02:42:47+00:00",
+ "eventsSeen": 629479,
+ "qualifying": 35794,
  "duoFights": 9237,
- "runs": 873,
+ "runs": 874,
  "regions": {
   "americas": {
-   "events": 205783,
-   "kills": 10739,
-   "lastSeen": "2026-09-18T21:32:11.467446800Z"
+   "events": 205884,
+   "kills": 10743,
+   "lastSeen": "2026-09-18T21:36:02.778370500Z"
   },
   "europe": {
-   "events": 288565,
-   "kills": 19801,
-   "lastSeen": "2026-09-19T02:28:23.408292Z"
+   "events": 288705,
+   "kills": 19803,
+   "lastSeen": "2026-09-19T02:36:30.468226500Z"
   },
   "asia": {
-   "events": 135092,
+   "events": 135143,
    "kills": 5263,
-   "lastSeen": "2026-09-19T02:28:47.937223Z"
+   "lastSeen": "2026-09-19T02:36:59.779492800Z"
   }
  },
  "kills": {
@@ -301,9 +301,9 @@ window.ALBION_WINRATES = {
    "Grailseeker": 82,
    "Bloodletter": 88,
    "Heavy Crossbow": 272,
-   "Holy Staff": 1388,
+   "Holy Staff": 1389,
    "Divine Staff": 8,
-   "Claymore": 336,
+   "Claymore": 337,
    "Great Holy Staff": 63,
    "Bow of Badon": 127,
    "Dagger Pair": 247,
@@ -645,7 +645,7 @@ window.ALBION_WINRATES = {
    "Soulscythe": 35,
    "Wildfire Staff": 16,
    "Arclight Blasters": 19,
-   "Bow of Badon": 40,
+   "Bow of Badon": 41,
    "Ironroot Staff": 18,
    "Redemption Staff": 3,
    "Lifecurse Staff": 5,
@@ -1066,10 +1066,10 @@ window.ALBION_WINRATES = {
   "Holy Staff": {
    "Dagger": 315,
    "Battleaxe": 584,
-   "Longbow": 311,
+   "Longbow": 312,
    "Mistpiercer": 142,
-   "Claymore": 1305,
-   "Holy Staff": 5802,
+   "Claymore": 1307,
+   "Holy Staff": 5804,
    "Heavy Crossbow": 1055,
    "Bow of Badon": 720,
    "Bear Paws": 320,
@@ -1299,15 +1299,15 @@ window.ALBION_WINRATES = {
    "Battleaxe": 87,
    "Warbow": 33,
    "Cursed Staff": 32,
-   "Longbow": 55,
-   "Holy Staff": 178,
+   "Longbow": 56,
+   "Holy Staff": 179,
    "Lifecurse Staff": 5,
    "Dagger Pair": 44,
    "Brawler Gloves": 31,
    "Hellspawn Staff": 14,
    "Deathgivers": 26,
    "Whispering Bow": 12,
-   "Claymore": 31,
+   "Claymore": 32,
    "Wildfire Staff": 11,
    "Hellfire Hands": 13,
    "Dawnsong": 1,
@@ -2772,7 +2772,7 @@ window.ALBION_WINRATES = {
    "Dagger Pair": 33,
    "Mistpiercer": 10,
    "Arclight Blasters": 25,
-   "Bow of Badon": 56,
+   "Bow of Badon": 57,
    "Battleaxe": 35,
    "Crossbow": 12,
    "Hellspawn Staff": 13,
