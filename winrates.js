@@ -113,7 +113,7 @@ window.ALBION_WINRATES = {
    "Blight Staff": 7,
    "Greataxe": 30,
    "Bow of Badon": 28,
-   "Battleaxe": 80,
+   "Battleaxe": 81,
    "Claymore": 53,
    "Holy Staff": 234,
    "Carrioncaller": 19,
@@ -174,7 +174,7 @@ window.ALBION_WINRATES = {
    "Dagger": 43,
    "Longbow": 82,
    "Carrioncaller": 39,
-   "Claymore": 210,
+   "Claymore": 211,
    "Bear Paws": 40,
    "Battleaxe": 161,
    "Heavy Crossbow": 133,
@@ -960,7 +960,7 @@ window.ALBION_WINRATES = {
    "Longbow": 74,
    "Fists of Avalon": 18,
    "Ironroot Staff": 2,
-   "Battleaxe": 168,
+   "Battleaxe": 169,
    "Bear Paws": 73,
    "Heron Spear": 22,
    "Permafrost Prism": 6,
@@ -1499,7 +1499,7 @@ window.ALBION_WINRATES = {
    "Hallowfall": 10,
    "Arclight Blasters": 17,
    "Hellfire Hands": 13,
-   "Claymore": 58,
+   "Claymore": 59,
    "Demonic Staff": 27,
    "Kingmaker": 3,
    "Heavy Crossbow": 45,
@@ -1681,7 +1681,7 @@ window.ALBION_WINRATES = {
    "Spirithunter": 1,
    "Blazing Staff": 13,
    "Tombhammer": 9,
-   "Battleaxe": 33,
+   "Battleaxe": 34,
    "Ursine Maulers": 2,
    "Bedrock Mace": 1,
    "Holy Staff": 82,
@@ -1703,7 +1703,7 @@ window.ALBION_WINRATES = {
    "Greataxe": 31,
    "Arclight Blasters": 27,
    "Carving Sword": 13,
-   "Claymore": 12,
+   "Claymore": 13,
    "Brawler Gloves": 10,
    "Heavy Crossbow": 15,
    "Ironroot Staff": 1,
@@ -5901,7 +5901,7 @@ window.ALBION_WINRATES = {
    "Blight Staff + Greataxe": 1
   },
   "Fists of Avalon + Holy Staff": {
-   "Claymore + Holy Staff": 19,
+   "Claymore + Holy Staff": 20,
    "Demonic Staff + Holy Staff": 14,
    "Heavy Crossbow + Holy Staff": 7,
    "Bloodletter + Whispering Bow": 1,
@@ -8917,7 +8917,8 @@ window.ALBION_WINRATES = {
   "Dagger Pair + Hallowfall": {
    "Carrioncaller + Infernal Scythe": 1,
    "Cursed Staff + Hallowfall": 1,
-   "Bow of Badon + Infernal Scythe": 1
+   "Bow of Badon + Infernal Scythe": 1,
+   "Claymore + Holy Staff": 1
   },
   "Crossbow + Heavy Crossbow": {
    "Blight Staff + Hallowfall": 1
@@ -9309,6 +9310,9 @@ window.ALBION_WINRATES = {
   "Black Monk Stave + Longbow": {
    "Daybreaker + Mistpiercer": 1,
    "Arclight Blasters + Bear Paws": 1
+  },
+  "Claymore + Deathgivers": {
+   "Battleaxe + Dagger": 1
   }
  }
 };
