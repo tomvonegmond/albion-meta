@@ -22,26 +22,26 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-19T05:31:44+00:00",
- "eventsSeen": 637164,
- "qualifying": 36167,
+ "updated": "2026-09-19T05:39:27+00:00",
+ "eventsSeen": 637303,
+ "qualifying": 36169,
  "duoFights": 9329,
- "runs": 893,
+ "runs": 894,
  "regions": {
   "americas": {
-   "events": 207757,
-   "kills": 10846,
-   "lastSeen": "2026-09-18T22:22:28.602308100Z"
+   "events": 207858,
+   "kills": 10847,
+   "lastSeen": "2026-09-18T22:28:19.569878100Z"
   },
   "europe": {
-   "events": 291228,
-   "kills": 19974,
-   "lastSeen": "2026-09-19T05:25:47.054026100Z"
+   "events": 291247,
+   "kills": 19975,
+   "lastSeen": "2026-09-19T05:26:53.066909Z"
   },
   "asia": {
-   "events": 138483,
+   "events": 138502,
    "kills": 5365,
-   "lastSeen": "2026-09-19T05:26:10.648837600Z"
+   "lastSeen": "2026-09-19T05:27:07.587018200Z"
   }
  },
  "kills": {
@@ -197,7 +197,7 @@ window.ALBION_WINRATES = {
    "Redemption Staff": 8,
    "Great Holy Staff": 36,
    "Lifecurse Staff": 8,
-   "Carving Sword": 27,
+   "Carving Sword": 28,
    "Staff of Balance": 60,
    "Glacial Staff": 24,
    "Demonic Staff": 82,
@@ -727,7 +727,7 @@ window.ALBION_WINRATES = {
   },
   "Battleaxe": {
    "Dagger Pair": 71,
-   "Cursed Staff": 86,
+   "Cursed Staff": 87,
    "Pike": 13,
    "Battleaxe": 217,
    "Dagger": 41,
@@ -1644,7 +1644,7 @@ window.ALBION_WINRATES = {
    "Crossbow": 11,
    "Brawler Gloves": 12,
    "Claymore": 48,
-   "Carving Sword": 15,
+   "Carving Sword": 16,
    "Heavy Crossbow": 48,
    "Tombhammer": 16,
    "Staff of Balance": 18,
@@ -3394,7 +3394,7 @@ window.ALBION_WINRATES = {
    "Staff of Balance": 3,
    "Dagger": 3,
    "Realmbreaker": 3,
-   "Cursed Staff": 12,
+   "Cursed Staff": 13,
    "Dagger Pair": 10,
    "Hellfire Hands": 3,
    "Tombhammer": 8,
