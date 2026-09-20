@@ -1409,7 +1409,7 @@
   "Carving Sword": {
    "Heron Spear": 20,
    "Bow of Badon": 118,
-   "Holy Staff": 280,
+   "Holy Staff": 281,
    "Arclight Blasters": 30,
    "Carving Sword": 31,
    "Fists of Avalon": 26,
@@ -1709,7 +1709,7 @@
    "Deathgivers": 14,
    "Fists of Avalon": 11,
    "Soulscythe": 3,
-   "Great Arcane Staff": 2,
+   "Great Arcane Staff": 3,
    "Divine Staff": 2,
    "Great Holy Staff": 5,
    "Realmbreaker": 7,
@@ -1906,7 +1906,7 @@
    "Greataxe": 20,
    "Redemption Staff": 2,
    "Claymore": 56,
-   "Holy Staff": 189,
+   "Holy Staff": 190,
    "Wildfire Staff": 9,
    "Carving Sword": 15,
    "Warbow": 17,
@@ -2149,7 +2149,7 @@
    "Black Monk Stave": 1,
    "Dawnsong": 4,
    "Hoarfrost Staff": 2,
-   "Battleaxe": 57,
+   "Battleaxe": 58,
    "Fists of Avalon": 5,
    "Infernal Scythe": 5,
    "Crystal Reaper": 5,
@@ -2609,7 +2609,7 @@
    "Grailseeker": 4,
    "Spirithunter": 1,
    "Broadsword": 6,
-   "Great Arcane Staff": 2,
+   "Great Arcane Staff": 3,
    "Energy Shaper": 2,
    "Blight Staff": 1,
    "Lifecurse Staff": 1,
@@ -2795,7 +2795,7 @@
    "Mistpiercer": 12,
    "Arclight Blasters": 30,
    "Bow of Badon": 70,
-   "Battleaxe": 43,
+   "Battleaxe": 44,
    "Crossbow": 13,
    "Hellspawn Staff": 16,
    "Claymore": 63,
@@ -130392,96 +130392,6 @@
    ],
    "at": "2026-09-19T21:58:50.755600700Z"
   },
-  "europe:436697718": {
-   "won": [
-    "Heavy Crossbow",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Brawler Gloves"
-   ],
-   "at": "2026-09-19T21:57:51.926389900Z"
-  },
-  "europe:436697583": {
-   "won": [
-    "Daybreaker",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Bow of Badon"
-   ],
-   "at": "2026-09-19T21:57:26.528902700Z"
-  },
-  "europe:436697318": {
-   "won": [
-    "Warbow",
-    "Warbow"
-   ],
-   "lost": [
-    "Tombhammer"
-   ],
-   "at": "2026-09-19T21:57:10.715503Z"
-  },
-  "europe:436697236": {
-   "won": [
-    "Deathgivers",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-19T21:57:07.697191500Z"
-  },
-  "europe:436697305": {
-   "won": [
-    "Claymore",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Claymore"
-   ],
-   "at": "2026-09-19T21:57:05.897377700Z"
-  },
-  "europe:436696616": {
-   "won": [
-    "Dagger Pair",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Claymore"
-   ],
-   "at": "2026-09-19T21:55:36.264552600Z"
-  },
-  "europe:436696537": {
-   "won": [
-    "Deathgivers",
-    "Deathgivers"
-   ],
-   "lost": [
-    "Glacial Staff"
-   ],
-   "at": "2026-09-19T21:55:25.490895900Z"
-  },
-  "europe:436696490": {
-   "won": [
-    "Heavy Crossbow",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-19T21:55:20.985563900Z"
-  },
-  "europe:436696437": {
-   "won": [
-    "Heavy Crossbow",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Heavy Crossbow"
-   ],
-   "at": "2026-09-19T21:55:15.204829600Z"
-  },
   "asia:512518503": {
    "won": [
     "Great Holy Staff",
@@ -130501,16 +130411,6 @@
     "Heavy Crossbow"
    ],
    "at": "2026-09-19T22:04:04.721633300Z"
-  },
-  "asia:512517503": {
-   "won": [
-    "Dagger",
-    "Deathgivers"
-   ],
-   "lost": [
-    "Dagger Pair"
-   ],
-   "at": "2026-09-19T21:55:45.805055300Z"
   },
   "europe:436708264": {
    "won": [
