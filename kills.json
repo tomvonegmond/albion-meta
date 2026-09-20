@@ -21,7 +21,7 @@
    "Carrioncaller": 30,
    "Longbow": 28,
    "Demonic Staff": 40,
-   "Hellspawn Staff": 17,
+   "Hellspawn Staff": 18,
    "Prowling Staff": 8,
    "Broadsword": 11,
    "Soulscythe": 9,
@@ -69,9 +69,9 @@
    "Blight Staff": 13,
    "Greataxe": 43,
    "Bow of Badon": 38,
-   "Battleaxe": 118,
+   "Battleaxe": 119,
    "Claymore": 66,
-   "Holy Staff": 302,
+   "Holy Staff": 303,
    "Carrioncaller": 20,
    "Brawler Gloves": 46,
    "Whispering Bow": 17,
@@ -86,7 +86,7 @@
    "Carving Sword": 29,
    "Longbow": 67,
    "Lifecurse Staff": 6,
-   "Bloodletter": 36,
+   "Bloodletter": 37,
    "Heavy Crossbow": 56,
    "Mistpiercer": 15,
    "Ursine Maulers": 3,
@@ -127,16 +127,16 @@
    "Redemption Staff": 1
   },
   "Dagger Pair": {
-   "Holy Staff": 939,
+   "Holy Staff": 941,
    "Dagger": 57,
    "Longbow": 106,
    "Carrioncaller": 51,
-   "Claymore": 257,
+   "Claymore": 260,
    "Bear Paws": 49,
-   "Battleaxe": 196,
+   "Battleaxe": 198,
    "Heavy Crossbow": 174,
    "Hallowfall": 20,
-   "Dagger Pair": 178,
+   "Dagger Pair": 179,
    "Rotcaller Staff": 6,
    "Hellspawn Staff": 35,
    "Blight Staff": 12,
@@ -147,9 +147,9 @@
    "Deathgivers": 58,
    "Greataxe": 54,
    "Realmbreaker": 8,
-   "Bow of Badon": 66,
+   "Bow of Badon": 67,
    "Wildfire Staff": 22,
-   "Infernal Scythe": 23,
+   "Infernal Scythe": 24,
    "Energy Shaper": 21,
    "Redemption Staff": 12,
    "Great Holy Staff": 58,
@@ -157,7 +157,7 @@
    "Carving Sword": 37,
    "Staff of Balance": 68,
    "Glacial Staff": 26,
-   "Demonic Staff": 106,
+   "Demonic Staff": 107,
    "Soulscythe": 26,
    "Bedrock Mace": 4,
    "Cursed Staff": 100,
@@ -168,7 +168,7 @@
    "Broadsword": 40,
    "Grailseeker": 61,
    "Kingmaker": 21,
-   "Tombhammer": 41,
+   "Tombhammer": 44,
    "Ursine Maulers": 10,
    "Heron Spear": 24,
    "Arclight Blasters": 23,
@@ -191,7 +191,7 @@
    "Occult Staff": 2,
    "Twin Slayers": 4,
    "Wailing Bow": 1,
-   "Forcepulse Bracers": 1,
+   "Forcepulse Bracers": 2,
    "Grovekeeper": 2
   },
   "Demonic Staff": {
@@ -200,7 +200,7 @@
    "Dagger": 85,
    "Holy Staff": 1135,
    "Carrioncaller": 46,
-   "Heavy Crossbow": 206,
+   "Heavy Crossbow": 207,
    "Dagger Pair": 173,
    "Glacial Staff": 58,
    "Great Holy Staff": 69,
@@ -219,7 +219,7 @@
    "Wildfire Staff": 11,
    "Staff of Balance": 155,
    "Carving Sword": 33,
-   "Arclight Blasters": 71,
+   "Arclight Blasters": 72,
    "Fists of Avalon": 44,
    "Demonic Staff": 191,
    "Pike": 13,
@@ -259,7 +259,7 @@
   },
   "Claymore": {
    "Dagger": 112,
-   "Grailseeker": 103,
+   "Grailseeker": 104,
    "Bloodletter": 113,
    "Heavy Crossbow": 352,
    "Holy Staff": 1866,
@@ -272,7 +272,7 @@
    "Blight Staff": 31,
    "Demonic Staff": 219,
    "Battleaxe": 236,
-   "Hellfire Hands": 60,
+   "Hellfire Hands": 61,
    "Greataxe": 93,
    "Tombhammer": 96,
    "Lifecurse Staff": 13,
@@ -304,7 +304,7 @@
    "Energy Shaper": 51,
    "Arclight Blasters": 124,
    "Rotcaller Staff": 20,
-   "Broadsword": 51,
+   "Broadsword": 52,
    "Spirithunter": 17,
    "Infernal Scythe": 20,
    "Kingmaker": 38,
@@ -424,7 +424,7 @@
    "Kingmaker": 31,
    "Dagger Pair": 59,
    "Daybreaker": 23,
-   "Crystal Reaper": 32,
+   "Crystal Reaper": 33,
    "Twin Slayers": 34,
    "Great Arcane Staff": 5,
    "Lifecurse Staff": 11,
@@ -454,7 +454,7 @@
   },
   "Greataxe": {
    "Mistpiercer": 23,
-   "Battleaxe": 125,
+   "Battleaxe": 126,
    "Broadsword": 18,
    "Lifecurse Staff": 6,
    "Hallowfall": 25,
@@ -579,21 +579,21 @@
    "Bear Paws": 42,
    "Longbow": 73,
    "Greataxe": 44,
-   "Heavy Crossbow": 227,
+   "Heavy Crossbow": 228,
    "Dagger Pair": 140,
    "Warbow": 71,
    "Deathgivers": 53,
    "Claymore": 239,
    "Staff of Balance": 69,
    "Whispering Bow": 26,
-   "Fists of Avalon": 45,
+   "Fists of Avalon": 46,
    "Broadsword": 27,
    "Cursed Staff": 55,
-   "Hellspawn Staff": 55,
+   "Hellspawn Staff": 56,
    "Brawler Gloves": 97,
    "Great Fire Staff": 15,
    "Pike": 16,
-   "Kingmaker": 14,
+   "Kingmaker": 15,
    "Hallowfall": 23,
    "Great Holy Staff": 44,
    "Carving Sword": 42,
@@ -619,7 +619,7 @@
    "Divine Staff": 8,
    "Soulscythe": 39,
    "Wildfire Staff": 26,
-   "Arclight Blasters": 33,
+   "Arclight Blasters": 34,
    "Bow of Badon": 59,
    "Ironroot Staff": 21,
    "Redemption Staff": 6,
@@ -675,12 +675,12 @@
    "Soulscythe": 18,
    "Energy Shaper": 13,
    "Blazing Staff": 27,
-   "Wildfire Staff": 29,
+   "Wildfire Staff": 30,
    "Tombhammer": 29,
    "Whispering Bow": 20,
    "Dagger": 48,
    "Staff of Balance": 35,
-   "Infernal Scythe": 14,
+   "Infernal Scythe": 15,
    "Hallowfall": 9,
    "Glacial Staff": 10,
    "Great Fire Staff": 11,
@@ -722,7 +722,7 @@
    "Mistpiercer": 17,
    "Wildfire Staff": 30,
    "Ursine Maulers": 8,
-   "Realmbreaker": 6,
+   "Realmbreaker": 7,
    "Tombhammer": 41,
    "Holy Staff": 355,
    "Ironroot Staff": 9,
@@ -824,8 +824,8 @@
    "Deathgivers": 45,
    "Pike": 4,
    "Demonic Staff": 13,
-   "Longbow": 173,
-   "Battleaxe": 178,
+   "Longbow": 174,
+   "Battleaxe": 181,
    "Dagger Pair": 92,
    "Forcepulse Bracers": 16,
    "Broadsword": 26,
@@ -834,7 +834,7 @@
    "Heron Spear": 34,
    "Infernal Scythe": 26,
    "Grailseeker": 45,
-   "Hellspawn Staff": 59,
+   "Hellspawn Staff": 60,
    "Hallowfall": 73,
    "Kingmaker": 52,
    "Great Holy Staff": 23,
@@ -843,7 +843,7 @@
    "Energy Shaper": 37,
    "Prowling Staff": 13,
    "Spirithunter": 11,
-   "Claymore": 87,
+   "Claymore": 90,
    "Heavy Crossbow": 53,
    "Fists of Avalon": 50,
    "Bloodletter": 49,
@@ -858,12 +858,12 @@
    "Rotcaller Staff": 18,
    "Bedrock Mace": 7,
    "Dagger": 28,
-   "Permafrost Prism": 16,
+   "Permafrost Prism": 17,
    "Ironroot Staff": 10,
    "Wildfire Staff": 24,
    "Divine Staff": 14,
    "Daybreaker": 26,
-   "Dawnsong": 13,
+   "Dawnsong": 14,
    "Great Arcane Staff": 5,
    "Glaive": 4,
    "Camlann Mace": 3,
@@ -953,7 +953,7 @@
    "Battleaxe": 215,
    "Bear Paws": 96,
    "Heron Spear": 28,
-   "Permafrost Prism": 10,
+   "Permafrost Prism": 11,
    "Bedrock Mace": 5,
    "Pike": 8,
    "Greataxe": 80,
@@ -1110,10 +1110,10 @@
    "Crystal Reaper": 163,
    "Redemption Staff": 91,
    "Heron Spear": 224,
-   "Grailseeker": 425,
-   "Dawnsong": 40,
+   "Grailseeker": 426,
+   "Dawnsong": 41,
    "Infernal Scythe": 94,
-   "Prowling Staff": 242,
+   "Prowling Staff": 243,
    "Pike": 107,
    "Glaive": 162,
    "Black Monk Stave": 18,
@@ -1193,7 +1193,7 @@
    "Carving Sword": 25,
    "Ursine Maulers": 7,
    "Glacial Staff": 19,
-   "Longbow": 50,
+   "Longbow": 51,
    "Daybreaker": 7,
    "Realmbreaker": 3,
    "Blight Staff": 12,
@@ -1249,7 +1249,7 @@
    "Heron Spear": 19,
    "Great Holy Staff": 19,
    "Arclight Blasters": 10,
-   "Longbow": 79,
+   "Longbow": 80,
    "Great Fire Staff": 13,
    "Dagger": 35,
    "Crossbow": 24,
@@ -1272,7 +1272,7 @@
    "Twin Slayers": 14,
    "Bear Paws": 54,
    "Divine Staff": 8,
-   "Prowling Staff": 7,
+   "Prowling Staff": 8,
    "Fists of Avalon": 18,
    "Hellspawn Staff": 23,
    "Glaive": 10,
@@ -1433,10 +1433,10 @@
    "Holy Staff": 320,
    "Arclight Blasters": 32,
    "Carving Sword": 35,
-   "Fists of Avalon": 32,
+   "Fists of Avalon": 33,
    "Whispering Bow": 21,
    "Blight Staff": 23,
-   "Claymore": 60,
+   "Claymore": 61,
    "Tombhammer": 24,
    "Battleaxe": 132,
    "Ursine Maulers": 6,
@@ -1497,12 +1497,12 @@
    "Bow of Badon": 68,
    "Whispering Bow": 8,
    "Warbow": 31,
-   "Longbow": 37,
+   "Longbow": 38,
    "Twin Slayers": 7,
    "Hallowfall": 13,
    "Arclight Blasters": 21,
    "Hellfire Hands": 17,
-   "Claymore": 76,
+   "Claymore": 77,
    "Demonic Staff": 31,
    "Kingmaker": 7,
    "Heavy Crossbow": 60,
@@ -1527,7 +1527,7 @@
    "Energy Shaper": 8,
    "Forcepulse Bracers": 5,
    "Mistpiercer": 10,
-   "Ironroot Staff": 10,
+   "Ironroot Staff": 11,
    "Daybreaker": 12,
    "Spirithunter": 4,
    "Deathgivers": 17,
@@ -1571,7 +1571,7 @@
    "Kingmaker": 8,
    "Brawler Gloves": 13,
    "Arclight Blasters": 16,
-   "Heavy Crossbow": 22,
+   "Heavy Crossbow": 23,
    "Crystal Reaper": 9,
    "Grailseeker": 12,
    "Claymore": 20,
@@ -1595,7 +1595,7 @@
    "Great Fire Staff": 3,
    "Forcepulse Bracers": 6,
    "Redemption Staff": 6,
-   "Cursed Staff": 3,
+   "Cursed Staff": 4,
    "Pike": 4,
    "Carving Sword": 6,
    "Tombhammer": 5,
@@ -1620,7 +1620,7 @@
    "Bear Paws": 31,
    "Bloodletter": 23,
    "Bow of Badon": 65,
-   "Holy Staff": 230,
+   "Holy Staff": 231,
    "Bedrock Mace": 1,
    "Hellfire Hands": 17,
    "Great Holy Staff": 18,
@@ -1628,7 +1628,7 @@
    "Warbow": 34,
    "Black Monk Stave": 3,
    "Deathgivers": 32,
-   "Prowling Staff": 5,
+   "Prowling Staff": 6,
    "Grailseeker": 23,
    "Dagger": 23,
    "Arclight Blasters": 24,
@@ -1646,7 +1646,7 @@
    "Realmbreaker": 5,
    "Crossbow": 15,
    "Brawler Gloves": 14,
-   "Claymore": 63,
+   "Claymore": 64,
    "Carving Sword": 20,
    "Heavy Crossbow": 55,
    "Tombhammer": 21,
@@ -1684,13 +1684,13 @@
   },
   "Hallowfall": {
    "Lifecurse Staff": 7,
-   "Hallowfall": 22,
+   "Hallowfall": 23,
    "Hellfire Hands": 11,
    "Bow of Badon": 121,
    "Spirithunter": 1,
    "Blazing Staff": 19,
    "Tombhammer": 13,
-   "Battleaxe": 47,
+   "Battleaxe": 48,
    "Ursine Maulers": 2,
    "Bedrock Mace": 1,
    "Holy Staff": 114,
@@ -1930,7 +1930,7 @@
    "Deathgivers": 14,
    "Bow of Badon": 41,
    "Bedrock Mace": 1,
-   "Greataxe": 20,
+   "Greataxe": 21,
    "Redemption Staff": 2,
    "Claymore": 68,
    "Holy Staff": 216,
@@ -1975,12 +1975,13 @@
    "Twin Slayers": 1,
    "Forcepulse Bracers": 1,
    "Great Arcane Staff": 2,
-   "Black Monk Stave": 4
+   "Black Monk Stave": 4,
+   "Ironroot Staff": 1
   },
   "Longbow": {
    "Pike": 5,
    "Holy Staff": 137,
-   "Battleaxe": 189,
+   "Battleaxe": 190,
    "Cursed Staff": 63,
    "Great Fire Staff": 27,
    "Bloodletter": 27,
@@ -2049,7 +2050,7 @@
    "Hellfire Hands": 23,
    "Bloodletter": 31,
    "Crossbow": 17,
-   "Holy Staff": 392,
+   "Holy Staff": 393,
    "Longbow": 26,
    "Dagger": 27,
    "Grailseeker": 20,
@@ -2057,10 +2058,10 @@
    "Bear Paws": 14,
    "Bow of Badon": 34,
    "Brawler Gloves": 20,
-   "Arclight Blasters": 28,
+   "Arclight Blasters": 29,
    "Carving Sword": 19,
    "Carrioncaller": 13,
-   "Claymore": 68,
+   "Claymore": 69,
    "Demonic Staff": 73,
    "Lifecurse Staff": 3,
    "Heron Spear": 11,
@@ -2095,11 +2096,11 @@
    "Wildfire Staff": 3,
    "Infernal Scythe": 6,
    "Blight Staff": 5,
-   "Whispering Bow": 12,
+   "Whispering Bow": 13,
    "Ursine Maulers": 1,
    "Energy Shaper": 11,
    "Hallowfall": 6,
-   "Spirithunter": 2,
+   "Spirithunter": 3,
    "Forcepulse Bracers": 3,
    "Dawnsong": 1,
    "Black Monk Stave": 1,
@@ -2226,7 +2227,7 @@
   },
   "Kingmaker": {
    "Warbow": 17,
-   "Bow of Badon": 75,
+   "Bow of Badon": 76,
    "Holy Staff": 169,
    "Claymore": 28,
    "Deathgivers": 10,
@@ -2257,7 +2258,7 @@
    "Great Arcane Staff": 2,
    "Carving Sword": 17,
    "Carrioncaller": 7,
-   "Kingmaker": 19,
+   "Kingmaker": 20,
    "Infernal Scythe": 8,
    "Wildfire Staff": 6,
    "Twin Slayers": 6,
@@ -2312,11 +2313,11 @@
    "Claymore": 79,
    "Heron Spear": 16,
    "Arclight Blasters": 19,
-   "Longbow": 65,
+   "Longbow": 66,
    "Whispering Bow": 15,
    "Deathgivers": 38,
    "Bear Paws": 30,
-   "Grailseeker": 33,
+   "Grailseeker": 34,
    "Dagger Pair": 61,
    "Carving Sword": 24,
    "Warbow": 56,
@@ -2334,7 +2335,7 @@
    "Fists of Avalon": 16,
    "Hellfire Hands": 7,
    "Dagger": 43,
-   "Greataxe": 23,
+   "Greataxe": 24,
    "Tombhammer": 11,
    "Redemption Staff": 3,
    "Crossbow": 28,
@@ -2415,7 +2416,7 @@
    "Divine Staff": 2,
    "Wailing Bow": 1,
    "Redemption Staff": 1,
-   "Spirithunter": 2
+   "Spirithunter": 3
   },
   "Redemption Staff": {
    "Deathgivers": 8,
@@ -2425,7 +2426,7 @@
    "Holy Staff": 33,
    "Heavy Crossbow": 3,
    "Claymore": 7,
-   "Battleaxe": 16,
+   "Battleaxe": 17,
    "Longbow": 11,
    "Crossbow": 6,
    "Hellspawn Staff": 7,
@@ -2469,13 +2470,13 @@
    "Bloodletter": 9,
    "Mistpiercer": 20,
    "Battleaxe": 24,
-   "Holy Staff": 133,
+   "Holy Staff": 134,
    "Warbow": 9,
-   "Crystal Reaper": 11,
+   "Crystal Reaper": 12,
    "Hallowfall": 23,
    "Twin Slayers": 12,
    "Hellspawn Staff": 18,
-   "Bow of Badon": 82,
+   "Bow of Badon": 83,
    "Greataxe": 20,
    "Longbow": 25,
    "Bear Paws": 48,
@@ -2531,7 +2532,7 @@
    "Holy Staff": 933,
    "Cursed Staff": 42,
    "Claymore": 185,
-   "Dagger Pair": 106,
+   "Dagger Pair": 107,
    "Divine Staff": 10,
    "Heavy Crossbow": 161,
    "Carving Sword": 53,
@@ -2549,14 +2550,14 @@
    "Carrioncaller": 42,
    "Longbow": 84,
    "Energy Shaper": 33,
-   "Arclight Blasters": 100,
+   "Arclight Blasters": 101,
    "Broadsword": 31,
    "Crystal Reaper": 42,
    "Mistpiercer": 38,
    "Grailseeker": 41,
    "Heron Spear": 19,
    "Dagger": 53,
-   "Whispering Bow": 30,
+   "Whispering Bow": 31,
    "Brawler Gloves": 70,
    "Staff of Balance": 85,
    "Kingmaker": 35,
@@ -2574,7 +2575,7 @@
    "Crossbow": 32,
    "Forcepulse Bracers": 10,
    "Daybreaker": 24,
-   "Hallowfall": 62,
+   "Hallowfall": 63,
    "Wildfire Staff": 15,
    "Ironroot Staff": 42,
    "Bloodletter": 38,
@@ -2601,7 +2602,7 @@
    "Claymore": 57,
    "Holy Staff": 240,
    "Battleaxe": 32,
-   "Heavy Crossbow": 43,
+   "Heavy Crossbow": 44,
    "Carrioncaller": 21,
    "Redemption Staff": 1,
    "Longbow": 13,
@@ -2609,12 +2610,12 @@
    "Bedrock Mace": 1,
    "Hellfire Hands": 4,
    "Bloodletter": 10,
-   "Tombhammer": 3,
+   "Tombhammer": 4,
    "Heron Spear": 4,
-   "Bow of Badon": 28,
+   "Bow of Badon": 29,
    "Dagger Pair": 39,
    "Deathgivers": 18,
-   "Cursed Staff": 10,
+   "Cursed Staff": 11,
    "Kingmaker": 7,
    "Soulscythe": 7,
    "Demonic Staff": 24,
@@ -2719,7 +2720,7 @@
    "Bear Paws": 1,
    "Claymore": 21,
    "Holy Staff": 67,
-   "Battleaxe": 15,
+   "Battleaxe": 16,
    "Grailseeker": 4,
    "Dagger": 2,
    "Bow of Badon": 5,
@@ -2743,10 +2744,10 @@
    "Staff of Balance": 5,
    "Glacial Staff": 3,
    "Glaive": 2,
-   "Prowling Staff": 1,
+   "Prowling Staff": 2,
    "Heron Spear": 5,
    "Infernal Scythe": 1,
-   "Kingmaker": 1,
+   "Kingmaker": 2,
    "Hellfire Hands": 1,
    "Cursed Staff": 3,
    "Greataxe": 3,
@@ -2758,7 +2759,9 @@
    "Blazing Staff": 1,
    "Fists of Avalon": 1,
    "Grovekeeper": 1,
-   "Soulscythe": 1
+   "Soulscythe": 1,
+   "Great Holy Staff": 1,
+   "Daybreaker": 1
   },
   "Blazing Staff": {
    "Mistpiercer": 6,
@@ -2838,8 +2841,8 @@
    "Dagger Pair": 46,
    "Mistpiercer": 12,
    "Arclight Blasters": 34,
-   "Bow of Badon": 78,
-   "Battleaxe": 50,
+   "Bow of Badon": 79,
+   "Battleaxe": 51,
    "Crossbow": 15,
    "Hellspawn Staff": 21,
    "Claymore": 67,
@@ -2856,7 +2859,7 @@
    "Crystal Reaper": 10,
    "Hallowfall": 22,
    "Permafrost Prism": 5,
-   "Longbow": 43,
+   "Longbow": 44,
    "Ironroot Staff": 6,
    "Heron Spear": 8,
    "Carrioncaller": 16,
@@ -2892,7 +2895,7 @@
   },
   "Ironroot Staff": {
    "Dagger Pair": 24,
-   "Holy Staff": 169,
+   "Holy Staff": 170,
    "Great Holy Staff": 15,
    "Prowling Staff": 4,
    "Heavy Crossbow": 29,
@@ -2908,7 +2911,7 @@
    "Dagger": 15,
    "Heron Spear": 6,
    "Whispering Bow": 4,
-   "Hellspawn Staff": 19,
+   "Hellspawn Staff": 20,
    "Blazing Staff": 7,
    "Soulscythe": 10,
    "Realmbreaker": 6,
@@ -2956,7 +2959,7 @@
    "Twin Slayers": 1,
    "Blazing Staff": 2,
    "Heron Spear": 4,
-   "Holy Staff": 25,
+   "Holy Staff": 26,
    "Cursed Staff": 6,
    "Longbow": 7,
    "Wildfire Staff": 2,
@@ -2967,7 +2970,7 @@
    "Claymore": 4,
    "Hellspawn Staff": 2,
    "Prowling Staff": 5,
-   "Heavy Crossbow": 11,
+   "Heavy Crossbow": 12,
    "Carving Sword": 7,
    "Crystal Reaper": 2,
    "Grailseeker": 9,
@@ -2981,7 +2984,7 @@
    "Tombhammer": 5,
    "Ironroot Staff": 1,
    "Carrioncaller": 2,
-   "Whispering Bow": 3,
+   "Whispering Bow": 4,
    "Bear Paws": 2,
    "Redemption Staff": 1,
    "Great Holy Staff": 1,
@@ -3101,7 +3104,7 @@
    "Crossbow": 24,
    "Glacial Staff": 28,
    "Dagger Pair": 126,
-   "Heavy Crossbow": 96,
+   "Heavy Crossbow": 97,
    "Whispering Bow": 29,
    "Bear Paws": 48,
    "Soulscythe": 12,
@@ -3165,7 +3168,7 @@
    "Holy Staff": 331,
    "Claymore": 74,
    "Longbow": 64,
-   "Heavy Crossbow": 54,
+   "Heavy Crossbow": 55,
    "Great Holy Staff": 25,
    "Crystal Reaper": 5,
    "Glaive": 7,
@@ -3224,10 +3227,10 @@
    "Heavy Crossbow": 9,
    "Redemption Staff": 5,
    "Bear Paws": 20,
-   "Bow of Badon": 70,
+   "Bow of Badon": 71,
    "Forcepulse Bracers": 4,
    "Infernal Scythe": 3,
-   "Battleaxe": 19,
+   "Battleaxe": 20,
    "Blight Staff": 4,
    "Arclight Blasters": 18,
    "Wildfire Staff": 5,
@@ -3609,7 +3612,7 @@
    "Bloodletter": 2,
    "Carving Sword": 2,
    "Dagger Pair": 2,
-   "Bedrock Mace": 7,
+   "Bedrock Mace": 9,
    "Bow of Badon": 2,
    "Wildfire Staff": 1,
    "Dagger": 2,
@@ -123701,7 +123704,7 @@
    "Realmbreaker + Soulscythe": 1
   },
   "Claymore + Holy Staff": {
-   "Claymore + Holy Staff": 286,
+   "Claymore + Holy Staff": 287,
    "Heavy Crossbow + Holy Staff": 97,
    "Dagger Pair + Holy Staff": 119,
    "Demonic Staff + Holy Staff": 151,
@@ -123742,7 +123745,7 @@
    "Dagger Pair + Divine Staff": 1,
    "Brawler Gloves + Heavy Crossbow": 1,
    "Brawler Gloves + Heron Spear": 2,
-   "Broadsword + Holy Staff": 20,
+   "Broadsword + Holy Staff": 21,
    "Whispering Bow + Whispering Bow": 7,
    "Glaive + Holy Staff": 23,
    "Battleaxe + Ironroot Staff": 1,
@@ -124031,8 +124034,8 @@
    "Heavy Crossbow + Holy Staff": 34,
    "Deathgivers + Holy Staff": 15,
    "Staff of Balance + Whispering Bow": 1,
-   "Claymore + Holy Staff": 99,
-   "Hellspawn Staff + Holy Staff": 21,
+   "Claymore + Holy Staff": 100,
+   "Hellspawn Staff + Holy Staff": 22,
    "Hallowfall + Kingmaker": 2,
    "Carrioncaller + Holy Staff": 24,
    "Brawler Gloves + Warbow": 2,
@@ -124136,7 +124139,7 @@
    "Bear Paws + Holy Staff": 1,
    "Infernal Scythe + Soulscythe": 4,
    "Crossbow + Glacial Staff": 1,
-   "Great Holy Staff + Heavy Crossbow": 3,
+   "Great Holy Staff + Heavy Crossbow": 4,
    "Bow of Badon + Grailseeker": 1,
    "Bear Paws + Crossbow": 1,
    "Black Monk Stave + Staff of Balance": 1,
@@ -124170,7 +124173,7 @@
    "Claymore + Heavy Crossbow": 1,
    "Great Holy Staff + Hellfire Hands": 2,
    "Great Fire Staff + Holy Staff": 1,
-   "Crossbow + Fists of Avalon": 1
+   "Crossbow + Fists of Avalon": 2
   },
   "Cursed Staff + Warbow": {
    "Cursed Staff + Longbow": 1,
@@ -124325,7 +124328,7 @@
    "Deathgivers + Holy Staff": 21,
    "Greataxe + Holy Staff": 4,
    "Battleaxe + Holy Staff": 22,
-   "Demonic Staff + Holy Staff": 42,
+   "Demonic Staff + Holy Staff": 43,
    "Dagger Pair + Great Holy Staff": 2,
    "Crossbow + Holy Staff": 6,
    "Cursed Staff + Holy Staff": 13,
@@ -124434,7 +124437,8 @@
    "Battleaxe + Claymore": 1,
    "Holy Staff + Longbow": 1,
    "Claymore + Divine Staff": 1,
-   "Divine Staff + Kingmaker": 1
+   "Divine Staff + Kingmaker": 1,
+   "Forcepulse Bracers + Holy Staff": 1
   },
   "Bow of Badon + Holy Staff": {
    "Bear Paws + Blazing Staff": 1,
@@ -125657,7 +125661,7 @@
    "Deathgivers + Holy Staff": 29,
    "Staff of Balance + Wildfire Staff": 1,
    "Carving Sword + Holy Staff": 22,
-   "Arclight Blasters + Holy Staff": 45,
+   "Arclight Blasters + Holy Staff": 46,
    "Demonic Staff + Holy Staff": 120,
    "Fists of Avalon + Staff of Balance": 1,
    "Pike + Pike": 1,
@@ -126039,7 +126043,8 @@
    "Dagger Pair + Great Holy Staff": 2,
    "Broadsword + Great Holy Staff": 1,
    "Battleaxe + Kingmaker": 1,
-   "Warbow + Warbow": 2
+   "Warbow + Warbow": 2,
+   "Bow of Badon + Hellspawn Staff": 1
   },
   "Realmbreaker + Tombhammer": {
    "Bow of Badon + Bow of Badon": 1
@@ -126106,7 +126111,7 @@
    "Dagger + Staff of Balance": 5,
    "Energy Shaper + Staff of Balance": 2,
    "Demonic Staff + Ironroot Staff": 2,
-   "Hellspawn Staff + Holy Staff": 27,
+   "Hellspawn Staff + Holy Staff": 29,
    "Fists of Avalon + Holy Staff": 4,
    "Energy Shaper + Soulscythe": 1,
    "Bear Paws + Holy Staff": 2,
@@ -127132,7 +127137,8 @@
    "Dagger Pair + Heavy Crossbow": 1,
    "Daybreaker + Heavy Crossbow": 1,
    "Dagger Pair + Soulscythe": 1,
-   "Energy Shaper + Grailseeker": 1
+   "Energy Shaper + Grailseeker": 1,
+   "Heavy Crossbow + Holy Staff": 1
   },
   "Glaive + Holy Staff": {
    "Claymore + Holy Staff": 59,
@@ -127272,7 +127278,8 @@
    "Battleaxe + Holy Staff": 1,
    "Broadsword + Holy Staff": 1,
    "Carving Sword + Dagger Pair": 1,
-   "Claymore + Holy Staff": 1
+   "Claymore + Holy Staff": 1,
+   "Bow of Badon + Tombhammer": 1
   },
   "Battleaxe + Bow of Badon": {
    "Bear Paws + Whispering Bow": 1,
@@ -127301,7 +127308,8 @@
    "Battleaxe + Great Holy Staff": 1,
    "Holy Staff + Permafrost Prism": 1,
    "Arclight Blasters + Twin Slayers": 1,
-   "Battleaxe + Bear Paws": 1
+   "Battleaxe + Bear Paws": 1,
+   "Hellspawn Staff + Holy Staff": 1
   },
   "Bloodletter + Bow of Badon": {
    "Claymore + Deathgivers": 1,
@@ -127441,7 +127449,8 @@
    "Battleaxe + Great Holy Staff": 1,
    "Dagger + Hellspawn Staff": 2,
    "Holy Staff + Holy Staff": 1,
-   "Broadsword + Holy Staff": 1
+   "Broadsword + Holy Staff": 1,
+   "Claymore + Holy Staff": 1
   },
   "Fists of Avalon + Staff of Balance": {
    "Claymore + Holy Staff": 3,
@@ -128151,7 +128160,8 @@
    "Dagger Pair + Dagger Pair": 1,
    "Cursed Staff + Great Holy Staff": 1,
    "Holy Staff + Wildfire Staff": 1,
-   "Crossbow + Fists of Avalon": 1
+   "Crossbow + Fists of Avalon": 1,
+   "Arclight Blasters + Holy Staff": 1
   },
   "Fists of Avalon + Greataxe": {
    "Daybreaker + Holy Staff": 1,
@@ -129097,7 +129107,8 @@
    "Claymore + Wildfire Staff": 1,
    "Dagger Pair + Holy Staff": 3,
    "Heavy Crossbow + Holy Staff": 1,
-   "Holy Staff + Prowling Staff": 1
+   "Holy Staff + Prowling Staff": 1,
+   "Claymore + Ironroot Staff": 1
   },
   "Bow of Badon + Whispering Bow": {
    "Dagger Pair + Whispering Bow": 1,
@@ -129193,7 +129204,8 @@
    "Bear Paws + Hellfire Hands": 2,
    "Battleaxe + Bow of Badon": 1,
    "Arclight Blasters + Bow of Badon": 1,
-   "Carving Sword + Holy Staff": 2
+   "Carving Sword + Holy Staff": 2,
+   "Battleaxe + Bear Paws": 1
   },
   "Cursed Staff + Dagger Pair": {
    "Cursed Staff + Deathgivers": 1,
@@ -129219,7 +129231,8 @@
    "Forcepulse Bracers + Holy Staff": 1,
    "Bear Paws + Holy Staff": 1,
    "Energy Shaper + Grailseeker": 1,
-   "Heron Spear + Holy Staff": 1
+   "Heron Spear + Holy Staff": 1,
+   "Crystal Reaper + Holy Staff": 1
   },
   "Demonic Staff + Great Fire Staff": {
    "Battleaxe + Dagger Pair": 1
@@ -129481,7 +129494,8 @@
    "Blazing Staff + Staff of Balance": 1,
    "Cursed Staff + Great Holy Staff": 1,
    "Claymore + Holy Staff": 3,
-   "Claymore + Great Holy Staff": 1
+   "Claymore + Great Holy Staff": 1,
+   "Claymore + Spirithunter": 1
   },
   "Forcepulse Bracers + Holy Staff": {
    "Daybreaker + Kingmaker": 1,
@@ -130418,7 +130432,8 @@
    "Battleaxe + Holy Staff": 1
   },
   "Heavy Crossbow + Kingmaker": {
-   "Battleaxe + Bow of Badon": 1
+   "Battleaxe + Bow of Badon": 1,
+   "Battleaxe + Kingmaker": 1
   },
   "Black Monk Stave + Energy Shaper": {
    "Greataxe + Hellspawn Staff": 1
@@ -130455,7 +130470,8 @@
    "Greataxe + Holy Staff": 1
   },
   "Holy Staff + Spirithunter": {
-   "Bow of Badon + Hallowfall": 1
+   "Bow of Badon + Hallowfall": 1,
+   "Great Holy Staff + Prowling Staff": 1
   },
   "Battleaxe + Mistpiercer": {
    "Battleaxe + Dagger Pair": 1
@@ -130783,6 +130799,9 @@
   "Great Holy Staff + Kingmaker": {
    "Dagger Pair + Holy Staff": 1,
    "Glaive + Holy Staff": 1
+  },
+  "Hellfire Hands + Twin Slayers": {
+   "Battleaxe + Rotcaller Staff": 1
   }
  },
  "pending": {
@@ -130995,126 +131014,6 @@
     "Bear Paws"
    ],
    "at": "2026-09-20T13:48:33.100013Z"
-  },
-  "europe:436983672": {
-   "won": [
-    "Claymore",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Heavy Crossbow"
-   ],
-   "at": "2026-09-20T13:48:24.960105900Z"
-  },
-  "europe:436983589": {
-   "won": [
-    "Cursed Staff",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Hellspawn Staff"
-   ],
-   "at": "2026-09-20T13:48:08.694317900Z"
-  },
-  "europe:436982504": {
-   "won": [
-    "Blazing Staff",
-    "Staff of Balance"
-   ],
-   "lost": [
-    "Dagger Pair"
-   ],
-   "at": "2026-09-20T13:46:35.565484800Z"
-  },
-  "europe:436981404": {
-   "won": [
-    "Claymore",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Hallowfall"
-   ],
-   "at": "2026-09-20T13:45:02.502538900Z"
-  },
-  "europe:436980975": {
-   "won": [
-    "Blazing Staff",
-    "Tombhammer"
-   ],
-   "lost": [
-    "Hellspawn Staff"
-   ],
-   "at": "2026-09-20T13:44:46.617869600Z"
-  },
-  "europe:436981033": {
-   "won": [
-    "Blazing Staff",
-    "Staff of Balance"
-   ],
-   "lost": [
-    "Staff of Balance"
-   ],
-   "at": "2026-09-20T13:44:25.504070400Z"
-  },
-  "europe:436980868": {
-   "won": [
-    "Glaive",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-20T13:44:15.676558900Z"
-  },
-  "europe:436980249": {
-   "won": [
-    "Dawnsong",
-    "Longbow"
-   ],
-   "lost": [
-    "Divine Staff"
-   ],
-   "at": "2026-09-20T13:44:12.655582600Z"
-  },
-  "europe:436980698": {
-   "won": [
-    "Crystal Reaper",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Arclight Blasters"
-   ],
-   "at": "2026-09-20T13:43:47.508756700Z"
-  },
-  "europe:436980157": {
-   "won": [
-    "Dagger Pair",
-    "Tombhammer"
-   ],
-   "lost": [
-    "Heavy Crossbow"
-   ],
-   "at": "2026-09-20T13:43:35.779672500Z"
-  },
-  "europe:436979999": {
-   "won": [
-    "Hallowfall",
-    "Longbow"
-   ],
-   "lost": [
-    "Bow of Badon"
-   ],
-   "at": "2026-09-20T13:43:01.894735400Z"
-  },
-  "europe:436980151": {
-   "won": [
-    "Dagger",
-    "Grailseeker"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-20T13:42:46.060328400Z"
   },
   "asia:512746762": {
    "won": [
@@ -135756,16 +135655,6 @@
    ],
    "at": "2026-09-20T16:04:18.116950700Z"
   },
-  "asia:512800977": {
-   "won": [
-    "Heavy Crossbow",
-    "Kingmaker"
-   ],
-   "lost": [
-    "Battleaxe"
-   ],
-   "at": "2026-09-20T16:18:57.477643800Z"
-  },
   "asia:512794783": {
    "won": [
     "Demonic Staff",
@@ -136025,16 +135914,6 @@
     "Holy Staff"
    ],
    "at": "2026-09-20T16:13:04.218989700Z"
-  },
-  "asia:512804162": {
-   "won": [
-    "Hellspawn Staff",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Heavy Crossbow"
-   ],
-   "at": "2026-09-20T16:29:51.072317200Z"
   },
   "asia:512804065": {
    "won": [
