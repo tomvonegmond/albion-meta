@@ -2530,7 +2530,7 @@ window.ALBION_WINRATES = {
    "Bloodletter": 10,
    "Mistpiercer": 20,
    "Battleaxe": 24,
-   "Holy Staff": 144,
+   "Holy Staff": 145,
    "Warbow": 9,
    "Crystal Reaper": 13,
    "Hallowfall": 24,
@@ -3763,7 +3763,7 @@ window.ALBION_WINRATES = {
    "Realmbreaker + Soulscythe": 1
   },
   "Claymore + Holy Staff": {
-   "Claymore + Holy Staff": 303,
+   "Claymore + Holy Staff": 304,
    "Heavy Crossbow + Holy Staff": 101,
    "Dagger Pair + Holy Staff": 124,
    "Demonic Staff + Holy Staff": 158,
