@@ -125187,7 +125187,7 @@
    "Greataxe + Holy Staff": 5,
    "Bow of Badon + Dagger Pair": 1,
    "Dagger Pair + Ironroot Staff": 3,
-   "Glaive + Holy Staff": 16,
+   "Glaive + Holy Staff": 17,
    "Broadsword + Ironroot Staff": 3,
    "Whispering Bow + Whispering Bow": 2,
    "Arclight Blasters + Bow of Badon": 5,
@@ -131480,16 +131480,6 @@
     "Heavy Crossbow"
    ],
    "at": "2026-09-20T23:00:47.544505600Z"
-  },
-  "europe:437288397": {
-   "won": [
-    "Bear Paws",
-    "Lifecurse Staff"
-   ],
-   "lost": [
-    "Battleaxe"
-   ],
-   "at": "2026-09-20T23:00:09.779388300Z"
   },
   "europe:437294126": {
    "won": [

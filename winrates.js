@@ -5220,7 +5220,7 @@ window.ALBION_WINRATES = {
    "Greataxe + Holy Staff": 5,
    "Bow of Badon + Dagger Pair": 1,
    "Dagger Pair + Ironroot Staff": 3,
-   "Glaive + Holy Staff": 16,
+   "Glaive + Holy Staff": 17,
    "Broadsword + Ironroot Staff": 3,
    "Whispering Bow + Whispering Bow": 2,
    "Arclight Blasters + Bow of Badon": 5,
