@@ -204,7 +204,7 @@
    "Heavy Crossbow": 212,
    "Dagger Pair": 182,
    "Glacial Staff": 58,
-   "Great Holy Staff": 75,
+   "Great Holy Staff": 76,
    "Prowling Staff": 70,
    "Warbow": 77,
    "Battleaxe": 81,
@@ -1079,7 +1079,7 @@
    "Carrioncaller": 411,
    "Blazing Staff": 269,
    "Arclight Blasters": 612,
-   "Carving Sword": 362,
+   "Carving Sword": 363,
    "Fists of Avalon": 337,
    "Demonic Staff": 986,
    "Hallowfall": 293,
@@ -1438,7 +1438,7 @@
   "Carving Sword": {
    "Heron Spear": 20,
    "Bow of Badon": 144,
-   "Holy Staff": 342,
+   "Holy Staff": 343,
    "Arclight Blasters": 36,
    "Carving Sword": 36,
    "Fists of Avalon": 36,
@@ -2083,7 +2083,7 @@
    "Fists of Avalon": 20,
    "Permafrost Prism": 3,
    "Hellspawn Staff": 30,
-   "Great Holy Staff": 41,
+   "Great Holy Staff": 42,
    "Heavy Crossbow": 62,
    "Rotcaller Staff": 3,
    "Deathgivers": 21,
@@ -2591,7 +2591,7 @@
    "Crossbow": 32,
    "Forcepulse Bracers": 11,
    "Daybreaker": 25,
-   "Hallowfall": 69,
+   "Hallowfall": 70,
    "Wildfire Staff": 17,
    "Ironroot Staff": 43,
    "Bloodletter": 42,
@@ -125192,7 +125192,7 @@
    "Holy Staff + Kingmaker": 5,
    "Daybreaker + Greataxe": 2,
    "Blazing Staff + Heavy Crossbow": 2,
-   "Carving Sword + Hallowfall": 1,
+   "Carving Sword + Hallowfall": 2,
    "Greataxe + Holy Staff": 5,
    "Bow of Badon + Dagger Pair": 1,
    "Dagger Pair + Ironroot Staff": 3,
@@ -128583,7 +128583,7 @@
    "Energy Shaper + Soulscythe": 1,
    "Carrioncaller + Grailseeker": 2,
    "Brawler Gloves + Dagger Pair": 1,
-   "Demonic Staff + Great Holy Staff": 1,
+   "Demonic Staff + Great Holy Staff": 2,
    "Demonic Staff + Ironroot Staff": 1
   },
   "Crystal Reaper + Divine Staff": {
@@ -131323,26 +131323,6 @@
     "Battleaxe"
    ],
    "at": "2026-09-21T00:15:26.147671700Z"
-  },
-  "europe:437306303": {
-   "won": [
-    "Heron Spear",
-    "Longbow"
-   ],
-   "lost": [
-    "Mistpiercer"
-   ],
-   "at": "2026-09-21T00:13:01.896376700Z"
-  },
-  "europe:437306195": {
-   "won": [
-    "Crossbow",
-    "Cursed Staff"
-   ],
-   "lost": [
-    "Dagger Pair"
-   ],
-   "at": "2026-09-21T00:12:28.556883300Z"
   },
   "europe:437313152": {
    "won": [
