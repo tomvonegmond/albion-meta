@@ -166,7 +166,7 @@
    "Whispering Bow": 47,
    "Warbow": 123,
    "Divine Staff": 10,
-   "Brawler Gloves": 113,
+   "Brawler Gloves": 114,
    "Broadsword": 45,
    "Grailseeker": 65,
    "Kingmaker": 24,
@@ -124449,7 +124449,7 @@
    "Heavy Crossbow + Ironroot Staff": 1,
    "Holy Staff + Pike": 4,
    "Battleaxe + Heavy Crossbow": 4,
-   "Brawler Gloves + Dagger Pair": 3,
+   "Brawler Gloves + Dagger Pair": 4,
    "Holy Staff + Lifecurse Staff": 2,
    "Cursed Staff + Great Holy Staff": 4,
    "Demonic Staff + Warbow": 2,
@@ -131877,36 +131877,6 @@
     "Heavy Crossbow"
    ],
    "at": "2026-09-21T11:37:36.316359Z"
-  },
-  "asia:512992378": {
-   "won": [
-    "Claymore",
-    "Ironroot Staff"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-21T11:36:39.037402300Z"
-  },
-  "asia:512992375": {
-   "won": [
-    "Cursed Staff",
-    "Divine Staff"
-   ],
-   "lost": [
-    "Longbow"
-   ],
-   "at": "2026-09-21T11:36:38.122627500Z"
-  },
-  "asia:512991903": {
-   "won": [
-    "Claymore",
-    "Ironroot Staff"
-   ],
-   "lost": [
-    "Great Holy Staff"
-   ],
-   "at": "2026-09-21T11:34:53.319401900Z"
   },
   "europe:437428804": {
    "won": [
