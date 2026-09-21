@@ -413,7 +413,7 @@
    "Bloodletter": 28,
    "Mistpiercer": 37,
    "Warbow": 49,
-   "Blazing Staff": 40,
+   "Blazing Staff": 41,
    "Bear Paws": 77,
    "Grailseeker": 40,
    "Blight Staff": 8,
@@ -643,7 +643,7 @@
    "Icicle Staff": 1
   },
   "Warbow": {
-   "Battleaxe": 135,
+   "Battleaxe": 136,
    "Cursed Staff": 49,
    "Claymore": 96,
    "Longbow": 110,
@@ -652,7 +652,7 @@
    "Twin Slayers": 7,
    "Hellfire Hands": 15,
    "Heavy Crossbow": 88,
-   "Bow of Badon": 63,
+   "Bow of Badon": 64,
    "Bear Paws": 41,
    "Dawnsong": 1,
    "Mistpiercer": 14,
@@ -663,7 +663,7 @@
    "Carving Sword": 32,
    "Demonic Staff": 49,
    "Blight Staff": 15,
-   "Prowling Staff": 11,
+   "Prowling Staff": 12,
    "Dagger Pair": 118,
    "Greataxe": 41,
    "Great Holy Staff": 28,
@@ -754,7 +754,7 @@
    "Carrioncaller": 30,
    "Twin Slayers": 12,
    "Brawler Gloves": 104,
-   "Prowling Staff": 13,
+   "Prowling Staff": 14,
    "Icicle Staff": 2,
    "Lifecurse Staff": 17,
    "Energy Shaper": 16,
@@ -1030,7 +1030,7 @@
    "Hellspawn Staff": 16,
    "Twin Slayers": 8,
    "Mistpiercer": 3,
-   "Blazing Staff": 6,
+   "Blazing Staff": 7,
    "Staff of Balance": 7,
    "Broadsword": 3,
    "Brawler Gloves": 5,
@@ -1578,7 +1578,7 @@
    "Whispering Bow": 6,
    "Kingmaker": 11,
    "Brawler Gloves": 14,
-   "Arclight Blasters": 16,
+   "Arclight Blasters": 17,
    "Heavy Crossbow": 25,
    "Crystal Reaper": 9,
    "Grailseeker": 14,
@@ -2007,7 +2007,7 @@
    "Lifecurse Staff": 10,
    "Dagger Pair": 85,
    "Whispering Bow": 20,
-   "Bow of Badon": 103,
+   "Bow of Badon": 104,
    "Energy Shaper": 12,
    "Greataxe": 65,
    "Infernal Scythe": 13,
@@ -2638,7 +2638,7 @@
    "Brawler Gloves": 24,
    "Warbow": 18,
    "Great Holy Staff": 11,
-   "Arclight Blasters": 10,
+   "Arclight Blasters": 11,
    "Blazing Staff": 4,
    "Crossbow": 7,
    "Wildfire Staff": 4,
@@ -128171,7 +128171,7 @@
    "Bow of Badon + Holy Staff": 2,
    "Claymore + Holy Staff": 12,
    "Demonic Staff + Holy Staff": 9,
-   "Arclight Blasters + Holy Staff": 1,
+   "Arclight Blasters + Holy Staff": 2,
    "Hellspawn Staff + Holy Staff": 2,
    "Bow of Badon + Twin Slayers": 1,
    "Glacial Staff + Staff of Balance": 3,
@@ -131583,16 +131583,6 @@
     "Holy Staff"
    ],
    "at": "2026-09-21T02:52:44.102607800Z"
-  },
-  "asia:512881828": {
-   "won": [
-    "Arclight Blasters",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-21T02:35:22.187977100Z"
   },
   "europe:437336962": {
    "won": [
