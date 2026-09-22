@@ -484,7 +484,7 @@
    "Staff of Balance": 21,
    "Glacial Staff": 11,
    "Fists of Avalon": 21,
-   "Dagger": 26,
+   "Dagger": 28,
    "Crossbow": 20,
    "Greataxe": 54,
    "Carrioncaller": 18,
@@ -539,7 +539,7 @@
    "Mistpiercer": 4,
    "Hellspawn Staff": 7,
    "Cursed Staff": 2,
-   "Battleaxe": 17,
+   "Battleaxe": 18,
    "Bow of Badon": 26,
    "Greataxe": 14,
    "Blazing Staff": 4,
@@ -1334,7 +1334,7 @@
    "Dagger Pair": 77,
    "Brawler Gloves": 48,
    "Hellspawn Staff": 25,
-   "Deathgivers": 40,
+   "Deathgivers": 41,
    "Whispering Bow": 23,
    "Claymore": 65,
    "Wildfire Staff": 14,
@@ -2078,7 +2078,7 @@
    "Kingmaker": 18,
    "Glacial Staff": 10,
    "Demonic Staff": 13,
-   "Deathgivers": 38,
+   "Deathgivers": 39,
    "Wailing Bow": 5,
    "Grovekeeper": 5,
    "Glaive": 1,
@@ -3299,7 +3299,7 @@
    "Bow of Badon": 79,
    "Forcepulse Bracers": 4,
    "Infernal Scythe": 4,
-   "Battleaxe": 28,
+   "Battleaxe": 29,
    "Blight Staff": 8,
    "Arclight Blasters": 22,
    "Wildfire Staff": 5,
@@ -132424,36 +132424,6 @@
    ],
    "at": "2026-09-22T09:07:21.258562400Z"
   },
-  "europe:437846341": {
-   "won": [
-    "Forcepulse Bracers",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-09-22T09:00:34.397555800Z"
-  },
-  "europe:437846288": {
-   "won": [
-    "Deathgivers",
-    "Prowling Staff"
-   ],
-   "lost": [
-    "Deathgivers"
-   ],
-   "at": "2026-09-22T09:00:20.413435900Z"
-  },
-  "europe:437845827": {
-   "won": [
-    "Demonic Staff",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Dagger Pair"
-   ],
-   "at": "2026-09-22T08:58:52.451327200Z"
-  },
   "asia:513257358": {
    "won": [
     "Claymore",
@@ -132503,16 +132473,6 @@
     "Bloodletter"
    ],
    "at": "2026-09-22T09:03:27.047370600Z"
-  },
-  "asia:513254318": {
-   "won": [
-    "Bloodletter",
-    "Crossbow"
-   ],
-   "lost": [
-    "Carrioncaller"
-   ],
-   "at": "2026-09-22T09:00:53.874744900Z"
   },
   "europe:437851003": {
    "won": [
@@ -132693,16 +132653,6 @@
     "Holy Staff"
    ],
    "at": "2026-09-22T09:03:48.522882900Z"
-  },
-  "europe:437845564": {
-   "won": [
-    "Forcepulse Bracers",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Brawler Gloves"
-   ],
-   "at": "2026-09-22T08:57:35.163291500Z"
   },
   "asia:513259913": {
    "won": [
