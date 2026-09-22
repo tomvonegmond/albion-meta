@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-22T09:36:55+00:00",
- "eventsSeen": 1031370,
- "qualifying": 58704,
- "duoFights": 14906,
- "runs": 1313,
+ "updated": "2026-09-22T09:38:27+00:00",
+ "eventsSeen": 1031442,
+ "qualifying": 58707,
+ "duoFights": 14907,
+ "runs": 1314,
  "regions": {
   "americas": {
    "events": 314721,
@@ -34,14 +34,14 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-09-20T22:36:58.298620200Z"
   },
   "europe": {
-   "events": 487392,
-   "kills": 33066,
-   "lastSeen": "2026-09-22T09:31:15.292481100Z"
+   "events": 487438,
+   "kills": 33069,
+   "lastSeen": "2026-09-22T09:32:16.881222700Z"
   },
   "asia": {
-   "events": 229561,
+   "events": 229587,
    "kills": 9497,
-   "lastSeen": "2026-09-22T09:31:25.591060400Z"
+   "lastSeen": "2026-09-22T09:32:26.444925500Z"
   }
  },
  "kills": {
@@ -441,7 +441,7 @@ window.ALBION_WINRATES = {
   },
   "Arclight Blasters": {
    "Demonic Staff": 107,
-   "Holy Staff": 920,
+   "Holy Staff": 921,
    "Hellspawn Staff": 101,
    "Bow of Badon": 267,
    "Energy Shaper": 31,
@@ -467,7 +467,7 @@ window.ALBION_WINRATES = {
    "Blight Staff": 12,
    "Carving Sword": 52,
    "Heron Spear": 33,
-   "Forcepulse Bracers": 25,
+   "Forcepulse Bracers": 26,
    "Glacial Staff": 30,
    "Tombhammer": 41,
    "Rotcaller Staff": 25,
@@ -1132,7 +1132,7 @@ window.ALBION_WINRATES = {
    "Longbow": 523,
    "Mistpiercer": 220,
    "Claymore": 2132,
-   "Holy Staff": 9404,
+   "Holy Staff": 9405,
    "Heavy Crossbow": 1680,
    "Bow of Badon": 1149,
    "Bear Paws": 469,
@@ -1172,7 +1172,7 @@ window.ALBION_WINRATES = {
    "Daybreaker": 166,
    "Great Holy Staff": 503,
    "Ursine Maulers": 59,
-   "Forcepulse Bracers": 80,
+   "Forcepulse Bracers": 81,
    "Realmbreaker": 94,
    "Kingmaker": 266,
    "Twin Slayers": 167,
@@ -1182,7 +1182,7 @@ window.ALBION_WINRATES = {
    "Grailseeker": 510,
    "Dawnsong": 56,
    "Infernal Scythe": 126,
-   "Prowling Staff": 292,
+   "Prowling Staff": 293,
    "Pike": 145,
    "Glaive": 202,
    "Black Monk Stave": 19,
@@ -2483,7 +2483,7 @@ window.ALBION_WINRATES = {
    "Battleaxe": 58,
    "Bloodletter": 30,
    "Great Holy Staff": 32,
-   "Prowling Staff": 24,
+   "Prowling Staff": 25,
    "Whispering Bow": 9,
    "Ironroot Staff": 11,
    "Hellfire Hands": 17,
@@ -5293,7 +5293,7 @@ window.ALBION_WINRATES = {
    "Cursed Staff + Hallowfall": 1,
    "Soulscythe + Spirithunter": 2,
    "Cursed Staff + Holy Staff": 10,
-   "Forcepulse Bracers + Holy Staff": 3,
+   "Forcepulse Bracers + Holy Staff": 4,
    "Carrioncaller + Daybreaker": 1,
    "Mistpiercer + Rotcaller Staff": 1,
    "Kingmaker + Redemption Staff": 1,
