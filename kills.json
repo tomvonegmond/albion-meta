@@ -1353,7 +1353,7 @@
    "Grailseeker": 15,
    "Broadsword": 20,
    "Hallowfall": 12,
-   "Bear Paws": 45,
+   "Bear Paws": 46,
    "Crystal Reaper": 10,
    "Mistpiercer": 7,
    "Greataxe": 48,
@@ -132683,16 +132683,6 @@
     "Brawler Gloves"
    ],
    "at": "2026-09-22T06:04:25.072458700Z"
-  },
-  "asia:513215044": {
-   "won": [
-    "Greataxe",
-    "Longbow"
-   ],
-   "lost": [
-    "Arclight Blasters"
-   ],
-   "at": "2026-09-22T06:03:26.581990Z"
   },
   "europe:437822359": {
    "won": [

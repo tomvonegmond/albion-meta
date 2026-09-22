@@ -1398,7 +1398,7 @@ window.ALBION_WINRATES = {
    "Grailseeker": 15,
    "Broadsword": 20,
    "Hallowfall": 12,
-   "Bear Paws": 45,
+   "Bear Paws": 46,
    "Crystal Reaper": 10,
    "Mistpiercer": 7,
    "Greataxe": 48,
