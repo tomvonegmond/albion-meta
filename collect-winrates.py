@@ -177,8 +177,16 @@ def main():
         print(f"  {region}: {r_fresh} new events, {r_counted} counted")
 
     # any battle with both deaths in is a finished 2v2
-    done = 0
+    done = dropped = 0
     for battle, slot in list(store["pending"].items()):
+        # A battle missing its "lost" list is not something this script can
+        # write, but a line by line merge of kills.json once produced one and
+        # every run after it died on this line for two days. One unusable row
+        # is worth dropping, not worth stopping for.
+        if not isinstance(slot, dict) or "won" not in slot or "lost" not in slot:
+            del store["pending"][battle]
+            dropped += 1
+            continue
         if len(slot["lost"]) >= 2:
             won  = " + ".join(slot["won"])
             lost = " + ".join(sorted(slot["lost"][:2]))
@@ -240,6 +248,8 @@ window.ALBION_WINRATES = """ % IP_CAP
         "duos": store["duos"],
     }, indent=1, ensure_ascii=False) + ";\n")
 
+    if dropped:
+        print(f"dropped {dropped} malformed battle(s) from the pending list")
     print(f"new events {fresh}, counted {counted}, duo fights closed {done}")
     print(f"running totals: {store['eventsSeen']} events seen, "
           f"{store['qualifying']} kills and {store['duoFights']} duo fights "

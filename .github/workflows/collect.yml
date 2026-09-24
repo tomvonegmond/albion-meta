@@ -71,14 +71,32 @@ jobs:
               git commit -m "Kill data $(date -u '+%Y-%m-%d %H:%M') UTC$SKIP"
 
               # Someone pushing while this runs would otherwise have the push
-              # rejected and the collection thrown away, so rebase onto
-              # whatever landed and try again. The counts are ours, and they
-              # are the only thing in this commit.
+              # rejected and the collection thrown away, so put our counts on
+              # top of whatever landed and try again.
+              #
+              # NOT with a rebase. kills.json is one json document, and
+              # "git pull --rebase -X ours" merges it line by line: on
+              # 2026-09-22 that spliced the "lost" line out of one pending
+              # battle, which is a shape the script cannot write, and every run
+              # for the next two days died on it. So the two data files are
+              # carried across whole. They are the only thing in this commit,
+              # and the concurrency group means no other collector is writing
+              # them, so nothing is lost by preferring ours outright.
               pushed=0
               for attempt in 1 2 3 4 5; do
                 if git push; then pushed=1; echo "pushed on attempt $attempt"; break; fi
-                echo "push rejected, rebasing and retrying"
-                git pull --rebase -X ours origin main || git rebase --abort
+                echo "push rejected, replaying our counts on top of origin"
+                cp kills.json winrates.js "$RUNNER_TEMP/"
+                git fetch origin main
+                git reset --hard origin/main
+                cp "$RUNNER_TEMP/kills.json" "$RUNNER_TEMP/winrates.js" .
+                git add kills.json winrates.js
+                if git diff --staged --quiet; then
+                  echo "origin already has these counts, nothing left to push"
+                  pushed=1
+                  break
+                fi
+                git commit -m "Kill data $(date -u '+%Y-%m-%d %H:%M') UTC$SKIP"
                 sleep $((attempt * 5))
               done
               if [ "$pushed" = "0" ]; then echo "could not push after five tries"; exit 1; fi
