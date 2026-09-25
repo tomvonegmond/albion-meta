@@ -22,26 +22,26 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-25T07:39:21+00:00",
- "eventsSeen": 1175306,
- "qualifying": 67083,
- "duoFights": 17070,
- "runs": 1469,
+ "updated": "2026-09-25T07:42:41+00:00",
+ "eventsSeen": 1175435,
+ "qualifying": 67085,
+ "duoFights": 17071,
+ "runs": 1470,
  "regions": {
   "americas": {
-   "events": 378208,
-   "kills": 19211,
-   "lastSeen": "2026-09-25T07:33:07.886602Z"
+   "events": 378259,
+   "kills": 19212,
+   "lastSeen": "2026-09-25T07:35:13.532667400Z"
   },
   "europe": {
-   "events": 544161,
-   "kills": 37276,
-   "lastSeen": "2026-09-25T07:32:48.297614100Z"
+   "events": 544212,
+   "kills": 37277,
+   "lastSeen": "2026-09-25T07:35:59.769740Z"
   },
   "asia": {
-   "events": 253241,
+   "events": 253268,
    "kills": 10614,
-   "lastSeen": "2026-09-25T07:33:35.185671400Z"
+   "lastSeen": "2026-09-25T07:34:30.889098600Z"
   }
  },
  "kills": {
@@ -331,7 +331,7 @@ window.ALBION_WINRATES = {
    "Wildfire Staff": 47,
    "Forcepulse Bracers": 21,
    "Bedrock Mace": 3,
-   "Brawler Gloves": 275,
+   "Brawler Gloves": 276,
    "Longbow": 173,
    "Warbow": 290,
    "Deathgivers": 154,
@@ -1165,7 +1165,7 @@ window.ALBION_WINRATES = {
    "Hellspawn Staff": 953,
    "Hellfire Hands": 375,
    "Energy Shaper": 289,
-   "Brawler Gloves": 978,
+   "Brawler Gloves": 979,
    "Rotcaller Staff": 145,
    "Bloodletter": 565,
    "Crossbow": 420,
@@ -1191,7 +1191,7 @@ window.ALBION_WINRATES = {
    "Crystal Reaper": 245,
    "Redemption Staff": 134,
    "Heron Spear": 299,
-   "Grailseeker": 565,
+   "Grailseeker": 566,
    "Dawnsong": 58,
    "Infernal Scythe": 145,
    "Prowling Staff": 327,
@@ -1548,7 +1548,7 @@ window.ALBION_WINRATES = {
    "Bear Paws": 76,
    "Mistpiercer": 42,
    "Greataxe": 78,
-   "Grailseeker": 30,
+   "Grailseeker": 31,
    "Demonic Staff": 31,
    "Cursed Staff": 70,
    "Dagger Pair": 86,
@@ -4669,7 +4669,8 @@ window.ALBION_WINRATES = {
    "Bear Paws + Pike": 1,
    "Greataxe + Greataxe": 1,
    "Bear Paws + Infernal Scythe": 1,
-   "Holy Staff + Wildfire Staff": 1
+   "Holy Staff + Wildfire Staff": 1,
+   "Blazing Staff + Grailseeker": 1
   },
   "Dagger Pair + Holy Staff": {
    "Carrioncaller + Holy Staff": 28,
