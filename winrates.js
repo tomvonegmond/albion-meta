@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-26T10:14:18+00:00",
- "eventsSeen": 1372060,
- "qualifying": 78498,
- "duoFights": 20253,
- "runs": 1749,
+ "updated": "2026-09-26T10:19:49+00:00",
+ "eventsSeen": 1372144,
+ "qualifying": 78502,
+ "duoFights": 20255,
+ "runs": 1750,
  "regions": {
   "americas": {
    "events": 463045,
@@ -34,14 +34,14 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-09-26T10:00:02.586742500Z"
   },
   "europe": {
-   "events": 626981,
-   "kills": 43114,
-   "lastSeen": "2026-09-26T10:00:30.941327600Z"
+   "events": 627014,
+   "kills": 43116,
+   "lastSeen": "2026-09-26T10:14:23.479081900Z"
   },
   "asia": {
-   "events": 282338,
-   "kills": 11956,
-   "lastSeen": "2026-09-26T10:08:38.386020200Z"
+   "events": 282389,
+   "kills": 11958,
+   "lastSeen": "2026-09-26T10:13:44.029274200Z"
   }
  },
  "kills": {
@@ -332,10 +332,10 @@ window.ALBION_WINRATES = {
    "Wildfire Staff": 55,
    "Forcepulse Bracers": 24,
    "Bedrock Mace": 4,
-   "Brawler Gloves": 334,
+   "Brawler Gloves": 335,
    "Longbow": 192,
    "Warbow": 362,
-   "Deathgivers": 185,
+   "Deathgivers": 186,
    "Hellspawn Staff": 253,
    "Crystal Reaper": 42,
    "Carving Sword": 167,
@@ -1166,14 +1166,14 @@ window.ALBION_WINRATES = {
    "Fists of Avalon": 458,
    "Demonic Staff": 1539,
    "Hallowfall": 438,
-   "Deathgivers": 659,
+   "Deathgivers": 660,
    "Warbow": 1119,
    "Staff of Balance": 969,
    "Whispering Bow": 395,
    "Hellspawn Staff": 1090,
    "Hellfire Hands": 460,
    "Energy Shaper": 335,
-   "Brawler Gloves": 1166,
+   "Brawler Gloves": 1169,
    "Rotcaller Staff": 159,
    "Bloodletter": 624,
    "Crossbow": 469,
@@ -2149,7 +2149,7 @@ window.ALBION_WINRATES = {
    "Tombhammer": 33,
    "Ursine Maulers": 16,
    "Hallowfall": 46,
-   "Brawler Gloves": 71,
+   "Brawler Gloves": 73,
    "Wildfire Staff": 31,
    "Daybreaker": 19,
    "Spirithunter": 10,
@@ -4226,7 +4226,7 @@ window.ALBION_WINRATES = {
    "Battleaxe + Greataxe": 1,
    "Blight Staff + Heavy Crossbow": 1,
    "Bloodletter + Heavy Crossbow": 4,
-   "Brawler Gloves + Deathgivers": 2,
+   "Brawler Gloves + Deathgivers": 3,
    "Cursed Staff + Great Holy Staff": 7,
    "Great Holy Staff + Pike": 2,
    "Claymore + Soulscythe": 2,
@@ -8832,7 +8832,8 @@ window.ALBION_WINRATES = {
    "Claymore + Holy Staff": 1,
    "Dagger Pair + Holy Staff": 1,
    "Daybreaker + Holy Staff": 1,
-   "Fists of Avalon + Longbow": 1
+   "Fists of Avalon + Longbow": 1,
+   "Brawler Gloves + Brawler Gloves": 1
   },
   "Brawler Gloves + Longbow": {
    "Infernal Scythe + Staff of Balance": 1,
