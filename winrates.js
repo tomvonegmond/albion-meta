@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-26T10:08:09+00:00",
- "eventsSeen": 1372009,
- "qualifying": 78495,
- "duoFights": 20252,
- "runs": 1748,
+ "updated": "2026-09-26T10:14:18+00:00",
+ "eventsSeen": 1372060,
+ "qualifying": 78498,
+ "duoFights": 20253,
+ "runs": 1749,
  "regions": {
   "americas": {
    "events": 463045,
@@ -39,9 +39,9 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-09-26T10:00:30.941327600Z"
   },
   "asia": {
-   "events": 282287,
-   "kills": 11953,
-   "lastSeen": "2026-09-26T10:01:27.939500800Z"
+   "events": 282338,
+   "kills": 11956,
+   "lastSeen": "2026-09-26T10:08:38.386020200Z"
   }
  },
  "kills": {
@@ -902,7 +902,7 @@ window.ALBION_WINRATES = {
    "Pike": 11,
    "Demonic Staff": 25,
    "Longbow": 267,
-   "Battleaxe": 307,
+   "Battleaxe": 308,
    "Dagger Pair": 132,
    "Forcepulse Bracers": 28,
    "Broadsword": 39,
@@ -1746,7 +1746,7 @@ window.ALBION_WINRATES = {
    "Arclight Blasters": 35,
    "Hallowfall": 18,
    "Broadsword": 16,
-   "Dagger Pair": 79,
+   "Dagger Pair": 80,
    "Twin Slayers": 12,
    "Heron Spear": 21,
    "Blazing Staff": 21,
@@ -1785,7 +1785,7 @@ window.ALBION_WINRATES = {
    "Rotcaller Staff": 4,
    "Wailing Bow": 3,
    "Spirithunter": 1,
-   "Soulscythe": 8,
+   "Soulscythe": 9,
    "Camlann Mace": 1,
    "Glaive": 5,
    "Great Arcane Staff": 4,
@@ -2114,7 +2114,7 @@ window.ALBION_WINRATES = {
   "Longbow": {
    "Pike": 11,
    "Holy Staff": 206,
-   "Battleaxe": 301,
+   "Battleaxe": 302,
    "Cursed Staff": 92,
    "Great Fire Staff": 35,
    "Bloodletter": 46,
@@ -2463,7 +2463,7 @@ window.ALBION_WINRATES = {
    "Deathgivers": 53,
    "Bear Paws": 41,
    "Grailseeker": 46,
-   "Dagger Pair": 98,
+   "Dagger Pair": 99,
    "Carving Sword": 33,
    "Warbow": 76,
    "Mistpiercer": 18,
@@ -2491,7 +2491,7 @@ window.ALBION_WINRATES = {
    "Twin Slayers": 5,
    "Energy Shaper": 13,
    "Camlann Mace": 3,
-   "Soulscythe": 11,
+   "Soulscythe": 12,
    "Realmbreaker": 3,
    "Black Monk Stave": 4,
    "Bedrock Mace": 12,
@@ -9421,7 +9421,8 @@ window.ALBION_WINRATES = {
    "Battleaxe + Holy Staff": 1,
    "Arclight Blasters + Holy Staff": 1,
    "Carrioncaller + Holy Staff": 2,
-   "Greataxe + Infernal Scythe": 2
+   "Greataxe + Infernal Scythe": 2,
+   "Dagger Pair + Soulscythe": 1
   },
   "Crystal Reaper + Longbow": {
    "Claymore + Greataxe": 1
