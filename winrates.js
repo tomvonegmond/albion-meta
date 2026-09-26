@@ -22,16 +22,16 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-26T05:37:46+00:00",
- "eventsSeen": 1347529,
- "qualifying": 76987,
+ "updated": "2026-09-26T05:38:18+00:00",
+ "eventsSeen": 1347605,
+ "qualifying": 76990,
  "duoFights": 19810,
- "runs": 1700,
+ "runs": 1701,
  "regions": {
   "americas": {
-   "events": 453247,
-   "kills": 22719,
-   "lastSeen": "2026-09-26T05:31:17.020957800Z"
+   "events": 453298,
+   "kills": 22722,
+   "lastSeen": "2026-09-26T05:32:21.023699600Z"
   },
   "europe": {
    "events": 618300,
@@ -39,9 +39,9 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-09-26T05:31:58.229296300Z"
   },
   "asia": {
-   "events": 276286,
+   "events": 276311,
    "kills": 11662,
-   "lastSeen": "2026-09-26T05:32:06.672914800Z"
+   "lastSeen": "2026-09-26T05:29:56.372269800Z"
   }
  },
  "kills": {
@@ -638,7 +638,7 @@ window.ALBION_WINRATES = {
    "Carrioncaller": 88,
    "Holy Staff": 1511,
    "Grailseeker": 74,
-   "Dagger": 82,
+   "Dagger": 83,
    "Bear Paws": 61,
    "Longbow": 123,
    "Greataxe": 75,
@@ -1147,8 +1147,8 @@ window.ALBION_WINRATES = {
    "Glaive": 1
   },
   "Holy Staff": {
-   "Dagger": 642,
-   "Battleaxe": 1220,
+   "Dagger": 643,
+   "Battleaxe": 1221,
    "Longbow": 656,
    "Mistpiercer": 271,
    "Claymore": 2888,
@@ -1619,7 +1619,7 @@ window.ALBION_WINRATES = {
    "Battleaxe": 88,
    "Bear Paws": 31,
    "Prowling Staff": 15,
-   "Carving Sword": 28,
+   "Carving Sword": 29,
    "Bloodletter": 37,
    "Grailseeker": 17,
    "Broadsword": 17,
@@ -2131,7 +2131,7 @@ window.ALBION_WINRATES = {
    "Infernal Scythe": 18,
    "Redemption Staff": 13,
    "Staff of Balance": 16,
-   "Carving Sword": 48,
+   "Carving Sword": 49,
    "Grailseeker": 33,
    "Realmbreaker": 23,
    "Great Holy Staff": 27,
@@ -2715,7 +2715,7 @@ window.ALBION_WINRATES = {
    "Brawler Gloves": 111,
    "Staff of Balance": 131,
    "Kingmaker": 54,
-   "Battleaxe": 194,
+   "Battleaxe": 195,
    "Hellfire Hands": 73,
    "Pike": 20,
    "Prowling Staff": 58,
