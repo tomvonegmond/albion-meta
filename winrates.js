@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-27T10:20:37+00:00",
- "eventsSeen": 1549833,
- "qualifying": 88550,
- "duoFights": 22858,
- "runs": 1959,
+ "updated": "2026-09-27T10:25:22+00:00",
+ "eventsSeen": 1549907,
+ "qualifying": 88553,
+ "duoFights": 22859,
+ "runs": 1960,
  "regions": {
   "americas": {
    "events": 538009,
@@ -34,14 +34,14 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-09-27T10:00:04.775925600Z"
   },
   "europe": {
-   "events": 704247,
-   "kills": 48366,
-   "lastSeen": "2026-09-27T09:58:43.059327600Z"
+   "events": 704270,
+   "kills": 48368,
+   "lastSeen": "2026-09-27T08:52:12.346518900Z"
   },
   "asia": {
-   "events": 307881,
-   "kills": 13150,
-   "lastSeen": "2026-09-27T10:14:56.757986200Z"
+   "events": 307932,
+   "kills": 13151,
+   "lastSeen": "2026-09-27T10:19:03.567847Z"
   }
  },
  "kills": {
@@ -120,7 +120,7 @@ window.ALBION_WINRATES = {
    "Claymore": 155,
    "Holy Staff": 609,
    "Carrioncaller": 36,
-   "Brawler Gloves": 100,
+   "Brawler Gloves": 101,
    "Whispering Bow": 38,
    "Great Fire Staff": 18,
    "Broadsword": 44,
@@ -1180,7 +1180,7 @@ window.ALBION_WINRATES = {
    "Hellspawn Staff": 1245,
    "Hellfire Hands": 529,
    "Energy Shaper": 369,
-   "Brawler Gloves": 1327,
+   "Brawler Gloves": 1328,
    "Rotcaller Staff": 176,
    "Bloodletter": 697,
    "Crossbow": 545,
@@ -1237,7 +1237,7 @@ window.ALBION_WINRATES = {
    "Claymore": 8,
    "Daybreaker": 1,
    "Divine Staff": 5,
-   "Hellspawn Staff": 8,
+   "Hellspawn Staff": 9,
    "Pike": 1,
    "Rotcaller Staff": 1,
    "Whispering Bow": 6,
@@ -1485,7 +1485,7 @@ window.ALBION_WINRATES = {
    "Prowling Staff": 17,
    "Carving Sword": 44,
    "Hellspawn Staff": 33,
-   "Demonic Staff": 52,
+   "Demonic Staff": 54,
    "Longbow": 103,
    "Cursed Staff": 62,
    "Hallowfall": 17,
@@ -2331,7 +2331,7 @@ window.ALBION_WINRATES = {
    "Glacial Staff": 7,
    "Grailseeker": 19,
    "Energy Shaper": 14,
-   "Hellspawn Staff": 18,
+   "Hellspawn Staff": 19,
    "Bow of Badon": 58,
    "Great Fire Staff": 9,
    "Greataxe": 36,
@@ -7093,7 +7093,7 @@ window.ALBION_WINRATES = {
    "Battleaxe + Bow of Badon": 1,
    "Bloodletter + Brawler Gloves": 2,
    "Hellspawn Staff + Holy Staff": 13,
-   "Brawler Gloves + Brawler Gloves": 6,
+   "Brawler Gloves + Brawler Gloves": 7,
    "Cursed Staff + Holy Staff": 7,
    "Broadsword + Holy Staff": 8,
    "Infernal Scythe + Whispering Bow": 1,
