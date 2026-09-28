@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-28T10:11:00+00:00",
- "eventsSeen": 1697118,
- "qualifying": 97706,
- "duoFights": 25218,
- "runs": 2131,
+ "updated": "2026-09-28T10:16:51+00:00",
+ "eventsSeen": 1697152,
+ "qualifying": 97708,
+ "duoFights": 25219,
+ "runs": 2132,
  "regions": {
   "americas": {
    "events": 599939,
@@ -34,9 +34,9 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-09-28T09:59:48.998814200Z"
   },
   "europe": {
-   "events": 770505,
-   "kills": 53175,
-   "lastSeen": "2026-09-28T10:00:24.488072200Z"
+   "events": 770539,
+   "kills": 53177,
+   "lastSeen": "2026-09-28T09:47:49.990531Z"
   },
   "asia": {
    "events": 326978,
@@ -249,7 +249,7 @@ window.ALBION_WINRATES = {
    "Blazing Staff": 54,
    "Claymore": 563,
    "Dagger": 135,
-   "Holy Staff": 2304,
+   "Holy Staff": 2305,
    "Carrioncaller": 93,
    "Heavy Crossbow": 403,
    "Dagger Pair": 322,
@@ -264,7 +264,7 @@ window.ALBION_WINRATES = {
    "Great Fire Staff": 12,
    "Greataxe": 37,
    "Broadsword": 61,
-   "Deathgivers": 89,
+   "Deathgivers": 90,
    "Bow of Badon": 61,
    "Twin Slayers": 7,
    "Wildfire Staff": 26,
@@ -1166,7 +1166,7 @@ window.ALBION_WINRATES = {
    "Longbow": 889,
    "Mistpiercer": 366,
    "Claymore": 3775,
-   "Holy Staff": 15869,
+   "Holy Staff": 15870,
    "Heavy Crossbow": 2850,
    "Bow of Badon": 1839,
    "Bear Paws": 761,
@@ -1180,7 +1180,7 @@ window.ALBION_WINRATES = {
    "Fists of Avalon": 556,
    "Demonic Staff": 1865,
    "Hallowfall": 530,
-   "Deathgivers": 832,
+   "Deathgivers": 833,
    "Warbow": 1425,
    "Staff of Balance": 1126,
    "Whispering Bow": 489,
@@ -7062,7 +7062,7 @@ window.ALBION_WINRATES = {
    "Broadsword + Holy Staff": 31,
    "Brawler Gloves + Brawler Gloves": 19,
    "Dagger Pair + Holy Staff": 125,
-   "Deathgivers + Holy Staff": 57,
+   "Deathgivers + Holy Staff": 58,
    "Staff of Balance + Wildfire Staff": 2,
    "Carving Sword + Holy Staff": 40,
    "Arclight Blasters + Holy Staff": 86,
