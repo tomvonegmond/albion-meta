@@ -124009,8 +124009,8 @@
  },
  "eventsSeen": 1697118,
  "qualifying": 97706,
- "runs": 2130,
- "updated": "2026-09-28T10:06:42+00:00",
+ "runs": 2131,
+ "updated": "2026-09-28T10:11:00+00:00",
  "duos": {
   "Energy Shaper + Tombhammer": {
    "Bear Paws + Bear Paws": 1,
@@ -135946,56 +135946,6 @@
   }
  },
  "pending": {
-  "americas:1456868630": {
-   "won": [
-    "Claymore",
-    "Great Holy Staff"
-   ],
-   "lost": [
-    "Battleaxe"
-   ],
-   "at": "2026-09-28T07:09:46.665663300Z"
-  },
-  "americas:1456868463": {
-   "won": [
-    "Cursed Staff",
-    "Dagger"
-   ],
-   "lost": [
-    "Dagger Pair"
-   ],
-   "at": "2026-09-28T07:08:31.505813400Z"
-  },
-  "americas:1456868367": {
-   "won": [
-    "Battleaxe",
-    "Cursed Staff"
-   ],
-   "lost": [
-    "Longbow"
-   ],
-   "at": "2026-09-28T07:08:00.008454400Z"
-  },
-  "americas:1456868351": {
-   "won": [
-    "Bedrock Mace",
-    "Longbow"
-   ],
-   "lost": [
-    "Cursed Staff"
-   ],
-   "at": "2026-09-28T07:07:53.560286200Z"
-  },
-  "americas:1456868306": {
-   "won": [
-    "Heavy Crossbow",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Heavy Crossbow"
-   ],
-   "at": "2026-09-28T07:07:38.352598300Z"
-  },
   "europe:440651270": {
    "won": [
     "Hellspawn Staff",
@@ -136155,16 +136105,6 @@
     "Claymore"
    ],
    "at": "2026-09-28T07:11:54.430619Z"
-  },
-  "europe:440650270": {
-   "won": [
-    "Hellspawn Staff",
-    "Twin Slayers"
-   ],
-   "lost": [
-    "Hellspawn Staff"
-   ],
-   "at": "2026-09-28T07:07:34.901017300Z"
   },
   "asia:514983216": {
    "won": [
