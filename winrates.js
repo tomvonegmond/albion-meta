@@ -22,16 +22,16 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-09-29T11:54:57+00:00",
- "eventsSeen": 1854897,
- "qualifying": 106693,
+ "updated": "2026-09-29T11:57:27+00:00",
+ "eventsSeen": 1854985,
+ "qualifying": 106696,
  "duoFights": 27542,
- "runs": 2352,
+ "runs": 2353,
  "regions": {
   "americas": {
-   "events": 668713,
-   "kills": 33777,
-   "lastSeen": "2026-09-29T11:48:30.811439500Z"
+   "events": 668753,
+   "kills": 33778,
+   "lastSeen": "2026-09-29T11:51:10.008343200Z"
   },
   "europe": {
    "events": 836249,
@@ -39,9 +39,9 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-09-29T11:49:01.109045900Z"
   },
   "asia": {
-   "events": 350239,
-   "kills": 15177,
-   "lastSeen": "2026-09-29T11:49:23.347011600Z"
+   "events": 350287,
+   "kills": 15179,
+   "lastSeen": "2026-09-29T11:41:05.721767900Z"
   }
  },
  "kills": {
@@ -259,7 +259,7 @@ window.ALBION_WINRATES = {
    "Prowling Staff": 129,
    "Warbow": 156,
    "Battleaxe": 140,
-   "Brawler Gloves": 181,
+   "Brawler Gloves": 182,
    "Longbow": 50,
    "Soulscythe": 58,
    "Great Fire Staff": 13,
@@ -904,7 +904,7 @@ window.ALBION_WINRATES = {
    "Greataxe": 240,
    "Hellfire Hands": 95,
    "Whispering Bow": 99,
-   "Holy Staff": 728,
+   "Holy Staff": 729,
    "Blazing Staff": 116,
    "Bear Paws": 293,
    "Twin Slayers": 106,
@@ -1037,7 +1037,7 @@ window.ALBION_WINRATES = {
    "Holy Staff": 528,
    "Broadsword": 51,
    "Claymore": 116,
-   "Dagger Pair": 159,
+   "Dagger Pair": 160,
    "Bloodletter": 108,
    "Hallowfall": 87,
    "Hellspawn Staff": 74,
@@ -1191,7 +1191,7 @@ window.ALBION_WINRATES = {
    "Hellspawn Staff": 1543,
    "Hellfire Hands": 646,
    "Energy Shaper": 438,
-   "Brawler Gloves": 1608,
+   "Brawler Gloves": 1609,
    "Rotcaller Staff": 212,
    "Bloodletter": 875,
    "Crossbow": 684,
@@ -1358,7 +1358,7 @@ window.ALBION_WINRATES = {
    "Claymore": 226,
    "Blight Staff": 38,
    "Lifecurse Staff": 21,
-   "Dagger Pair": 182,
+   "Dagger Pair": 183,
    "Holy Staff": 695,
    "Heavy Crossbow": 145,
    "Brawler Gloves": 106,
@@ -1760,7 +1760,7 @@ window.ALBION_WINRATES = {
    "Bear Paws": 58,
    "Bloodletter": 38,
    "Bow of Badon": 128,
-   "Holy Staff": 519,
+   "Holy Staff": 520,
    "Bedrock Mace": 2,
    "Hellfire Hands": 30,
    "Great Holy Staff": 36,
