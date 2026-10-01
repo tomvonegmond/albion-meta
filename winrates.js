@@ -22,26 +22,26 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-10-01T11:46:59+00:00",
- "eventsSeen": 2112570,
- "qualifying": 121480,
+ "updated": "2026-10-01T11:53:12+00:00",
+ "eventsSeen": 2112826,
+ "qualifying": 121483,
  "duoFights": 31303,
- "runs": 2685,
+ "runs": 2686,
  "regions": {
   "americas": {
-   "events": 776942,
-   "kills": 39143,
-   "lastSeen": "2026-10-01T11:40:08.492008700Z"
+   "events": 777024,
+   "kills": 39144,
+   "lastSeen": "2026-10-01T11:46:26.592789600Z"
   },
   "europe": {
-   "events": 950371,
+   "events": 950494,
    "kills": 65531,
-   "lastSeen": "2026-10-01T11:39:48.507480600Z"
+   "lastSeen": "2026-10-01T11:46:57.334766200Z"
   },
   "asia": {
-   "events": 385561,
-   "kills": 16824,
-   "lastSeen": "2026-10-01T11:40:12.539089400Z"
+   "events": 385612,
+   "kills": 16826,
+   "lastSeen": "2026-10-01T11:47:27.091285600Z"
   }
  },
  "kills": {
@@ -553,7 +553,7 @@ window.ALBION_WINRATES = {
    "Infernal Scythe": 29,
    "Grailseeker": 50,
    "Carving Sword": 71,
-   "Brawler Gloves": 85,
+   "Brawler Gloves": 86,
    "Divine Staff": 12,
    "Tombhammer": 41,
    "Energy Shaper": 31,
@@ -653,7 +653,7 @@ window.ALBION_WINRATES = {
    "Bear Paws": 95,
    "Longbow": 181,
    "Greataxe": 127,
-   "Heavy Crossbow": 637,
+   "Heavy Crossbow": 638,
    "Dagger Pair": 438,
    "Warbow": 226,
    "Deathgivers": 146,
@@ -827,7 +827,7 @@ window.ALBION_WINRATES = {
    "Soulscythe": 26,
    "Carrioncaller": 58,
    "Twin Slayers": 27,
-   "Brawler Gloves": 220,
+   "Brawler Gloves": 221,
    "Prowling Staff": 32,
    "Icicle Staff": 2,
    "Lifecurse Staff": 36,
@@ -1506,7 +1506,7 @@ window.ALBION_WINRATES = {
    "Bloodletter": 99,
    "Crossbow": 84,
    "Claymore": 251,
-   "Heavy Crossbow": 212,
+   "Heavy Crossbow": 213,
    "Mistpiercer": 29,
    "Prowling Staff": 22,
    "Carving Sword": 68,
@@ -2222,7 +2222,7 @@ window.ALBION_WINRATES = {
    "Wailing Bow": 17,
    "Grovekeeper": 6,
    "Glaive": 6,
-   "Bedrock Mace": 12,
+   "Bedrock Mace": 14,
    "Soulscythe": 13,
    "Rotcaller Staff": 7,
    "Black Monk Stave": 13,
