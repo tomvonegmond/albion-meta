@@ -22,16 +22,16 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-10-05T12:16:20+00:00",
- "eventsSeen": 2462521,
- "qualifying": 141182,
+ "updated": "2026-10-05T12:24:53+00:00",
+ "eventsSeen": 2462768,
+ "qualifying": 141184,
  "duoFights": 36315,
- "runs": 3108,
+ "runs": 3109,
  "regions": {
   "americas": {
-   "events": 940030,
-   "kills": 47080,
-   "lastSeen": "2026-10-05T12:10:38.472352700Z"
+   "events": 940217,
+   "kills": 47082,
+   "lastSeen": "2026-10-05T12:19:09.048948900Z"
   },
   "europe": {
    "events": 1093459,
@@ -39,9 +39,9 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-10-05T12:10:35.450792100Z"
   },
   "asia": {
-   "events": 429336,
+   "events": 429396,
    "kills": 18926,
-   "lastSeen": "2026-10-05T12:10:49.914714800Z"
+   "lastSeen": "2026-10-05T12:11:49.574333500Z"
   }
  },
  "kills": {
@@ -329,7 +329,7 @@ window.ALBION_WINRATES = {
    "Demonic Staff": 714,
    "Battleaxe": 654,
    "Hellfire Hands": 219,
-   "Greataxe": 318,
+   "Greataxe": 319,
    "Tombhammer": 258,
    "Lifecurse Staff": 38,
    "Crossbow": 271,
@@ -1183,7 +1183,7 @@ window.ALBION_WINRATES = {
   },
   "Holy Staff": {
    "Dagger": 1118,
-   "Battleaxe": 2175,
+   "Battleaxe": 2176,
    "Longbow": 1260,
    "Mistpiercer": 478,
    "Claymore": 5392,
@@ -1191,7 +1191,7 @@ window.ALBION_WINRATES = {
    "Heavy Crossbow": 4146,
    "Bow of Badon": 2613,
    "Bear Paws": 1090,
-   "Greataxe": 1187,
+   "Greataxe": 1188,
    "Dagger Pair": 3534,
    "Cursed Staff": 963,
    "Carrioncaller": 994,
@@ -2113,7 +2113,7 @@ window.ALBION_WINRATES = {
    "Dagger": 40,
    "Infernal Scythe": 5,
    "Great Holy Staff": 54,
-   "Battleaxe": 161,
+   "Battleaxe": 162,
    "Hallowfall": 26,
    "Carrioncaller": 40,
    "Great Fire Staff": 17,
