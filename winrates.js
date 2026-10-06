@@ -22,9 +22,9 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-10-06T08:18:09+00:00",
- "eventsSeen": 2554428,
- "qualifying": 146336,
+ "updated": "2026-10-06T08:18:44+00:00",
+ "eventsSeen": 2554498,
+ "qualifying": 146340,
  "duoFights": 37617,
  "runs": 3211,
  "regions": {
@@ -34,8 +34,8 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-10-06T08:12:37.031221500Z"
   },
   "europe": {
-   "events": 1129174,
-   "kills": 77763,
+   "events": 1129244,
+   "kills": 77767,
    "lastSeen": "2026-10-06T08:12:49.219536300Z"
   },
   "asia": {
@@ -1187,15 +1187,15 @@ window.ALBION_WINRATES = {
   "Holy Staff": {
    "Dagger": 1171,
    "Battleaxe": 2244,
-   "Longbow": 1322,
+   "Longbow": 1323,
    "Mistpiercer": 485,
-   "Claymore": 5605,
+   "Claymore": 5606,
    "Holy Staff": 23381,
    "Heavy Crossbow": 4252,
    "Bow of Badon": 2734,
    "Bear Paws": 1137,
    "Greataxe": 1242,
-   "Dagger Pair": 3634,
+   "Dagger Pair": 3635,
    "Cursed Staff": 1015,
    "Carrioncaller": 1016,
    "Blazing Staff": 662,
@@ -2196,7 +2196,7 @@ window.ALBION_WINRATES = {
    "Forcepulse Bracers": 13,
    "Longbow": 390,
    "Lifecurse Staff": 27,
-   "Dagger Pair": 190,
+   "Dagger Pair": 191,
    "Whispering Bow": 72,
    "Bow of Badon": 272,
    "Energy Shaper": 33,
@@ -2542,7 +2542,7 @@ window.ALBION_WINRATES = {
    "Deathgivers": 99,
    "Bear Paws": 76,
    "Grailseeker": 66,
-   "Dagger Pair": 209,
+   "Dagger Pair": 210,
    "Carving Sword": 72,
    "Warbow": 183,
    "Mistpiercer": 27,
@@ -2784,8 +2784,8 @@ window.ALBION_WINRATES = {
   "Hellspawn Staff": {
    "Holy Staff": 2847,
    "Cursed Staff": 128,
-   "Claymore": 612,
-   "Dagger Pair": 381,
+   "Claymore": 613,
+   "Dagger Pair": 382,
    "Divine Staff": 20,
    "Heavy Crossbow": 496,
    "Carving Sword": 146,
@@ -2801,7 +2801,7 @@ window.ALBION_WINRATES = {
    "Tombhammer": 122,
    "Bear Paws": 199,
    "Carrioncaller": 136,
-   "Longbow": 226,
+   "Longbow": 227,
    "Energy Shaper": 99,
    "Arclight Blasters": 223,
    "Broadsword": 70,
