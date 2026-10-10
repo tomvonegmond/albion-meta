@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-10-10T10:10:39+00:00",
- "eventsSeen": 3120340,
- "qualifying": 177723,
- "duoFights": 45640,
- "runs": 3936,
+ "updated": "2026-10-10T10:14:12+00:00",
+ "eventsSeen": 3120633,
+ "qualifying": 177732,
+ "duoFights": 45641,
+ "runs": 3937,
  "regions": {
   "americas": {
    "events": 1237499,
@@ -34,14 +34,14 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-10-10T10:00:06.387963100Z"
   },
   "europe": {
-   "events": 1366148,
-   "kills": 93577,
-   "lastSeen": "2026-10-10T10:00:36.095616300Z"
+   "events": 1366438,
+   "kills": 93586,
+   "lastSeen": "2026-10-10T09:34:02.692754800Z"
   },
   "asia": {
-   "events": 516997,
+   "events": 517000,
    "kills": 22782,
-   "lastSeen": "2026-10-10T10:04:39.378043400Z"
+   "lastSeen": "2026-10-10T09:29:38.233478700Z"
   }
  },
  "kills": {
@@ -252,9 +252,9 @@ window.ALBION_WINRATES = {
    "Blazing Staff": 80,
    "Claymore": 997,
    "Dagger": 227,
-   "Holy Staff": 4023,
+   "Holy Staff": 4024,
    "Carrioncaller": 167,
-   "Heavy Crossbow": 723,
+   "Heavy Crossbow": 725,
    "Dagger Pair": 567,
    "Glacial Staff": 149,
    "Great Holy Staff": 191,
@@ -454,7 +454,7 @@ window.ALBION_WINRATES = {
   },
   "Arclight Blasters": {
    "Demonic Staff": 240,
-   "Holy Staff": 1978,
+   "Holy Staff": 1979,
    "Hellspawn Staff": 264,
    "Bow of Badon": 591,
    "Energy Shaper": 78,
@@ -469,7 +469,7 @@ window.ALBION_WINRATES = {
    "Battleaxe": 251,
    "Greataxe": 181,
    "Ironroot Staff": 74,
-   "Deathgivers": 88,
+   "Deathgivers": 89,
    "Hallowfall": 148,
    "Bloodletter": 75,
    "Mistpiercer": 88,
@@ -523,7 +523,7 @@ window.ALBION_WINRATES = {
   },
   "Greataxe": {
    "Mistpiercer": 65,
-   "Battleaxe": 463,
+   "Battleaxe": 464,
    "Broadsword": 55,
    "Lifecurse Staff": 28,
    "Hallowfall": 74,
@@ -797,7 +797,7 @@ window.ALBION_WINRATES = {
    "Dagger": 199,
    "Greataxe": 385,
    "Warbow": 378,
-   "Longbow": 564,
+   "Longbow": 565,
    "Bloodletter": 195,
    "Crossbow": 196,
    "Hellfire Hands": 88,
@@ -1198,8 +1198,8 @@ window.ALBION_WINRATES = {
    "Longbow": 1627,
    "Mistpiercer": 557,
    "Claymore": 6895,
-   "Holy Staff": 28298,
-   "Heavy Crossbow": 5205,
+   "Holy Staff": 28301,
+   "Heavy Crossbow": 5207,
    "Bow of Badon": 3357,
    "Bear Paws": 1343,
    "Greataxe": 1480,
@@ -1212,7 +1212,7 @@ window.ALBION_WINRATES = {
    "Fists of Avalon": 1055,
    "Demonic Staff": 3332,
    "Hallowfall": 902,
-   "Deathgivers": 1466,
+   "Deathgivers": 1467,
    "Warbow": 2638,
    "Staff of Balance": 1871,
    "Whispering Bow": 778,
@@ -1605,7 +1605,7 @@ window.ALBION_WINRATES = {
    "Blight Staff": 64,
    "Claymore": 237,
    "Tombhammer": 78,
-   "Battleaxe": 463,
+   "Battleaxe": 464,
    "Ursine Maulers": 40,
    "Twin Slayers": 70,
    "Bloodletter": 133,
@@ -1821,7 +1821,7 @@ window.ALBION_WINRATES = {
    "Heron Spear": 42,
    "Blazing Staff": 44,
    "Whispering Bow": 44,
-   "Longbow": 174,
+   "Longbow": 175,
    "Demonic Staff": 45,
    "Carrioncaller": 33,
    "Infernal Scythe": 25,
@@ -3608,7 +3608,7 @@ window.ALBION_WINRATES = {
    "Cursed Staff": 24,
    "Hellfire Hands": 22,
    "Broadsword": 18,
-   "Longbow": 63,
+   "Longbow": 64,
    "Bloodletter": 21,
    "Crossbow": 21,
    "Claymore": 60,
@@ -3813,7 +3813,7 @@ window.ALBION_WINRATES = {
    "Brawler Gloves": 45,
    "Claymore": 182,
    "Heavy Crossbow": 123,
-   "Holy Staff": 710,
+   "Holy Staff": 711,
    "Dagger Pair": 98,
    "Demonic Staff": 114,
    "Bloodletter": 38,
@@ -3883,7 +3883,7 @@ window.ALBION_WINRATES = {
    "Bear Paws": 39,
    "Holy Staff": 326,
    "Redemption Staff": 8,
-   "Longbow": 75,
+   "Longbow": 76,
    "Bow of Badon": 101,
    "Whispering Bow": 15,
    "Cursed Staff": 51,
@@ -8512,7 +8512,7 @@ window.ALBION_WINRATES = {
   "Demonic Staff + Holy Staff": {
    "Dagger Pair + Dagger Pair": 20,
    "Claymore + Holy Staff": 679,
-   "Heavy Crossbow + Holy Staff": 197,
+   "Heavy Crossbow + Holy Staff": 198,
    "Battleaxe + Holy Staff": 64,
    "Brawler Gloves + Holy Staff": 13,
    "Holy Staff + Longbow": 6,
