@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-10-10T10:14:12+00:00",
- "eventsSeen": 3120633,
- "qualifying": 177732,
+ "updated": "2026-10-10T10:19:50+00:00",
+ "eventsSeen": 3120684,
+ "qualifying": 177735,
  "duoFights": 45641,
- "runs": 3937,
+ "runs": 3938,
  "regions": {
   "americas": {
    "events": 1237499,
@@ -39,9 +39,9 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-10-10T09:34:02.692754800Z"
   },
   "asia": {
-   "events": 517000,
-   "kills": 22782,
-   "lastSeen": "2026-10-10T09:29:38.233478700Z"
+   "events": 517051,
+   "kills": 22785,
+   "lastSeen": "2026-10-10T10:08:46.548918600Z"
   }
  },
  "kills": {
@@ -1067,7 +1067,7 @@ window.ALBION_WINRATES = {
    "Deathgivers": 142,
    "Mistpiercer": 112,
    "Heavy Crossbow": 146,
-   "Crossbow": 125,
+   "Crossbow": 126,
    "Hellfire Hands": 79,
    "Great Fire Staff": 67,
    "Longbow": 432,
@@ -1216,7 +1216,7 @@ window.ALBION_WINRATES = {
    "Warbow": 2638,
    "Staff of Balance": 1871,
    "Whispering Bow": 778,
-   "Hellspawn Staff": 2453,
+   "Hellspawn Staff": 2454,
    "Hellfire Hands": 1089,
    "Energy Shaper": 751,
    "Brawler Gloves": 2835,
@@ -1527,7 +1527,7 @@ window.ALBION_WINRATES = {
   },
   "Brawler Gloves": {
    "Battleaxe": 382,
-   "Holy Staff": 1849,
+   "Holy Staff": 1850,
    "Bloodletter": 170,
    "Crossbow": 129,
    "Claymore": 400,
@@ -1618,7 +1618,7 @@ window.ALBION_WINRATES = {
    "Staff of Balance": 65,
    "Blazing Staff": 93,
    "Crystal Reaper": 76,
-   "Hellspawn Staff": 139,
+   "Hellspawn Staff": 140,
    "Deathgivers": 116,
    "Bear Paws": 200,
    "Mistpiercer": 84,
@@ -1802,7 +1802,7 @@ window.ALBION_WINRATES = {
    "Bear Paws": 81,
    "Bloodletter": 65,
    "Bow of Badon": 207,
-   "Holy Staff": 799,
+   "Holy Staff": 800,
    "Bedrock Mace": 5,
    "Hellfire Hands": 47,
    "Great Holy Staff": 51,
@@ -3099,7 +3099,7 @@ window.ALBION_WINRATES = {
    "Longbow": 91,
    "Hellfire Hands": 29,
    "Forcepulse Bracers": 6,
-   "Crossbow": 40,
+   "Crossbow": 41,
    "Pike": 6,
    "Soulscythe": 13,
    "Demonic Staff": 29,
