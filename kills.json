@@ -124242,8 +124242,8 @@
  },
  "eventsSeen": 3368030,
  "qualifying": 191505,
- "runs": 4201,
- "updated": "2026-10-12T10:29:05+00:00",
+ "runs": 4202,
+ "updated": "2026-10-12T10:36:23+00:00",
  "duos": {
   "Energy Shaper + Tombhammer": {
    "Bear Paws + Bear Paws": 1,
@@ -143346,16 +143346,6 @@
   }
  },
  "pending": {
-  "europe:446503173": {
-   "won": [
-    "Crossbow",
-    "Grailseeker"
-   ],
-   "lost": [
-    "Bow of Badon"
-   ],
-   "at": "2026-10-12T07:31:19.609880300Z"
-  },
   "europe:446505443": {
    "won": [
     "Arclight Blasters",
@@ -143395,16 +143385,6 @@
     "Cursed Staff"
    ],
    "at": "2026-10-12T07:41:52.036502700Z"
-  },
-  "europe:446502796": {
-   "won": [
-    "Bow of Badon",
-    "Warbow"
-   ],
-   "lost": [
-    "Heavy Crossbow"
-   ],
-   "at": "2026-10-12T07:29:31.267549Z"
   },
   "europe:446506808": {
    "won": [
@@ -143465,36 +143445,6 @@
     "Holy Staff"
    ],
    "at": "2026-10-12T07:36:28.718113300Z"
-  },
-  "europe:446503952": {
-   "won": [
-    "Holy Staff",
-    "Kingmaker"
-   ],
-   "lost": [
-    "Longbow"
-   ],
-   "at": "2026-10-12T07:34:53.427178400Z"
-  },
-  "europe:446503800": {
-   "won": [
-    "Heavy Crossbow",
-    "Hellspawn Staff"
-   ],
-   "lost": [
-    "Claymore"
-   ],
-   "at": "2026-10-12T07:34:15.803458900Z"
-  },
-  "europe:446503495": {
-   "won": [
-    "Holy Staff",
-    "Lifecurse Staff"
-   ],
-   "lost": [
-    "Longbow"
-   ],
-   "at": "2026-10-12T07:33:33.638178500Z"
   },
   "asia:519011242": {
    "won": [
@@ -144635,56 +144585,6 @@
     "Twin Slayers"
    ],
    "at": "2026-10-12T07:36:34.376793600Z"
-  },
-  "americas:1463472930": {
-   "won": [
-    "Battleaxe",
-    "Dagger Pair"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-10-12T07:36:09.747729500Z"
-  },
-  "americas:1463472921": {
-   "won": [
-    "Bear Paws",
-    "Bear Paws"
-   ],
-   "lost": [
-    "Bloodletter"
-   ],
-   "at": "2026-10-12T07:36:05.373930500Z"
-  },
-  "americas:1463471917": {
-   "won": [
-    "Great Fire Staff",
-    "Hellfire Hands"
-   ],
-   "lost": [
-    "Greataxe"
-   ],
-   "at": "2026-10-12T07:32:35.241131800Z"
-  },
-  "americas:1463472279": {
-   "won": [
-    "Hellspawn Staff",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Holy Staff"
-   ],
-   "at": "2026-10-12T07:32:07.162278500Z"
-  },
-  "americas:1463472199": {
-   "won": [
-    "Dagger Pair",
-    "Holy Staff"
-   ],
-   "lost": [
-    "Carving Sword"
-   ],
-   "at": "2026-10-12T07:31:44.110807700Z"
   },
   "europe:446529136": {
    "won": [
