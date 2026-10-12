@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-10-12T10:14:12+00:00",
- "eventsSeen": 3367928,
- "qualifying": 191502,
- "duoFights": 49147,
- "runs": 4199,
+ "updated": "2026-10-12T10:23:20+00:00",
+ "eventsSeen": 3367979,
+ "qualifying": 191505,
+ "duoFights": 49148,
+ "runs": 4200,
  "regions": {
   "americas": {
    "events": 1355746,
@@ -34,9 +34,9 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-10-12T10:00:08.935098900Z"
   },
   "europe": {
-   "events": 1459386,
-   "kills": 99985,
-   "lastSeen": "2026-10-12T09:57:38.119409100Z"
+   "events": 1459437,
+   "kills": 99988,
+   "lastSeen": "2026-10-12T09:30:05.282693200Z"
   },
   "asia": {
    "events": 553100,
@@ -78,7 +78,7 @@ window.ALBION_WINRATES = {
    "Permafrost Prism": 4,
    "Heron Spear": 20,
    "Glaive": 13,
-   "Deathgivers": 68,
+   "Deathgivers": 69,
    "Pike": 23,
    "Warbow": 115,
    "Kingmaker": 26,
@@ -181,11 +181,11 @@ window.ALBION_WINRATES = {
    "Icicle Staff": 2
   },
   "Dagger Pair": {
-   "Holy Staff": 4088,
+   "Holy Staff": 4089,
    "Dagger": 255,
    "Longbow": 378,
    "Carrioncaller": 185,
-   "Claymore": 1084,
+   "Claymore": 1085,
    "Bear Paws": 181,
    "Battleaxe": 752,
    "Heavy Crossbow": 762,
@@ -1215,7 +1215,7 @@ window.ALBION_WINRATES = {
    "Fists of Avalon": 1140,
    "Demonic Staff": 3535,
    "Hallowfall": 962,
-   "Deathgivers": 1565,
+   "Deathgivers": 1566,
    "Warbow": 2856,
    "Staff of Balance": 1981,
    "Whispering Bow": 833,
@@ -3209,11 +3209,11 @@ window.ALBION_WINRATES = {
   },
   "Ironroot Staff": {
    "Dagger Pair": 118,
-   "Holy Staff": 877,
+   "Holy Staff": 878,
    "Great Holy Staff": 52,
    "Prowling Staff": 37,
    "Heavy Crossbow": 161,
-   "Claymore": 173,
+   "Claymore": 174,
    "Warbow": 66,
    "Brawler Gloves": 83,
    "Bow of Badon": 69,
@@ -10666,7 +10666,7 @@ window.ALBION_WINRATES = {
    "Dawnsong + Longbow": 1
   },
   "Dagger Pair + Ironroot Staff": {
-   "Claymore + Holy Staff": 11,
+   "Claymore + Holy Staff": 12,
    "Brawler Gloves + Brawler Gloves": 2,
    "Brawler Gloves + Heron Spear": 1,
    "Demonic Staff + Holy Staff": 8,
