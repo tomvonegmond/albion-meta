@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-10-12T10:23:20+00:00",
- "eventsSeen": 3367979,
+ "updated": "2026-10-12T10:29:05+00:00",
+ "eventsSeen": 3368030,
  "qualifying": 191505,
  "duoFights": 49148,
- "runs": 4200,
+ "runs": 4201,
  "regions": {
   "americas": {
    "events": 1355746,
@@ -34,9 +34,9 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-10-12T10:00:08.935098900Z"
   },
   "europe": {
-   "events": 1459437,
+   "events": 1459488,
    "kills": 99988,
-   "lastSeen": "2026-10-12T09:30:05.282693200Z"
+   "lastSeen": "2026-10-12T09:43:09.636467200Z"
   },
   "asia": {
    "events": 553100,
