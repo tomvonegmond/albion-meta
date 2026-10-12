@@ -22,21 +22,21 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-10-12T10:08:20+00:00",
- "eventsSeen": 3367869,
- "qualifying": 191500,
- "duoFights": 49146,
- "runs": 4198,
+ "updated": "2026-10-12T10:14:12+00:00",
+ "eventsSeen": 3367928,
+ "qualifying": 191502,
+ "duoFights": 49147,
+ "runs": 4199,
  "regions": {
   "americas": {
-   "events": 1355744,
+   "events": 1355746,
    "kills": 67027,
-   "lastSeen": "2026-10-12T10:00:04.838421700Z"
+   "lastSeen": "2026-10-12T10:00:08.935098900Z"
   },
   "europe": {
-   "events": 1459329,
-   "kills": 99983,
-   "lastSeen": "2026-10-12T10:00:41.434498400Z"
+   "events": 1459386,
+   "kills": 99985,
+   "lastSeen": "2026-10-12T09:57:38.119409100Z"
   },
   "asia": {
    "events": 553100,
@@ -321,7 +321,7 @@ window.ALBION_WINRATES = {
    "Grailseeker": 355,
    "Bloodletter": 479,
    "Heavy Crossbow": 1538,
-   "Holy Staff": 8111,
+   "Holy Staff": 8112,
    "Divine Staff": 52,
    "Claymore": 2145,
    "Great Holy Staff": 372,
@@ -348,7 +348,7 @@ window.ALBION_WINRATES = {
    "Hellspawn Staff": 619,
    "Crystal Reaper": 97,
    "Carving Sword": 385,
-   "Ironroot Staff": 267,
+   "Ironroot Staff": 268,
    "Carrioncaller": 345,
    "Hallowfall": 213,
    "Fists of Avalon": 296,
@@ -1201,7 +1201,7 @@ window.ALBION_WINRATES = {
    "Longbow": 1775,
    "Mistpiercer": 585,
    "Claymore": 7481,
-   "Holy Staff": 30504,
+   "Holy Staff": 30505,
    "Heavy Crossbow": 5630,
    "Bow of Badon": 3583,
    "Bear Paws": 1445,
@@ -1235,7 +1235,7 @@ window.ALBION_WINRATES = {
    "Lifecurse Staff": 259,
    "Spirithunter": 202,
    "Soulscythe": 684,
-   "Ironroot Staff": 977,
+   "Ironroot Staff": 978,
    "Broadsword": 639,
    "Glacial Staff": 815,
    "Daybreaker": 529,
@@ -4334,7 +4334,7 @@ window.ALBION_WINRATES = {
    "Great Fire Staff + Holy Staff": 22,
    "Carving Sword + Holy Staff": 146,
    "Holy Staff + Prowling Staff": 99,
-   "Dagger Pair + Ironroot Staff": 23,
+   "Dagger Pair + Ironroot Staff": 24,
    "Grailseeker + Great Fire Staff": 1,
    "Holy Staff + Realmbreaker": 9,
    "Carrioncaller + Longbow": 1,
