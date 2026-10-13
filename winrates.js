@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-10-13T10:11:09+00:00",
- "eventsSeen": 3496276,
- "qualifying": 198036,
+ "updated": "2026-10-13T10:12:15+00:00",
+ "eventsSeen": 3496390,
+ "qualifying": 198039,
  "duoFights": 50836,
- "runs": 4325,
+ "runs": 4326,
  "regions": {
   "americas": {
    "events": 1421730,
@@ -34,14 +34,14 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-10-13T10:00:10.765332700Z"
   },
   "europe": {
-   "events": 1506928,
-   "kills": 103063,
-   "lastSeen": "2026-10-13T10:00:19.644268100Z"
+   "events": 1507011,
+   "kills": 103064,
+   "lastSeen": "2026-10-13T10:00:34.503772700Z"
   },
   "asia": {
-   "events": 567922,
-   "kills": 25083,
-   "lastSeen": "2026-10-13T10:05:25.973381Z"
+   "events": 567953,
+   "kills": 25085,
+   "lastSeen": "2026-10-13T10:06:28.138997400Z"
   }
  },
  "kills": {
@@ -220,7 +220,7 @@ window.ALBION_WINRATES = {
    "Warbow": 478,
    "Divine Staff": 33,
    "Brawler Gloves": 553,
-   "Broadsword": 133,
+   "Broadsword": 134,
    "Grailseeker": 179,
    "Kingmaker": 85,
    "Tombhammer": 159,
@@ -254,7 +254,7 @@ window.ALBION_WINRATES = {
    "Blazing Staff": 87,
    "Claymore": 1115,
    "Dagger": 247,
-   "Holy Staff": 4432,
+   "Holy Staff": 4433,
    "Carrioncaller": 181,
    "Heavy Crossbow": 794,
    "Dagger Pair": 625,
@@ -947,7 +947,7 @@ window.ALBION_WINRATES = {
    "Battleaxe": 776,
    "Dagger Pair": 312,
    "Forcepulse Bracers": 88,
-   "Broadsword": 105,
+   "Broadsword": 106,
    "Tombhammer": 177,
    "Blight Staff": 121,
    "Heron Spear": 161,
@@ -1203,7 +1203,7 @@ window.ALBION_WINRATES = {
    "Longbow": 1839,
    "Mistpiercer": 605,
    "Claymore": 7784,
-   "Holy Staff": 31622,
+   "Holy Staff": 31624,
    "Heavy Crossbow": 5801,
    "Bow of Badon": 3670,
    "Bear Paws": 1488,
@@ -2481,7 +2481,7 @@ window.ALBION_WINRATES = {
   "Kingmaker": {
    "Warbow": 71,
    "Bow of Badon": 273,
-   "Holy Staff": 530,
+   "Holy Staff": 531,
    "Claymore": 118,
    "Deathgivers": 36,
    "Blazing Staff": 48,
