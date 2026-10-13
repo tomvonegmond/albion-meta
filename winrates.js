@@ -22,26 +22,26 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-10-13T10:18:19+00:00",
- "eventsSeen": 3496441,
- "qualifying": 198043,
+ "updated": "2026-10-13T10:24:24+00:00",
+ "eventsSeen": 3496502,
+ "qualifying": 198044,
  "duoFights": 50837,
- "runs": 4327,
+ "runs": 4328,
  "regions": {
   "americas": {
-   "events": 1421730,
+   "events": 1421735,
    "kills": 69908,
-   "lastSeen": "2026-10-13T10:00:10.765332700Z"
+   "lastSeen": "2026-10-13T10:18:00.116006900Z"
   },
   "europe": {
-   "events": 1507011,
-   "kills": 103064,
-   "lastSeen": "2026-10-13T10:00:34.503772700Z"
+   "events": 1507016,
+   "kills": 103065,
+   "lastSeen": "2026-10-13T10:12:18.446080700Z"
   },
   "asia": {
-   "events": 568004,
+   "events": 568055,
    "kills": 25089,
-   "lastSeen": "2026-10-13T10:12:37.257530500Z"
+   "lastSeen": "2026-10-13T10:18:47.743230700Z"
   }
  },
  "kills": {
@@ -528,7 +528,7 @@ window.ALBION_WINRATES = {
    "Battleaxe": 515,
    "Broadsword": 59,
    "Lifecurse Staff": 30,
-   "Hallowfall": 80,
+   "Hallowfall": 81,
    "Bloodletter": 107,
    "Bow of Badon": 360,
    "Great Fire Staff": 45,
@@ -824,7 +824,7 @@ window.ALBION_WINRATES = {
    "Claymore": 368,
    "Heavy Crossbow": 303,
    "Deathgivers": 238,
-   "Hallowfall": 78,
+   "Hallowfall": 79,
    "Kingmaker": 65,
    "Infernal Scythe": 71,
    "Spirithunter": 28,
