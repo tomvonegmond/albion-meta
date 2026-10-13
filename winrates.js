@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-10-13T10:12:15+00:00",
- "eventsSeen": 3496390,
- "qualifying": 198039,
- "duoFights": 50836,
- "runs": 4326,
+ "updated": "2026-10-13T10:18:19+00:00",
+ "eventsSeen": 3496441,
+ "qualifying": 198043,
+ "duoFights": 50837,
+ "runs": 4327,
  "regions": {
   "americas": {
    "events": 1421730,
@@ -39,9 +39,9 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-10-13T10:00:34.503772700Z"
   },
   "asia": {
-   "events": 567953,
-   "kills": 25085,
-   "lastSeen": "2026-10-13T10:06:28.138997400Z"
+   "events": 568004,
+   "kills": 25089,
+   "lastSeen": "2026-10-13T10:12:37.257530500Z"
   }
  },
  "kills": {
@@ -322,7 +322,7 @@ window.ALBION_WINRATES = {
    "Grailseeker": 365,
    "Bloodletter": 489,
    "Heavy Crossbow": 1585,
-   "Holy Staff": 8405,
+   "Holy Staff": 8406,
    "Divine Staff": 56,
    "Claymore": 2224,
    "Great Holy Staff": 379,
@@ -331,7 +331,7 @@ window.ALBION_WINRATES = {
    "Cursed Staff": 427,
    "Blight Staff": 122,
    "Demonic Staff": 1019,
-   "Battleaxe": 917,
+   "Battleaxe": 918,
    "Hellfire Hands": 344,
    "Greataxe": 427,
    "Tombhammer": 370,
@@ -1199,13 +1199,13 @@ window.ALBION_WINRATES = {
   },
   "Holy Staff": {
    "Dagger": 1553,
-   "Battleaxe": 2952,
+   "Battleaxe": 2953,
    "Longbow": 1839,
    "Mistpiercer": 605,
    "Claymore": 7784,
-   "Holy Staff": 31624,
+   "Holy Staff": 31626,
    "Heavy Crossbow": 5801,
-   "Bow of Badon": 3670,
+   "Bow of Badon": 3671,
    "Bear Paws": 1488,
    "Greataxe": 1642,
    "Dagger Pair": 4904,
@@ -2480,8 +2480,8 @@ window.ALBION_WINRATES = {
   },
   "Kingmaker": {
    "Warbow": 71,
-   "Bow of Badon": 273,
-   "Holy Staff": 531,
+   "Bow of Badon": 274,
+   "Holy Staff": 532,
    "Claymore": 118,
    "Deathgivers": 36,
    "Blazing Staff": 48,
@@ -4340,7 +4340,7 @@ window.ALBION_WINRATES = {
    "Dagger Pair + Soulscythe": 32,
    "Brawler Gloves + Dagger Pair": 40,
    "Demonic Staff + Great Holy Staff": 13,
-   "Battleaxe + Holy Staff": 211,
+   "Battleaxe + Holy Staff": 212,
    "Dagger Pair + Dagger Pair": 49,
    "Hellspawn Staff + Holy Staff": 330,
    "Great Fire Staff + Holy Staff": 22,
