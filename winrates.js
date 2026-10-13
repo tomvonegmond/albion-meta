@@ -22,26 +22,26 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-10-13T10:24:24+00:00",
- "eventsSeen": 3496502,
- "qualifying": 198044,
+ "updated": "2026-10-13T10:34:34+00:00",
+ "eventsSeen": 3496617,
+ "qualifying": 198046,
  "duoFights": 50837,
- "runs": 4328,
+ "runs": 4329,
  "regions": {
   "americas": {
-   "events": 1421735,
+   "events": 1421758,
    "kills": 69908,
-   "lastSeen": "2026-10-13T10:18:00.116006900Z"
+   "lastSeen": "2026-10-13T10:28:56.621408300Z"
   },
   "europe": {
-   "events": 1507016,
+   "events": 1507057,
    "kills": 103065,
-   "lastSeen": "2026-10-13T10:12:18.446080700Z"
+   "lastSeen": "2026-10-13T10:18:51.107657300Z"
   },
   "asia": {
-   "events": 568055,
-   "kills": 25089,
-   "lastSeen": "2026-10-13T10:18:47.743230700Z"
+   "events": 568106,
+   "kills": 25091,
+   "lastSeen": "2026-10-13T10:29:05.054335300Z"
   }
  },
  "kills": {
@@ -1203,7 +1203,7 @@ window.ALBION_WINRATES = {
    "Longbow": 1839,
    "Mistpiercer": 605,
    "Claymore": 7784,
-   "Holy Staff": 31626,
+   "Holy Staff": 31627,
    "Heavy Crossbow": 5801,
    "Bow of Badon": 3671,
    "Bear Paws": 1488,
@@ -1217,7 +1217,7 @@ window.ALBION_WINRATES = {
    "Fists of Avalon": 1180,
    "Demonic Staff": 3679,
    "Hallowfall": 989,
-   "Deathgivers": 1612,
+   "Deathgivers": 1613,
    "Warbow": 2968,
    "Staff of Balance": 2050,
    "Whispering Bow": 871,
@@ -2483,7 +2483,7 @@ window.ALBION_WINRATES = {
    "Bow of Badon": 274,
    "Holy Staff": 532,
    "Claymore": 118,
-   "Deathgivers": 36,
+   "Deathgivers": 37,
    "Blazing Staff": 48,
    "Battleaxe": 185,
    "Bear Paws": 110,
@@ -2754,7 +2754,7 @@ window.ALBION_WINRATES = {
    "Bloodletter": 28,
    "Mistpiercer": 56,
    "Battleaxe": 114,
-   "Holy Staff": 613,
+   "Holy Staff": 614,
    "Warbow": 38,
    "Crystal Reaper": 69,
    "Hallowfall": 92,
