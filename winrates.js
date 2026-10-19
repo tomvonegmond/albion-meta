@@ -22,26 +22,26 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-10-19T10:51:23+00:00",
- "eventsSeen": 3789386,
- "qualifying": 213593,
- "duoFights": 54818,
- "runs": 4615,
+ "updated": "2026-10-19T10:56:58+00:00",
+ "eventsSeen": 3789654,
+ "qualifying": 213602,
+ "duoFights": 54821,
+ "runs": 4616,
  "regions": {
   "americas": {
-   "events": 1557739,
+   "events": 1557790,
    "kills": 76012,
-   "lastSeen": "2026-10-19T10:44:47.410555100Z"
+   "lastSeen": "2026-10-19T10:51:11.083465300Z"
   },
   "europe": {
-   "events": 1624908,
-   "kills": 111082,
-   "lastSeen": "2026-10-19T10:44:30.606408500Z"
+   "events": 1625074,
+   "kills": 111091,
+   "lastSeen": "2026-10-19T10:50:39.477973400Z"
   },
   "asia": {
-   "events": 607043,
+   "events": 607094,
    "kills": 26517,
-   "lastSeen": "2026-10-19T10:45:06.139805700Z"
+   "lastSeen": "2026-10-19T10:51:15.898862200Z"
   }
  },
  "kills": {
@@ -183,7 +183,7 @@ window.ALBION_WINRATES = {
   },
   "Dagger Pair": {
    "Holy Staff": 4564,
-   "Dagger": 289,
+   "Dagger": 290,
    "Longbow": 423,
    "Carrioncaller": 216,
    "Claymore": 1238,
@@ -251,7 +251,7 @@ window.ALBION_WINRATES = {
    "Icicle Staff": 3
   },
   "Demonic Staff": {
-   "Blazing Staff": 94,
+   "Blazing Staff": 95,
    "Claymore": 1221,
    "Dagger": 272,
    "Holy Staff": 4771,
@@ -279,7 +279,7 @@ window.ALBION_WINRATES = {
    "Fists of Avalon": 137,
    "Demonic Staff": 737,
    "Pike": 66,
-   "Grailseeker": 204,
+   "Grailseeker": 205,
    "Hellfire Hands": 199,
    "Hellspawn Staff": 430,
    "Whispering Bow": 72,
@@ -320,7 +320,7 @@ window.ALBION_WINRATES = {
   "Claymore": {
    "Dagger": 470,
    "Grailseeker": 401,
-   "Bloodletter": 535,
+   "Bloodletter": 536,
    "Heavy Crossbow": 1703,
    "Holy Staff": 9171,
    "Divine Staff": 59,
@@ -375,7 +375,7 @@ window.ALBION_WINRATES = {
    "Black Monk Stave": 18,
    "Dawnsong": 39,
    "Twin Slayers": 110,
-   "Permafrost Prism": 44,
+   "Permafrost Prism": 45,
    "Bear Paws": 402,
    "Pike": 141,
    "Great Arcane Staff": 86,
@@ -1203,7 +1203,7 @@ window.ALBION_WINRATES = {
    "Longbow": 1990,
    "Mistpiercer": 641,
    "Claymore": 8510,
-   "Holy Staff": 34100,
+   "Holy Staff": 34101,
    "Heavy Crossbow": 6206,
    "Bow of Badon": 3912,
    "Bear Paws": 1586,
@@ -1211,7 +1211,7 @@ window.ALBION_WINRATES = {
    "Dagger Pair": 5299,
    "Cursed Staff": 1571,
    "Carrioncaller": 1467,
-   "Blazing Staff": 871,
+   "Blazing Staff": 872,
    "Arclight Blasters": 1661,
    "Carving Sword": 1591,
    "Fists of Avalon": 1252,
@@ -1226,14 +1226,14 @@ window.ALBION_WINRATES = {
    "Energy Shaper": 877,
    "Brawler Gloves": 3470,
    "Rotcaller Staff": 391,
-   "Bloodletter": 1829,
+   "Bloodletter": 1830,
    "Crossbow": 1255,
    "Wildfire Staff": 533,
    "Divine Staff": 232,
    "Tombhammer": 1454,
    "Great Fire Staff": 376,
    "Blight Staff": 347,
-   "Permafrost Prism": 196,
+   "Permafrost Prism": 197,
    "Lifecurse Staff": 285,
    "Spirithunter": 233,
    "Soulscythe": 749,
@@ -1246,11 +1246,11 @@ window.ALBION_WINRATES = {
    "Forcepulse Bracers": 304,
    "Realmbreaker": 346,
    "Kingmaker": 821,
-   "Twin Slayers": 556,
+   "Twin Slayers": 557,
    "Crystal Reaper": 709,
    "Redemption Staff": 381,
    "Heron Spear": 720,
-   "Grailseeker": 1529,
+   "Grailseeker": 1530,
    "Dawnsong": 162,
    "Infernal Scythe": 382,
    "Prowling Staff": 929,
@@ -2254,7 +2254,7 @@ window.ALBION_WINRATES = {
    "Wildfire Staff": 72,
    "Daybreaker": 47,
    "Spirithunter": 24,
-   "Dagger": 146,
+   "Dagger": 147,
    "Ironroot Staff": 11,
    "Carrioncaller": 27,
    "Hellspawn Staff": 85,
@@ -2758,7 +2758,7 @@ window.ALBION_WINRATES = {
    "Bloodletter": 35,
    "Mistpiercer": 61,
    "Battleaxe": 123,
-   "Holy Staff": 669,
+   "Holy Staff": 670,
    "Warbow": 42,
    "Crystal Reaper": 73,
    "Hallowfall": 93,
@@ -2808,7 +2808,7 @@ window.ALBION_WINRATES = {
    "Hellfire Hands": 52,
    "Black Monk Stave": 9,
    "Bedrock Mace": 1,
-   "Demonic Staff": 33,
+   "Demonic Staff": 34,
    "Ironroot Staff": 16,
    "Pike": 12,
    "Wildfire Staff": 12,
@@ -2823,7 +2823,7 @@ window.ALBION_WINRATES = {
    "Great Arcane Staff": 1
   },
   "Hellspawn Staff": {
-   "Holy Staff": 3993,
+   "Holy Staff": 3994,
    "Cursed Staff": 184,
    "Claymore": 880,
    "Dagger Pair": 511,
@@ -2990,7 +2990,7 @@ window.ALBION_WINRATES = {
    "Cursed Staff": 23,
    "Fists of Avalon": 30,
    "Lifecurse Staff": 5,
-   "Twin Slayers": 17,
+   "Twin Slayers": 18,
    "Blazing Staff": 17,
    "Energy Shaper": 13,
    "Greataxe": 27,
@@ -3220,7 +3220,7 @@ window.ALBION_WINRATES = {
   },
   "Ironroot Staff": {
    "Dagger Pair": 135,
-   "Holy Staff": 988,
+   "Holy Staff": 989,
    "Great Holy Staff": 56,
    "Prowling Staff": 41,
    "Heavy Crossbow": 175,
@@ -3242,7 +3242,7 @@ window.ALBION_WINRATES = {
    "Realmbreaker": 10,
    "Spirithunter": 7,
    "Crossbow": 34,
-   "Demonic Staff": 158,
+   "Demonic Staff": 159,
    "Bloodletter": 41,
    "Glaive": 23,
    "Fists of Avalon": 48,
@@ -4409,7 +4409,7 @@ window.ALBION_WINRATES = {
    "Deathgivers + Holy Staff": 206,
    "Brawler Gloves + Tombhammer": 8,
    "Claymore + Permafrost Prism": 1,
-   "Bloodletter + Permafrost Prism": 1,
+   "Bloodletter + Permafrost Prism": 2,
    "Tombhammer + Whispering Bow": 7,
    "Battleaxe + Fists of Avalon": 5,
    "Holy Staff + Twin Slayers": 18,
@@ -9369,7 +9369,8 @@ window.ALBION_WINRATES = {
    "Cursed Staff + Greataxe": 1,
    "Carving Sword + Heavy Crossbow": 1,
    "Hellfire Hands + Spirithunter": 1,
-   "Brawler Gloves + Greataxe": 1
+   "Brawler Gloves + Greataxe": 1,
+   "Blazing Staff + Grailseeker": 1
   },
   "Brawler Gloves + Dagger Pair": {
    "Bloodletter + Crossbow": 2,
@@ -22330,7 +22331,7 @@ window.ALBION_WINRATES = {
    "Brawler Gloves + Warbow": 1
   },
   "Crystal Reaper + Ironroot Staff": {
-   "Demonic Staff + Holy Staff": 3,
+   "Demonic Staff + Holy Staff": 4,
    "Hellspawn Staff + Holy Staff": 1,
    "Brawler Gloves + Brawler Gloves": 2,
    "Claymore + Holy Staff": 5,
