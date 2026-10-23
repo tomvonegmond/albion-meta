@@ -22,26 +22,26 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-10-23T12:38:44+00:00",
- "eventsSeen": 3866092,
- "qualifying": 217563,
+ "updated": "2026-10-23T12:44:48+00:00",
+ "eventsSeen": 3866301,
+ "qualifying": 217566,
  "duoFights": 55810,
- "runs": 4683,
+ "runs": 4684,
  "regions": {
   "americas": {
-   "events": 1590212,
+   "events": 1590319,
    "kills": 77523,
-   "lastSeen": "2026-10-23T12:32:13.352552600Z"
+   "lastSeen": "2026-10-23T12:37:36.573465500Z"
   },
   "europe": {
-   "events": 1654652,
-   "kills": 112988,
-   "lastSeen": "2026-10-23T12:32:56.067519900Z"
+   "events": 1654703,
+   "kills": 112990,
+   "lastSeen": "2026-10-23T12:38:03.502953Z"
   },
   "asia": {
-   "events": 621532,
-   "kills": 27070,
-   "lastSeen": "2026-10-23T12:32:50.215931800Z"
+   "events": 621583,
+   "kills": 27071,
+   "lastSeen": "2026-10-23T12:39:01.014487300Z"
   }
  },
  "kills": {
@@ -353,7 +353,7 @@ window.ALBION_WINRATES = {
    "Carrioncaller": 408,
    "Hallowfall": 242,
    "Fists of Avalon": 327,
-   "Staff of Balance": 570,
+   "Staff of Balance": 571,
    "Glacial Staff": 225,
    "Soulscythe": 212,
    "Great Fire Staff": 133,
@@ -1220,7 +1220,7 @@ window.ALBION_WINRATES = {
    "Hallowfall": 1080,
    "Deathgivers": 1745,
    "Warbow": 3209,
-   "Staff of Balance": 2263,
+   "Staff of Balance": 2264,
    "Whispering Bow": 965,
    "Hellspawn Staff": 2895,
    "Hellfire Hands": 1493,
@@ -1732,7 +1732,7 @@ window.ALBION_WINRATES = {
    "Ursine Maulers": 17,
    "Rotcaller Staff": 14,
    "Great Arcane Staff": 8,
-   "Dawnsong": 10,
+   "Dawnsong": 11,
    "Divine Staff": 13,
    "Hoarfrost Staff": 1,
    "Wailing Bow": 7,
@@ -2255,7 +2255,7 @@ window.ALBION_WINRATES = {
    "Wildfire Staff": 73,
    "Daybreaker": 49,
    "Spirithunter": 24,
-   "Dagger": 150,
+   "Dagger": 152,
    "Ironroot Staff": 11,
    "Carrioncaller": 31,
    "Hellspawn Staff": 85,
@@ -3279,7 +3279,7 @@ window.ALBION_WINRATES = {
    "Rotcaller Staff": 13,
    "Great Fire Staff": 9,
    "Infernal Scythe": 3,
-   "Dawnsong": 1,
+   "Dawnsong": 2,
    "Forcepulse Bracers": 9,
    "Bedrock Mace": 1,
    "Wailing Bow": 2,
