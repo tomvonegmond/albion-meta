@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-11-01T20:02:24+00:00",
- "eventsSeen": 4036829,
- "qualifying": 226703,
+ "updated": "2026-11-01T23:19:53+00:00",
+ "eventsSeen": 4037058,
+ "qualifying": 226704,
  "duoFights": 58222,
- "runs": 4835,
+ "runs": 4836,
  "regions": {
   "americas": {
    "events": 1662620,
@@ -34,14 +34,14 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-11-01T01:58:20.231063900Z"
   },
   "europe": {
-   "events": 1719790,
-   "kills": 117252,
-   "lastSeen": "2026-11-01T19:56:01.999834400Z"
+   "events": 1719899,
+   "kills": 117253,
+   "lastSeen": "2026-11-01T23:13:54.273063900Z"
   },
   "asia": {
-   "events": 654723,
+   "events": 654843,
    "kills": 28421,
-   "lastSeen": "2026-11-01T19:56:46.106436800Z"
+   "lastSeen": "2026-11-01T23:00:00.786012Z"
   }
  },
  "kills": {
@@ -254,7 +254,7 @@ window.ALBION_WINRATES = {
    "Blazing Staff": 96,
    "Claymore": 1293,
    "Dagger": 309,
-   "Holy Staff": 5059,
+   "Holy Staff": 5060,
    "Carrioncaller": 213,
    "Heavy Crossbow": 880,
    "Dagger Pair": 716,
@@ -1206,7 +1206,7 @@ window.ALBION_WINRATES = {
    "Longbow": 2082,
    "Mistpiercer": 675,
    "Claymore": 9120,
-   "Holy Staff": 36281,
+   "Holy Staff": 36282,
    "Heavy Crossbow": 6530,
    "Bow of Badon": 4101,
    "Bear Paws": 1650,
