@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-11-15T23:43:38+00:00",
- "eventsSeen": 4142974,
- "qualifying": 232690,
- "duoFights": 59779,
- "runs": 5001,
+ "updated": "2026-11-15T23:49:43+00:00",
+ "eventsSeen": 4143145,
+ "qualifying": 232696,
+ "duoFights": 59781,
+ "runs": 5002,
  "regions": {
   "americas": {
    "events": 1708855,
@@ -34,14 +34,14 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-11-12T09:44:09.291695900Z"
   },
   "europe": {
-   "events": 1751602,
-   "kills": 119445,
-   "lastSeen": "2026-11-15T23:33:24.206629400Z"
+   "events": 1751704,
+   "kills": 119449,
+   "lastSeen": "2026-11-15T23:43:36.924861700Z"
   },
   "asia": {
-   "events": 682821,
-   "kills": 29736,
-   "lastSeen": "2026-11-15T23:31:07.671531800Z"
+   "events": 682890,
+   "kills": 29738,
+   "lastSeen": "2026-11-15T23:37:38.462946400Z"
   }
  },
  "kills": {
@@ -182,11 +182,11 @@ window.ALBION_WINRATES = {
    "Icicle Staff": 2
   },
   "Dagger Pair": {
-   "Holy Staff": 4998,
+   "Holy Staff": 4999,
    "Dagger": 316,
    "Longbow": 455,
    "Carrioncaller": 243,
-   "Claymore": 1376,
+   "Claymore": 1377,
    "Bear Paws": 221,
    "Battleaxe": 894,
    "Heavy Crossbow": 913,
@@ -477,7 +477,7 @@ window.ALBION_WINRATES = {
    "Hallowfall": 172,
    "Bloodletter": 78,
    "Mistpiercer": 104,
-   "Warbow": 149,
+   "Warbow": 150,
    "Blazing Staff": 100,
    "Bear Paws": 215,
    "Grailseeker": 90,
@@ -662,7 +662,7 @@ window.ALBION_WINRATES = {
   },
   "Heavy Crossbow": {
    "Carrioncaller": 234,
-   "Holy Staff": 4658,
+   "Holy Staff": 4659,
    "Grailseeker": 213,
    "Dagger": 261,
    "Bear Paws": 155,
@@ -672,7 +672,7 @@ window.ALBION_WINRATES = {
    "Dagger Pair": 778,
    "Warbow": 471,
    "Deathgivers": 271,
-   "Claymore": 1375,
+   "Claymore": 1376,
    "Staff of Balance": 353,
    "Whispering Bow": 123,
    "Fists of Avalon": 199,
@@ -1207,7 +1207,7 @@ window.ALBION_WINRATES = {
    "Longbow": 2131,
    "Mistpiercer": 689,
    "Claymore": 9448,
-   "Holy Staff": 37255,
+   "Holy Staff": 37256,
    "Heavy Crossbow": 6656,
    "Bow of Badon": 4188,
    "Bear Paws": 1680,
@@ -1222,14 +1222,14 @@ window.ALBION_WINRATES = {
    "Demonic Staff": 4309,
    "Hallowfall": 1131,
    "Deathgivers": 1863,
-   "Warbow": 3455,
+   "Warbow": 3456,
    "Staff of Balance": 2448,
    "Whispering Bow": 1010,
    "Hellspawn Staff": 3085,
    "Hellfire Hands": 1694,
    "Energy Shaper": 932,
    "Brawler Gloves": 3783,
-   "Rotcaller Staff": 428,
+   "Rotcaller Staff": 429,
    "Bloodletter": 1954,
    "Crossbow": 1379,
    "Wildfire Staff": 575,
@@ -1242,7 +1242,7 @@ window.ALBION_WINRATES = {
    "Spirithunter": 265,
    "Soulscythe": 811,
    "Ironroot Staff": 1221,
-   "Broadsword": 774,
+   "Broadsword": 775,
    "Glacial Staff": 925,
    "Daybreaker": 630,
    "Great Holy Staff": 1672,
@@ -2655,7 +2655,7 @@ window.ALBION_WINRATES = {
    "Whispering Bow": 36,
    "Ironroot Staff": 61,
    "Hellfire Hands": 63,
-   "Rotcaller Staff": 11,
+   "Rotcaller Staff": 12,
    "Crossbow": 68,
    "Permafrost Prism": 10,
    "Pike": 17,
@@ -3159,7 +3159,7 @@ window.ALBION_WINRATES = {
   "Hellfire Hands": {
    "Blight Staff": 29,
    "Realmbreaker": 18,
-   "Holy Staff": 1924,
+   "Holy Staff": 1925,
    "Forcepulse Bracers": 28,
    "Heavy Crossbow": 303,
    "Warbow": 191,
@@ -3199,7 +3199,7 @@ window.ALBION_WINRATES = {
    "Dagger": 113,
    "Great Arcane Staff": 19,
    "Twin Slayers": 51,
-   "Broadsword": 57,
+   "Broadsword": 58,
    "Bear Paws": 126,
    "Whispering Bow": 52,
    "Divine Staff": 27,
@@ -11710,7 +11710,7 @@ window.ALBION_WINRATES = {
    "Hellfire Hands + Holy Staff": 38,
    "Blazing Staff + Mistpiercer": 1,
    "Hallowfall + Hellspawn Staff": 1,
-   "Broadsword + Holy Staff": 20,
+   "Broadsword + Holy Staff": 21,
    "Bear Paws + Dagger Pair": 1,
    "Heavy Crossbow + Wildfire Staff": 1,
    "Arclight Blasters + Bow of Badon": 2,
@@ -12766,7 +12766,7 @@ window.ALBION_WINRATES = {
    "Grailseeker + Realmbreaker": 1,
    "Broadsword + Holy Staff": 3,
    "Demonic Staff + Holy Staff": 66,
-   "Claymore + Holy Staff": 143,
+   "Claymore + Holy Staff": 144,
    "Bloodletter + Crossbow": 6,
    "Fists of Avalon + Holy Staff": 11,
    "Carving Sword + Holy Staff": 19,
