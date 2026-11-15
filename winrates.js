@@ -22,11 +22,11 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-11-15T23:49:43+00:00",
- "eventsSeen": 4143145,
- "qualifying": 232696,
- "duoFights": 59781,
- "runs": 5002,
+ "updated": "2026-11-15T23:55:50+00:00",
+ "eventsSeen": 4143199,
+ "qualifying": 232698,
+ "duoFights": 59782,
+ "runs": 5003,
  "regions": {
   "americas": {
    "events": 1708855,
@@ -34,14 +34,14 @@ window.ALBION_WINRATES = {
    "lastSeen": "2026-11-12T09:44:09.291695900Z"
   },
   "europe": {
-   "events": 1751704,
-   "kills": 119449,
-   "lastSeen": "2026-11-15T23:43:36.924861700Z"
+   "events": 1751735,
+   "kills": 119451,
+   "lastSeen": "2026-11-15T23:37:28.624660400Z"
   },
   "asia": {
-   "events": 682890,
+   "events": 682913,
    "kills": 29738,
-   "lastSeen": "2026-11-15T23:37:38.462946400Z"
+   "lastSeen": "2026-11-15T23:46:49.528926200Z"
   }
  },
  "kills": {
@@ -345,7 +345,7 @@ window.ALBION_WINRATES = {
    "Bedrock Mace": 12,
    "Brawler Gloves": 1124,
    "Longbow": 640,
-   "Warbow": 1094,
+   "Warbow": 1096,
    "Deathgivers": 530,
    "Hellspawn Staff": 749,
    "Crystal Reaper": 126,
@@ -1222,7 +1222,7 @@ window.ALBION_WINRATES = {
    "Demonic Staff": 4309,
    "Hallowfall": 1131,
    "Deathgivers": 1863,
-   "Warbow": 3456,
+   "Warbow": 3458,
    "Staff of Balance": 2448,
    "Whispering Bow": 1010,
    "Hellspawn Staff": 3085,
@@ -4388,7 +4388,7 @@ window.ALBION_WINRATES = {
    "Demonic Staff + Ironroot Staff": 27,
    "Carrioncaller + Holy Staff": 210,
    "Heavy Crossbow + Heavy Crossbow": 43,
-   "Warbow + Warbow": 280,
+   "Warbow + Warbow": 281,
    "Hellfire Hands + Holy Staff": 168,
    "Fists of Avalon + Holy Staff": 68,
    "Claymore + Ironroot Staff": 49,
