@@ -22,26 +22,26 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-11-17T12:45:00+00:00",
- "eventsSeen": 4147396,
- "qualifying": 232880,
+ "updated": "2026-11-17T12:51:22+00:00",
+ "eventsSeen": 4147600,
+ "qualifying": 232883,
  "duoFights": 59822,
- "runs": 5016,
+ "runs": 5017,
  "regions": {
   "americas": {
-   "events": 1709705,
-   "kills": 83565,
-   "lastSeen": "2026-11-17T12:37:27.075254900Z"
+   "events": 1709756,
+   "kills": 83566,
+   "lastSeen": "2026-11-17T12:43:28.365113300Z"
   },
   "europe": {
-   "events": 1753676,
-   "kills": 119545,
-   "lastSeen": "2026-11-17T12:38:56.394096Z"
+   "events": 1753778,
+   "kills": 119547,
+   "lastSeen": "2026-11-17T12:45:06.295379800Z"
   },
   "asia": {
-   "events": 684319,
+   "events": 684370,
    "kills": 29788,
-   "lastSeen": "2026-11-17T12:39:24.124980400Z"
+   "lastSeen": "2026-11-17T12:45:30.952816200Z"
   }
  },
  "kills": {
@@ -323,7 +323,7 @@ window.ALBION_WINRATES = {
    "Grailseeker": 452,
    "Bloodletter": 568,
    "Heavy Crossbow": 1843,
-   "Holy Staff": 10137,
+   "Holy Staff": 10138,
    "Divine Staff": 65,
    "Claymore": 2756,
    "Great Holy Staff": 459,
@@ -1207,7 +1207,7 @@ window.ALBION_WINRATES = {
    "Longbow": 2131,
    "Mistpiercer": 690,
    "Claymore": 9458,
-   "Holy Staff": 37281,
+   "Holy Staff": 37282,
    "Heavy Crossbow": 6660,
    "Bow of Badon": 4189,
    "Bear Paws": 1682,
@@ -1236,7 +1236,7 @@ window.ALBION_WINRATES = {
    "Divine Staff": 252,
    "Tombhammer": 1589,
    "Great Fire Staff": 416,
-   "Blight Staff": 375,
+   "Blight Staff": 376,
    "Permafrost Prism": 210,
    "Lifecurse Staff": 310,
    "Spirithunter": 265,
@@ -2272,7 +2272,7 @@ window.ALBION_WINRATES = {
    "Glacial Staff": 25,
    "Demonic Staff": 52,
    "Deathgivers": 174,
-   "Wailing Bow": 31,
+   "Wailing Bow": 33,
    "Grovekeeper": 7,
    "Glaive": 13,
    "Bedrock Mace": 22,
@@ -2362,7 +2362,7 @@ window.ALBION_WINRATES = {
    "Hellspawn Staff": 19,
    "Bear Paws": 30,
    "Claymore": 118,
-   "Blight Staff": 19,
+   "Blight Staff": 20,
    "Energy Shaper": 17,
    "Dagger Pair": 101,
    "Battleaxe": 121,
