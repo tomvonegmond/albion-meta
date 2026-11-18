@@ -22,21 +22,21 @@
    =========================================================== */
 
 window.ALBION_WINRATES = {
- "updated": "2026-11-18T11:38:26+00:00",
- "eventsSeen": 4152806,
- "qualifying": 233151,
- "duoFights": 59891,
- "runs": 5025,
+ "updated": "2026-11-18T11:43:51+00:00",
+ "eventsSeen": 4152926,
+ "qualifying": 233154,
+ "duoFights": 59892,
+ "runs": 5026,
  "regions": {
   "americas": {
-   "events": 1713357,
-   "kills": 83731,
-   "lastSeen": "2026-11-18T11:31:43.536603Z"
+   "events": 1713426,
+   "kills": 83733,
+   "lastSeen": "2026-11-18T11:37:34.366856300Z"
   },
   "europe": {
-   "events": 1755048,
-   "kills": 119637,
-   "lastSeen": "2026-11-18T11:08:54.945127200Z"
+   "events": 1755099,
+   "kills": 119638,
+   "lastSeen": "2026-11-18T11:33:31.209319700Z"
   },
   "asia": {
    "events": 684705,
@@ -636,7 +636,7 @@ window.ALBION_WINRATES = {
    "Camlann Mace": 2,
    "Demonic Staff": 17,
    "Dagger": 19,
-   "Energy Shaper": 21,
+   "Energy Shaper": 22,
    "Infernal Scythe": 4,
    "Dawnsong": 4,
    "Heron Spear": 15,
@@ -1515,7 +1515,7 @@ window.ALBION_WINRATES = {
    "Glacial Staff": 33,
    "Staff of Balance": 87,
    "Redemption Staff": 17,
-   "Energy Shaper": 32,
+   "Energy Shaper": 33,
    "Great Holy Staff": 84,
    "Black Monk Stave": 22,
    "Twin Slayers": 21,
@@ -2233,12 +2233,12 @@ window.ALBION_WINRATES = {
    "Lifecurse Staff": 38,
    "Dagger Pair": 322,
    "Whispering Bow": 116,
-   "Bow of Badon": 442,
+   "Bow of Badon": 444,
    "Energy Shaper": 56,
    "Greataxe": 325,
    "Infernal Scythe": 55,
    "Redemption Staff": 47,
-   "Staff of Balance": 40,
+   "Staff of Balance": 42,
    "Carving Sword": 142,
    "Grailseeker": 102,
    "Realmbreaker": 42,
@@ -17352,7 +17352,8 @@ window.ALBION_WINRATES = {
    "Claymore + Great Holy Staff": 1,
    "Longbow + Staff of Balance": 1,
    "Holy Staff + Kingmaker": 1,
-   "Bloodletter + Longbow": 1
+   "Bloodletter + Longbow": 1,
+   "Bow of Badon + Staff of Balance": 1
   },
   "Bow of Badon + Hallowfall": {
    "Bow of Badon + Kingmaker": 1,
